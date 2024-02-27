@@ -1,16 +1,27 @@
 <template>
-  <div class="p-4 h-screen flex flex-col items-center justify-center bg-slate-900 text-[#ff6c43]">
-    <h1 class="mb-4 text-4xl font-bold">
-      PragVue
-    </h1>
-    <div class="mb-2 text-2xl">
-      Vue.js konference
-    </div>
-    <div class="mb-2 text-2xl font-bold">
-      16. září 2024
-    </div>
-    <div>
-      MORE TO COME
+  <div class="h-screen flex flex-col items-center justify-center bg-[url('/bg-light.jpg')] dark:bg-[url('/bg-dark.jpg')] bg-top bg-cover opacity-95 p-12">
+    <div class="w-96 p-8 text-center bg-slate-900 opacity-90 text-[#ff6c43] border border-black rounded-xl">
+      <div>
+        <UButton
+          :icon="isDark ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid'"
+          color="gray"
+          variant="ghost"
+          aria-label="Theme"
+          @click="isDark = !isDark"
+        />
+        <h1 class="mb-4 text-4xl font-bold">
+          PragVue
+        </h1>
+        <div class="mb-2 text-2xl">
+          Vue.js konference
+        </div>
+        <div class="mb-2 text-2xl font-bold">
+          Září 2024
+        </div>
+        <div>
+          MORE TO COME
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -20,6 +31,16 @@ useHead({
   title: 'PragVue 2024',
   htmlAttrs: {
     lang: 'cs'
+  }
+})
+
+const colorMode = useColorMode()
+const isDark = computed({
+  get () {
+    return colorMode.value === 'dark'
+  },
+  set () {
+    colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'
   }
 })
 </script>
