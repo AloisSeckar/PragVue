@@ -1,6 +1,6 @@
 <template>
-  <div class="h-screen flex flex-col items-center justify-center bg-[url('/bg-light.jpg')] dark:bg-[url('/bg-dark.jpg')] bg-top bg-cover opacity-95 p-12">
-    <div class="w-96 p-8 text-center bg-slate-900 opacity-90 text-[#ff6c43] border border-black rounded-xl">
+  <div class="h-screen flex flex-col items-center justify-center bg-[url('/bg-light.jpg')] dark:bg-[url('/bg-dark.jpg')] bg-top bg-cover opacity-95 p-2">
+    <div class="w-full sm:w-4/5 lg:w-1/2 m-2 mt-20 p-8 text-center bg-slate-900 opacity-90 text-[#ff6c43] border border-black rounded-xl">
       <div>
         <UButton
           :icon="isDark ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid'"
