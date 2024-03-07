@@ -1,9 +1,9 @@
 <template>
   <div class="h-screen flex flex-col items-center justify-center bg-[url('/bg-dark.jpg')] bg-top bg-cover opacity-95 p-2">
-    <div class="w-full sm:w-5/6 lg:w-2/3 m-2 absolute bottom-8 p-4 text-center bg-slate-900 opacity-90 text-[#ff6c43] border border-black rounded-xl">
-      <div class="flex flex-col sm:flex-row justify-center mb-4">
-        <img class="inline-block mx-auto sm:mx-0 w-32 h-32 cursor-pointer opacity-100" src="/logo2.webp">
-        <h1 class="inline-block ml-4 text-[80px] font-bold">
+    <div class="w-[calc(100%-16px)] md:w-5/6 lg:w-2/3 m-2 absolute bottom-8 p-4 text-center bg-slate-900 opacity-90 text-[#ff6c43] border border-black rounded-xl">
+      <div class="flex flex-col min-[660px]:flex-row justify-center mb-4">
+        <img class="inline-block mx-auto min-[660px]:mx-0 w-28 h-28 cursor-pointer opacity-100" src="/logo2.webp">
+        <h1 class="inline-block ml-4 text-[72px] font-bold">
           PragVue 2024
         </h1>
       </div>
