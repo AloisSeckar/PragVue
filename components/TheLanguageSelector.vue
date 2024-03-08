@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center">
+  <div class="text-center mb-2">
     <img src="/flag-en.png" alt="EN" title="English" :class="locale === 'en' ? selectedLang : lang" @click="setLocale('en')">
     <img src="/flag-cs.png" alt="CS" title="Čeština" :class="locale === 'cs' ? selectedLang : lang" @click="setLocale('cs')">
   </div>
