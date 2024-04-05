@@ -9,12 +9,15 @@
     "start": "nuxt preview"
   },
   "devDependencies": {
-    "@nuxt/ui": "2.14.1",
+    "@nuxt/ui": "2.15.1",
     "@nuxtjs/eslint-config-typescript": "12.1.0",
-    "@nuxtjs/i18n": "8.1.1",
+    "@nuxtjs/i18n": "8.3.0",
     "@vueuse/core": "10.9.0",
     "@vueuse/nuxt": "10.9.0",
     "eslint": "8.57.0",
-    "nuxt": "3.10.3"
+    "nuxt": "3.11.2"
+  },
+  "overrides": {
+    "vue": "latest"
   }
 }
