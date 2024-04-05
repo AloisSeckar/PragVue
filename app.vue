@@ -2,6 +2,15 @@
   <div class="h-screen flex flex-col items-center justify-center bg-[url('/bg-dark.jpg')] bg-top bg-cover opacity-95 p-2">
     <div class="w-[calc(100%-16px)] md:w-5/6 lg:w-2/3 m-2 absolute bottom-8 px-4 py-6 text-center bg-slate-900 opacity-90 text-[#ff6c43] border border-black rounded-xl">
       <TheLanguageSelector />
+      <a href="https://digitalnispolecnost.cz/">
+        <img
+          class="inline-block mx-auto my-4 w-[200px] cursor-pointer"
+          src="/eviden.webp"
+        >
+      </a>
+      <div class="text-xl">
+        {{ $t('info.presents') }}
+      </div>
       <div class="flex flex-col min-[660px]:flex-row justify-center mb-4">
         <img
           class="inline-block mx-auto min-[660px]:mx-0 w-28 h-28 cursor-pointer opacity-100"
