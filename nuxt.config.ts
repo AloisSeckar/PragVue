@@ -2,7 +2,13 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/i18n',
+    '@nuxt/eslint',
     '@nuxt/ui',
-    '@vueuse/nuxt'
-  ]
+    '@vueuse/nuxt',
+  ],
+  eslint: {
+    config: {
+      stylistic: true,
+    },
+  },
 })

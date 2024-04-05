@@ -3,7 +3,10 @@
     <div class="w-[calc(100%-16px)] md:w-5/6 lg:w-2/3 m-2 absolute bottom-8 px-4 py-6 text-center bg-slate-900 opacity-90 text-[#ff6c43] border border-black rounded-xl">
       <TheLanguageSelector />
       <div class="flex flex-col min-[660px]:flex-row justify-center mb-4">
-        <img class="inline-block mx-auto min-[660px]:mx-0 w-28 h-28 cursor-pointer opacity-100" src="/logo2.webp">
+        <img
+          class="inline-block mx-auto min-[660px]:mx-0 w-28 h-28 cursor-pointer opacity-100"
+          src="/logo2.webp"
+        >
         <h1 class="inline-block ml-4 text-[72px] font-bold">
           PragVue 2024
         </h1>
@@ -32,7 +35,7 @@ if (storedLocale.value && typeof storedLocale.value === 'string') {
 useHead({
   title: 'PragVue 2024',
   htmlAttrs: {
-    lang: 'cs'
-  }
+    lang: 'cs',
+  },
 })
 </script>

@@ -6,5 +6,5 @@ export default defineI18nConfig(() => ({
   locale: 'en',
   fallbackLocale: 'en',
   messages: { en, cs },
-  warnHtmlMessage: false
+  warnHtmlMessage: false,
 }))
