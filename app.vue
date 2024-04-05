@@ -15,15 +15,19 @@
           src="/logo-prg.webp"
         >
       </div>
-      <div class="mb-2 text-2xl">
+      <div class="mb-1 text-2xl">
         {{ $t('info.about') }}
       </div>
-      <div class="mb-2 text-2xl font-bold">
+      <div class="mb-1 text-2xl font-bold">
         {{ $t('info.date') }}
       </div>
-      <div>
-        {{ $t('info.more') }}
+      <div class="mb-6 text-xl">
+        {{ $t('info.place') }}
+        <a href="https://maps.app.goo.gl/BksoN2qFxf61Tn2v8">🗺️</a>
       </div>
+      <button class="inline-block mx-auto px-4 py-2 border-2 border-[#ff6c43] rounded-lg text-xl hover:border-amber-500 hover:text-amber-500 hover:font-bold hover:bg-gray-600">
+        {{ $t('info.more') }} 🕵️
+      </button>
     </div>
   </div>
 </template>
