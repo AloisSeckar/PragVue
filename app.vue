@@ -5,11 +5,15 @@
       <div class="flex flex-col min-[660px]:flex-row justify-center mb-4">
         <img
           class="inline-block mx-auto min-[660px]:mx-0 w-28 h-28 cursor-pointer opacity-100"
-          src="/logo2.webp"
+          src="/logo-vue.webp"
         >
-        <h1 class="inline-block ml-4 text-[72px] font-bold">
+        <h1 class="inline-block mx-4 text-[72px] font-bold">
           PragVue 2024
         </h1>
+        <img
+          class="inline-block mx-auto min-[660px]:mx-0 w-28 h-28 cursor-pointer opacity-100"
+          src="/logo-prg.webp"
+        >
       </div>
       <div class="mb-2 text-2xl">
         {{ $t('info.about') }}
