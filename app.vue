@@ -1,6 +1,9 @@
 <template>
   <div>
     <TheIntro />
+    <TheIdea />
+    <TheFeatures />
+    <TheSummary />
   </div>
 </template>
 
@@ -19,3 +22,9 @@ useHead({
   },
 })
 </script>
+
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>

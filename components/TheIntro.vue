@@ -36,9 +36,11 @@
         {{ $t('info.place') }}
         <a href="https://maps.app.goo.gl/BksoN2qFxf61Tn2v8">🗺️</a>
       </div>
-      <button class="inline-block mx-auto px-4 py-2 border-2 border-[#ff6c43] rounded-lg text-xl hover:border-amber-500 hover:text-amber-500 hover:font-bold hover:bg-gray-600">
-        {{ $t('info.more') }} 🕵️
-      </button>
+      <a href="#idea">
+        <button class="inline-block mx-auto px-4 py-2 border-2 border-[#ff6c43] rounded-lg text-xl hover:border-amber-500 hover:text-amber-500 hover:font-bold hover:bg-gray-600">
+          {{ $t('info.more') }} 🕵️
+        </button>
+      </a>
     </div>
   </div>
 </template>
