@@ -10,10 +10,10 @@
     "idea": {
         "title": "PragVue - the first Czech Vue.js conference"
     },
-    "features": {
+    "schedule": {
         "title": "Schedule & speakers"
     },
-    "summary": {
+    "features": {
         "title": "What more can you expect?",
         "register": "REGISTROVAT"
     }

@@ -2,8 +2,8 @@
   <div>
     <TheIntro />
     <TheIdea />
+    <TheSchedule />
     <TheFeatures />
-    <TheSummary />
   </div>
 </template>
 

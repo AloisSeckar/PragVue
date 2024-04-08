@@ -6,7 +6,7 @@
       <a href="https://www.konference.cz/" class="rounded-lg hover:border-2 hover:border-[#ff6c43]">
         <img src="/nav-idea-join.jpg" class="rounded-lg w-[250px] h-[120px]">
       </a>
-      <a href="#features" class="rounded-lg hover:border-2 hover:border-[#ff6c43]">
+      <a href="#schedule" class="rounded-lg hover:border-2 hover:border-[#ff6c43]">
         <img src="/nav-idea-more.jpg" class="rounded-lg w-[250px] h-[120px]">
       </a>
     </div>

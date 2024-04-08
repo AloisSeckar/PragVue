@@ -1,14 +1,23 @@
 <template>
-  <div class="flex flex-col h-screen items-center justify-start  bg-[#3c3c3c]">
+  <div class="flex flex-col gap-2 items-center justify-start bg-[#dddddd] text-black">
     <a name="features"><h2 class="mt-6 mb-4 text-4xl text-[#ff6c43] font-bold">{{ $t('features.title') }}</h2></a>
-    <p>Koho uvidíte a uslyšíte (program)</p>
-    <div class="flex mt-4 gap-2">
-      <a href="https://www.konference.cz/" class="rounded-lg hover:border-2 hover:border-[#ff6c43]">
-        <img src="/nav-features-join.jpg" class="rounded-lg w-[250px] h-[120px]">
-      </a>
-      <a href="#summary" class="rounded-lg hover:border-2 hover:border-[#ff6c43]">
-        <img src="/nav-features-more.jpg" class="rounded-lg w-[250px] h-[120px]">
-      </a>
-    </div>
+    <p>Čím bychom ještě přesvědčili? 1) Nová technologie, 2) Potkávání lidí, 3) Catering!</p>
+    <a href="https://www.konference.cz/" class="rounded-lg hover:border-2 hover:border-[#ff6c43]">
+      <img src="/nav-features-1.jpg" class="rounded-lg w-[300px] h-[150px]">
+    </a>
+    <a href="https://www.konference.cz/" class="rounded-lg hover:border-2 hover:border-[#ff6c43]">
+      <img src="/nav-features-2.jpg" class="rounded-lg w-[300px] h-[150px]">
+    </a>
+    <a href="https://www.konference.cz/" class="rounded-lg hover:border-2 hover:border-[#ff6c43]">
+      <img src="/nav-features-3.jpg" class="rounded-lg w-[300px] h-[150px]">
+    </a>
+    <a href="https://www.konference.cz/" class="rounded-lg hover:border-2 hover:border-[#ff6c43]">
+      <img src="/nav-features-4.jpg" class="rounded-lg w-auto h-[300px]">
+    </a>
+    <a href="https://www.konference.cz/">
+      <button class="inline-block mx-auto px-4 py-2 border-2 border-[#ff6c43] rounded-lg text-xl hover:border-amber-500 hover:text-amber-500 hover:font-bold hover:bg-gray-600">
+        {{ $t('features.register') }} ✍️
+      </button>
+    </a>
   </div>
 </template>
