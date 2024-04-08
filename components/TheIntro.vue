@@ -5,15 +5,15 @@
       <TheLanguageSelector />
       <div class="flex flex-col sm:flex-row gap-4 justify-center items-center text-[#dddddd] font-bold">
         <a href="https://vuejs.org/">
-          <img class="inline-block mx-auto my-4 w-auto h-[40px] cursor-pointer" src="/vue.png">
+          <img class="inline-block mx-auto my-4 w-auto h-[40px] cursor-pointer" src="/vue.png" alt="Vue.js logo">
         </a>
         <span class="hidden sm:inline">&</span>
         <a href="https://digitalnispolecnost.cz/">
-          <img class="inline-block mx-auto my-4 w-auto h-[40px] cursor-pointer" src="/eviden.webp">
+          <img class="inline-block mx-auto my-4 w-auto h-[40px] cursor-pointer" src="/eviden.webp" alt="Eviden logo">
         </a>
         <span class="hidden sm:inline">&</span>
         <a href="https://www.exponet.cz/">
-          <img class="inline-block mx-auto my-4 w-auto h-[40px] cursor-pointer" src="/exponet.png">
+          <img class="inline-block mx-auto my-4 w-auto h-[40px] cursor-pointer" src="/exponet.png" alt="Exponet logo">
         </a>
       </div>
       <div class="text-xl text-[#dddddd]">

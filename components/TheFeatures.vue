@@ -15,9 +15,12 @@
       <img src="/nav-features-4.jpg" class="rounded-lg w-auto h-[300px]">
     </a>
     <a href="https://www.konference.cz/">
-      <button class="inline-block mx-auto px-4 py-2 border-2 border-[#ff6c43] rounded-lg text-xl hover:border-amber-500 hover:text-amber-500 hover:font-bold hover:bg-gray-600">
+      <button class="inline-block mb-4 mx-auto px-4 py-2 border-2 border-[#ff6c43] rounded-lg text-xl hover:border-amber-500 hover:text-amber-500 hover:font-bold hover:bg-gray-600">
         {{ $t('features.register') }} ✍️
       </button>
     </a>
+    <div class="w-5/6 mx-auto mb-2 border-t-2 border-black text-center font-lg">
+      &copy; 2024 <a href="https://digitalnispolecnost.cz/" class=" hover:text-[#ff6c43]">Eviden Czech Republic</a>
+    </div>
   </div>
 </template>

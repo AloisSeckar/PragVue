@@ -8,10 +8,14 @@
         "register": "REGISTROVAT"
     },
     "idea": {
-        "title": "PragVue = první česká Vue.js konference"
+        "title": "PragVue = první česká Vue.js konference",
+        "join": "Registrovat se na PragVue",
+        "more": "Koho tam uvidím a co uslyším?"
     },
     "schedule": {
-        "title": "Řečníci a program"
+        "title": "Řečníci a program",
+        "join": "Registrovat se na PragVue",
+        "more": "Co dalšího nabízíte?"
     },
     "features": {
         "title": "Na co ještě se můžete těšit?",
