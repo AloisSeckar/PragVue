@@ -17,7 +17,7 @@
         </a>
       </div>
       <div class="text-xl text-[#dddddd]">
-        {{ $t('info.presents') }}
+        {{ $t('intro.presents') }}
       </div>
       <div class="flex flex-col min-[660px]:flex-row justify-center mb-4">
         <h1 class="inline-block mx-4 text-[72px] font-bold">
@@ -25,18 +25,18 @@
         </h1>
       </div>
       <div class="mb-1 text-2xl text-[#dddddd]">
-        {{ $t('info.about') }}
+        {{ $t('intro.about') }}
       </div>
       <div class="mb-1 text-2xl font-bold">
-        {{ $t('info.date') }}
+        {{ $t('intro.date') }}
       </div>
       <div class="mb-6 text-xl text-[#dddddd]">
-        {{ $t('info.place') }}
+        {{ $t('intro.place') }}
         <a href="https://maps.app.goo.gl/BksoN2qFxf61Tn2v8">🗺️</a>
       </div>
       <a href="#idea">
         <button class="inline-block mx-auto px-4 py-2 border-2 border-[#ff6c43] rounded-lg text-xl hover:border-amber-500 hover:text-amber-500 hover:font-bold hover:bg-gray-600">
-          {{ $t('info.more') }} 🕵️
+          {{ $t('intro.more') }} 🕵️
         </button>
       </a>
     </div>
