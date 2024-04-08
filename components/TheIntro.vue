@@ -1,10 +1,9 @@
 <template>
   <div class="flex flex-col h-screen items-center justify-center bg-[#3c3c3c]">
-    <div class="w-full max-w-[800px] h-[256px] cursor-pointer bg-white bg-[url('/prague.webp')] bg-center bg-cover" />
-    <div class="w-full max-w-[800px] flex-grow bg-[#1a1a1a]" />
-    <div class="w-full max-w-[800px] px-8 py-6 text-center text-[#ff6c43] absolute bottom-8 sm:bottom-32">
+    <div class="w-full max-w-[800px] h-[256px] cursor-pointer bg-[#dddddd] bg-[url('/prague.webp')] bg-center bg-cover" />
+    <div class="w-full max-w-[800px] p-2 flex flex-col flex-grow justify-center text-center bg-[#1a1a1a] text-[#ff6c43]">
       <TheLanguageSelector />
-      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center text-white font-bold">
+      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center text-[#dddddd] font-bold">
         <a href="https://vuejs.org/">
           <img class="inline-block mx-auto my-4 w-auto h-[40px] cursor-pointer" src="/vue.png">
         </a>
@@ -17,7 +16,7 @@
           <img class="inline-block mx-auto my-4 w-auto h-[40px] cursor-pointer" src="/exponet.png">
         </a>
       </div>
-      <div class="text-xl text-white">
+      <div class="text-xl text-[#dddddd]">
         {{ $t('info.presents') }}
       </div>
       <div class="flex flex-col min-[660px]:flex-row justify-center mb-4">
@@ -25,13 +24,13 @@
           PragVue 2024
         </h1>
       </div>
-      <div class="mb-1 text-2xl text-white">
+      <div class="mb-1 text-2xl text-[#dddddd]">
         {{ $t('info.about') }}
       </div>
       <div class="mb-1 text-2xl font-bold">
         {{ $t('info.date') }}
       </div>
-      <div class="mb-6 text-xl text-white">
+      <div class="mb-6 text-xl text-[#dddddd]">
         {{ $t('info.place') }}
         <a href="https://maps.app.goo.gl/BksoN2qFxf61Tn2v8">🗺️</a>
       </div>

@@ -26,5 +26,6 @@ useHead({
 <style>
 html {
   scroll-behavior: smooth;
+  color: #dddddd;
 }
 </style>

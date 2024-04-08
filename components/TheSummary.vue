@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col gap-2 items-center justify-start bg-[#3c3c3c]">
-    <a name="summary"><h2 class="text-4xl text-[#ff6c43] font-bold">THE SUMMARY</h2></a>
+  <div class="flex flex-col gap-2 items-center justify-start bg-[#dddddd] text-black">
+    <a name="summary"><h2 class="mt-4 text-4xl text-[#ff6c43] font-bold">THE SUMMARY</h2></a>
     <p>Čím bychom ještě přesvědčili? 1) Nová technologie, 2) Potkávání lidí, 3) Catering!</p>
     <a href="https://www.konference.cz/" class="rounded-lg hover:border-2 hover:border-[#ff6c43]">
       <img src="/nav-summary-1.jpg" class="rounded-lg w-[300px] h-[150px]">
