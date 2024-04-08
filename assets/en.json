@@ -6,5 +6,15 @@
         "place": "Cinema City - Nový Smíchov",
         "more": "MORE INFO",
         "register": "REGISTER"
+    },
+    "idea": {
+        "title": "PragVue - the first Czech Vue.js conference"
+    },
+    "features": {
+        "title": "Schedule & speakers"
+    },
+    "summary": {
+        "title": "What more can you expect?",
+        "register": "REGISTROVAT"
     }
 }
