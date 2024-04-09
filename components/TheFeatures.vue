@@ -4,26 +4,26 @@
     <div class="text-xl">
       {{ $t('features.technology') }}
     </div>
-    <a href="https://www.konference.cz/" class="mb-4 rounded-lg hover:border-2 hover:border-[#ff6c43]">
-      <img src="/nav-features-1.jpg" class="rounded-lg w-[300px] h-[150px]">
+    <a href="https://www.konference.cz/" class="mb-4 rounded-lg hover:border-2 hover:border-[#ff6c43]" :title="$t('idea.join')">
+      <img src="/nav-features-1.jpg" class="rounded-lg w-[300px] h-[150px]" alt="Feature - cool technology">
     </a>
     <div class="text-xl">
       {{ $t('features.people') }}
     </div>
-    <a href="https://www.konference.cz/" class="mb-4 rounded-lg hover:border-2 hover:border-[#ff6c43]">
-      <img src="/nav-features-2.jpg" class="rounded-lg w-[300px] h-[150px]">
+    <a href="https://www.konference.cz/" class="mb-4 rounded-lg hover:border-2 hover:border-[#ff6c43]" :title="$t('idea.join')">
+      <img src="/nav-features-2.jpg" class="rounded-lg w-[300px] h-[150px]" alt="Feature - like minded people">
     </a>
     <div class="text-xl">
       {{ $t('features.food') }}
     </div>
-    <a href="https://www.konference.cz/" class="mb-4 rounded-lg hover:border-2 hover:border-[#ff6c43]">
-      <img src="/nav-features-3.jpg" class="rounded-lg w-[300px] h-[150px]">
+    <a href="https://www.konference.cz/" class="mb-4 rounded-lg hover:border-2 hover:border-[#ff6c43]" :title="$t('idea.join')">
+      <img src="/nav-features-3.jpg" class="rounded-lg w-[300px] h-[150px]" alt="Feature - free food">
     </a>
     <div class="text-xl">
       {{ $t('features.offer') }}
     </div>
-    <a href="https://www.konference.cz/" class="mb-4 rounded-lg hover:border-2 hover:border-[#ff6c43]">
-      <img src="/nav-features-4.jpg" class="rounded-lg w-auto h-[300px]">
+    <a href="https://www.konference.cz/" class="mb-4 rounded-lg hover:border-2 hover:border-[#ff6c43]" :title="$t('idea.join')">
+      <img src="/nav-features-4.jpg" class="rounded-lg w-auto h-[300px]" alt="Feature - good offer">
     </a>
     <div class="text-2xl font-bold">
       {{ $t('features.action') }}
@@ -32,7 +32,7 @@
       {{ $t('features.price') }}
     </div>
     <a href="https://www.konference.cz/">
-      <button class="inline-block my-4 mx-auto px-4 py-2 border-2 border-[#ff6c43] rounded-lg text-xl font-bold hover:border-amber-500 hover:text-amber-500 hover:font-bold hover:bg-gray-600">
+      <button class="inline-block my-4 mx-auto px-4 py-3 border-2 border-[#ff6c43] rounded-lg text-3xl font-bold hover:border-amber-500 hover:text-amber-500 hover:font-bold hover:bg-gray-600" :title="$t('idea.join')">
         {{ $t('features.register') }} ✍️
       </button>
     </a>

@@ -33,6 +33,7 @@
         "offer": "An offer that cannot be refused.",
         "action": "Get your ticket today.",
         "price": "Early bird discount 2499 CZK is only available to the end of June!",
-        "register": "REGISTROVAT"
+        "register": "SIGN ME IN",
+        "join": "Register for PragVue"
     }
 }

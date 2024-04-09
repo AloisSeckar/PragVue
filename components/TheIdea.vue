@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col min-h-screen px-4 pb-6 items-center justify-start bg-[#dddddd] text-black">
     <a name="idea"><h2 class="mt-4 mb-4 text-4xl text-[#ff6c43] font-bold">{{ $t('idea.title') }}</h2></a>
-    <img src="/know-more.png" class="my-4 rounded-lg w-auto h-[150px]" title="Do you want to know more?">
+    <img src="/know-more.png" class="my-4 rounded-lg w-auto h-[150px]" alt="Do you want to know more?">
     <h3 class="text-2xl font-bold text-[#ff6c43]">
       {{ $t('idea.q1') }}
     </h3>
