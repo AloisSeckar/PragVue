@@ -1,25 +1,42 @@
 <template>
   <div class="flex flex-col gap-2 px-4 items-center justify-start bg-[#dddddd] text-black">
     <a name="features"><h2 class="mt-4 mb-4 text-4xl text-[#ff6c43] font-bold">{{ $t('features.title') }}</h2></a>
-    <p>Čím bychom ještě přesvědčili? 1) Nová technologie, 2) Potkávání lidí, 3) Catering!</p>
-    <a href="https://www.konference.cz/" class="rounded-lg hover:border-2 hover:border-[#ff6c43]">
+    <div class="text-xl">
+      {{ $t('features.technology') }}
+    </div>
+    <a href="https://www.konference.cz/" class="mb-4 rounded-lg hover:border-2 hover:border-[#ff6c43]">
       <img src="/nav-features-1.jpg" class="rounded-lg w-[300px] h-[150px]">
     </a>
-    <a href="https://www.konference.cz/" class="rounded-lg hover:border-2 hover:border-[#ff6c43]">
+    <div class="text-xl">
+      {{ $t('features.people') }}
+    </div>
+    <a href="https://www.konference.cz/" class="mb-4 rounded-lg hover:border-2 hover:border-[#ff6c43]">
       <img src="/nav-features-2.jpg" class="rounded-lg w-[300px] h-[150px]">
     </a>
-    <a href="https://www.konference.cz/" class="rounded-lg hover:border-2 hover:border-[#ff6c43]">
+    <div class="text-xl">
+      {{ $t('features.food') }}
+    </div>
+    <a href="https://www.konference.cz/" class="mb-4 rounded-lg hover:border-2 hover:border-[#ff6c43]">
       <img src="/nav-features-3.jpg" class="rounded-lg w-[300px] h-[150px]">
     </a>
-    <a href="https://www.konference.cz/" class="rounded-lg hover:border-2 hover:border-[#ff6c43]">
+    <div class="text-xl">
+      {{ $t('features.offer') }}
+    </div>
+    <a href="https://www.konference.cz/" class="mb-4 rounded-lg hover:border-2 hover:border-[#ff6c43]">
       <img src="/nav-features-4.jpg" class="rounded-lg w-auto h-[300px]">
     </a>
+    <div class="text-2xl font-bold">
+      {{ $t('features.action') }}
+    </div>
+    <div class="text-2xl">
+      {{ $t('features.price') }}
+    </div>
     <a href="https://www.konference.cz/">
-      <button class="inline-block mb-4 mx-auto px-4 py-2 border-2 border-[#ff6c43] rounded-lg text-xl hover:border-amber-500 hover:text-amber-500 hover:font-bold hover:bg-gray-600">
+      <button class="inline-block my-4 mx-auto px-4 py-2 border-2 border-[#ff6c43] rounded-lg text-xl font-bold hover:border-amber-500 hover:text-amber-500 hover:font-bold hover:bg-gray-600">
         {{ $t('features.register') }} ✍️
       </button>
     </a>
-    <div class="w-5/6 mx-auto mb-2 border-t-2 border-black text-center font-lg">
+    <div class="w-5/6 mx-auto mb-2 border-t-2 border-black text-center text-lg">
       &copy; 2024 <a href="https://digitalnispolecnost.cz/" class=" hover:text-[#ff6c43]">Eviden Czech Republic</a>
     </div>
   </div>

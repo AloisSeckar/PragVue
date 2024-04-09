@@ -19,6 +19,12 @@
     },
     "features": {
         "title": "Na co ještě se můžete těšit?",
+        "technology": "Atraktivní technologie, kterou rozšíříš své portfolio.",
+        "people": "Šance potkat nové lidi naladěné na stejnou vlnu jako ty.",
+        "food": "Skvělý catering v ceně!",
+        "offer": "Nabídka, která se neodmítá.",
+        "action": "Zajisti si vstupenku ještě dnes.",
+        "price": "Zvýhodněná cena 2499 Kč platí jen do konce června!",
         "register": "REGISTROVAT"
     }
 }

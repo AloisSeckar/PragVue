@@ -19,6 +19,12 @@
     },
     "features": {
         "title": "What more can you expect?",
+        "technology": "Cool technology to enhance your portfolio.",
+        "people": "Chance to meet like minded people.",
+        "food": "Great catering included!",
+        "offer": "An offer that cannot be refused.",
+        "action": "Get your ticket today.",
+        "price": "Early bird discount 2499 CZK is only available to the end of June!",
         "register": "REGISTROVAT"
     }
 }
