@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col h-screen items-center justify-center bg-[#3c3c3c]">
+  <div class="flex flex-col min-h-screen items-center justify-center bg-[#3c3c3c]">
     <div class="w-full max-w-[800px] h-[256px] cursor-pointer bg-[#dddddd] bg-[url('/prague.webp')] bg-center bg-cover" />
     <div class="w-full max-w-[800px] p-2 flex flex-col flex-grow justify-center text-center bg-[#1a1a1a] text-[#ff6c43]">
       <TheLanguageSelector />

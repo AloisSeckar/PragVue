@@ -9,6 +9,14 @@
     },
     "idea": {
         "title": "PragVue - the first Czech Vue.js conference",
+        "q1": "What is Vue?",
+        "a1": "Vue.js is dynamic, flexible and fast evolving technology that is competing with the most popular frontend development stacks (React, Angular).",
+        "q2": "What is Vue good for?",
+        "a2": "Vue.js can be uzsed whenever you need to create a website. Ranging from static HTML presentation, complex dynamic web or even a mobile app, Vue is a suitable choice.",
+        "q3": "Why is Vue better than other alternatives?",
+        "a3": "Vue.js is easy to learn, scalable, highly performant thanks to coherent reactivity system and having a rich ecosystem of surrounding libraries.",
+        "idea": "However, this great tool still remains unknown for a lot of people. Thats why we are holding this conference to talk about it more.",
+        "action": "Are you ready to know more about Vue?",
         "join": "Register for PragVue",
         "more": "Who will I see and what will I hear?"
     },

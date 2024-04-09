@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col h-screen px-4 items-center justify-start  bg-[#3c3c3c]">
+  <div class="flex flex-col min-h-screen px-4 pb-6 items-center justify-start  bg-[#3c3c3c]">
     <a name="schedule"><h2 class="mt-4 mb-4 text-4xl text-[#ff6c43] font-bold">{{ $t('schedule.title') }}</h2></a>
     <p>
       {{ $t('intro.date') }}
@@ -9,7 +9,7 @@
     <div class="flex flex-col lg:flex-row gap-0 lg:gap-4 my-2 text-xl">
       <div class="flex flex-col gap-2">
         <div class="flex gap-4">
-          <div class="font-bold">
+          <div class="font-bold text-nowrap">
             09:00 - 09:15
           </div>
           <div>
@@ -17,7 +17,7 @@
           </div>
         </div>
         <div class="flex gap-4">
-          <div class="font-bold">
+          <div class="font-bold text-nowrap">
             09:15 - 09:50
           </div>
           <div>
@@ -25,7 +25,7 @@
           </div>
         </div>
         <div class="flex gap-4">
-          <div class="font-bold">
+          <div class="font-bold text-nowrap">
             09:50 - 10:30
           </div>
           <div>
@@ -33,7 +33,7 @@
           </div>
         </div>
         <div class="flex gap-4">
-          <div class="font-bold">
+          <div class="font-bold text-nowrap">
             10:30 - 10:50
           </div>
           <div>
@@ -41,7 +41,7 @@
           </div>
         </div>
         <div class="flex gap-4">
-          <div class="font-bold">
+          <div class="font-bold text-nowrap">
             10:50 - 11:25
           </div>
           <div>
@@ -49,7 +49,7 @@
           </div>
         </div>
         <div class="flex gap-4">
-          <div class="font-bold">
+          <div class="font-bold text-nowrap">
             11:25 - 12:00
           </div>
           <div>
@@ -59,7 +59,7 @@
       </div>
       <div class="flex flex-col gap-2">
         <div class="flex gap-4">
-          <div class="font-bold">
+          <div class="font-bold text-nowrap">
             12:00 - 13:00
           </div>
           <div>
@@ -67,7 +67,7 @@
           </div>
         </div>
         <div class="flex gap-4">
-          <div class="font-bold">
+          <div class="font-bold text-nowrap">
             13:00 - 13:40
           </div>
           <div>
@@ -75,7 +75,7 @@
           </div>
         </div>
         <div class="flex gap-4">
-          <div class="font-bold">
+          <div class="font-bold text-nowrap">
             13:40 - 14:20
           </div>
           <div>
@@ -83,7 +83,7 @@
           </div>
         </div>
         <div class="flex gap-4">
-          <div class="font-bold">
+          <div class="font-bold text-nowrap">
             14:20 - 14:40
           </div>
           <div>
@@ -91,7 +91,7 @@
           </div>
         </div>
         <div class="flex gap-4">
-          <div class="font-bold">
+          <div class="font-bold text-nowrap">
             14:40 - 15:20
           </div>
           <div>
@@ -99,7 +99,7 @@
           </div>
         </div>
         <div class="flex gap-4">
-          <div class="font-bold">
+          <div class="font-bold text-nowrap">
             15:20 - 16:00
           </div>
           <div>
