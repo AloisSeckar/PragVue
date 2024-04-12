@@ -13,7 +13,7 @@
         </a>
         <span class="hidden sm:inline">&</span>
         <a href="https://www.exponet.cz/">
-          <img class="inline-block w-auto h-7 sm:h-10 cursor-pointer" src="/exponet.png" alt="Exponet logo">
+          <img class="inline-block w-auto h-10 sm:h-14 cursor-pointer" src="/exponet.png" alt="Exponet logo">
         </a>
       </div>
       <div class="text-xl text-[#dddddd]">
