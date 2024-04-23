@@ -4,6 +4,7 @@
     <TheIdea />
     <TheSchedule />
     <TheFeatures />
+    <TheTicket />
   </div>
 </template>
 
@@ -20,5 +21,6 @@ useHead({
 html {
   scroll-behavior: smooth;
   color: #dddddd;
+  font-family: "Montserrat", Sans-serif;
 }
 </style>

@@ -1,14 +1,15 @@
 {
     "intro": {
-        "presents": "presents",
+        "present": "present",
         "about": "Vue.js conference in Prague",
-        "date": "17th September 2024 {'@'} 09:00",
+        "date": "17th September 2024 09:00",
         "place": "Cinema City - Nový Smíchov",
-        "more": "MORE INFO",
-        "register": "REGISTER"
+        "more": "More info",
+        "register": "Registration"
     },
     "idea": {
-        "title": "PragVue - the first Czech Vue.js conference",
+        "title": "<strong>The first</strong> Czech <strong>Vue.js</strong> conference",
+        "date": "17th September 2024",
         "q1": "What is Vue?",
         "a1": "Vue.js is dynamic, flexible and fast evolving technology that is competing with the most popular frontend development stacks (React, Angular).",
         "q2": "What is Vue good for?",
@@ -30,10 +31,16 @@
         "technology": "Cool technology to enhance your portfolio.",
         "people": "Chance to meet like minded people.",
         "food": "Great catering included!",
-        "offer": "An offer that cannot be refused.",
+        "offer": "An offer that cannot be refused!",
         "action": "Get your ticket today.",
         "price": "Early bird discount 2499 CZK is only available to the end of June!",
         "register": "SIGN ME IN",
-        "join": "Register for PragVue"
+        "join": "Register for PragVue",
+        "ticket": "Get your ticket"
+    },
+    "ticket": {
+        "title": "Get your ticket today",
+        "price": "Early bird discount <strong>149&euro;</strong> is <strong>only</strong> available to the <strong>end of June</strong>! Full price <strong>179&euro;</strong> after then.",
+        "sign": "Sign me in!"
     }
 }
