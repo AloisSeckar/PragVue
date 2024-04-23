@@ -9,10 +9,11 @@
     "start": "nuxt preview"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config-typescript": "12.1.0",
-    "@nuxtjs/i18n": "8.3.0",
     "@nuxt/eslint": "0.3.0",
     "@nuxt/ui": "2.15.1",
+    "@nuxtjs/eslint-config-typescript": "12.1.0",
+    "@nuxtjs/google-fonts": "3.2.0",
+    "@nuxtjs/i18n": "8.3.0",
     "@vueuse/core": "10.9.0",
     "@vueuse/nuxt": "10.9.0",
     "eslint": "8.57.0",
