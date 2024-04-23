@@ -2,7 +2,7 @@
   <a name="ticket" />
   <div class="flex flex-col lg:flex-row gap-8 lg:gap-16 min-h-screen p-8 items-center justify-start bg-[url('/bg2.jpg')] bg-center bg-cover">
     <div class="inline-block lg:w-1/2 text-center lg:text-right text-xl">
-      <div class="inline-block mb-8 text-[66px]">
+      <div class="inline-block mb-8 text-[45px] sm:text-[65px]">
         <span class="font-bold">PragVue</span> 2024
       </div>
       <!-- eslint-disable-next-line vue/no-v-html -->
@@ -12,7 +12,7 @@
       </p>
     </div>
 
-    <div class="inline-block lg:w-1/2 text-center">
+    <div class="inline-block lg:w-1/2 text-center lg:text-left">
       <div class="px-6 py-4 bg-[#dddddd] text-black rounded-xl">
         <div class="mb-4 text-[40px] font-bold">
           {{ $t('ticket.title') }}

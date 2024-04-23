@@ -37,7 +37,7 @@
       <p class="text-2xl mb-8">
         {{ $t('idea.date') }}
       </p>
-      <div class="flex gap-2">
+      <div class="flex flex-col sm:flex-row gap-2">
         <a href="https://pragvue.konference.cz/">
           <button class="inline-block mx-auto px-10 py-4 bg-[#002D3C] rounded-3xl text-2xl text-white font-bold hover:text-black hover:border-2 hover:border-black hover:bg-white">
             {{ $t('intro.register') }}
