@@ -2,7 +2,6 @@
   <div class="flex flex-col min-h-screen items-center justify-center bg-[#3c3c3c]">
     <div class="w-full max-w-[800px] h-[256px] cursor-pointer bg-[#dddddd] bg-[url('/prague.webp')] bg-center bg-cover" />
     <div class="w-full max-w-[800px] p-2 flex flex-col flex-grow justify-center text-center bg-[#1a1a1a] text-[#ff6c43]">
-      <TheLanguageSelector />
       <div class="flex flex-col sm:flex-row gap-4 my-4 justify-center items-center text-[#dddddd] font-bold">
         <a href="https://vuejs.org/">
           <img class="inline-block w-auto h-14 sm:h-16 cursor-pointer" src="/vue.png" alt="Vue.js logo">
