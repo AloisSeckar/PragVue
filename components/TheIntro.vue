@@ -3,21 +3,21 @@
     <div class="w-full max-w-[800px] p-2 flex flex-col flex-grow justify-center text-center">
       <div class="flex flex-col sm:flex-row gap- my-4 justify-center items-center text-[#dddddd] font-bold">
         <a href="https://digitalnispolecnost.cz/">
-          <img class="inline-block w-auto h-7 sm:h-8 cursor-pointer mr-4" src="/eviden.webp" alt="Eviden logo">
+          <img class="inline-block w-auto h-7 sm:h-8 cursor-pointer sm:mr-4 my-1" src="/eviden.webp" alt="Eviden logo">
         </a>
         <span class="hidden sm:inline">&</span>
         <a href="https://www.exponet.cz/">
-          <img class="inline-block w-auto h-10 sm:h-14 cursor-pointer" src="/exponet.png" alt="Exponet logo">
+          <img class="inline-block w-auto h-14 sm:h-16 cursor-pointer my-1" src="/exponet.png" alt="Exponet logo">
         </a>
       </div>
-      <div class="text-xl text-[#dddddd] mb-8">
+      <div class="text-xl text-[#dddddd] mb-6 sm:mb-8">
         {{ $t('intro.present') }}
       </div>
       <div>
-        <img class="inline-block w-auto h-20 cursor-pointer" src="/vue.png" alt="Vue.js logo">
+        <img class="inline-block w-auto h-20 cursor-pointer mb-2" src="/vue.png" alt="Vue.js logo">
       </div>
       <div class="flex flex-col min-[660px]:flex-row justify-center mb-4">
-        <h1 class="inline-block mx-4 text-[52px] sm:text-[72px]">
+        <h1 class="inline-block mx-4 text-[56px] sm:text-[72px]">
           <span class="font-bold">PragVue</span> 2024
         </h1>
       </div>
