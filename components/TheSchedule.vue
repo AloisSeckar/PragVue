@@ -30,96 +30,96 @@
       <div class="px-6 py-4 bg-[#dddddd] text-black rounded-xl">
         <div class="flex flex-col gap-2 text-lg">
           <div class="flex gap-4">
-            <div class="font-bold text-nowrap">
-              09:00 - 09:15
+            <div class="font-bold font-mono text-nowrap w-28">
+              09:00-09:15
             </div>
             <div>
               Vue App in 15 mins
             </div>
           </div>
           <div class="flex gap-4">
-            <div class="font-bold text-nowrap">
-              09:15 - 09:50
+            <div class="font-bold font-mono text-nowrap w-28">
+              09:15-09:50
             </div>
             <div>
               Keynote - what's new in Vue.js?
             </div>
           </div>
           <div class="flex gap-4">
-            <div class="font-bold text-nowrap">
-              09:50 - 10:30
+            <div class="font-bold font-mono text-nowrap w-28">
+              09:50-10:30
             </div>
             <div>
               To the roots of Vue
             </div>
           </div>
           <div class="flex gap-4">
-            <div class="font-bold text-nowrap">
-              10:30 - 10:50
+            <div class="font-bold font-mono text-nowrap w-28">
+              10:30-10:50
             </div>
             <div>
-              1st Coffee Break 🥐☕
+              1st Coffee Break ☕
             </div>
           </div>
           <div class="flex gap-4">
-            <div class="font-bold text-nowrap">
-              10:50 - 11:25
+            <div class="font-bold font-mono text-nowrap w-28">
+              10:50-11:25
             </div>
             <div>
               Meet Nuxt
             </div>
           </div>
           <div class="flex gap-4">
-            <div class="font-bold text-nowrap">
-              11:25 - 12:00
+            <div class="font-bold font-mono text-nowrap w-28">
+              11:25-12:00
             </div>
             <div>
               Introduction to Vue ecosystem
             </div>
           </div>
           <div class="flex gap-4">
-            <div class="font-bold text-nowrap">
-              12:00 - 13:00
+            <div class="font-bold font-mono text-nowrap w-28">
+              12:00-13:00
             </div>
             <div>
-              Lunch Break 🍽️🥗
+              Lunch Break 🍽️
             </div>
           </div>
           <div class="flex gap-4">
-            <div class="font-bold text-nowrap">
-              13:00 - 13:40
-            </div>
-            <div>
-              TBA
-            </div>
-          </div>
-          <div class="flex gap-4">
-            <div class="font-bold text-nowrap">
-              13:40 - 14:20
+            <div class="font-bold font-mono text-nowrap w-28">
+              13:00-13:40
             </div>
             <div>
               TBA
             </div>
           </div>
           <div class="flex gap-4">
-            <div class="font-bold text-nowrap">
-              14:20 - 14:40
+            <div class="font-bold font-mono text-nowrap w-28">
+              13:40-14:20
             </div>
             <div>
-              2nd Coffee Break 🥐☕
+              TBA
             </div>
           </div>
           <div class="flex gap-4">
-            <div class="font-bold text-nowrap">
-              14:40 - 15:20
+            <div class="font-bold font-mono text-nowrap w-28">
+              14:20-14:40
+            </div>
+            <div>
+              2nd Coffee Break ☕
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <div class="font-bold font-mono text-nowrap w-28">
+              14:40-15:20
             </div>
             <div>
               Case study - implementing Nuxt/Vue
             </div>
           </div>
           <div class="flex gap-4">
-            <div class="font-bold text-nowrap">
-              15:20 - 16:00
+            <div class="font-bold font-mono text-nowrap w-28">
+              15:20-16:00
             </div>
             <div>
               TBA
