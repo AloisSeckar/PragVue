@@ -25,7 +25,7 @@
     </div>
 
     <div class="inline-block lg:w-1/2 text-center lg:text-left">
-      <img src="/features.jpg" class="w-auto h-[240px]" alt="PragVue 2024 features">
+      <img src="/features.webp" class="w-auto h-[240px]" alt="PragVue 2024 features">
     </div>
   </div>
 </template>

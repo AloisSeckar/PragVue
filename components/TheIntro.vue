@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col min-h-screen items-center justify-center bg-[url('/bg1.jpg')] bg-center bg-cover">
+  <div class="flex flex-col min-h-screen items-center justify-center bg-[url('/bg1.webp')] bg-center bg-cover">
     <div class="w-full max-w-[800px] p-2 flex flex-col flex-grow justify-center text-center">
       <div class="flex flex-col sm:flex-row gap- my-4 justify-center items-center text-[#dddddd] font-bold">
         <a href="https://digitalnispolecnost.cz/">
@@ -7,14 +7,14 @@
         </a>
         <span class="hidden sm:inline">&</span>
         <a href="https://www.exponet.cz/">
-          <img class="inline-block w-auto h-14 sm:h-16 cursor-pointer my-1" src="/exponet.png" alt="Exponet logo">
+          <img class="inline-block w-auto h-14 sm:h-16 cursor-pointer my-1" src="/exponet.webp" alt="Exponet logo">
         </a>
       </div>
       <div class="text-xl text-[#dddddd] mb-6 sm:mb-8">
         {{ $t('intro.present') }}
       </div>
       <div>
-        <img class="inline-block w-auto h-20 cursor-pointer mb-2" src="/vue.png" alt="Vue.js logo">
+        <img class="inline-block w-auto h-20 cursor-pointer mb-2" src="/vue.webp" alt="Vue.js logo">
       </div>
       <div class="flex flex-col min-[660px]:flex-row justify-center mb-4">
         <h1 class="inline-block mx-4 text-[56px] sm:text-[72px]">

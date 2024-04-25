@@ -1,6 +1,6 @@
 <template>
   <a name="schedule" />
-  <div class="flex flex-col lg:flex-row gap-8 lg:gap-16 min-h-screen p-8 items-center justify-start bg-[url('/bg2.jpg')] bg-center bg-cover">
+  <div class="flex flex-col lg:flex-row gap-8 lg:gap-16 min-h-screen p-8 items-center justify-start bg-[url('/bg2.webp')] bg-center bg-cover">
     <div class="inline-block lg:w-1/2 text-center lg:text-right">
       <div class="inline-block text-[43px] font-bold">
         {{ $t('schedule.title') }}
