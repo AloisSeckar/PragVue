@@ -127,7 +127,7 @@
           </div>
         </div>
         <div class="mt-4 text-lg text-center text-[#ff6c43]">
-          More details will be unveiled soon
+          {{ $t('schedule.soon') }}
         </div>
       </div>
     </div>

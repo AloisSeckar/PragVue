@@ -17,14 +17,11 @@
         "q3": "Why is Vue better than other alternatives?",
         "a3": "Vue.js is easy to learn, scalable, highly performant thanks to its coherent reactivity system, and has a rich ecosystem of surrounding libraries.",
         "idea": "Despite its greatness, Vue.js remains undiscovered by many. That's precisely why we're hosting this conference - to delve deeper into its potential and shed light on its remarkable capabilities.",
-        "action": "Are you ready to know more about Vue?",
-        "join": "Register for PragVue",
-        "more": "Who will I see and what will I hear?"
+        "action": "Are you ready to know more about Vue?"
     },
     "schedule": {
         "title": "Schedule & speakers",
-        "join": "Register for PragVue",
-        "more": "What else do you offer?"
+        "soon": "More details will be unveiled soon"
     },
     "features": {
         "title": "What more can you expect?",
@@ -32,10 +29,6 @@
         "people": "Chance to meet like-minded people.",
         "food": "Great catering included!",
         "offer": "An offer that can't be refused!",
-        "action": "Get your ticket today.",
-        "price": "Early bird discount 2499 CZK is only available to the end of June!",
-        "register": "SIGN ME IN",
-        "join": "Register for PragVue",
         "ticket": "Get your ticket"
     },
     "ticket": {
