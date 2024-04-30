@@ -17,13 +17,13 @@
       <p class="text-2xl font-bold">
         {{ $t('idea.q3') }}
       </p>
-      <p class="text-lg mb-4">
+      <p class="text-lg mb-8">
         {{ $t('idea.a3') }}
       </p>
       <p class="text-lg mb-8">
         {{ $t('idea.idea') }}
       </p>
-      <p class="text-2xl font-bold text-center lg:text-right">
+      <p class="text-3xl font-bold text-center lg:text-right">
         {{ $t('idea.action') }}
       </p>
     </div>

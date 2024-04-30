@@ -11,12 +11,12 @@
         "title": "<strong>The first</strong> Czech <strong>Vue.js</strong> conference",
         "date": "17th September 2024",
         "q1": "What is Vue?",
-        "a1": "Vue.js is dynamic, flexible and fast evolving technology that is competing with the most popular frontend development stacks (React, Angular).",
+        "a1": "Vue.js is dynamic, flexible, and fast-evolving technology that competes with the most popular frontend development stacks (React, Angular).",
         "q2": "What is Vue good for?",
-        "a2": "Vue.js can be used whenever you need to create a web-based application. Ranging from static HTML presentation, complex dynamic web or even a mobile app, Vue is a suitable choice.",
+        "a2": "Vue.js can be used whenever you need to create a web-based application, ranging from static HTML presentations to complex dynamic webs or even mobile apps. Vue is a suitable choice for all these scenarios.",
         "q3": "Why is Vue better than other alternatives?",
-        "a3": "Vue.js is easy to learn, scalable, highly performant thanks to coherent reactivity system and has a rich ecosystem of surrounding libraries.",
-        "idea": "However, this great tool still remains unknown for a lot of people. That's why we are holding this conference to talk about it more.",
+        "a3": "Vue.js is easy to learn, scalable, highly performant thanks to its coherent reactivity system, and has a rich ecosystem of surrounding libraries.",
+        "idea": "Despite its greatness, Vue.js remains undiscovered by many. That's precisely why we're hosting this conference - to delve deeper into its potential and shed light on its remarkable capabilities.",
         "action": "Are you ready to know more about Vue?",
         "join": "Register for PragVue",
         "more": "Who will I see and what will I hear?"
@@ -40,7 +40,7 @@
     },
     "ticket": {
         "title": "Get your ticket today",
-        "price": "Early bird discount <strong>149&euro;</strong> is <strong>only</strong> available to the <strong>end of June</strong>! Full price <strong>179&euro;</strong> after then.",
+        "price": "Early bird discount <strong>149 &euro;</strong> is <strong>only</strong> available to the <strong>end of June</strong>! Full price <strong>179 &euro;</strong> after then.",
         "sign": "Sign me in!"
     }
 }
