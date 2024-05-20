@@ -28,108 +28,42 @@
 
     <div class="inline-block lg:w-1/2 text-center lg:text-left">
       <div class="px-6 py-4 bg-[#dddddd] text-black rounded-xl">
-        <div class="flex flex-col gap-2 text-lg">
-          <div class="flex gap-4">
-            <div class="font-bold font-mono text-nowrap w-28">
-              09:00-09:15
+        <UTabs :items="tabs" :ui="tabsUi" class="w-full">
+          <template #default="{ item }">
+            <div class="w-full text-2xl font-bold">
+              {{ item.label }}
             </div>
-            <div>
-              Vue App in 15 mins
-            </div>
-          </div>
-          <div class="flex gap-4">
-            <div class="font-bold font-mono text-nowrap w-28">
-              09:15-09:50
-            </div>
-            <div>
-              Keynote - what's new in Vue.js?
-            </div>
-          </div>
-          <div class="flex gap-4">
-            <div class="font-bold font-mono text-nowrap w-28">
-              09:50-10:30
-            </div>
-            <div>
-              To the roots of Vue
-            </div>
-          </div>
-          <div class="flex gap-4">
-            <div class="font-bold font-mono text-nowrap w-28">
-              10:30-10:50
-            </div>
-            <div>
-              1st Coffee Break ☕
-            </div>
-          </div>
-          <div class="flex gap-4">
-            <div class="font-bold font-mono text-nowrap w-28">
-              10:50-11:25
-            </div>
-            <div>
-              Meet Nuxt
-            </div>
-          </div>
-          <div class="flex gap-4">
-            <div class="font-bold font-mono text-nowrap w-28">
-              11:25-12:00
-            </div>
-            <div>
-              Introduction to Vue ecosystem
-            </div>
-          </div>
-          <div class="flex gap-4">
-            <div class="font-bold font-mono text-nowrap w-28">
-              12:00-13:00
-            </div>
-            <div>
-              Lunch Break 🍽️
-            </div>
-          </div>
-          <div class="flex gap-4">
-            <div class="font-bold font-mono text-nowrap w-28">
-              13:00-13:40
-            </div>
-            <div>
-              TBA
-            </div>
-          </div>
-          <div class="flex gap-4">
-            <div class="font-bold font-mono text-nowrap w-28">
-              13:40-14:20
-            </div>
-            <div>
-              TBA
-            </div>
-          </div>
-          <div class="flex gap-4">
-            <div class="font-bold font-mono text-nowrap w-28">
-              14:20-14:40
-            </div>
-            <div>
-              2nd Coffee Break ☕
-            </div>
-          </div>
-          <div class="flex gap-4">
-            <div class="font-bold font-mono text-nowrap w-28">
-              14:40-15:20
-            </div>
-            <div>
-              Case study - implementing Nuxt/Vue
-            </div>
-          </div>
-          <div class="flex gap-4">
-            <div class="font-bold font-mono text-nowrap w-28">
-              15:20-16:00
-            </div>
-            <div>
-              TBA
-            </div>
-          </div>
-        </div>
-        <div class="mt-4 text-lg text-center text-[#ff6c43]">
-          {{ $t('schedule.soon') }}
-        </div>
+          </template>
+          <template #speakers>
+            <TheScheduleTabSpeakers />
+          </template>
+          <template #schedule>
+            <TheScheduleTabSchedule />
+          </template>
+        </UTabs>
       </div>
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const tabs = [{
+  slot: 'speakers',
+  label: 'Speakers',
+}, {
+  slot: 'schedule',
+  label: 'Schedule',
+}]
+
+const tabsUi = {
+  list: {
+    height: 'h-12',
+    tab: {
+      base: 'relative inline-flex items-center justify-center flex-shrink-0 w-full ui-focus-visible:outline-0 ui-focus-visible:ring-2 ui-focus-visible:ring-primary-500 dark:ui-focus-visible:ring-primary-400 ui-not-focus-visible:outline-none focus:outline-none disabled:cursor-not-allowed disabled:opacity-75 transition-colors duration-200 ease-out hover:text-white hover:border-2 hover:border-white hover:bg-[#002D3C]',
+      active: 'text-gray-900 dark:text-white border border-black',
+      inactive: 'text-gray-500 dark:text-gray-400',
+      height: 'h-10',
+    },
+  },
+}
+</script>

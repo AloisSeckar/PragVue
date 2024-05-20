@@ -6,6 +6,9 @@ export default withNuxt({
       singleline: {
         max: 3,
       },
+      multiline: {
+        max: 3,
+      },
     }],
   },
 })
