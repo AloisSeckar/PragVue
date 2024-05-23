@@ -1,11 +1,5 @@
 <template>
-  <div>
-    <TheIntro />
-    <TheIdea />
-    <TheSchedule />
-    <TheFeatures />
-    <TheTicket />
-  </div>
+  <NuxtPage />
 </template>
 
 <script setup lang="ts">
