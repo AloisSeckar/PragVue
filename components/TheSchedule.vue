@@ -59,9 +59,9 @@ const tabsUi = {
   list: {
     height: 'h-12',
     tab: {
-      base: 'relative inline-flex items-center justify-center flex-shrink-0 w-full ui-focus-visible:outline-0 ui-focus-visible:ring-2 ui-focus-visible:ring-primary-500 dark:ui-focus-visible:ring-primary-400 ui-not-focus-visible:outline-none focus:outline-none disabled:cursor-not-allowed disabled:opacity-75 transition-colors duration-200 ease-out hover:text-white hover:border-2 hover:border-white hover:bg-[#002D3C]',
-      active: 'text-gray-900 dark:text-white border border-black',
-      inactive: 'text-gray-500 dark:text-gray-400',
+      base: 'relative inline-flex items-center justify-center flex-shrink-0 w-full ui-focus-visible:outline-0 ui-focus-visible:ring-2 ui-focus-visible:ring-primary-500 ui-not-focus-visible:outline-none focus:outline-none disabled:cursor-not-allowed disabled:opacity-75 transition-colors duration-200 ease-out hover:text-white hover:border-2 hover:border-white hover:bg-[#002D3C]',
+      active: 'text-gray-900 border border-black',
+      inactive: 'text-gray-500',
       height: 'h-10',
     },
   },

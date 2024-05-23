@@ -12,6 +12,9 @@ export default defineNuxtConfig({
       stylistic: true,
     },
   },
+  colorMode: {
+    preference: 'light',
+  },
   googleFonts: {
     families: {
       Montserrat: true,
