@@ -34,6 +34,7 @@
     "ticket": {
         "title": "Get your ticket today",
         "price": "Early bird discount <strong>149 &euro;</strong> is <strong>only</strong> available to the <strong>end of June</strong>! Full price <strong>179 &euro;</strong> after then.",
-        "sign": "Sign me in!"
+        "sign": "Sign me in!",
+        "questions": "<strong>More questions?</strong> Reach us via <strong>alois.seckar [at] eviden [dot] com</strong>"
     }
 }

@@ -24,6 +24,8 @@
             {{ $t('ticket.sign') }}
           </button>
         </a>
+        <!-- eslint-disable-next-line vue/no-v-html -->
+        <p class="text-xl mt-6 my-4" v-html="$t('ticket.questions') + ' 📧'" />
       </div>
     </div>
   </div>
