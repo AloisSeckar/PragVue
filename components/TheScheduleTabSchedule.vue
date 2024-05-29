@@ -13,7 +13,7 @@
         09:15-09:50
       </div>
       <div>
-        Keynote - what's new in Vue.js?
+        Keynote - what's new in Vue.js world?
       </div>
     </div>
     <div class="flex gap-4">
@@ -61,7 +61,7 @@
         13:00-13:40
       </div>
       <div>
-        TBA
+        Tech demo - Vue libraries and tools in action
       </div>
     </div>
     <div class="flex gap-4">
@@ -69,7 +69,7 @@
         13:40-14:20
       </div>
       <div>
-        TBA
+        Tech demo - Vue libraries and tools in action
       </div>
     </div>
     <div class="flex gap-4">
@@ -85,7 +85,7 @@
         14:40-15:20
       </div>
       <div>
-        Case study - implementing Nuxt/Vue
+        Case study - implementing and running Nuxt/Vue apps
       </div>
     </div>
     <div class="flex gap-4">
@@ -93,7 +93,7 @@
         15:20-16:00
       </div>
       <div>
-        TBA
+        Case study - implementing and running Nuxt/Vue apps
       </div>
     </div>
     <div class="mt-4 text-lg text-center text-[#ff6c43]">

@@ -29,7 +29,7 @@
 <script setup lang="ts">
 defineProps({
   name: { type: String, default: 'TBA' },
-  country: { type: String, default: 'TBA' },
+  country: { type: String, default: '?' },
   about: { type: String, default: '...' },
   link: { type: String, default: '#' },
   image: { type: String, default: '_blank' },

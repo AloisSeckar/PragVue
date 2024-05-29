@@ -17,7 +17,7 @@
       country="CZE" image="seckar_a" link="https://alois-seckar.cz/"
     />
     <SpeakerCard
-      name="More TBA" about="Other speakers will be revealed soon!"
+      name="...and more!" about="Other speakers will be revealed soon"
     />
   </div>
 </template>
