@@ -1,7 +1,7 @@
 <template>
   <a name="idea" />
-  <div class="flex flex-col lg:flex-row gap-8 lg:gap-16 min-h-screen p-8 items-center justify-start bg-[#dddddd] text-black">
-    <div class="inline-block lg:w-1/2 lg:text-right">
+  <div :class="PAGE_BLOCK" class="bg-[#dddddd] text-black">
+    <div :class="CONTENT_LEFT">
       <p class="text-2xl font-bold">
         {{ $t('idea.q1') }}
       </p>
@@ -28,7 +28,7 @@
       </p>
     </div>
 
-    <div class="inline-block lg:w-1/2 text-center lg:text-left">
+    <div :class="CONTENT_RIGHT">
       <div class="inline-block text-[66px]">
         <span class="font-bold">PragVue</span> 2024
       </div>
@@ -39,12 +39,12 @@
       </p>
       <div class="flex flex-col sm:flex-row gap-2">
         <a href="https://pragvue.konference.cz/">
-          <button class="inline-block mx-auto px-10 py-4 bg-[#002D3C] rounded-3xl text-2xl text-white font-bold hover:text-black hover:border-2 hover:border-black hover:bg-white">
+          <button :class="BUTTON_DARK">
             {{ $t('intro.register') }}
           </button>
         </a>
         <a href="#schedule">
-          <button class="inline-block mx-auto px-10 py-4 bg-[#002D3C] rounded-3xl text-2xl text-white font-bold hover:text-black hover:border-2 hover:border-black hover:bg-white">
+          <button :class="BUTTON_DARK">
             {{ $t('intro.more') }}
           </button>
         </a>

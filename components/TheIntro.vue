@@ -32,7 +32,7 @@
         <a href="https://maps.app.goo.gl/BksoN2qFxf61Tn2v8">🗺️</a>
       </div>
       <a href="#idea">
-        <button class="inline-block mx-auto px-12 py-4 bg-[#dddddd] rounded-3xl text-2xl text-black font-bold hover:text-[#dddddd] hover:border-2 hover:border-[#dddddd] hover:bg-[#002D3C]">
+        <button :class="BUTTON_LIGHT">
           {{ $t('intro.more') }}
         </button>
       </a>

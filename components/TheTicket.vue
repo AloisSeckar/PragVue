@@ -1,7 +1,7 @@
 <template>
   <a name="ticket" />
-  <div class="flex flex-col lg:flex-row gap-8 lg:gap-16 min-h-screen p-8 items-center justify-start bg-[url('/bg3.webp')] bg-center bg-cover">
-    <div class="inline-block lg:w-1/2 text-center lg:text-right text-xl">
+  <div :class="PAGE_BLOCK" class="bg-[url('/bg3.webp')]">
+    <div :class="CONTENT_LEFT" class="text-xl">
       <div class="inline-block mb-8 text-[45px] sm:text-[65px]">
         <span class="font-bold">PragVue</span> 2024
       </div>
@@ -12,15 +12,15 @@
       </p>
     </div>
 
-    <div class="inline-block lg:w-1/2 text-center lg:text-left">
-      <div class="px-6 py-4 bg-[#dddddd] text-black rounded-xl">
+    <div :class="CONTENT_RIGHT">
+      <div :class="CARD_GRAY">
         <div class="mb-4 text-[40px] font-bold">
           {{ $t('ticket.title') }}
         </div>
         <!-- eslint-disable-next-line vue/no-v-html -->
         <p class="text-2xl mb-6" v-html="$t('ticket.price')" />
         <a href="https://pragvue.konference.cz/">
-          <button class="inline-block mx-auto px-10 py-4 bg-[#002D3C] rounded-3xl text-2xl text-white font-bold hover:text-black hover:border-2 hover:border-black hover:bg-white">
+          <button :class="BUTTON_DARK">
             {{ $t('ticket.sign') }}
           </button>
         </a>

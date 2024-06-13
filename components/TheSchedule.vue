@@ -1,7 +1,7 @@
 <template>
   <a name="schedule" />
-  <div class="flex flex-col lg:flex-row gap-8 lg:gap-16 min-h-screen p-8 items-center justify-start bg-[url('/bg2.webp')] bg-center bg-cover">
-    <div class="inline-block lg:w-1/2 text-center lg:text-right">
+  <div :class="PAGE_BLOCK" class="bg-[url('/bg2.webp')]">
+    <div :class="CONTENT_LEFT">
       <div class="inline-block text-[43px] font-bold">
         {{ $t('schedule.title') }}
       </div>
@@ -14,20 +14,20 @@
       </div>
       <div class="flex flex-col sm:flex-row gap-2 justify-end">
         <a href="https://pragvue.konference.cz/">
-          <button class="inline-block mx-auto px-10 py-4 bg-[#dddddd] rounded-3xl text-2xl text-black font-bold hover:text-white hover:border-2 hover:border-white hover:bg-[#002D3C]">
+          <button :class="BUTTON_LIGHT">
             {{ $t('intro.register') }}
           </button>
         </a>
         <a href="#features">
-          <button class="inline-block mx-auto px-10 py-4 bg-[#dddddd] rounded-3xl text-2xl text-black font-bold hover:text-white hover:border-2 hover:border-white hover:bg-[#002D3C]">
+          <button :class="BUTTON_LIGHT">
             {{ $t('intro.more') }}
           </button>
         </a>
       </div>
     </div>
 
-    <div class="inline-block lg:w-1/2 text-center lg:text-left">
-      <div class="px-6 py-4 bg-[#dddddd] text-black rounded-xl">
+    <div :class="CONTENT_RIGHT">
+      <div :class="CARD_GRAY">
         <UTabs :items="tabs" :ui="tabsUi" class="w-full">
           <template #default="{ item }">
             <div class="w-full text-2xl font-bold">

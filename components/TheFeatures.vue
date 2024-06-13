@@ -1,7 +1,7 @@
 <template>
   <a name="features" />
-  <div class="flex flex-col lg:flex-row gap-8 min-h-screen p-8 items-center justify-start bg-[#dddddd] text-black">
-    <div class="inline-block lg:w-1/2 text-center lg:text-right text-xl">
+  <div :class="PAGE_BLOCK" class="bg-[#dddddd] text-black">
+    <div :class="CONTENT_LEFT" class="text-xl">
       <div class="inline-block mb-4 text-[34px] font-bold">
         {{ $t('features.title') }}
       </div>
@@ -18,13 +18,13 @@
         {{ $t('features.offer') }}
       </p>
       <a href="#ticket">
-        <button class="inline-block mx-auto px-10 py-4 bg-[#002D3C] rounded-3xl text-2xl text-white font-bold hover:text-black hover:border-2 hover:border-black hover:bg-white">
+        <button :class="BUTTON_DARK">
           {{ $t('features.ticket') }}
         </button>
       </a>
     </div>
 
-    <div class="inline-block lg:w-1/2 text-center lg:text-left">
+    <div :class="CONTENT_RIGHT">
       <img src="/features.webp" class="w-auto h-[240px]" alt="PragVue 2024 features">
     </div>
   </div>
