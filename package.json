@@ -10,15 +10,12 @@
     "start": "nuxt preview"
   },
   "devDependencies": {
-    "@nuxt/eslint": "0.3.10",
-    "@nuxt/ui": "2.15.2",
+    "@nuxt/eslint": "0.3.13",
+    "@nuxt/ui": "2.16.0",
     "@nuxtjs/google-fonts": "3.2.0",
     "@nuxtjs/i18n": "8.3.1",
-    "@vueuse/core": "10.9.0",
-    "@vueuse/nuxt": "10.9.0",
-    "nuxt": "3.11.2"
-  },
-  "overrides": {
-    "vue": "latest"
+    "@vueuse/core": "10.11.0",
+    "@vueuse/nuxt": "10.11.0",
+    "nuxt": "3.12.1"
   }
 }
