@@ -7,7 +7,9 @@ useHead({
   htmlAttrs: {
     lang: 'en',
   },
+  script: [{ src: 'https://app.termly.io/resource-blocker/bbc9f62b-96e1-4064-bea5-e604bb669e55?autoBlock=on' }],
 })
+
 useSeoMeta({
   title: 'PragVue 2024',
   description: 'The first Czech Vue.js conference in Prague (17th September 2024)',
