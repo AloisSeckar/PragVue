@@ -9,15 +9,27 @@
       country="GER" image="lichter_a" link="https://www.lichter.io/"
     />
     <SpeakerCard
-      name="Konstantin Bifert" about="Frontend Developer ~ VueJS ecosystem lover"
+      name="Konstantin Bifert" about="Frontend developer ~ VueJS ecosystem lover"
       country="NED" image="bifert_k" link="https://kissu.io/"
+    />
+    <SpeakerCard
+      name="Ramona Schwering" about="Software engineer with roots in quality assurance"
+      country="GER" image="schwering_r" link="https://www.ramona.codes/"
+    />
+    <SpeakerCard
+      name="Juan Andrés Núñez" about="Software engineer, Vue.js specialist"
+      country="ESP" image="nunez_j" link="https://wmedia.es/"
+    />
+    <SpeakerCard
+      name="Estéban Soubiran" about="French web engineer based in Paris"
+      country="FRA" image="soubrain_e" link="https://soubiran.dev/"
     />
     <SpeakerCard
       name="Alois Sečkár" about="Application developer at Eviden, maintainer of https://cs.vuejs.org"
       country="CZE" image="seckar_a" link="https://alois-seckar.cz/"
     />
     <SpeakerCard
-      name="...and more!" about="Other speakers will be revealed soon"
+      name="...and 1 more!" about="Last speaker will be revealed soon"
     />
   </div>
 </template>

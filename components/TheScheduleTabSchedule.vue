@@ -5,7 +5,7 @@
         09:00-09:15
       </div>
       <div>
-        Vue App in 15 mins
+        Vue App in 15 mins <span class="font-bold italic">[Alois Sečkár]</span>
       </div>
     </div>
     <div class="flex gap-4">
@@ -21,7 +21,7 @@
         09:50-10:30
       </div>
       <div>
-        To the roots of Vue
+        Meet Nuxt <span class="font-bold italic">[Daniel Roe]</span>
       </div>
     </div>
     <div class="flex gap-4">
@@ -37,7 +37,7 @@
         10:50-11:25
       </div>
       <div>
-        Meet Nuxt
+        Vue practical tips and tricks <span class="font-bold italic">[Alexander Lichter]</span>
       </div>
     </div>
     <div class="flex gap-4">
@@ -45,7 +45,7 @@
         11:25-12:00
       </div>
       <div>
-        Introduction to Vue ecosystem
+        Security and testing <span class="font-bold italic">[Ramona Schwering]</span>
       </div>
     </div>
     <div class="flex gap-4">
@@ -61,7 +61,7 @@
         13:00-13:40
       </div>
       <div>
-        Tech demo - Vue libraries and tools in action
+        Fullstack application with Nuxt <span class="font-bold italic">[Estéban Soubiran]</span>
       </div>
     </div>
     <div class="flex gap-4">
@@ -69,7 +69,7 @@
         13:40-14:20
       </div>
       <div>
-        Tech demo - Vue libraries and tools in action
+        Implememnting Nuxt frontend in real project <span class="font-bold italic">[Alois Sečkár]</span>
       </div>
     </div>
     <div class="flex gap-4">
@@ -85,7 +85,7 @@
         14:40-15:20
       </div>
       <div>
-        Case study - implementing and running Nuxt/Vue apps
+        VueJS.land - merging communities <span class="font-bold italic">[Konstantin Bifert]</span>
       </div>
     </div>
     <div class="flex gap-4">
@@ -93,7 +93,7 @@
         15:20-16:00
       </div>
       <div>
-        Case study - implementing and running Nuxt/Vue apps
+        Hiring Vue.js developers <span class="font-bold italic">[Juan Andrés Núñez]</span>
       </div>
     </div>
     <div class="mt-4 text-lg text-center text-[#ff6c43]">
