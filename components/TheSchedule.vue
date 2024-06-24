@@ -1,7 +1,7 @@
 <template>
   <a name="schedule" />
   <div :class="PAGE_BLOCK" class="bg-[url('/bg2.webp')]">
-    <div :class="CONTENT_LEFT">
+    <div :class="CONTENT_LEFT" class="lg:w-1/3">
       <div class="inline-block text-[43px] font-bold">
         {{ $t('schedule.title') }}
       </div>
@@ -26,7 +26,7 @@
       </div>
     </div>
 
-    <div :class="CONTENT_RIGHT">
+    <div :class="CONTENT_RIGHT" class="lg:w-2/3">
       <div :class="CARD_GRAY">
         <UTabs :items="tabs" :ui="tabsUi" class="w-full">
           <template #default="{ item }">

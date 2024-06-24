@@ -13,7 +13,7 @@
         09:15-09:50
       </div>
       <div>
-        Keynote - what's new in Vue.js world?
+        What's new in Vue.js / Nuxt world? <span class="font-bold italic">[Daniel Roe]</span>
       </div>
     </div>
     <div class="flex gap-4">
@@ -21,7 +21,7 @@
         09:50-10:30
       </div>
       <div>
-        Meet Nuxt <span class="font-bold italic">[Daniel Roe]</span>
+        Fullstack application with Nuxt <span class="font-bold italic">[Estéban Soubiran]</span>
       </div>
     </div>
     <div class="flex gap-4">
@@ -61,7 +61,7 @@
         13:00-13:40
       </div>
       <div>
-        Fullstack application with Nuxt <span class="font-bold italic">[Estéban Soubiran]</span>
+        Mini-game using the TresJS library <span class="font-bold italic">[Thorsten Seyschab]</span>
       </div>
     </div>
     <div class="flex gap-4">

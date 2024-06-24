@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
     <SpeakerCard
       name="Daniel Roe" about="Open-source maintainer and founder, leader of the Nuxt core team"
       country="GBR" image="roe_d" link="https://roe.dev/"
@@ -25,11 +25,12 @@
       country="FRA" image="soubrain_e" link="https://soubiran.dev/"
     />
     <SpeakerCard
-      name="Alois Sečkár" about="Application developer at Eviden, maintainer of https://cs.vuejs.org"
-      country="CZE" image="seckar_a" link="https://alois-seckar.cz/"
+      name="Thorsten Seyschab" about="Computer scientist from Germany focused on web technologies and databases"
+      country="GER" image="seyschab_t" link="https://todde.tv/"
     />
     <SpeakerCard
-      name="...and 1 more!" about="Last speaker will be revealed soon"
+      name="Alois Sečkár" about="Application developer at Eviden, maintainer of cs.vuejs.org"
+      country="CZE" image="seckar_a" link="https://alois-seckar.cz/"
     />
   </div>
 </template>
