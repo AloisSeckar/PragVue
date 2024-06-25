@@ -25,7 +25,7 @@
       country="FRA" image="soubrain_e" link="https://soubiran.dev/"
     />
     <SpeakerCard
-      name="Thorsten Seyschab" about="Computer scientist from Germany focused on web technologies and databases"
+      name="Thorsten Seyschab" about="Computer scientist and web engineer focused on web technologies and databases"
       country="GER" image="seyschab_t" link="https://todde.tv/"
     />
     <SpeakerCard
