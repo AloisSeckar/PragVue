@@ -35,6 +35,6 @@
     &copy; 2024
     <a class="font-bold hover:text-[#ff6c43]" href="https://www.evidencz.com/" title="Eviden Czech Republic">www.evidencz.com</a>
     in association with
-    <a class="font-bold hover:text-[#37a0e6]" href="https://www.gopas.eu/" title="IT training center GOPAS">www.gopas.eu</a>
+    <a class="font-bold hover:text-[#37a0e6]" href="https://www.gopas.cz/" title="IT training center GOPAS">www.gopas.cz</a>
   </div>
 </template>

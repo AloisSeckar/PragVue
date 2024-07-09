@@ -9,7 +9,7 @@
           >
         </a>
         <span class="hidden sm:inline">&</span>
-        <a href="https://www.gopas.eu/">
+        <a href="https://www.gopas.cz/">
           <img
             class="inline-block w-auto h-14 sm:h-14 cursor-pointer" src="/gopas.webp"
             title="IT training center GOPAS" alt="Gopas logo"
