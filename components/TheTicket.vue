@@ -30,8 +30,11 @@
     </div>
   </div>
 
-  <div class="pt-1 px-8 pb-4 bg-black text-center">
+  <div class="pt-1 px-8 pb-4 bg-[#dddddd] text-black text-center">
     <hr class="mb-1">
-    &copy; 2024 <a class="hover:text-[#ff6c43]" href="https://www.evidencz.com/" title="Eviden">https://www.evidencz.com</a>
+    &copy; 2024
+    <a class="font-bold hover:text-[#ff6c43]" href="https://www.evidencz.com/" title="Eviden Czech Republic">www.evidencz.com</a>
+    in association with
+    <a class="font-bold hover:text-[#37a0e6]" href="https://www.gopas.eu/" title="IT training center GOPAS">www.gopas.eu</a>
   </div>
 </template>
