@@ -7,9 +7,9 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxtjs/i18n',
     '@nuxt/eslint',
+    '@nuxt/scripts',
     '@nuxt/ui',
     '@vueuse/nuxt',
-    'nuxt-gtag',
   ],
   eslint: {
     config: {
@@ -22,6 +22,16 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       Montserrat: true,
+    },
+  },
+  scripts: {
+    registry: {
+      googleAnalytics: {
+        id: 'G-DGF1H9DLEK',
+      },
+      googleTagManager: {
+        id: 'GTM-54QNGDB7',
+      },
     },
   },
 })
