@@ -1,8 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  compatibilityDate: '2024-08-05',
+
   devtools: {
     enabled: false,
   },
+
   modules: [
     '@nuxtjs/google-fonts',
     '@nuxtjs/i18n',
@@ -11,19 +14,23 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@vueuse/nuxt',
   ],
+
   eslint: {
     config: {
       stylistic: true,
     },
   },
+
   colorMode: {
     preference: 'light',
   },
+
   googleFonts: {
     families: {
       Montserrat: true,
     },
   },
+
   scripts: {
     registry: {
       googleAnalytics: {
@@ -34,4 +41,5 @@ export default defineNuxtConfig({
       },
     },
   },
+
 })
