@@ -18,7 +18,7 @@
     />
     <SpeakerCard
       name="Juan Andrés Núñez" about="Software engineer, Vue.js specialist"
-      country="ESP" image="nunez_j" link="https://wmedia.es/"
+      country="ESP" image="nunez_j" link="https://escuelavue.es/"
     />
     <SpeakerCard
       name="Estéban Soubiran" about="French web engineer based in Paris"
