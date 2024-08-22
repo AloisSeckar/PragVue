@@ -5,10 +5,10 @@
       <div class="inline-block text-[43px] font-bold">
         {{ $t('schedule.title') }}
       </div>
-      <div class="mb-1 text-2xl font-bold">
+      <div class="mb-10 text-2xl font-bold">
         {{ $t('intro.date') }}
       </div>
-      <div class="mb-10 text-xl text-[#dddddd]">
+      <div class="mb-10 text-xl text-[#dddddd] hidden">
         {{ $t('intro.place') }}
         <a href="https://maps.app.goo.gl/BksoN2qFxf61Tn2v8">🗺️</a>
       </div>
