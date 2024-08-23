@@ -34,6 +34,7 @@ export default defineNuxtConfig({
   scripts: {
     globals: {
       myScript: ['https://app.termly.io/resource-blocker/bbc9f62b-96e1-4064-bea5-e604bb669e55?autoBlock=on', {
+        bundle: true,
         trigger: 'onNuxtReady',
       }],
     },
