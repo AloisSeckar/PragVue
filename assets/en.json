@@ -33,7 +33,7 @@
     },
     "ticket": {
         "title": "Get your ticket today",
-        "price": "Tickets are available for <strong>&euro;179</strong>",
+        "price": "Tickets are available for <strong><s>&euro;179</s></strong> <span class='text-red-500 text-3xl font-bold'>&euro;119</span> (limited offer)",
         "sign": "Sign me in!",
         "questions": "<strong>More questions?</strong> Reach us via <strong>alois.seckar [at] eviden [dot] com</strong>"
     }
