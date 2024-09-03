@@ -6,10 +6,10 @@
     />
     <SpeakerCard
       name="Alexander Lichter" about="Web engineering consultant based in Amsterdam"
-      country="GER" image="lichter_a" link="https://www.lichter.io/"
+      country="NED" image="lichter_a" link="https://www.lichter.io/"
     />
     <SpeakerCard
-      name="Konstantin Bifert" about="Frontend developer ~ VueJS ecosystem lover"
+      name="Konstantin BIFERT" about="Frontend developer ~ VueJS ecosystem lover"
       country="NED" image="bifert_k" link="https://kissu.io/"
     />
     <SpeakerCard
