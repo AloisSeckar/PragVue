@@ -13,7 +13,7 @@
         09:15-09:50
       </div>
       <div>
-        What's new in Vue.js / Nuxt world? <span class="font-bold italic">[Daniel Roe]</span>
+        What's New in Nuxt 4 <span class="font-bold italic">[Daniel Roe]</span>
       </div>
     </div>
     <div class="flex gap-4">
@@ -45,7 +45,7 @@
         11:25-12:00
       </div>
       <div>
-        Security and testing <span class="font-bold italic">[Ramona Schwering]</span>
+        Plants vs thieves: Automated Tests in the World of Web Security <span class="font-bold italic">[Ramona Schwering]</span>
       </div>
     </div>
     <div class="flex gap-4">
@@ -61,7 +61,7 @@
         13:00-13:40
       </div>
       <div>
-        Mini-game using the TresJS library <span class="font-bold italic">[Thorsten Seyschab]</span>
+        Playing with Vue in 3D <span class="font-bold italic">[Thorsten Seyschab]</span>
       </div>
     </div>
     <div class="flex gap-4">
@@ -69,7 +69,7 @@
         13:40-14:20
       </div>
       <div>
-        Implememnting Nuxt frontend in real project <span class="font-bold italic">[Alois Sečkár]</span>
+        Implemementing Nuxt frontend in real project <span class="font-bold italic">[Alois Sečkár]</span>
       </div>
     </div>
     <div class="flex gap-4">
@@ -85,7 +85,7 @@
         14:40-15:20
       </div>
       <div>
-        VueJS.land - merging communities <span class="font-bold italic">[Konstantin Bifert]</span>
+        Ship Vue.js on 5+ platforms <span class="font-bold italic">[Konstantin Bifert]</span>
       </div>
     </div>
     <div class="flex gap-4">
