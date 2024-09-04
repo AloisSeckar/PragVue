@@ -8,9 +8,9 @@
       <div class="mb-10 text-2xl font-bold">
         {{ $t('intro.date') }}
       </div>
-      <div class="mb-10 text-xl text-[#dddddd] hidden">
+      <div class="mb-10 text-xl text-[#dddddd]">
         {{ $t('intro.place') }}
-        <a href="https://maps.app.goo.gl/BksoN2qFxf61Tn2v8">🗺️</a>
+        <a href="https://maps.app.goo.gl/kYzHaNKrc346BVfbA">🗺️</a>
       </div>
       <div class="flex flex-col sm:flex-row gap-2 justify-end">
         <a href="https://pragvue.konference.cz/">
