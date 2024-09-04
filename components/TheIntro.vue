@@ -27,7 +27,10 @@
         {{ $t('intro.present') }}
       </div>
       <div>
-        <img class="inline-block w-auto h-28 cursor-pointer mb-2" src="/vue.webp" alt="Vue.js logo">
+        <img
+          class="inline-block w-auto h-40 cursor-pointer mb-2" src="/pragvue.svg"
+          title="PragVue" alt="PragVue logo"
+        >
       </div>
       <div class="flex flex-col min-[660px]:flex-row justify-center mb-4">
         <h1 class="inline-block mx-4 text-[56px] sm:text-[72px]">
