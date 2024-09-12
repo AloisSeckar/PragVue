@@ -21,7 +21,7 @@
         09:50-10:30
       </div>
       <div>
-        Fullstack application with Nuxt <span class="font-bold italic">[Estéban Soubiran]</span>
+        Fullstack application with NuxtHub <span class="font-bold italic">[Estéban Soubiran]</span>
       </div>
     </div>
     <div class="flex gap-4">
