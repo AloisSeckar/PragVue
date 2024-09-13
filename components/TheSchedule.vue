@@ -13,7 +13,7 @@
         <a href="https://maps.app.goo.gl/kYzHaNKrc346BVfbA">🗺️</a>
       </div>
       <div class="flex flex-col sm:flex-row gap-2 justify-end">
-        <a href="https://pragvue.konference.cz/">
+        <a href="https://pragvue.konference.cz/" class="hidden">
           <button :class="BUTTON_LIGHT">
             {{ $t('intro.register') }}
           </button>

@@ -19,7 +19,7 @@
         </div>
         <!-- eslint-disable-next-line vue/no-v-html -->
         <p class="text-2xl mb-6" v-html="$t('ticket.price')" />
-        <a href="https://pragvue.konference.cz/">
+        <a href="https://pragvue.konference.cz/" class="hidden">
           <button :class="BUTTON_DARK">
             {{ $t('ticket.sign') }}
           </button>

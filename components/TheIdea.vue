@@ -38,7 +38,7 @@
         {{ $t('idea.date') }}
       </p>
       <div class="flex flex-col sm:flex-row gap-2">
-        <a href="https://pragvue.konference.cz/">
+        <a href="https://pragvue.konference.cz/" class="hidden">
           <button :class="BUTTON_DARK">
             {{ $t('intro.register') }}
           </button>
