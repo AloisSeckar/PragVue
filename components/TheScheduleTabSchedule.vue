@@ -93,7 +93,7 @@
         15:20-16:00
       </div>
       <div>
-        Hiring Vue.js developers <span class="font-bold italic">[Juan Andrés Núñez]</span>
+        Real-Time Vue with Firebase <span class="font-bold italic">[Juan Andrés Núñez]</span>
       </div>
     </div>
     <div class="mt-4 text-lg text-center text-[#ff6c43]">
