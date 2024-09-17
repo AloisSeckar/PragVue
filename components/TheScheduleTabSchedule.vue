@@ -37,7 +37,7 @@
         10:50-11:25
       </div>
       <div>
-        Vue practical tips and tricks <span class="font-bold italic">[Alexander Lichter]</span>
+        Vue Done Right: Composable Best Practices Simplified <span class="font-bold italic">[Alexander Lichter]</span>
       </div>
     </div>
     <div class="flex gap-4">
