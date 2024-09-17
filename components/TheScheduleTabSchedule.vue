@@ -96,7 +96,7 @@
         Real-Time Vue with Firebase <span class="font-bold italic">[Juan Andrés Núñez]</span>
       </div>
     </div>
-    <div class="mt-4 text-lg text-center text-[#ff6c43]">
+    <div class="mt-4 text-lg text-center text-[#ff6c43] hidden">
       {{ $t('schedule.soon') }}
     </div>
   </div>
