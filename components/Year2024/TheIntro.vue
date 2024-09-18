@@ -1,7 +1,6 @@
 <template>
   <div class="flex flex-col min-h-screen items-center justify-center bg-[url('/bg1.webp')] bg-center bg-cover">
     <div class="w-full max-w-[800px] p-2 flex flex-col flex-grow justify-center text-center">
-      <!--
       <div class="flex flex-col md:flex-row gap-6 md:gap-2 my-4 justify-center items-center text-[#dddddd] font-bold">
         <a href="https://www.evidencz.com/">
           <img
@@ -34,7 +33,6 @@
       <div class="text-xl text-[#dddddd] mb-6 md:mb-8">
         {{ $t('intro.present') }}
       </div>
-      -->
       <div>
         <img
           class="inline-block w-auto h-40 cursor-pointer mb-2" src="/pragvue.svg"
@@ -43,30 +41,15 @@
       </div>
       <div class="flex flex-col min-[660px]:flex-row justify-center mb-4">
         <h1 class="inline-block mx-4 text-[56px] md:text-[72px]">
-          <span class="font-bold">PragVue</span>
+          <span class="font-bold">PragVue</span> 2024
         </h1>
       </div>
-      <div class="mb-4 text-2xl text-[#dddddd]">
+      <div class="mb-1 text-2xl text-[#dddddd]">
         {{ $t('intro.about') }}
       </div>
-      <div class="mb-2 text-2xl font-bold">
-        {{ $t('intro.2025') }}
+      <div class="mb-10 text-2xl font-bold">
+        {{ $t('intro.date') }}
       </div>
-      <div>
-        <img
-          class="inline-block w-auto h-96 cursor-pointer mb-2" src="/pragvue2024.webp"
-          title="PragVue 2024 speakers" alt="PragVue 2024 speakers"
-        >
-      </div>
-      <div class="mb-10 text-xl text-amber-300 hover:text-[#ff6c43] font-bold">
-        <a href="/2024" title="PragVue 2024">PragVue in 2024</a>
-      </div>
-      <div class="pt-1 px-8 pb-4">
-        <hr class="mb-1">
-        &copy; 2024
-        <a class="font-bold hover:text-[#ff6c43]" href="https://www.evidencz.com/" title="Eviden Czech Republic">www.evidencz.com</a>
-      </div>
-      <!--
       <div class="mb-10 text-xl text-[#dddddd]">
         {{ $t('intro.place') }}
         <a href="https://maps.app.goo.gl/kYzHaNKrc346BVfbA">🗺️</a>
@@ -76,7 +59,6 @@
           {{ $t('intro.more') }}
         </button>
       </a>
-      -->
     </div>
   </div>
 </template>

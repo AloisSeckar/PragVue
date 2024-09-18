@@ -1,10 +1,6 @@
 <template>
   <div>
     <TheIntro />
-    <TheIdea />
-    <TheSchedule />
-    <TheFeatures />
-    <TheTicket />
   </div>
 </template>
 
