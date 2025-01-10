@@ -51,7 +51,7 @@
       </div>
       <div class="pt-1 px-8 pb-4">
         <hr class="mb-1">
-        &copy; 2024
+        &copy; {{ new Date().getFullYear() }}
         <a class="font-bold hover:text-[#ff6c43]" href="https://www.evidencz.com/" title="Eviden Czech Republic">www.evidencz.com</a>
       </div>
       <!--
