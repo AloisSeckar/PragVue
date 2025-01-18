@@ -2,6 +2,10 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-08-05',
 
+  future: {
+    compatibilityVersion: 4,
+  },
+
   devtools: {
     enabled: false,
   },
@@ -45,6 +49,24 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       routes: ['/'],
+    },
+  },
+
+  i18n: {
+    defaultLocale: 'en',
+    types: 'composition',
+    locales: [
+      {
+        code: 'en',
+        language: 'en-US',
+        file: 'en.json',
+      },
+    ],
+    experimental: {
+      typedOptionsAndMessages: 'default',
+    },
+    compilation: {
+      strictMessage: false,
     },
   }
 
