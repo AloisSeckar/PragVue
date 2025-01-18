@@ -1,14 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-08-05',
-
-  future: {
-    compatibilityVersion: 4,
-  },
-
-  devtools: {
-    enabled: false,
-  },
 
   modules: [
     '@nuxtjs/google-fonts',
@@ -16,8 +7,38 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/scripts',
     '@vueuse/nuxt',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
   ],
+
+  devtools: {
+    enabled: false,
+  },
+
+  future: {
+    compatibilityVersion: 4,
+  },
+  compatibilityDate: '2024-08-05',
+
+  nitro: {
+    prerender: {
+      routes: ['/'],
+    },
+  },
+
+  typescript: {
+    strict: true,
+    typeCheck: true,
+    tsConfig: {
+      compilerOptions: {
+        noImplicitOverride: true,
+        noImplicitAny: true,
+        noImplicitThis: true,
+        strictFunctionTypes: true,
+        strictNullChecks: true,
+        noUncheckedIndexedAccess: true,
+      },
+    },
+  },
 
   eslint: {
     config: {
@@ -28,23 +49,6 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       Montserrat: true,
-    },
-  },
-
-  scripts: {
-    registry: {
-      googleAnalytics: {
-        id: 'G-DGF1H9DLEK',
-      },
-      googleTagManager: {
-        id: 'GTM-54QNGDB7',
-      },
-    },
-  },
-
-  nitro: {
-    prerender: {
-      routes: ['/'],
     },
   },
 
@@ -64,6 +68,17 @@ export default defineNuxtConfig({
     compilation: {
       strictMessage: false,
     },
-  }
+  },
+
+  scripts: {
+    registry: {
+      googleAnalytics: {
+        id: 'G-DGF1H9DLEK',
+      },
+      googleTagManager: {
+        id: 'GTM-54QNGDB7',
+      },
+    },
+  },
 
 })
