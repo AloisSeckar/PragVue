@@ -15,18 +15,14 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@nuxt/eslint',
     '@nuxt/scripts',
-    '@nuxt/ui',
     '@vueuse/nuxt',
+    '@nuxtjs/tailwindcss'
   ],
 
   eslint: {
     config: {
       stylistic: true,
     },
-  },
-
-  colorMode: {
-    preference: 'light',
   },
 
   googleFonts: {
