@@ -23,6 +23,20 @@
           The speakers
         </UiHeading>
 
+        <UiSwiper class="py-12" :slides="speakers">
+          <template #slide="{ slide }">
+            <UiSpeakerBox
+              :name="slide.name"
+              :description="slide.description"
+              :img="{ githubUsername: slide.githubUsername }"
+            />
+          </template>
+        </UiSwiper>
+
+        <p class="text-base max-w-[72ch] text-center mx-auto mt-8">
+          These speakers will be joining us to share their insights, expertise, and real-world experiences. From seasoned Vue.js veterans to innovative leaders in web development, each speaker brings unique perspectives to help you level up your skills. Don’t miss the opportunity to learn from and connect with these industry experts!
+        </p>
+
         <!--  TODO: add speakers list  -->
       </LayoutContainerContent>
     </layoutcontainer>
@@ -38,8 +52,10 @@
           Thank you to all the attendees and all the speakers. We’re hoping to make the next one even better!
         </p>
 
-          <!--  TODO: replace with NuxtImg  -->
-        <img
+        <!--  TODO: replace with NuxtImg  -->
+        <UiImage
+          class="w-auto aspect-[1200/971] max-h-[750px] mx-auto my-16"
+          fit="contain"
           src="/pragvue2024.webp"
           alt="A picture of the speakers from the 2024 conference"
         />
@@ -73,5 +89,21 @@
 </template>
 
 <script setup lang="ts">
-
+const speakers = [
+  {
+    name: 'Daniel Roe',
+    description: 'Head of Nuxt core team',
+    githubUsername: 'danielroe',
+  },
+  {
+    name: 'Alexander Lichter',
+    description: 'Nuxt core team member',
+    githubUsername: 'TheAlexLichter',
+  },
+  {
+    name: 'Konstantin Bifert',
+    description: 'Frontend developer',
+    githubUsername: 'kissu',
+  },
+]
 </script>

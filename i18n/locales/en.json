@@ -1,4 +1,7 @@
 {
+    "accessibility": {
+        "photo_of_speaker_name": "A photo of the speaker \"{name}\""
+    },
     "messages": {
         "the_czech_vuejs_conference": "the Czech Vue.js conference"
     },

@@ -4,8 +4,11 @@ import plugin from 'tailwindcss/plugin'
 export default <Partial<Config>>{
   theme: {
     extend: {
+      fontFamily: {
+        default: ['Inter', 'sans-serif'],
+      },
       colors: {
-        woodsmoke: {
+        'woodsmoke': {
           100: '#cccccc',
           200: '#b3b3b3',
           300: '#999999',
@@ -16,14 +19,14 @@ export default <Partial<Config>>{
           800: '#242424',
           900: '#0f0f0f',
         },
-        vue: '#42B883',
+        'vue': '#42B883',
+        'vue-dark': '#3aa173',
       },
     },
   },
   plugins: [
     plugin(({
       addComponents,
-      theme,
     }) => {
       addComponents({
         '.absolute-center': {
@@ -33,10 +36,8 @@ export default <Partial<Config>>{
           transform: 'translate(-50%, -50%)',
         },
         '.text-base': {
-          fontSize: '1rem',
-          lineHeight: '1.3',
           letterSpacing: '0.01em',
-        }
+        },
       })
     }),
   ],

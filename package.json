@@ -26,5 +26,8 @@
     "vue-router": "latest",
     "vue-tsc": "^2.2.0"
   },
-  "packageManager": "pnpm@9.15.4"
+  "packageManager": "pnpm@9.15.4",
+  "dependencies": {
+    "swiper": "^11.2.1"
+  }
 }
