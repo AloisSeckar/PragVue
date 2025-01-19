@@ -49,6 +49,7 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       Montserrat: true,
+      Inter: [800],
     },
   },
 

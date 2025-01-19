@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+import plugin from 'tailwindcss/plugin'
 
 export default <Partial<Config>>{
   theme: {
@@ -11,7 +12,7 @@ export default <Partial<Config>>{
           400: '#808080',
           500: '#666666',
           600: '#4d4d4d',
-          700: '#333333',
+          700: '#353535',
           800: '#242424',
           900: '#0f0f0f',
         },
@@ -19,4 +20,19 @@ export default <Partial<Config>>{
       },
     },
   },
+  plugins: [
+    plugin(({
+      addComponents,
+      theme,
+    }) => {
+      addComponents({
+        '.absolute-center': {
+          position: 'absolute',
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)',
+        },
+      })
+    }),
+  ],
 }

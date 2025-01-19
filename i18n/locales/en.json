@@ -1,4 +1,7 @@
 {
+    "messages": {
+        "the_czech_vuejs_conference": "the Czech Vue.js conference"
+    },
     "intro": {
         "present": "present",
         "about": "Vue.js conference in Prague",
