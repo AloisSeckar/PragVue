@@ -1,14 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-08-05',
-
-  future: {
-    compatibilityVersion: 4,
-  },
-
-  devtools: {
-    enabled: false,
-  },
 
   modules: [
     '@nuxtjs/google-fonts',
@@ -18,6 +9,15 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@vueuse/nuxt',
   ],
+
+  devtools: {
+    enabled: false,
+  },
+
+  future: {
+    compatibilityVersion: 4,
+  },
+  compatibilityDate: '2024-08-05',
 
   nitro: {
     prerender: {
