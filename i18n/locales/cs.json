@@ -1,0 +1,30 @@
+{
+    "accessibility": {
+        "photo_of_speaker_name": "Fotografie řečníka \"{name}\"",
+        "photo_of_the_speakers_from_2024": "Fotografie řečníků z konference 2024"
+    },
+    "headings": {
+        "the_czech_vuejs_conference": "česká konference Vue.js",
+        "about_the_conference": "O konferenci",
+        "the_speakers": "Řečníci",
+        "look_back_on_2024": "Ohlédnutí za rokem 2024"
+    },
+    "pages": {
+        "home": {
+            "conference_pitch": "Vue.js je snadno naučitelný, škálovatelný, vysoce výkonný díky svému koherentnímu systému reaktivity a má bohatý ekosystém okolních knihoven. Navzdory své výjimečnosti zůstává Vue.js pro mnohé neobjevený. Právě proto pořádáme tuto konferenci – abychom prozkoumali jeho potenciál a upozornili na jeho pozoruhodné schopnosti.",
+            "speakers_info": "Tito řečníci se k nám připojí, aby sdíleli své poznatky, odborné znalosti a reálné zkušenosti. Od zkušených veteránů Vue.js až po inovativní lídry ve webovém vývoji – každý řečník přináší jedinečný pohled, který vám pomůže zdokonalit vaše dovednosti. Nenechte si ujít příležitost učit se od těchto odborníků a spojit se s nimi!",
+            "look_back_on_2024": "PragVue 2024 byla skvělá! Loni jsme pořádali první českou konferenci Vue.js. {br} Děkujeme všem účastníkům a řečníkům. Věříme, že ta další bude ještě lepší!"
+        }
+    },
+    "speakers": {
+        "danielroe": {
+            "short_description": "Vedoucí týmu Nuxt core"
+        },
+        "TheAlexLichter": {
+            "short_description": "Člen týmu Nuxt core"
+        },
+        "kissu": {
+            "short_description": "Frontend vývojář"
+        }
+    }
+}

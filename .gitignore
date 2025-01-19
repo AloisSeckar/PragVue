@@ -5,3 +5,9 @@ dist
 node_modules
 public/.DS_Store
 .DS_Store
+
+# JetBrains IDEs
+.idea
+!.idea/PragVue.iml
+!.idea/modules.xml
+!.idea/inspectionProfiles/Project_Default.xml

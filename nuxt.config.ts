@@ -6,8 +6,9 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@nuxt/eslint',
     '@nuxt/scripts',
-    '@nuxt/ui',
     '@vueuse/nuxt',
+    '@nuxtjs/tailwindcss',
+    '@nuxt/image',
   ],
 
   devtools: {
@@ -49,17 +50,25 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       Montserrat: true,
+      Inter: [600, 800],
     },
   },
 
   i18n: {
+    lazy: true,
     defaultLocale: 'en',
     types: 'composition',
+    detectBrowserLanguage: false,
     locales: [
       {
         code: 'en',
         language: 'en-US',
         file: 'en.json',
+      },
+      {
+        code: 'cs',
+        language: 'cs-CZ',
+        file: 'cs.json',
       },
     ],
     experimental: {
