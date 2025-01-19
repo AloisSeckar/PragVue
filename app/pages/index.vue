@@ -33,13 +33,13 @@
         <p class="text-base max-w-[72ch] text-center mx-auto mt-8">
           {{ $t('pages.home.speakers_info') }}
         </p>
-
-        <!--  TODO: add speakers list  -->
       </LayoutContainerContent>
     </layoutcontainer>
 
     <LayoutContainer>
       <LayoutContainerContent>
+        <!--  TODO: add link to 2024 summary  -->
+
         <UiHeading class="mb-6">
           {{ $t('headings.look_back_on_2024') }}
         </UiHeading>
@@ -55,7 +55,6 @@
           </template>
         </i18n-t>
 
-        <!--  TODO: replace with NuxtImg  -->
         <UiImage
           class="w-auto aspect-[1200/971] max-h-[750px] mx-auto my-16"
           fit="contain"
@@ -92,7 +91,6 @@
 </template>
 
 <script setup lang="ts">
-
 const { t } = useI18n()
 
 const speakers = computed(() => [
