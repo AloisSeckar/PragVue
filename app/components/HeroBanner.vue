@@ -21,6 +21,7 @@
     position: relative;
     height: 40rem;
     isolation: isolate;
+    overflow: hidden;
 }
 
 .pgv-hero-banner__bg {

@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
     '@vueuse/nuxt',
     '@nuxtjs/tailwindcss',
+    '@nuxt/image',
   ],
 
   devtools: {

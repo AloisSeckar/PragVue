@@ -32,6 +32,11 @@ export default <Partial<Config>>{
           left: '50%',
           transform: 'translate(-50%, -50%)',
         },
+        '.text-base': {
+          fontSize: '1rem',
+          lineHeight: '1.3',
+          letterSpacing: '0.01em',
+        }
       })
     }),
   ],
