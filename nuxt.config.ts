@@ -55,13 +55,20 @@ export default defineNuxtConfig({
   },
 
   i18n: {
+    lazy: true,
     defaultLocale: 'en',
     types: 'composition',
+    detectBrowserLanguage: false,
     locales: [
       {
         code: 'en',
         language: 'en-US',
         file: 'en.json',
+      },
+      {
+        code: 'cs',
+        language: 'cs-CZ',
+        file: 'cs.json',
       },
     ],
     experimental: {

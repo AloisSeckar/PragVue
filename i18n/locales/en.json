@@ -1,9 +1,31 @@
 {
     "accessibility": {
-        "photo_of_speaker_name": "A photo of the speaker \"{name}\""
+        "photo_of_speaker_name": "A photo of the speaker \"{name}\"",
+        "photo_of_the_speakers_from_2024": "A picture of the speakers from the 2024 conference"
     },
-    "messages": {
-        "the_czech_vuejs_conference": "the Czech Vue.js conference"
+    "headings": {
+        "the_czech_vuejs_conference": "the Czech Vue.js conference",
+        "about_the_conference": "About the conference",
+        "the_speakers": "The speakers",
+        "look_back_on_2024": "A look back on 2024"
+    },
+    "pages": {
+        "home": {
+            "conference_pitch": "Vue.js is easy to learn, scalable, highly performant thanks to its coherent reactivity system, and has a rich ecosystem of surrounding libraries. Despite its greatness, Vue.js remains undiscovered by many. That's precisely why we're hosting this conference - to delve deeper into its potential and shed light on its remarkable capabilities.",
+            "speakers_info": "These speakers will be joining us to share their insights, expertise, and real-world experiences. From seasoned Vue.js veterans to innovative leaders in web development, each speaker brings unique perspectives to help you level up your skills. Don’t miss the opportunity to learn from and connect with these industry experts!",
+            "look_back_on_2024": "PragVue 2024 was a blast! Last year, we hosted the first Czech Vue.js conference. {br} Thank you to all the attendees and all the speakers. We’re hoping to make the next one even better!"
+        }
+    },
+    "speakers": {
+        "danielroe": {
+            "short_description": "Head of Nuxt core team"
+        },
+        "TheAlexLichter": {
+            "short_description": "Nuxt core team member"
+        },
+        "kissu": {
+            "short_description": "Frontend developer"
+        }
     },
     "intro": {
         "present": "present",

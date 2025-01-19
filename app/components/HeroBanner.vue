@@ -6,7 +6,7 @@
       <TheLogo />
 
       <p class="text-sm sm:text-lg md:text-2xl text-center">
-        {{ $t('messages.the_czech_vuejs_conference') }}
+        {{ $t('headings.the_czech_vuejs_conference') }}
       </p>
     </LayoutContainerContent>
   </LayoutContainer>
