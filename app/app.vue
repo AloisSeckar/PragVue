@@ -1,5 +1,14 @@
 <template>
   <NuxtPage />
+  <LayoutContainer tag="footer">
+    <LayoutContainerContent size-y="small">
+      <div class="text-woodsmoke-700 font-default font-semibold text-center text-lg test">
+        <span class="text-woodsmoke-400">
+          copyright © 2025
+        </span>
+      </div>
+    </LayoutContainerContent>
+  </LayoutContainer>
 </template>
 
 <script setup lang="ts">
@@ -30,5 +39,13 @@ html {
   scroll-behavior: smooth;
   color: #dddddd;
   font-family: "Montserrat", Sans-serif;
+}
+
+.test:before {
+  content: '<!--';
+}
+
+.test:after {
+  content: '-->';
 }
 </style>

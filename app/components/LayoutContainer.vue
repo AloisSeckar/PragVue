@@ -1,11 +1,15 @@
 <template>
-  <div>
+  <component :is="tag">
     <slot />
-  </div>
+  </component>
 </template>
 
 <script lang="ts" setup>
-
+const {
+  tag = 'div',
+} = defineProps<{
+  tag?: 'div' | 'footer'
+}>()
 </script>
 
 <style scoped>

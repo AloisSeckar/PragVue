@@ -3,7 +3,7 @@
     <IconPragueSilhouette class="pgv-hero-banner__bg" />
 
     <LayoutContainerContent class="flex flex-col items-center justify-center gap-4 sm:gap-6 h-full">
-      <TheLogo />
+      <TheLogo tag="h1" />
 
       <p class="text-sm sm:text-lg md:text-2xl text-center">
         {{ $t('headings.the_czech_vuejs_conference') }}
