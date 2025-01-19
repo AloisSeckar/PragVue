@@ -4,7 +4,7 @@
     <LayoutContainerContent size-y="small">
       <div class="text-woodsmoke-700 font-default font-semibold text-center text-lg test">
         <span class="text-woodsmoke-400">
-          copyright © 2025
+          copyright © {{ year }}
         </span>
       </div>
     </LayoutContainerContent>
@@ -32,6 +32,9 @@ useSeoMeta({
   ogImage: 'https://pragvue.com/pragvue.jpg',
   twitterCard: 'summary_large_image',
 })
+
+const year = useState(() => new Date().getFullYear())
+
 </script>
 
 <style>
