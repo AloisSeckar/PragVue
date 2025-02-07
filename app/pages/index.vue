@@ -95,19 +95,24 @@ const { t } = useI18n()
 
 const speakers = computed(() => [
   {
-    name: 'Daniel Roe',
-    description: t('speakers.danielroe.short_description'),
-    githubUsername: 'danielroe',
-  },
-  {
-    name: 'Alexander Lichter',
-    description: t('speakers.TheAlexLichter.short_description'),
-    githubUsername: 'TheAlexLichter',
-  },
-  {
     name: 'Konstantin Bifert',
     description: t('speakers.kissu.short_description'),
     githubUsername: 'kissu',
+  },
+  {
+    name: 'Jakub Andrzejewski',
+    description: t('speakers.Baroshem.short_description'),
+    githubUsername: 'Baroshem',
+  },
+  {
+    name: 'Juan Andrés Núñez',
+    description: t('speakers.juanwmedia.short_description'),
+    githubUsername: 'juanwmedia',
+  },
+  {
+    name: 'Alois Sečkár',
+    description: t('speakers.AloisSeckar.short_description'),
+    githubUsername: 'AloisSeckar',
   },
 ])
 </script>

@@ -13,7 +13,7 @@
       </div>
     </div>
 
-    <p v-if="description" class="text-xs text-center mt-4 text-woodsmoke-400">
+    <p v-if="description" class="w-[250px] text-sm text-center mt-4 text-woodsmoke-400">
       {{ description }}
     </p>
   </div>

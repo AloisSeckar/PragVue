@@ -17,14 +17,17 @@
         }
     },
     "speakers": {
-        "danielroe": {
-            "short_description": "Head of Nuxt core team"
-        },
-        "TheAlexLichter": {
-            "short_description": "Nuxt core team member"
+        "Baroshem": {
+            "short_description": "Software Developer, Technical Diver, Traveller, and Cat Lover"
         },
         "kissu": {
-            "short_description": "Frontend developer"
+            "short_description": "Frontend developer ~ VueJS ecosystem lover"
+        },
+        "juanwmedia": {
+            "short_description": "Software engineer ~ Vue.js specialist"
+        },
+        "AloisSeckar": {
+            "short_description": "Nuxt enthusiast ~ cs.vuejs.org translator"
         }
     },
     "intro": {
