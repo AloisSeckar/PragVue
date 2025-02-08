@@ -2,14 +2,19 @@
   <div>
     <HeroBanner />
 
+    <a name="more" />
     <LayoutContainer>
       <LayoutContainerContent>
         <UiHeading class="mb-6">
           {{ $t('headings.about_the_conference') }}
         </UiHeading>
 
-        <p class="text-base max-w-[64ch]">
-          {{ $t('pages.home.conference_pitch') }}
+        <p class="text-base max-w-[64ch] mb-4 text-balance">
+          {{ $t('pages.home.conference_info_1') }}
+        </p>
+
+        <p class="text-base max-w-[64ch] text-balance">
+          {{ $t('pages.home.conference_info_2') }}
         </p>
       </LayoutContainerContent>
     </LayoutContainer>
@@ -30,21 +35,17 @@
           </template>
         </UiSwiper>
 
-        <p class="text-base max-w-[72ch] text-center md:text-justify mx-auto mt-8">
+        <p class="text-base max-w-[72ch] text-balance mx-auto mt-8">
           {{ $t('pages.home.speakers_info') }}
         </p>
         <h3 class="text-xl text-center font-bold mt-12">
-          {{ $t('pages.home.speakers_you') }}
+          {{ $t('pages.home.speakers_you') }} 👀
         </h3>
-        <p class="text-base max-w-[72ch] text-center md:text-justify mx-auto mt-8">
+        <p class="text-base max-w-[72ch] text-balance mx-auto mt-8">
           {{ $t('pages.home.speakers_you_info') }}
         </p>
         <div class="mt-6 text-center">
-          <a href="mailto:alois.seckar@eviden.com">
-            <button class="px-4 py-2 rounded border-2 border-vue font-bold hover:bg-gray-300 hover:text-black">
-              {{ $t('pages.home.speakers_you_button') }}
-            </button>
-          </a>
+          <UiLinkButton href="mailto:alois.seckar@eviden.com" :caption="$t('pages.home.speakers_you_button') + ' 📢'" />
         </div>
       </LayoutContainerContent>
     </layoutcontainer>
@@ -61,7 +62,7 @@
           tag="p"
           scope="global"
           keypath="pages.home.look_back_on_2024"
-          class="text-base max-w-[64ch]"
+          class="text-base max-w-[64ch] text-balance"
         >
           <template #br>
             <br>

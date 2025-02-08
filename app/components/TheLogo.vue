@@ -1,6 +1,7 @@
 <template>
   <!--  eslint-disable-next-line  -->
-  <component :is="tag" class="text-white font-default font-bold pgv-logo whitespace-nowrap">Prag<span class="text-vue">Vue</span>
+  <component :is="tag" class="text-white font-default font-bold pgv-logo whitespace-nowrap">
+    Prag<span class="text-vue">Vue</span><span class="text-yellow-200">2025</span>
   </component>
 </template>
 
