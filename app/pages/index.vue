@@ -30,9 +30,22 @@
           </template>
         </UiSwiper>
 
-        <p class="text-base max-w-[72ch] text-center mx-auto mt-8">
+        <p class="text-base max-w-[72ch] text-center md:text-justify mx-auto mt-8">
           {{ $t('pages.home.speakers_info') }}
         </p>
+        <h3 class="text-xl text-center font-bold mt-12">
+          {{ $t('pages.home.speakers_you') }}
+        </h3>
+        <p class="text-base max-w-[72ch] text-center md:text-justify mx-auto mt-8">
+          {{ $t('pages.home.speakers_you_info') }}
+        </p>
+        <div class="mt-6 text-center">
+          <a href="mailto:alois.seckar@eviden.com">
+            <button class="px-4 py-2 rounded border-2 border-vue font-bold hover:bg-gray-300 hover:text-black">
+              {{ $t('pages.home.speakers_you_button') }}
+            </button>
+          </a>
+        </div>
       </LayoutContainerContent>
     </layoutcontainer>
 
