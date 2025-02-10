@@ -25,7 +25,7 @@
         />
 
         <p class="text-lg font-bold max-w-[64ch] text-center">
-          Early bird ticket price available until the end of June
+          {{ $t('pages.home.conference_info_tickets') }}
         </p>
 
         <p class="text-[42px] text-vue-light font-bold text-center mt-2 hover:cursor-pointer hover:animate-pulse">
@@ -33,8 +33,8 @@
         </p>
 
         <div class="mt-6 flex flex-col sm:flex-row gap-4 items-center justify-center">
-          <UiLinkButton :href="tickets" caption="I am in 🎫" />
-          <UiLinkButton href="#speakers" caption="Tell me more 🔍" />
+          <UiLinkButton :href="tickets" :caption="$t('buttons.tickets_2')" />
+          <UiLinkButton href="#speakers" :caption="$t('buttons.more')" />
         </div>
       </LayoutContainerContent>
     </LayoutContainer>
@@ -67,8 +67,8 @@
         </p>
 
         <div class="mt-6 flex flex-col md:flex-row gap-4 items-center justify-center">
-          <UiLinkButton href="mailto:alois.seckar@eviden.com" :caption="$t('pages.home.speakers_you_button') + ' 📢'" />
-          <UiLinkButton :href="tickets" caption="I want to attend PragVue 🎫" />
+          <UiLinkButton href="mailto:alois.seckar@eviden.com" :caption="$t('buttons.speaker')" />
+          <UiLinkButton :href="tickets" :caption="$t('buttons.tickets_3')" />
         </div>
       </LayoutContainerContent>
     </layoutcontainer>
@@ -96,7 +96,7 @@
         />
 
         <div class="mt-6 flex flex-col sm:flex-row gap-4 items-center justify-center">
-          <UiLinkButton :href="tickets" caption="Join us in 2025 🎫" />
+          <UiLinkButton :href="tickets" :caption="$t('buttons.tickets_4')" />
         </div>
       </LayoutContainerContent>
     </LayoutContainer>
@@ -112,7 +112,7 @@
     <LayoutContainer>
       <LayoutContainerContent>
         <UiHeading class="mb-6 text-vue-light">
-          Become a sponsor
+          {{ $t('headings.sponsor') }}
         </UiHeading>
 
         <UiImage
@@ -123,12 +123,12 @@
         />
 
         <p class="text-base max-w-[72ch] text-balance mx-auto mt-8">
-          Gain valuable exposure, connect with a passionate audience of developers, and help us shape the future of Vue.js by sponsoring PragVue. Seize this chance to connect with talented developers,share your vision, and shine a spotlight on your brand. Contact us for sponsorship options.
+          {{ $t('pages.home.sponsors_info') }}
         </p>
 
         <div class="mt-6 flex flex-col sm:flex-row gap-4 items-center justify-center">
-          <UiLinkButton href="mailto:alois.seckar@eviden.com" caption="Ask about PragVue sponsorship 💶" />
-          <UiLinkButton :href="tickets" caption="Buy tickets 🎫" />
+          <UiLinkButton href="mailto:alois.seckar@eviden.com" :caption="$t('buttons.sponsor')" />
+          <UiLinkButton :href="tickets" :caption="$t('buttons.tickets_1')" />
         </div>
       </LayoutContainerContent>
     </LayoutContainer>

@@ -21,18 +21,18 @@
       </p>
 
       <p class="text-sm sm:text-lg md:text-2xl text-center font-bold">
-        23 September 2025
+        {{ $t('2025.when') }}
       </p>
       <p class="text-sm sm:text-lg md:text-2xl text-center">
         <NuxtLink to="https://www.hotel-grandium.cz/" class=" hover:text-vue-light">
-          Grandium Hotel Prague
+          {{ $t('2025.where') }}
         </NuxtLink>
-        &nbsp;<a href="https://maps.app.goo.gl/vWW31EiriqbdCpTW8" title="Show on map">🗺️</a>
+        &nbsp;<a href="https://maps.app.goo.gl/vWW31EiriqbdCpTW8" :title="$t('2025.map')">🗺️</a>
       </p>
 
       <div class="mt-6 flex flex-col sm:flex-row gap-4 items-center">
-        <UiLinkButton href="https://pragvue.konference.cz/" caption="Buy tickets 🎫" />
-        <UiLinkButton href="#more" caption="More info 🔍" />
+        <UiLinkButton href="https://pragvue.konference.cz/" :caption="$t('buttons.tickets_1')" />
+        <UiLinkButton href="#more" :caption="$t('buttons.more')" />
       </div>
     </LayoutContainerContent>
   </LayoutContainer>

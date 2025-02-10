@@ -65,11 +65,13 @@ export default defineNuxtConfig({
         language: 'en-US',
         file: 'en.json',
       },
+      /*
       {
         code: 'cs',
         language: 'cs-CZ',
         file: 'cs.json',
       },
+      */
     ],
     experimental: {
       typedOptionsAndMessages: 'default',
