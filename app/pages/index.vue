@@ -62,15 +62,11 @@
           tag="p"
           scope="global"
           keypath="pages.home.look_back_on_2024"
-          class="text-base max-w-[64ch] text-balance"
-        >
-          <template #br>
-            <br>
-          </template>
-        </i18n-t>
+          class="text-base max-w-[128ch] text-balanced"
+        />
 
         <UiImage
-          class="w-auto aspect-[1200/971] max-h-[750px] mx-auto my-16"
+          class="w-auto aspect-[1200/971] max-h-[500px] mx-auto mt-8 mb-12"
           fit="contain"
           src="/pragvue2024.webp"
           :alt="$t('accessibility.photo_of_the_speakers_from_2024')"
@@ -86,13 +82,28 @@
     <!--      </LayoutContainerContent> -->
     <!--    </LayoutContainer> -->
 
-    <!--    <LayoutContainer> -->
-    <!--      <LayoutContainerContent> -->
-    <!--        <UiHeading class="mb-6"> -->
-    <!--          The sponsors -->
-    <!--        </UiHeading> -->
-    <!--      </LayoutContainerContent> -->
-    <!--    </LayoutContainer> -->
+    <LayoutContainer>
+      <LayoutContainerContent>
+        <UiHeading class="mb-6">
+          Become a sponsor
+        </UiHeading>
+
+        <UiImage
+          class="w-auto aspect-[300/200] max-h-[200px] mx-auto mt-8 mb-12"
+          fit="contain"
+          src="/sponsor.webp"
+          alt="Become a PragueVue sponsor"
+        />
+
+        <p class="text-base max-w-[72ch] text-balance mx-auto mt-8">
+          Gain valuable exposure, connect with a passionate audience of developers, and help us shape the future of Vue.js by sponsoring PragVue. Seize this chance to connect with talented developers,share your vision, and shine a spotlight on your brand. Contact us for sponsorship options.
+        </p>
+
+        <div class="mt-6 text-center">
+          <UiLinkButton href="mailto:alois.seckar@eviden.com" caption="Ask about PragVue sponsorship 💶" />
+        </div>
+      </LayoutContainerContent>
+    </LayoutContainer>
 
     <!--    <LayoutContainer> -->
     <!--      <LayoutContainerContent> -->
