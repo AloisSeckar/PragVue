@@ -28,7 +28,7 @@
           Early bird ticket price available until the end of June
         </p>
 
-        <p class="text-[40px] text-yellow-100 font-bold text-center">
+        <p class="text-[42px] text-vue-light font-bold text-center mt-2 hover:cursor-pointer hover:animate-pulse">
           &euro;199
         </p>
 
@@ -42,7 +42,7 @@
     <a name="speakers" />
     <LayoutContainer>
       <LayoutContainerContent>
-        <UiHeading class="mb-6 text-amber-100">
+        <UiHeading class="mb-6 text-vue-light">
           {{ $t('headings.the_speakers') }}
         </UiHeading>
 
@@ -111,7 +111,7 @@
 
     <LayoutContainer>
       <LayoutContainerContent>
-        <UiHeading class="mb-6 text-amber-100">
+        <UiHeading class="mb-6 text-vue-light">
           Become a sponsor
         </UiHeading>
 

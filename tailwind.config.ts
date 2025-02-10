@@ -21,6 +21,7 @@ export default <Partial<Config>>{
         },
         'vue': '#42B883',
         'vue-dark': '#3aa173',
+        'vue-light': '#fef08a',
       },
     },
   },

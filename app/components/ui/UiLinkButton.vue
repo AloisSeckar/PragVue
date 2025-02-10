@@ -1,7 +1,7 @@
 <template>
   <NuxtLink :to="href">
-    <button class="px-4 py-2 rounded border-2 border-vue font-bold hover:bg-gray-300 hover:text-black">
-      {{ caption }}
+    <button class="rounded border-2 border-vue font-bold hover:bg-woodsmoke-800 hover:border-vue-light">
+      <div class="px-4 py-2 hover:animate-pulse">{{ caption }}</div>
     </button>
   </NuxtLink>
 </template>

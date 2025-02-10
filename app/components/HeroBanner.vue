@@ -2,7 +2,7 @@
   <LayoutContainer class="pgv-hero-banner">
     <IconPragueSilhouette class="pgv-hero-banner__bg" />
 
-    <div class="mt-6 flex flex-col sm:flex-row gap-4 justify-center items-center">
+    <div class="mt-6 flex flex-row gap-4 justify-center items-center">
       <UiSponsorBox
         href="https://www.evidencz.com/" image="eviden"
         title="Eviden Czech Republic" alt="Eviden logo"
@@ -24,7 +24,7 @@
         23 September 2025
       </p>
       <p class="text-sm sm:text-lg md:text-2xl text-center">
-        <NuxtLink to="https://www.hotel-grandium.cz/" class=" hover:text-yellow-100">
+        <NuxtLink to="https://www.hotel-grandium.cz/" class=" hover:text-vue-light">
           Grandium Hotel Prague
         </NuxtLink>
         &nbsp;<a href="https://maps.app.goo.gl/vWW31EiriqbdCpTW8" title="Show on map">🗺️</a>

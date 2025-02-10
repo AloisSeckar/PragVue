@@ -2,7 +2,7 @@
   <div class="p-2">
     <a :title :href>
       <img
-        class="inline-block w-auto h-4 md:h-8 cursor-pointer" :src="`/${image}.webp`" :alt
+        class="inline-block w-auto h-6 sm:h-8 cursor-pointer" :src="`/${image}.webp`" :alt
       >
     </a>
   </div>
