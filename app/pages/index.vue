@@ -5,7 +5,7 @@
     <a name="more" />
     <LayoutContainer>
       <LayoutContainerContent>
-        <UiHeading class="mb-6">
+        <UiHeading class="mb-6 text-vue">
           {{ $t('headings.about_the_conference') }}
         </UiHeading>
 
@@ -16,12 +16,33 @@
         <p class="text-base max-w-[64ch] text-balance">
           {{ $t('pages.home.conference_info_2') }}
         </p>
+
+        <UiImage
+          class="w-auto aspect-[400/300] max-h-[250px] mx-auto my-6"
+          fit="contain"
+          src="/features.webp"
+          alt="Meme image - discover Vue.js"
+        />
+
+        <p class="text-lg font-bold max-w-[64ch] text-center">
+          Early bird ticket price available until the end of June
+        </p>
+
+        <p class="text-[40px] text-yellow-100 font-bold text-center">
+          &euro;199
+        </p>
+
+        <div class="mt-6 flex flex-col sm:flex-row gap-4 items-center justify-center">
+          <UiLinkButton :href="tickets" caption="I am in 🎫" />
+          <UiLinkButton href="#speakers" caption="Tell me more 🔍" />
+        </div>
       </LayoutContainerContent>
     </LayoutContainer>
 
+    <a name="speakers" />
     <LayoutContainer>
       <LayoutContainerContent>
-        <UiHeading class="mb-6">
+        <UiHeading class="mb-6 text-amber-100">
           {{ $t('headings.the_speakers') }}
         </UiHeading>
 
@@ -44,8 +65,10 @@
         <p class="text-base max-w-[72ch] text-balance mx-auto mt-8">
           {{ $t('pages.home.speakers_you_info') }}
         </p>
-        <div class="mt-6 text-center">
+
+        <div class="mt-6 flex flex-col md:flex-row gap-4 items-center justify-center">
           <UiLinkButton href="mailto:alois.seckar@eviden.com" :caption="$t('pages.home.speakers_you_button') + ' 📢'" />
+          <UiLinkButton :href="tickets" caption="I want to attend PragVue 🎫" />
         </div>
       </LayoutContainerContent>
     </layoutcontainer>
@@ -54,7 +77,7 @@
       <LayoutContainerContent>
         <!--  TODO: add link to 2024 summary  -->
 
-        <UiHeading class="mb-6">
+        <UiHeading class="mb-6 text-vue">
           {{ $t('headings.look_back_on_2024') }}
         </UiHeading>
 
@@ -71,6 +94,10 @@
           src="/pragvue2024.webp"
           :alt="$t('accessibility.photo_of_the_speakers_from_2024')"
         />
+
+        <div class="mt-6 flex flex-col sm:flex-row gap-4 items-center justify-center">
+          <UiLinkButton :href="tickets" caption="Join us in 2025 🎫" />
+        </div>
       </LayoutContainerContent>
     </LayoutContainer>
 
@@ -84,7 +111,7 @@
 
     <LayoutContainer>
       <LayoutContainerContent>
-        <UiHeading class="mb-6">
+        <UiHeading class="mb-6 text-amber-100">
           Become a sponsor
         </UiHeading>
 
@@ -99,8 +126,9 @@
           Gain valuable exposure, connect with a passionate audience of developers, and help us shape the future of Vue.js by sponsoring PragVue. Seize this chance to connect with talented developers,share your vision, and shine a spotlight on your brand. Contact us for sponsorship options.
         </p>
 
-        <div class="mt-6 text-center">
+        <div class="mt-6 flex flex-col sm:flex-row gap-4 items-center justify-center">
           <UiLinkButton href="mailto:alois.seckar@eviden.com" caption="Ask about PragVue sponsorship 💶" />
+          <UiLinkButton :href="tickets" caption="Buy tickets 🎫" />
         </div>
       </LayoutContainerContent>
     </LayoutContainer>
@@ -116,6 +144,9 @@
 </template>
 
 <script setup lang="ts">
+// TODO change to actual link for 2025
+const tickets = 'https://pragvue.konference.cz/'
+
 const { t } = useI18n()
 
 const speakers = computed(() => [

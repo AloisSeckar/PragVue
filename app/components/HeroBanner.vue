@@ -31,16 +31,12 @@
       </p>
 
       <div class="mt-6 flex flex-col sm:flex-row gap-4 items-center">
-        <UiLinkButton href="#" caption="Buy tickets 💰" />
+        <UiLinkButton href="https://pragvue.konference.cz/" caption="Buy tickets 🎫" />
         <UiLinkButton href="#more" caption="More info 🔍" />
       </div>
     </LayoutContainerContent>
   </LayoutContainer>
 </template>
-
-<script lang="ts" setup>
-
-</script>
 
 <style scoped>
 .pgv-hero-banner {
