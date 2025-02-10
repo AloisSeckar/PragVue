@@ -4,7 +4,7 @@
     <LayoutContainerContent size-y="small">
       <div class="text-woodsmoke-700 font-default font-semibold text-center text-lg test">
         <span class="text-woodsmoke-400">
-          copyright © {{ year }}
+          PragVue © {{ year }}
         </span>
       </div>
     </LayoutContainerContent>
@@ -34,7 +34,6 @@ useSeoMeta({
 })
 
 const year = useState(() => new Date().getFullYear())
-
 </script>
 
 <style>
