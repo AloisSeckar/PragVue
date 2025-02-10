@@ -27,5 +27,5 @@
     "vue-router": "latest",
     "vue-tsc": "2.2.0"
   },
-  "packageManager": "pnpm@9.15.5"
+  "packageManager": "pnpm@9.15.4"
 }
