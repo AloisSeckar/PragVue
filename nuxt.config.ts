@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
 
   modules: [
-    '@nuxtjs/google-fonts',
+    '@nuxt/fonts',
     '@nuxtjs/i18n',
     '@nuxt/eslint',
     '@nuxt/scripts',
@@ -44,13 +44,6 @@ export default defineNuxtConfig({
   eslint: {
     config: {
       stylistic: true,
-    },
-  },
-
-  googleFonts: {
-    families: {
-      Montserrat: true,
-      Inter: [600, 800],
     },
   },
 

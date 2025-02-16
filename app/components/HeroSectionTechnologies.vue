@@ -6,6 +6,7 @@
       :class="{
         'max-sm:hidden': !MOBILE_VISIBLE_INDEXES.includes(index),
       }"
+      :active="index === activeIndex"
       :icon="icon as any"
     />
   </div>
@@ -106,6 +107,27 @@ const icons = computed(() => {
   }
 
   return grid
+})
+
+const activeIndex = ref<number | null>(null)
+let interval: NodeJS.Timeout | null = null
+
+onMounted(() => {
+  interval = setInterval(() => {
+    // if window is smaller than 640px, only take into account the middle 3x3 grid
+    if (window.innerWidth < 640) {
+      activeIndex.value = MOBILE_VISIBLE_INDEXES[Math.floor(Math.random() * MOBILE_VISIBLE_INDEXES.length)]!
+      return
+    }
+
+    activeIndex.value = Math.floor(Math.random() * icons.value.length)
+  }, 1500)
+})
+
+onUnmounted(() => {
+  if (interval !== null) {
+    clearInterval(interval)
+  }
 })
 </script>
 

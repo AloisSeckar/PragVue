@@ -1,5 +1,11 @@
 <template>
-  <div class="size-32 p-6 flex items-center justify-center pgv-icon-box">
+  <UiBox
+    background="pseudo"
+    class="size-32 flex items-center justify-center pgv-icon-box"
+    :class="{
+      'pgv-icon-box--active': active,
+    }"
+  >
     <img
       v-if="icon"
       class="pgv-icon-box__img"
@@ -7,14 +13,16 @@
       alt=""
       loading="lazy"
     >
-  </div>
+  </UiBox>
 </template>
 
 <script setup lang="ts">
 const {
   icon,
+  active,
 } = defineProps<{
   icon: 'vue' | 'nuxt' | 'pinia' | 'vitest' | 'vite' | 'vueuse' | 'tresjs' | 'nuxt-ignis' | 'rollup' | 'oxc' | 'tailwind' | 'unjs' | 'h3' | 'nitro' | 'supabase' | null
+  active?: boolean
 }>()
 
 const extension = computed(() => {
@@ -33,13 +41,6 @@ const extension = computed(() => {
   isolation: isolate;
 }
 
-.pgv-icon-box::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  @apply bg-woodsmoke-800;
-}
-
 .pgv-icon-box::before {
   content: '';
   position: absolute;
@@ -52,12 +53,14 @@ const extension = computed(() => {
   opacity: 0;
 }
 
-.pgv-icon-box:hover::before {
+.pgv-icon-box:hover::before,
+.pgv-icon-box--active::before {
   transform: translate(2rem, 2rem);
   opacity: 0.5;
 }
 
-.pgv-icon-box:hover {
+.pgv-icon-box:hover,
+.pgv-icon-box--active {
   transform: translate(-1rem, -1rem);
   transition-duration: 325ms;
   z-index: 1;

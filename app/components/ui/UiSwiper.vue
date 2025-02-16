@@ -99,7 +99,7 @@ onMounted(() => {
   swiper = new Swiper(swiperEl.value, options)
 })
 
-onUnmounted(() =>{
+onUnmounted(() => {
   swiper?.destroy()
 })
 </script>
@@ -120,13 +120,17 @@ onUnmounted(() =>{
   top: 0;
   bottom: 0;
 
-  width: 200px;
+  width: 100px;
   background: linear-gradient(to left, rgba(15, 15, 15, 0), theme('colors.woodsmoke.900'));
   z-index: 2;
   pointer-events: none;
 
   opacity: 0;
   transition: opacity 200ms ease-out;
+
+  @media screen and (width >= 768px) {
+    width: 200px;
+  }
 }
 
 .pgv-swiper:not(.pgv-swiper--first) .swiper:before {
@@ -140,13 +144,17 @@ onUnmounted(() =>{
   top: 0;
   bottom: 0;
 
-  width: 200px;
+  width: 100px;
   background: linear-gradient(to right, rgba(15, 15, 15, 0), theme('colors.woodsmoke.900'));
   z-index: 1;
   pointer-events: none;
 
   opacity: 0;
   transition: opacity 200ms ease-out;
+
+  @media screen and (width >= 768px) {
+    width: 200px;
+  }
 }
 
 .pgv-swiper:not(.pgv-swiper--last) .swiper:after {
