@@ -3,31 +3,28 @@
     <HeroBanner />
 
     <a name="more" />
-    <LayoutContainer>
+    <LayoutContainer class="overflow-hidden">
+      <LayoutContainerContent class="grid lg:grid-cols-2">
+        <div>
+          <UiHeading class="mb-6 text-vue">
+            {{ $t('headings.about_the_conference') }}
+          </UiHeading>
+
+          <p class="text-base max-w-[64ch] mb-4 text-balance">
+            {{ $t('pages.home.conference_info_1') }}
+          </p>
+
+          <p class="text-base max-w-[64ch] text-balance">
+            {{ $t('pages.home.conference_info_2') }}
+          </p>
+        </div>
+
+        <div class="h-[275px] sm:h-[400px] lg:h-[600px] relative max-lg:flex justify-center">
+          <HeroSectionTechnologies class="absolute sm:top-[-4rem] lg:top-[4rem] lg:left-0 2xl:left-[2rem]" />
+        </div>
+      </LayoutContainerContent>
+
       <LayoutContainerContent>
-        <UiHeading class="mb-6 text-vue">
-          {{ $t('headings.about_the_conference') }}
-        </UiHeading>
-
-        <p class="text-base max-w-[64ch] mb-4 text-balance">
-          {{ $t('pages.home.conference_info_1') }}
-        </p>
-
-        <p class="text-base max-w-[64ch] text-balance">
-          {{ $t('pages.home.conference_info_2') }}
-        </p>
-
-        <UiImage
-          class="w-auto aspect-[400/300] max-h-[250px] mx-auto my-6"
-          fit="contain"
-          src="/features.webp"
-          alt="Meme image - discover Vue.js"
-        />
-
-        <p class="text-lg font-bold max-w-[64ch] text-center">
-          {{ $t('pages.home.conference_info_tickets') }}
-        </p>
-
         <p class="text-[42px] text-vue-light font-bold text-center mt-2 hover:cursor-pointer hover:animate-pulse">
           &euro;199
         </p>
@@ -145,6 +142,9 @@
 
 <script setup lang="ts">
 // TODO change to actual link for 2025
+import UiIconBox from '~/components/ui/UiIconBox.vue'
+import HeroSectionTechnologies from '~/components/HeroSectionTechnologies.vue'
+
 const tickets = 'https://pragvue.konference.cz/'
 
 const { t } = useI18n()
