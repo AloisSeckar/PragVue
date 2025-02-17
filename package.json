@@ -13,6 +13,7 @@
   "devDependencies": {
     "@nuxt/eslint": "0.7.6",
     "@nuxt/image": "1.9.0",
+    "@nuxt/fonts": "0.10.3",
     "@nuxt/scripts": "0.10.1",
     "@nuxtjs/i18n": "9.2.0",
     "@nuxtjs/tailwindcss": "6.13.1",
@@ -26,8 +27,5 @@
     "vue-router": "latest",
     "vue-tsc": "2.2.0"
   },
-  "packageManager": "pnpm@9.15.4",
-  "dependencies": {
-    "@nuxt/fonts": "^0.10.3"
-  }
+  "packageManager": "pnpm@9.15.4"
 }
