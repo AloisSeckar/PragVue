@@ -34,8 +34,16 @@
             "speakers_you": "And you...?",
             "speakers_you_info": "We are still looking for a few more speakers! Whether you're an experienced conference patron or seeking your first opportunity to shine, now's your chance. If you have something to share about Vue, contact us via the button below to discuss the details.",
             "look_back_on_2024": "PragVue 2024 was a blast! Last year, we hosted the first Czech Vue.js conference. Thank you to all the attendees and all the speakers. We’re hoping to make the next one even better!",
+            "link_2024": "Speakers from the 2024 conference - click to check details",
             "sponsors_info": "Gain valuable exposure, connect with a passionate audience of developers, and help us shape the future of Vue.js by sponsoring PragVue. {br}{br} Seize this chance to connect with talented developers,share your vision, and shine a spotlight on your brand.",
             "your_company_can_be_here": "Your company can be here"
+        },
+        "2024": {
+            "title": "PragVue 2024",
+            "about": "The first PragVue was held on 17 September 2024. It was a rather small meetup, but we saw 8 Vue/Nuxt developers giving their interesting talks and have made new friendships.",
+            "image": "PragVue 2024 - Speakers",
+            "speakers": "Speakers",
+            "back_to_2025": "Back to 2025"
         }
     },
     "speakers": {

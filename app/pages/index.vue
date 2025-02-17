@@ -100,12 +100,15 @@
           class="text-base max-w-[128ch] text-center text-balance"
         />
 
-        <UiImage
-          class="w-auto aspect-[1200/971] max-h-[500px] mx-auto mt-12"
-          fit="contain"
-          src="/pragvue2024.webp"
-          :alt="$t('accessibility.photo_of_the_speakers_from_2024')"
-        />
+        <NuxtLink to="/2024">
+          <UiImage
+            class="w-auto aspect-[1200/971] max-h-[330px] mx-auto mt-12"
+            fit="contain"
+            src="/pragvue2024.webp"
+            :title="$t('pages.home.link_2024')"
+            :alt="$t('accessibility.photo_of_the_speakers_from_2024')"
+          />
+        </NuxtLink>
       </LayoutContainerContent>
     </LayoutContainer>
 
