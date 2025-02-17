@@ -2,7 +2,7 @@
   <NuxtPage />
   <LayoutContainer tag="footer">
     <LayoutContainerContent size-y="small">
-      <div class="text-woodsmoke-700 font-default font-semibold text-center text-lg test">
+      <div class="text-woodsmoke-700 font-default font-semibold text-center text-lg pgv-html-comment">
         <span class="text-woodsmoke-400">
           PragVue © {{ year }}
         </span>
@@ -40,14 +40,17 @@ const year = useState(() => new Date().getFullYear())
 html {
   scroll-behavior: smooth;
   color: #dddddd;
-  font-family: "Montserrat", Sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-.test:before {
-  content: '<!--';
+.pgv-html-comment:before {
+  content: '<!-- ';
+  color: #7b7b7b;
 }
 
-.test:after {
-  content: '-->';
+.pgv-html-comment:after {
+  content: ' -->';
+  color: #7b7b7b;
 }
+
 </style>

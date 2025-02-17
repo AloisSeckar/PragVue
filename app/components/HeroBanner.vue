@@ -4,12 +4,20 @@
 
     <div class="mt-6 flex flex-row gap-4 justify-center items-center">
       <UiSponsorBox
-        href="https://www.evidencz.com/" image="eviden"
-        title="Eviden Czech Republic" alt="Eviden logo"
+        to="https://www.evidencz.com/"
+        image="eviden"
+        title="Eviden Czech Republic"
+        alt="Eviden logo"
+        no-background
+        size="sm"
       />
       <UiSponsorBox
-        href="https://www.exponet.cz/" image="exponet"
-        title="Exponet - Your Event Manager" alt="Eviden logo"
+        to="https://www.exponet.cz/"
+        image="exponet"
+        title="Exponet - Your Event Manager"
+        alt="Exponet logo"
+        no-background
+        size="sm"
       />
     </div>
 
@@ -31,12 +39,15 @@
       </p>
 
       <div class="mt-6 flex flex-col sm:flex-row gap-4 items-center">
-        <UiLinkButton href="https://pragvue.konference.cz/" :caption="$t('buttons.tickets_1')" />
-        <UiLinkButton href="#more" :caption="$t('buttons.more')" />
+        <UiButtonIcon icon="🎫" href="https://pragvue.konference.cz/" :label="$t('buttons.tickets_1')" />
+        <UiButtonIcon icon="🔍" href="#speakers" :label="$t('buttons.more')" variant="secondary" />
       </div>
     </LayoutContainerContent>
   </LayoutContainer>
 </template>
+
+<script setup lang="ts">
+</script>
 
 <style scoped>
 .pgv-hero-banner {

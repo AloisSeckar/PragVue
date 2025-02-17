@@ -20,8 +20,12 @@ const {
 <style scoped>
 .pgv-cc {
     max-width: 1440px;
-    padding: 5rem;
+    padding: 5rem 2rem;
     margin: 0 auto;
+
+  @media screen and (width >= 1536px) {
+    padding-inline: 5rem;
+  }
 }
 
 .pgv-cc--s-sm {

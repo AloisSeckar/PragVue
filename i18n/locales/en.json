@@ -4,7 +4,7 @@
         "photo_of_the_speakers_from_2024": "A picture of the speakers from the 2024 conference"
     },
     "headings": {
-        "the_czech_vuejs_conference": "the Czech Vue.js conference",
+        "the_czech_vuejs_conference": "The Czech Vue.js conference",
         "about_the_conference": "About the conference",
         "the_speakers": "The speakers",
         "look_back_on_2024": "A look back on 2024",
@@ -16,24 +16,26 @@
         "map": "Show on map"
     },
     "buttons": {
-        "tickets_1": "Buy tickets 🎫",
-        "tickets_2": "I am in 🎫",
-        "tickets_3": "I want to attend PragVue 🎫",
-        "tickets_4": "Join us in 2025 🎫",
-        "more": "More info 🔍",
-        "speaker": "I want to talk at PragVue 📢",
-        "sponsor": "Ask about PragVue sponsorship 💶"
+        "tickets_1": "Buy tickets",
+        "tickets_2": "Buy for the best price",
+        "tickets_3": "I want to attend PragVue",
+        "more": "More info",
+        "speaker": "I want to talk at PragVue",
+        "sponsor": "Contact us for sponsorship options"
     },
     "pages": {
         "home": {
             "conference_info_1": "PragVue is back for its second edition, celebrating the power and potential of Vue.js in the heart of Europe. We’re bringing famous names from Vue.js community to the City of a Hundred Spires for an event packed with inspiring talks. It’s the perfect opportunity to grow your skills, network with like-minded professionals, and stay ahead in the rapidly evolving world of Vue.js.",
             "conference_info_2": "Vue.js is easy to learn, scalable, highly performant thanks to its coherent reactivity system, and has a rich ecosystem of surrounding libraries. Despite its greatness, Vue.js remains undiscovered by many. That's precisely why we're hosting this conference - to delve deeper into its potential and shed light on its remarkable capabilities.",
-            "conference_info_tickets": "Early bird ticket price available until the end of June",
+            "early_bird_tickers": "Early bird tickets",
+            "early_bird_tickers_info": "Early bird ticket price available until the end of June",
+            "info_about_schedule_coming_soon": "More information about the schedule coming soon",
             "speakers_info": "Get ready to be inspired by an outstanding lineup of Vue.js community members who will share their knowledge, hands-on experience, and fresh perspectives. Expect everything from closer look to ecosytem tools to big-picture views on modern web practices. Whether you’re a long-time Vue enthusiast or just starting out, you’ll find plenty to spark new ideas. Don’t miss the opportunity to learn from and connect with skilled professionals.",
             "speakers_you": "And you...?",
-            "speakers_you_info": "We still seek for a few more speakers! Whether you are an experienced conference patroon or you still look for your first opportunity to rise and shine, now's your chance. If you have something to say about Vue, contact us via button bellow to discuss details.",
+            "speakers_you_info": "We are still looking for a few more speakers! Whether you're an experienced conference patron or seeking your first opportunity to shine, now's your chance. If you have something to share about Vue, contact us via the button below to discuss the details.",
             "look_back_on_2024": "PragVue 2024 was a blast! Last year, we hosted the first Czech Vue.js conference. Thank you to all the attendees and all the speakers. We’re hoping to make the next one even better!",
-            "sponsors_info": "Gain valuable exposure, connect with a passionate audience of developers, and help us shape the future of Vue.js by sponsoring PragVue. Seize this chance to connect with talented developers,share your vision, and shine a spotlight on your brand. Contact us for sponsorship options."
+            "sponsors_info": "Gain valuable exposure, connect with a passionate audience of developers, and help us shape the future of Vue.js by sponsoring PragVue. {br}{br} Seize this chance to connect with talented developers,share your vision, and shine a spotlight on your brand.",
+            "your_company_can_be_here": "Your company can be here"
         }
     },
     "speakers": {
