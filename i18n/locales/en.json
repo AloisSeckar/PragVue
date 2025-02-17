@@ -71,35 +71,5 @@
         "2024": "Meanwhile, remind yourself of PragVue 2024",
         "more": "More info",
         "register": "Registration"
-    },
-    "idea": {
-        "title": "<strong>The first</strong> Czech <strong>Vue.js</strong> conference",
-        "date": "17th September 2024",
-        "q1": "What is Vue?",
-        "a1": "Vue.js is a dynamic, flexible, and fast-evolving technology that competes with the most popular frontend development stacks (React, Angular).",
-        "q2": "What is Vue good for?",
-        "a2": "Vue.js can be used whenever you need to create a web-based application, ranging from static HTML presentations to complex dynamic webs or even mobile apps. Vue is a suitable choice for all these scenarios.",
-        "q3": "Why is Vue better than other alternatives?",
-        "a3": "Vue.js is easy to learn, scalable, highly performant thanks to its coherent reactivity system, and has a rich ecosystem of surrounding libraries.",
-        "idea": "Despite its greatness, Vue.js remains undiscovered by many. That's precisely why we're hosting this conference - to delve deeper into its potential and shed light on its remarkable capabilities.",
-        "action": "Are you ready to know more about Vue?"
-    },
-    "schedule": {
-        "title": "Schedule & speakers",
-        "soon": "We are finalizing the schedule right now, some things may change yet"
-    },
-    "features": {
-        "title": "What more can you expect?",
-        "technology": "Cool technology to enhance your portfolio.",
-        "people": "Chance to meet like-minded people.",
-        "food": "Great catering included!",
-        "offer": "An offer that can't be refused!",
-        "ticket": "Get your ticket"
-    },
-    "ticket": {
-        "title": "Registration closed",
-        "price": "Tickets are no logner available",
-        "sign": "Registration closed",
-        "questions": "<strong>Wanted to come?</strong> Reach us via <strong>alois.seckar [at] eviden [dot] com</strong>"
     }
 }
