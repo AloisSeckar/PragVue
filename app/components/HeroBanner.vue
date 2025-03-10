@@ -28,14 +28,17 @@
         {{ $t('headings.the_czech_vuejs_conference') }}
       </p>
 
-      <p class="text-sm sm:text-lg md:text-2xl text-center font-bold">
+      <p class="text-sm sm:text-lg md:text-3xl text-center font-bold">
         {{ $t('2025.when') }}
       </p>
-      <p class="text-sm sm:text-lg md:text-2xl text-center">
+      <p class="text-sm sm:text-lg md:text-xl text-center">
+        The venue will be announced soon
+        <!--
         <NuxtLink to="https://www.hotel-grandium.cz/" class=" hover:text-vue-light">
           {{ $t('2025.where') }}
         </NuxtLink>
         &nbsp;<a href="https://maps.app.goo.gl/vWW31EiriqbdCpTW8" :title="$t('2025.map')">🗺️</a>
+        -->
       </p>
 
       <div class="mt-6 flex flex-col sm:flex-row gap-4 items-center">
