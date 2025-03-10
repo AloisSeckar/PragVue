@@ -1,0 +1,34 @@
+<template>
+  <div
+    class="pgv-cc"
+    :class="{
+      'pgv-cc--s-sm': sizeY === 'small',
+    }"
+  >
+    <slot />
+  </div>
+</template>
+
+<script lang="ts" setup>
+const {
+  sizeY = 'medium',
+} = defineProps<{
+  sizeY?: 'small' | 'medium'
+}>()
+</script>
+
+<style scoped>
+.pgv-cc {
+    max-width: 1440px;
+    padding: 5rem 2rem;
+    margin: 0 auto;
+
+  @media screen and (width >= 1536px) {
+    padding-inline: 5rem;
+  }
+}
+
+.pgv-cc--s-sm {
+  padding-block: 2.5rem;
+}
+</style>

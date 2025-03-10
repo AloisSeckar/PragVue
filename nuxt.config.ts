@@ -1,19 +1,45 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-08-05',
+
+  modules: [
+    '@nuxt/fonts',
+    '@nuxtjs/i18n',
+    '@nuxt/eslint',
+    '@nuxt/scripts',
+    '@vueuse/nuxt',
+    '@nuxtjs/tailwindcss',
+    '@nuxt/image',
+  ],
 
   devtools: {
     enabled: false,
   },
 
-  modules: [
-    '@nuxtjs/google-fonts',
-    '@nuxtjs/i18n',
-    '@nuxt/eslint',
-    '@nuxt/scripts',
-    '@nuxt/ui',
-    '@vueuse/nuxt',
-  ],
+  future: {
+    compatibilityVersion: 4,
+  },
+  compatibilityDate: '2025-02-10',
+
+  nitro: {
+    prerender: {
+      routes: ['/'],
+    },
+  },
+
+  typescript: {
+    strict: true,
+    typeCheck: true,
+    tsConfig: {
+      compilerOptions: {
+        noImplicitOverride: true,
+        noImplicitAny: true,
+        noImplicitThis: true,
+        strictFunctionTypes: true,
+        strictNullChecks: true,
+        noUncheckedIndexedAccess: true,
+      },
+    },
+  },
 
   eslint: {
     config: {
@@ -21,13 +47,30 @@ export default defineNuxtConfig({
     },
   },
 
-  colorMode: {
-    preference: 'light',
-  },
-
-  googleFonts: {
-    families: {
-      Montserrat: true,
+  i18n: {
+    lazy: true,
+    defaultLocale: 'en',
+    types: 'composition',
+    detectBrowserLanguage: false,
+    locales: [
+      {
+        code: 'en',
+        language: 'en-US',
+        file: 'en.json',
+      },
+      /*
+      {
+        code: 'cs',
+        language: 'cs-CZ',
+        file: 'cs.json',
+      },
+      */
+    ],
+    experimental: {
+      typedOptionsAndMessages: 'default',
+    },
+    compilation: {
+      strictMessage: false,
     },
   },
 
@@ -41,11 +84,5 @@ export default defineNuxtConfig({
       },
     },
   },
-
-  nitro: {
-    prerender: {
-      routes: ['/'],
-    },
-  }
 
 })
