@@ -5,7 +5,7 @@
     <LayoutContainer class="overflow-hidden">
       <LayoutContainerContent class="grid lg:grid-cols-2">
         <div>
-          <UiHeading class="mb-6 text-vue">
+          <UiHeading class="mb-6 text-vue-light">
             {{ $t('headings.about_the_conference') }}
           </UiHeading>
 
@@ -25,9 +25,13 @@
 
       <LayoutContainerContent>
         <div class="flex flex-col items-center">
-          <UiBox class="text-2xl font-bold text-center mb-8" inline>
+          <UiHeading class="mb-6 text-vue">
+            {{ $t('headings.tickets') }}
+          </UiHeading>
+
+          <div class="text-2xl font-bold text-center mb-4" inline>
             {{ $t('pages.home.early_bird_tickers') }}
-          </UiBox>
+          </div>
 
           <span class="pgv-price pgv-price--full">
             €249
@@ -87,9 +91,7 @@
 
     <LayoutContainer>
       <LayoutContainerContent>
-        <!--  TODO: add link to 2024 summary  -->
-
-        <UiHeading class="mb-12">
+        <UiHeading class="mb-12 text-vue">
           {{ $t('headings.look_back_on_2024') }}
         </UiHeading>
 
@@ -130,7 +132,7 @@
 
     <LayoutContainer>
       <LayoutContainerContent>
-        <UiHeading class="mb-12 sm:text-center">
+        <UiHeading class="mb-12 text-vue-light sm:text-center">
           {{ $t('headings.sponsor') }}
         </UiHeading>
 

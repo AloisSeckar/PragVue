@@ -7,7 +7,7 @@
         :alt="$t('accessibility.photo_of_speaker_name', { name })"
       />
       <div class="absolute right-0 bottom-0 w-min">
-        <span class="font-default font-bold text-woodsmoke-900 bg-white px-3 py-1 text-xl pgv-speaker-box__name">
+        <span class="font-default font-bold text-woodsmoke-900 bg-vue px-3 py-1 text-xl pgv-speaker-box__name">
           {{ name }}
         </span>
       </div>
