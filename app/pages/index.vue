@@ -9,11 +9,11 @@
             {{ $t('headings.about_the_conference') }}
           </UiHeading>
 
-          <p class="text-base max-w-[64ch] mb-4 text-balance">
+          <p class="text-base max-w-[64ch] mb-4 text-center min-[450px]:text-left">
             {{ $t('pages.home.conference_info_1') }}
           </p>
 
-          <p class="text-base max-w-[64ch] text-balance">
+          <p class="text-base max-w-[64ch] text-center min-[450px]:text-left">
             {{ $t('pages.home.conference_info_2') }}
           </p>
         </div>
@@ -165,7 +165,7 @@
           />
         </LayoutContainerContent>
 
-        <LayoutContainerContent class="!py-0 pgv-sponsors">
+        <LayoutContainerContent class="!py-0 pgv-sponsors text-base min-[430px]:text-lg min-[500px]:text-xl min-[600px]:text-2xl">
           <UiSponsorBox
             size="lg"
           >
@@ -262,7 +262,7 @@ const sponsors = computed(() => {
 }
 
 .pgv-sponsors__prompt {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   font-weight: 500;
   color: theme('colors.woodsmoke.400');
 }
@@ -270,12 +270,12 @@ const sponsors = computed(() => {
 .pgv-sponsors__prompt::before {
   content: '{{ ';
   color: theme('colors.woodsmoke.600');
-  font-size: 1.75rem;
+  /* font-size: 1.75rem; */
 }
 
 .pgv-sponsors__prompt::after {
   content: ' }}';
   color: theme('colors.woodsmoke.600');
-  font-size: 1.75rem;
+  /* font-size: 1.75rem; */
 }
 </style>
