@@ -1,3 +1,5 @@
+
+
 {
     "accessibility": {
         "photo_of_speaker_name": "A photo of the speaker \"{name}\"",
@@ -28,8 +30,8 @@
         "home": {
             "conference_info_1": "PragVue is back for its second edition, celebrating the power and potential of Vue.js in the heart of Europe. We’re bringing famous names from Vue.js community to the City of a Hundred Spires for an event packed with inspiring talks. It’s the perfect opportunity to grow your skills, network with like-minded professionals, and stay ahead in the rapidly evolving world of Vue.js.",
             "conference_info_2": "Vue.js is easy to learn, scalable, highly performant thanks to its coherent reactivity system, and has a rich ecosystem of surrounding libraries. Despite its greatness, Vue.js remains undiscovered by many. That's precisely why we're hosting this conference - to delve deeper into its potential and shed light on its remarkable capabilities.",
-            "early_bird_tickers": "Early bird tickets",
-            "early_bird_tickers_info": "Early bird ticket price only available until the end of June",
+            "early_bird_tickets": "Early bird tickets",
+            "early_bird_tickets_info": "Early bird ticket price only available until the end of June",
             "info_about_schedule_coming_soon": "More information about the schedule coming soon",
             "speakers_info": "Get ready to be inspired by an outstanding lineup of Vue.js community members who will share their knowledge, hands-on experience, and fresh perspectives. Expect everything from closer look to ecosytem tools to big-picture views on modern web practices. Whether you’re a long-time Vue enthusiast or just starting out, you’ll find plenty to spark new ideas. Don’t miss the opportunity to learn from and connect with skilled professionals.",
             "speakers_you": "And you...?",

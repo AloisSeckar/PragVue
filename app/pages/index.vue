@@ -30,7 +30,7 @@
           </UiHeading>
 
           <div class="text-2xl font-bold text-center mb-4" inline>
-            {{ $t('pages.home.early_bird_tickers') }}
+            {{ $t('pages.home.early_bird_tickets') }}
           </div>
 
           <span class="pgv-price pgv-price--full">
@@ -46,7 +46,7 @@
           <UiButtonIcon icon="🎫" :href="tickets" :label="$t('buttons.tickets_2')" />
 
           <p class="mb-8 max-w-[24ch] text-center text-balance text-woodsmoke-300 text-sm">
-            {{ $t('pages.home.early_bird_tickers_info') }}
+            {{ $t('pages.home.early_bird_tickets_info') }}
           </p>
         </div>
       </LayoutContainerContent>
