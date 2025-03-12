@@ -20,11 +20,11 @@ const {
 
 .pgv-logo:before {
   content: '<';
-  @apply text-woodsmoke-700;
+  @apply text-woodsmoke-600;
 }
 
 .pgv-logo:after {
   content: ' />';
-  @apply text-woodsmoke-700;
+  @apply text-woodsmoke-600;
 }
 </style>

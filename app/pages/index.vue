@@ -239,7 +239,7 @@ const sponsors = computed(() => {
 .pgv-price--full {
   font-size: 2.5rem;
   text-decoration: line-through;
-  color: theme('colors.woodsmoke.500');
+  color: theme('colors.woodsmoke.400');
   font-weight: 500;
 }
 

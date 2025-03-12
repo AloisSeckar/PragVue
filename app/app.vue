@@ -2,8 +2,8 @@
   <NuxtPage />
   <LayoutContainer tag="footer">
     <LayoutContainerContent size-y="small">
-      <div class="text-woodsmoke-700 font-default font-semibold text-center text-lg pgv-html-comment">
-        <span class="text-woodsmoke-400">
+      <div class="font-mono font-semibold text-center text-lg pgv-html-comment">
+        <span class="text-vue">
           PragVue © {{ year }}
         </span>
       </div>
@@ -45,11 +45,11 @@ html {
 
 .pgv-html-comment:before {
   content: '<!-- ';
-  color: #7b7b7b;
+    @apply text-vue-light;
 }
 
 .pgv-html-comment:after {
   content: ' -->';
-  color: #7b7b7b;
+  @apply text-vue-light;
 }
 </style>
