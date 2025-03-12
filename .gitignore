@@ -11,3 +11,6 @@ public/.DS_Store
 !.idea/PragVue.iml
 !.idea/modules.xml
 !.idea/inspectionProfiles/Project_Default.xml
+
+# Qodo extension auto-generated folder
+.qodo
