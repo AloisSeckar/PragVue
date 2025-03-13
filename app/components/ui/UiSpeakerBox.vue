@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="pgv-speaker-box">
+    <div class="mb-4 pgv-speaker-box">
       <UiImage
         class="pgv-speaker-box__img"
         :src="imgSrc"
@@ -13,7 +13,7 @@
       </div>
     </div>
 
-    <p v-if="description" class="w-[250px] text-sm text-center mt-4 text-woodsmoke-400">
+    <p v-if="description" class="w-[250px] text-sm text-center text-woodsmoke-400">
       {{ description }}
     </p>
   </div>

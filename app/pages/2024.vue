@@ -10,29 +10,29 @@
           tag="p"
           scope="global"
           keypath="pages.2024.about"
-          class="text-base max-w-[128ch] text-center text-balance"
+          class="mb-8 text-base max-w-[128ch] text-center text-balance"
         />
 
         <UiImage
-          class="w-auto aspect-[1200/971] max-h-[330px] mx-auto mt-12"
+          class="mb-10 mx-auto w-auto aspect-[1200/971] max-h-[330px]"
           fit="contain"
           src="/pragvue2024.webp"
           :title="$t('pages.2024.image')"
           :alt="$t('pages.2024.image')"
         />
 
-        <h3 class="text-2xl text-center text-vue-light font-bold mt-12 mb-4">
+        <h3 class="text-2xl text-center text-vue-light font-bold mb-2">
           {{ $t('pages.2024.speakers') }}
         </h3>
 
-        <ul class="mx-auto p-2 max-w-[620px]">
+        <ul class="mb-12 mx-auto p-2 max-w-[620px]">
           <UiSpeakerBoxPast
             v-for="{ name, img, dscr } in speakers" :key="name"
             :name :img :dscr
           />
         </ul>
 
-        <div class="mt-6 flex flex-col gap-4 items-center justify-center">
+        <div class="flex flex-col gap-4 items-center justify-center">
           <UiButtonIcon icon="💻" href="/" :label="$t('pages.2024.back_to_2025')" />
         </div>
       </LayoutContainerContent>

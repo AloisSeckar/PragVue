@@ -18,13 +18,13 @@
           </p>
         </div>
 
-        <div class="h-[275px] sm:h-[400px] lg:h-[600px] relative max-lg:flex justify-center">
+        <div class="mb-8 h-[275px] sm:h-[400px] lg:h-[600px] relative max-lg:flex justify-center">
           <HeroSectionTechnologies class="absolute sm:top-[-4rem] lg:top-[4rem] lg:left-0 2xl:left-[2rem]" />
         </div>
       </LayoutContainerContent>
 
       <LayoutContainerContent>
-        <div class="flex flex-col items-center">
+        <div class="mb-6 flex flex-col items-center">
           <UiHeading class="mb-6 text-vue">
             {{ $t('headings.tickets') }}
           </UiHeading>
@@ -42,7 +42,7 @@
           </span>
         </div>
 
-        <div class="mt-6 flex flex-col gap-4 items-center justify-center">
+        <div class="flex flex-col gap-4 items-center justify-center">
           <UiButtonIcon icon="🎫" :href="tickets" :label="$t('buttons.tickets_2')" />
 
           <p class="mb-8 max-w-[24ch] text-center text-balance text-woodsmoke-300 text-sm">
@@ -69,21 +69,21 @@
           </template>
         </UiSwiper>
 
-        <p class="text base max-w-[72ch] text-center text-balance mx-auto text-xl italic text-woodsmoke-400 mb-12 pgv-html-comment">
+        <p class="mb-12 text base max-w-[72ch] text-center text-balance mx-auto text-xl italic text-woodsmoke-400 pgv-html-comment">
           {{ $t('pages.home.info_about_schedule_coming_soon') }}
         </p>
 
-        <p class="text-base max-w-[72ch] text-center text-balance mx-auto mt-8">
+        <p class="mb-6 mx-auto text-base max-w-[72ch] text-center text-balance">
           {{ $t('pages.home.speakers_info') }}
         </p>
-        <h3 class="text-xl text-center font-bold mt-12">
+        <h3 class="mb-4 text-xl text-center font-bold ">
           {{ $t('pages.home.speakers_you') }} 👀
         </h3>
-        <p class="text-base max-w-[72ch] text-center text-balance mx-auto mt-8">
+        <p class="mb-8 text-base max-w-[72ch] text-center text-balance mx-auto">
           {{ $t('pages.home.speakers_you_info') }}
         </p>
 
-        <div class="mt-6 flex flex-col gap-4 items-center justify-center">
+        <div class="flex flex-col gap-4 items-center justify-center">
           <UiButtonIcon icon="🎤" href="mailto:alois.seckar@eviden.com" :label="$t('buttons.speaker')" />
         </div>
       </LayoutContainerContent>
@@ -99,12 +99,12 @@
           tag="p"
           scope="global"
           keypath="pages.home.look_back_on_2024"
-          class="text-base max-w-[128ch] text-center text-balance"
+          class="mb-12 text-base max-w-[128ch] text-center text-balance"
         />
 
         <NuxtLink to="/2024">
           <UiImage
-            class="w-auto aspect-[1200/971] max-h-[330px] mx-auto mt-12"
+            class="w-auto aspect-[1200/971] max-h-[330px] mx-auto"
             fit="contain"
             src="/pragvue2024.webp"
             :title="$t('pages.home.link_2024')"
@@ -140,14 +140,14 @@
           scope="global"
           tag="p"
           keypath="pages.home.sponsors_info"
-          class="text-base text-center mx-auto max-w-[64ch] text-balance mt-8"
+          class="mb-12 text-base text-center mx-auto max-w-[64ch] text-balance"
         >
           <template #br>
             <br>
           </template>
         </i18n-t>
 
-        <div class="mt-12 flex flex-col gap-4 items-center justify-center">
+        <div class="flex flex-col gap-4 items-center justify-center">
           <UiButtonIcon icon="💶" href="mailto:alois.seckar@eviden.com" :label="$t('buttons.sponsor')" />
         </div>
       </LayoutContainerContent>

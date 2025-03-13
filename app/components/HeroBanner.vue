@@ -1,8 +1,8 @@
 <template>
-  <LayoutContainer class="pgv-hero-banner">
+  <LayoutContainer class="pt-4 pgv-hero-banner">
     <IconPragueSilhouette class="pgv-hero-banner__bg" />
 
-    <div class="mt-6 flex flex-row gap-4 justify-center items-center">
+    <div class="flex flex-row gap-4 justify-center items-center">
       <UiSponsorBox
         to="https://www.evidencz.com/"
         image="eviden"
@@ -24,14 +24,14 @@
     <LayoutContainerContent class="flex flex-col items-center justify-center gap-4 sm:gap-6 h-full">
       <TheLogo tag="h1" />
 
-      <p class="text-sm sm:text-lg md:text-2xl text-center mb-6">
+      <p class="mb-6 text-sm sm:text-lg md:text-2xl text-center">
         {{ $t('headings.the_czech_vuejs_conference') }}
       </p>
 
-      <p class="text-sm sm:text-lg md:text-3xl text-center font-bold">
+      <p class="mb-1 text-sm sm:text-lg md:text-3xl text-center font-bold">
         {{ $t('2025.when') }}
       </p>
-      <p class="text-sm sm:text-lg md:text-xl text-center">
+      <p class="mb-4 text-sm sm:text-lg md:text-xl text-center">
         The venue will be announced soon
         <!--
         <NuxtLink to="https://www.hotel-grandium.cz/" class=" hover:text-vue-light">
@@ -41,7 +41,7 @@
         -->
       </p>
 
-      <div class="mt-6 flex flex-col sm:flex-row gap-4 items-center">
+      <div class="flex flex-col sm:flex-row gap-4 items-center">
         <UiButtonIcon icon="🎫" href="https://pragvue.konference.cz/" :label="$t('buttons.tickets_1')" />
         <UiButtonIcon icon="🔍" href="#speakers" :label="$t('buttons.more')" variant="secondary" />
       </div>
