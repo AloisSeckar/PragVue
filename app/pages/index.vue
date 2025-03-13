@@ -188,6 +188,11 @@ const { t } = useI18n()
 
 const speakers = computed(() => [
   {
+    name: 'Alex Lichter',
+    description: t('speakers.TheAlexLichter.short_description'),
+    githubUsername: 'TheAlexLichter',
+  },
+  {
     name: 'Konstantin Bifert',
     description: t('speakers.kissu.short_description'),
     githubUsername: 'kissu',

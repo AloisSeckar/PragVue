@@ -50,6 +50,9 @@
         }
     },
     "speakers": {
+        "TheAlexLichter": {
+            "short_description": "Web engineering consultant based in Amsterdam"
+        },
         "Baroshem": {
             "short_description": "Software Developer, Technical Diver, Traveller, and Cat Lover"
         },
