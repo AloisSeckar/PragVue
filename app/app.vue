@@ -3,7 +3,7 @@
   <LayoutContainer tag="footer">
     <LayoutContainerContent size-y="small">
       <div class="font-mono font-semibold text-center text-woodsmoke-300 text-lg pgv-html-comment">
-        © <span class="text-white">Prag</span><span class="text-vue">Vue</span><span class="text-vue-light">{{ year }}</span>
+        © <UiPragVue :year />
       </div>
     </LayoutContainerContent>
   </LayoutContainer>

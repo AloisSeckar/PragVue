@@ -1,11 +1,13 @@
 <template>
   <!--  eslint-disable-next-line  -->
-  <component :is="tag" class="text-white font-default font-bold pgv-logo whitespace-nowrap">
-    Prag<span class="text-vue">Vue</span><span class="text-vue-light">2025</span>
+  <component :is="tag" class="font-default font-bold pgv-logo whitespace-nowrap">
+    <UiPragVue :year="2025" />
   </component>
 </template>
 
 <script lang="ts" setup>
+import UiPragVue from './ui/UiPragVue.vue'
+
 const {
   tag,
 } = defineProps<{
@@ -21,10 +23,12 @@ const {
 .pgv-logo:before {
   content: '<';
   @apply text-woodsmoke-600;
+  @apply pr-4;
 }
 
 .pgv-logo:after {
-  content: ' />';
+  content: '/>';
   @apply text-woodsmoke-600;
+  @apply p-4;
 }
 </style>

@@ -153,7 +153,7 @@
       </LayoutContainerContent>
 
       <h3 class="mb-4 text-2xl text-center font-bold ">
-        <span class="text-white">Prag</span><span class="text-vue">Vue</span><span class="text-vue-light">2025</span>
+        <UiPragVue :year="2025" />
         {{ $t('pages.home.sponsors_list') }}
       </h3>
 
