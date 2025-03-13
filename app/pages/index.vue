@@ -76,7 +76,7 @@
         <p class="mb-6 mx-auto text-base max-w-[72ch] text-center text-balance">
           {{ $t('pages.home.speakers_info') }}
         </p>
-        <h3 class="mb-4 text-xl text-center font-bold ">
+        <h3 class="mb-4 text-2xl text-center font-bold ">
           {{ $t('pages.home.speakers_you') }} 👀
         </h3>
         <p class="mb-8 text-base max-w-[72ch] text-center text-balance mx-auto">
@@ -151,6 +151,11 @@
           <UiButtonIcon icon="💶" href="mailto:alois.seckar@eviden.com" :label="$t('buttons.sponsor')" />
         </div>
       </LayoutContainerContent>
+
+      <h3 class="mb-4 text-2xl text-center font-bold ">
+        <span class="text-white">Prag</span><span class="text-vue">Vue</span><span class="text-vue-light">2025</span>
+        {{ $t('pages.home.sponsors_list') }}
+      </h3>
 
       <div class="mb-12 pgv-sponsors-wrapper">
         <LayoutContainerContent v-for="(group, index) in sponsors" :key="index" class="!py-0 pgv-sponsors">
