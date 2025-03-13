@@ -2,7 +2,7 @@
   <div>
     <LayoutContainer>
       <LayoutContainerContent>
-        <UiHeading class="mb-12">
+        <UiHeading class="mb-12 text-vue">
           {{ $t('pages.2024.title') }}
         </UiHeading>
 
@@ -21,35 +21,15 @@
           :alt="$t('pages.2024.image')"
         />
 
-        <h3 class="text-xl text-center font-bold mt-12 mb-6">
+        <h3 class="text-2xl text-center text-vue-light font-bold mt-12 mb-4">
           {{ $t('pages.2024.speakers') }}
         </h3>
 
         <ul class="mx-auto p-2 max-w-[620px]">
-          <li class="mb-2">
-            <strong>Daniel Roe</strong> gave us insight about upcomming Nuxt 4
-          </li>
-          <li class="mb-2">
-            <strong>Estéban Soubiran</strong> demonstrated fullstack application with NuxtHub
-          </li>
-          <li class="mb-2">
-            <strong>Alexander Lichter</strong> shared best practices for working with Vue composables
-          </li>
-          <li class="mb-2">
-            <strong>Ramona Schwering</strong> had a talk about Automated Tests in the World of Web Security
-          </li>
-          <li class="mb-2">
-            <strong>Thorsten Seyschab</strong> showed us how to move Vue to 3D
-          </li>
-          <li class="mb-2">
-            <strong>Alois Sečkár</strong> presented his experience about implementing big Nuxt project
-          </li>
-          <li class="mb-2">
-            <strong>Konstantin Bifert</strong> taught us how to ship Vue.js on different platforms
-          </li>
-          <li class="mb-2">
-            <strong>Juan Andrés Núñez</strong> leveraged Firebase for Real-Time Vue app updates
-          </li>
+          <UiSpeakerBoxPast
+            v-for="{ name, img, dscr } in speakers" :key="name"
+            :name :img :dscr
+          />
         </ul>
 
         <div class="mt-6 flex flex-col gap-4 items-center justify-center">
@@ -61,5 +41,46 @@
 </template>
 
 <script setup lang="ts">
-
+const speakers = [
+  {
+    name: 'Daniel Roe',
+    img: 'roe_d',
+    dscr: 'gave us insight about upcomming Nuxt 4',
+  },
+  {
+    name: 'Estéban Soubiran',
+    img: 'soubrain_e',
+    dscr: 'demonstrated fullstack application with NuxtHub',
+  },
+  {
+    name: 'Alexander Lichter',
+    img: 'lichter_a',
+    dscr: 'shared best practices for working with Vue composables',
+  },
+  {
+    name: 'Ramona Schwering',
+    img: 'schwering_r',
+    dscr: 'had a talk about Automated Tests in the World of Web Security',
+  },
+  {
+    name: 'Thorsten Seyschab',
+    img: 'seyschab_t',
+    dscr: 'showed us how to move Vue to 3D',
+  },
+  {
+    name: 'Alois Sečkár',
+    img: 'seckar_a',
+    dscr: 'presented his experience about implementing big Nuxt project',
+  },
+  {
+    name: 'Konstantin Bifert',
+    img: 'bifert_k',
+    dscr: 'taught us how to ship Vue.js on different platforms',
+  },
+  {
+    name: 'Juan Andrés Núñez',
+    img: 'nunez_j',
+    dscr: 'leveraged Firebase for Real-Time Vue app updates',
+  },
+]
 </script>
