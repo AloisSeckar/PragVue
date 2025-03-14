@@ -51,27 +51,13 @@
         }
     },
     "speakers": {
-        "TheAlexLichter": {
-            "short_description": "Web engineering consultant based in Amsterdam"
-        },
-        "Baroshem": {
-            "short_description": "Software Developer, Technical Diver, Traveller, and Cat Lover"
-        },
-        "LouellaCreemers": {
-            "short_description": ".NET and TypeScript developer from Rotterdam"
-        },
-        "alvarosabu": {
-            "short_description": "DX Engineer [at] Storyblok ~ OSS author ~ Content creator"
-        },
-        "kissu": {
-            "short_description": "Frontend developer ~ VueJS ecosystem lover"
-        },
-        "juanwmedia": {
-            "short_description": "Software engineer ~ Vue.js specialist"
-        },
-        "AloisSeckar": {
-            "short_description": "Nuxt enthusiast ~ cs.vuejs.org translator"
-        }
+        "TheAlexLichter": "Web engineering consultant based in Amsterdam",
+        "Baroshem": "Software Developer, Technical Diver, Traveller, and Cat Lover",
+        "LouellaCreemers": ".NET and TypeScript developer from Rotterdam",
+        "alvarosabu": "DX Engineer [at] Storyblok ~ OSS author ~ Content creator",
+        "kissu": "Frontend developer ~ VueJS ecosystem lover",
+        "juanwmedia": "Software engineer ~ Vue.js specialist",
+        "AloisSeckar": "Nuxt enthusiast ~ cs.vuejs.org translator"
     },
     "intro": {
         "present": "present",

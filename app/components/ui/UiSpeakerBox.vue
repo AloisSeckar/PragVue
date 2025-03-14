@@ -13,32 +13,22 @@
       </div>
     </div>
 
-    <p v-if="description" class="w-[250px] text-sm text-center text-woodsmoke-400">
-      {{ description }}
+    <p class="w-[250px] text-sm text-center text-woodsmoke-400">
+      {{ $t(`speakers.${github}`) }}
     </p>
   </div>
 </template>
 
 <script setup lang="ts">
-import UiImage from '~/components/ui/UiImage.vue'
-
 const {
   name,
-  img,
-  description,
+  github,
 } = defineProps<{
   name: string
-  img: string | { githubUsername: string }
-  description?: string
+  github: string
 }>()
 
-const imgSrc = computed(() => {
-  if (typeof img === 'string') {
-    return img
-  }
-
-  return `https://github.com/${img.githubUsername}.png`
-})
+const imgSrc = `https://github.com/${github}.png`
 </script>
 
 <style scoped>

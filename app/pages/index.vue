@@ -63,8 +63,7 @@
           <template #slide="{ slide }">
             <UiSpeakerBox
               :name="slide.name"
-              :description="slide.description"
-              :img="{ githubUsername: slide.githubUsername }"
+              :github="slide.github"
             />
           </template>
         </UiSwiper>
@@ -185,47 +184,36 @@
 </template>
 
 <script setup lang="ts">
-// TODO change to actual link for 2025
-
 const tickets = 'https://pragvue.konference.cz/'
-
-const { t } = useI18n()
 
 const speakers = computed(() => [
   {
     name: 'Alex Lichter',
-    description: t('speakers.TheAlexLichter.short_description'),
-    githubUsername: 'TheAlexLichter',
+    github: 'TheAlexLichter',
   },
   {
     name: 'Jakub Andrzejewski',
-    description: t('speakers.Baroshem.short_description'),
-    githubUsername: 'Baroshem',
+    github: 'Baroshem',
   },
   {
     name: 'Louëlla Creemers',
-    description: t('speakers.LouellaCreemers.short_description'),
-    githubUsername: 'LouellaCreemers',
+    github: 'LouellaCreemers',
   },
   {
     name: 'Alvaro Saburido Rodriguez',
-    description: t('speakers.alvarosabu.short_description'),
-    githubUsername: 'alvarosabu',
+    github: 'alvarosabu',
   },
   {
     name: 'Konstantin Bifert',
-    description: t('speakers.kissu.short_description'),
-    githubUsername: 'kissu',
+    github: 'kissu',
   },
   {
     name: 'Juan Andrés Núñez',
-    description: t('speakers.juanwmedia.short_description'),
-    githubUsername: 'juanwmedia',
+    github: 'juanwmedia',
   },
   {
     name: 'Alois Sečkár',
-    description: t('speakers.AloisSeckar.short_description'),
-    githubUsername: 'AloisSeckar',
+    github: 'AloisSeckar',
   },
 ])
 
