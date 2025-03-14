@@ -198,14 +198,24 @@ const speakers = computed(() => [
     githubUsername: 'TheAlexLichter',
   },
   {
-    name: 'Konstantin Bifert',
-    description: t('speakers.kissu.short_description'),
-    githubUsername: 'kissu',
-  },
-  {
     name: 'Jakub Andrzejewski',
     description: t('speakers.Baroshem.short_description'),
     githubUsername: 'Baroshem',
+  },
+  {
+    name: 'Louëlla Creemers',
+    description: t('speakers.LouellaCreemers.short_description'),
+    githubUsername: 'LouellaCreemers',
+  },
+  {
+    name: 'Alvaro Saburido Rodriguez',
+    description: t('speakers.alvarosabu.short_description'),
+    githubUsername: 'alvarosabu',
+  },
+  {
+    name: 'Konstantin Bifert',
+    description: t('speakers.kissu.short_description'),
+    githubUsername: 'kissu',
   },
   {
     name: 'Juan Andrés Núñez',
