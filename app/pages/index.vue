@@ -63,6 +63,7 @@
           <template #slide="{ slide }">
             <UiSpeakerBox
               :name="slide.name"
+              :country="slide.country"
               :github="slide.github"
             />
           </template>
@@ -189,30 +190,37 @@ const tickets = 'https://pragvue.konference.cz/'
 const speakers = computed(() => [
   {
     name: 'Alex Lichter',
+    country: 'NED',
     github: 'TheAlexLichter',
   },
   {
     name: 'Jakub Andrzejewski',
+    country: 'POL',
     github: 'Baroshem',
   },
   {
     name: 'Louëlla Creemers',
+    country: 'NED',
     github: 'LouellaCreemers',
   },
   {
     name: 'Alvaro Saburido Rodriguez',
+    country: 'ESP',
     github: 'alvarosabu',
   },
   {
     name: 'Konstantin Bifert',
+    country: 'NED',
     github: 'kissu',
   },
   {
     name: 'Juan Andrés Núñez',
+    country: 'ESP',
     github: 'juanwmedia',
   },
   {
     name: 'Alois Sečkár',
+    country: 'CZE',
     github: 'AloisSeckar',
   },
 ])

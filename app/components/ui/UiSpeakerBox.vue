@@ -13,6 +13,11 @@
       </div>
     </div>
 
+    <NuxtImg
+      :src="`/flags/${country}.png`" :alt="`${country} flag`" :title="country"
+      :width="40" class="mx-auto my-2"
+    />
+
     <p class="w-[250px] text-sm text-center text-woodsmoke-400">
       {{ $t(`speakers.${github}`) }}
     </p>
@@ -22,9 +27,11 @@
 <script setup lang="ts">
 const {
   name,
+  country,
   github,
 } = defineProps<{
   name: string
+  country: string
   github: string
 }>()
 
