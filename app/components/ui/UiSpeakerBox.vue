@@ -14,13 +14,13 @@
     </div>
 
     <NuxtImg
-      :src="`/flags/${country}.png`" :alt="`${country} flag`" :title="country"
+      :src="countrySrc" :alt="`${country} flag`" :title="country"
       :width="40" class="mx-auto my-2"
     />
 
-    <p class="w-[250px] text-sm text-center text-woodsmoke-400">
-      {{ $t(`speakers.${github}`) }}
-    </p>
+    <i18n-t :keypath="dscrSrc" tag="p" class="w-[250px] text-sm text-center text-woodsmoke-400">
+      <br>
+    </i18n-t>
   </div>
 </template>
 
@@ -36,6 +36,8 @@ const {
 }>()
 
 const imgSrc = `https://github.com/${github}.png`
+const countrySrc = `/flags/${country}.png`
+const dscrSrc = `speakers.${github}`
 </script>
 
 <style scoped>

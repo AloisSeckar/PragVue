@@ -54,11 +54,11 @@
         "TheAlexLichter": "Web engineering consultant based in Amsterdam",
         "Baroshem": "Software Developer, Technical Diver, Traveller, and Cat Lover",
         "LouellaCreemers": ".NET and TypeScript developer from Rotterdam",
-        "alvarosabu": "DX Engineer [at] Storyblok ~ OSS author ~ Content creator",
+        "alvarosabu": "DX Engineer [at] Storyblok{0}OSS author{0}Content creator",
         "toddeTV": "Computer scientist and web engineer focused on web technologies and databases",
-        "kissu": "Frontend developer ~ VueJS ecosystem lover",
-        "juanwmedia": "Software engineer ~ Vue.js specialist",
-        "AloisSeckar": "Nuxt enthusiast ~ cs.vuejs.org translator"
+        "kissu": "Frontend developer{0}VueJS ecosystem lover",
+        "juanwmedia": "Software engineer{0}Vue.js specialist",
+        "AloisSeckar": "Nuxt enthusiast{0}cs.vuejs.org translator"
     },
     "intro": {
         "present": "present",
