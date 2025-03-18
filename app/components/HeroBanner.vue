@@ -43,7 +43,7 @@
 
       <div class="flex flex-col sm:flex-row gap-4 items-center">
         <UiButtonIcon icon="🎫" href="https://pragvue.konference.cz/" :label="$t('buttons.tickets_1')" />
-        <UiButtonIcon icon="🔍" href="#speakers" :label="$t('buttons.more')" variant="secondary" />
+        <UiButtonIcon icon="🔍" href="#info" :label="$t('buttons.more')" variant="secondary" />
       </div>
     </LayoutContainerContent>
   </LayoutContainer>
@@ -55,7 +55,7 @@
 <style scoped>
 .pgv-hero-banner {
     position: relative;
-    height: 40rem;
+    height: 100vh;
     isolation: isolate;
     overflow: hidden;
 }

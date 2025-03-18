@@ -2,6 +2,7 @@
   <div>
     <HeroBanner />
 
+    <a name="info" />
     <LayoutContainer class="overflow-hidden">
       <LayoutContainerContent class="grid lg:grid-cols-2">
         <div>

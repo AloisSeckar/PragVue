@@ -23,12 +23,14 @@ const {
 .pgv-logo:before {
   content: '<';
   @apply text-woodsmoke-600;
+  @apply pl-1;
   @apply pr-4;
 }
 
 .pgv-logo:after {
   content: '/>';
   @apply text-woodsmoke-600;
-  @apply p-4;
+  @apply pl-4;
+  @apply pr-1;
 }
 </style>
