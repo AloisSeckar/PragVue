@@ -1,6 +1,6 @@
 <template>
   <!--  eslint-disable-next-line  -->
-  <component :is="tag" class="font-default font-bold pgv-logo whitespace-nowrap">
+  <component :is="tag" class="font-default font-bold pt-12 sm:pt-0 pgv-logo whitespace-nowrap">
     <UiPragVue :year="2025" />
   </component>
 </template>

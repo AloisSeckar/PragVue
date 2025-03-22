@@ -26,6 +26,10 @@ const {
   @media screen and (width >= 1536px) {
     padding-inline: 5rem;
   }
+
+  @media screen and (width < 600px) {
+    padding: 2rem 2rem;
+  }
 }
 
 .pgv-cc--s-sm {
