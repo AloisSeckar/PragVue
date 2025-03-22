@@ -159,7 +159,7 @@
       </h3>
 
       <div class="mb-12 pgv-sponsors-wrapper">
-        <LayoutContainerContent v-for="(group, index) in sponsors" :key="index" class="!py-0 pgv-sponsors">
+        <LayoutContainerContent v-for="(group, index) in sponsors" :key="index" class="!py-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 pgv-sponsors">
           <UiSponsorBox
             v-for="sponsor in group"
             :key="sponsor.to"
@@ -236,6 +236,12 @@ const sponsors = computed(() => {
     [
       {
         to: 'https://www.evidencz.com/',
+        image: 'atos',
+        title: 'Atos Czech Republic',
+        alt: 'Atos logo',
+      },
+      {
+        to: 'https://www.evidencz.com/',
         image: 'eviden',
         title: 'Eviden Czech Republic',
         alt: 'Eviden logo',
@@ -274,13 +280,8 @@ const sponsors = computed(() => {
 }
 
 .pgv-sponsors {
-  display: grid;
   gap: var(--gap);
   width: 100%;
-}
-
-.pgv-sponsors:first-child {
-  grid-template-columns: repeat(2, 1fr);
 }
 
 .pgv-sponsors__prompt {

@@ -4,6 +4,14 @@
 
     <div class="flex flex-row gap-4 justify-center items-center">
       <UiSponsorBox
+        to="https://atos.net/cs/ceska-republika"
+        image="atos"
+        title="Atos Czech Republic"
+        alt="Atos logo"
+        no-background
+        size="sm"
+      />
+      <UiSponsorBox
         to="https://www.evidencz.com/"
         image="eviden"
         title="Eviden Czech Republic"
@@ -21,7 +29,7 @@
       />
     </div>
 
-    <LayoutContainerContent class="flex flex-col items-center justify-center gap-4 sm:gap-6 h-full">
+    <LayoutContainerContent class="flex flex-col items-center justify-start sm:justify-center gap-4 sm:gap-6 h-full">
       <TheLogo tag="h1" />
 
       <p class="mb-6 text-sm sm:text-lg md:text-2xl text-center">
