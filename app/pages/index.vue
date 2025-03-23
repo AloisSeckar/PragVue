@@ -2,7 +2,7 @@
   <div>
     <HeroBanner />
 
-    <a name="info" />
+    <a id="info" />
     <LayoutContainer class="overflow-hidden">
       <LayoutContainerContent class="grid lg:grid-cols-2">
         <div>
@@ -30,7 +30,7 @@
             {{ $t('headings.tickets') }}
           </UiHeading>
 
-          <div class="text-2xl font-bold text-center mb-4" inline>
+          <div class="text-2xl font-bold text-center mb-4 inline">
             {{ $t('pages.home.early_bird_tickets') }}
           </div>
 
@@ -53,7 +53,7 @@
       </LayoutContainerContent>
     </LayoutContainer>
 
-    <a name="speakers" />
+    <a id="speakers" />
     <LayoutContainer>
       <LayoutContainerContent>
         <UiHeading class="mb-6 text-vue-light">
