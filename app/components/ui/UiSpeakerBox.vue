@@ -18,7 +18,7 @@
       :width="40" class="mx-auto my-2"
     />
 
-    <i18n-t :keypath="dscrSrc" tag="p" class="w-[250px] text-sm text-center text-woodsmoke-400">
+    <i18n-t :keypath="dscrSrc" scope="global" tag="p" class="w-[250px] text-sm text-center text-woodsmoke-400">
       <br>
     </i18n-t>
   </div>
