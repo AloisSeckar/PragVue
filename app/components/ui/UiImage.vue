@@ -1,6 +1,7 @@
 <template>
   <div class="relative">
-    <NuxtImg
+    <!-- TODO NuxtImg not work properly on Netlify -->
+    <img
       class="absolute inset-0 w-full h-full"
       :class="{
         'object-cover': fit === 'cover',
@@ -11,7 +12,7 @@
       :title="title"
       :alt="alt"
       loading="lazy"
-    />
+    >
   </div>
 </template>
 
