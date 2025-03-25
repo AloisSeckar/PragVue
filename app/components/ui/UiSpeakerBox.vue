@@ -4,7 +4,9 @@
       <UiImage
         class="pgv-speaker-box__img"
         :src="imgSrc"
-        :name
+        :title="name"
+        :alt="$t('accessibility.photo_of_speaker_name', { name })"
+        fit="rounded"
       />
       <div class="absolute right-0 bottom-0 w-min">
         <NuxtLink :to="`https://github.com/${github}`">
