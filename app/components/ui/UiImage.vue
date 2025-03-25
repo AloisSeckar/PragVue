@@ -2,14 +2,15 @@
   <div class="relative">
     <NuxtLink :to="github">
       <NuxtImg
-        class="absolute inset-0 w-full h-full rounded-full"
+        class="absolute inset-0 w-full h-full"
         :class="{
           'object-cover': fit === 'cover',
           'object-contain': fit === 'contain',
+          'rounded-full': fit === 'rounded',
         }"
         :src="src"
-        :title="name"
-        :alt="$t('accessibility.photo_of_speaker_name', { name })"
+        :title="title"
+        :alt="alt"
         loading="lazy"
       />
     </NuxtLink>
@@ -19,12 +20,14 @@
 <script setup lang="ts">
 const {
   src,
-  name,
+  title,
+  alt,
   fit = 'cover',
 } = defineProps<{
   src: string
-  name: string
-  fit?: 'cover' | 'contain'
+  title: string
+  alt: string
+  fit?: 'cover' | 'contain' | 'rounded'
 }>()
 
 const github = src.slice(0, -4)
