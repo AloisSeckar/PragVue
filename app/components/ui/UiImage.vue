@@ -2,7 +2,7 @@
   <div class="relative">
     <!--  TODO: switch to NuxtImg  -->
     <img
-      class="absolute inset-0 w-full h-full"
+      class="absolute inset-0 w-full h-full rounded-full"
       :class="{
         'object-cover': fit === 'cover',
         'object-contain': fit === 'contain',
