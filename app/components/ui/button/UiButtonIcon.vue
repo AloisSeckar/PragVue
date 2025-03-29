@@ -19,7 +19,3 @@ const {
   icon: string
 } & UiButtonProps>()
 </script>
-
-<style scoped>
-
-</style>

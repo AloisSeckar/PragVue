@@ -2,7 +2,7 @@
   <NuxtPage />
   <LayoutContainer tag="footer">
     <LayoutContainerContent size-y="small">
-      <div class="font-mono font-semibold text-center text-woodsmoke-300 text-lg pgv-html-comment">
+      <div class="font-mono font-semibold text-center text-woodsmoke-300 text-lg before:content-['<!--_'] after:content-['_-->']">
         © <UiPragVue :year />
       </div>
     </LayoutContainerContent>
@@ -39,15 +39,5 @@ html {
   scroll-behavior: smooth;
   color: #dddddd;
   font-family: "Montserrat", sans-serif;
-}
-
-.pgv-html-comment:before {
-  content: '<!-- ';
-    @apply text-woodsmoke-300;
-}
-
-.pgv-html-comment:after {
-  content: ' -->';
-  @apply text-woodsmoke-300;
 }
 </style>

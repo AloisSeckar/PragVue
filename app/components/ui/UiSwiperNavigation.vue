@@ -20,7 +20,3 @@ const {
   direction: 'left' | 'right'
 }>()
 </script>
-
-<style scoped>
-
-</style>

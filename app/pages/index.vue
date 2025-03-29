@@ -295,7 +295,6 @@ const sponsors = computed(() => {
 }
 
 .pgv-sponsors__prompt {
-  /* font-size: 1.5rem; */
   font-weight: 500;
   color: theme('colors.woodsmoke.400');
 }
@@ -303,12 +302,10 @@ const sponsors = computed(() => {
 .pgv-sponsors__prompt::before {
   content: '{{ ';
   color: theme('colors.woodsmoke.600');
-  /* font-size: 1.75rem; */
 }
 
 .pgv-sponsors__prompt::after {
   content: ' }}';
   color: theme('colors.woodsmoke.600');
-  /* font-size: 1.75rem; */
 }
 </style>
