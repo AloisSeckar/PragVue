@@ -7,7 +7,7 @@
         'max-sm:hidden': !MOBILE_VISIBLE_INDEXES.includes(index),
       }"
       :active="index === activeIndex"
-      :icon="icon as any"
+      :icon="icon"
     />
   </div>
 </template>
@@ -40,7 +40,7 @@ const MOBILE_VISIBLE_INDEXES = [
 ]
 
 const icons = computed(() => {
-  const icons = [
+  const icons: VueIcon[] = [
     'vue',
     'nuxt',
     'vite',
@@ -69,7 +69,7 @@ const icons = computed(() => {
   ]
 
   const gridLength = GRID_SIZE * GRID_SIZE
-  const grid = Array<string | null>(gridLength).fill(null)
+  const grid = Array<VueIcon | null>(gridLength).fill(null)
 
   let x = CENTER
   let y = CENTER
