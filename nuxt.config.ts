@@ -81,6 +81,7 @@ export default defineNuxtConfig({
   },
 
   security: {
+    nonce: true,
     headers: {
       crossOriginEmbedderPolicy: false,
       contentSecurityPolicy: {
