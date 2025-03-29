@@ -26,10 +26,9 @@ const {
 }>()
 
 const extension = computed(() => {
-  if (['nuxt-ignis'].includes(icon as string)) {
+  if (icon && ['nuxt-ignis', 'vueform', 'formkit'].includes(icon)) {
     return 'png'
   }
-
   return 'svg'
 })
 </script>
