@@ -85,6 +85,7 @@ export default defineNuxtConfig({
       crossOriginEmbedderPolicy: false,
       contentSecurityPolicy: {
         'img-src': ['\'self\'', 'www.facebook.com', 'github.com', 'avatars.githubusercontent.com'],
+        'script-src': ['\'self\'', 'app.termly.io', 'www.googletagmanager.com'],
       },
     },
   },
