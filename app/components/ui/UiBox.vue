@@ -33,7 +33,3 @@ const {
   inline?: boolean
 }>()
 </script>
-
-<style scoped>
-
-</style>

@@ -1,6 +1,6 @@
 <template>
-  <LayoutContainer class="pt-4 pgv-hero-banner">
-    <IconPragueSilhouette class="pgv-hero-banner__bg" />
+  <LayoutContainer class="pt-4 h-lvh relative isolation overflow-hidden">
+    <IconPragueSilhouette class="absolute bottom-0 inset-x-1/2 -z-10 pgv-hero-banner__bg" />
 
     <div class="flex flex-row gap-4 justify-center items-center">
       <UiSponsorBox
@@ -61,20 +61,8 @@
 </script>
 
 <style scoped>
-.pgv-hero-banner {
-    position: relative;
-    height: 100vh;
-    isolation: isolate;
-    overflow: hidden;
-}
-
 .pgv-hero-banner__bg {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: clamp(1200px, 100%, 2000px);
-    z-index: -1;
-
+  transform: translateX(-50%);
+  width: clamp(1200px, 100%, 2000px);
 }
 </style>

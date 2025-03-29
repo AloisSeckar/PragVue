@@ -1,6 +1,6 @@
 <template>
   <!--  eslint-disable-next-line  -->
-  <component :is="tag" class="font-default font-bold pt-12 sm:pt-0 pgv-logo whitespace-nowrap">
+  <component :is="tag" class="font-default font-bold pt-12 px-4 sm:pt-0 whitespace-nowrap text-woodsmoke-600 before:content-['<_'] after:content-['_/>'] pgv-logo">
     <UiPragVue :year="2025" />
   </component>
 </template>
@@ -18,19 +18,5 @@ const {
 <style scoped>
 .pgv-logo {
     font-size: clamp(2rem, 10vw, 6rem);
-}
-
-.pgv-logo:before {
-  content: '<';
-  @apply text-woodsmoke-600;
-  @apply pl-1;
-  @apply pr-4;
-}
-
-.pgv-logo:after {
-  content: '/>';
-  @apply text-woodsmoke-600;
-  @apply pl-4;
-  @apply pr-1;
 }
 </style>

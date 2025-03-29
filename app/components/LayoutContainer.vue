@@ -11,7 +11,3 @@ const {
   tag?: 'div' | 'footer'
 }>()
 </script>
-
-<style scoped>
-
-</style>
