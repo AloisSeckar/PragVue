@@ -1,14 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 
-  modules: [
-    '@nuxt/fonts',
-    '@nuxtjs/i18n',
-    '@nuxt/eslint',
-    '@nuxt/scripts',
-    '@vueuse/nuxt',
-    '@nuxtjs/tailwindcss',
-    '@nuxt/image',
+  extends: [
+    'nuxt-ignis',
   ],
 
   devtools: {
@@ -18,7 +12,6 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
-  compatibilityDate: '2025-02-10',
 
   nitro: {
     prerender: {
@@ -26,6 +19,7 @@ export default defineNuxtConfig({
     },
   },
 
+  /*
   typescript: {
     strict: true,
     typeCheck: true,
@@ -40,6 +34,7 @@ export default defineNuxtConfig({
       },
     },
   },
+  */
 
   eslint: {
     config: {
@@ -81,6 +76,15 @@ export default defineNuxtConfig({
       },
       googleTagManager: {
         id: 'GTM-54QNGDB7',
+      },
+    },
+  },
+
+  security: {
+    headers: {
+      crossOriginEmbedderPolicy: false,
+      contentSecurityPolicy: {
+        'img-src': ['\'self\'', 'www.facebook.com', 'github.com', 'avatars.githubusercontent.com'],
       },
     },
   },
