@@ -81,12 +81,11 @@ export default defineNuxtConfig({
   },
 
   security: {
-    nonce: true,
     headers: {
       crossOriginEmbedderPolicy: false,
       contentSecurityPolicy: {
         'img-src': ['\'self\'', 'www.facebook.com', 'github.com', 'avatars.githubusercontent.com'],
-        'script-src': ['strict-dynamic', 'nonce-{{nonce}}'],
+        'script-src': false,
       },
     },
   },
