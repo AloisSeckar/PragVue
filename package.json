@@ -15,5 +15,5 @@
     "swiper": "11.2.2",
     "vue-tsc": "2.2.8"
   },
-  "packageManager": "pnpm@9.15.9"
+  "packageManager": "pnpm@9.15.5"
 }
