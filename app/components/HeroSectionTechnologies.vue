@@ -57,10 +57,10 @@ const icons = computed(() => {
     'supabase',
     'rollup',
     'nuxt-ignis',
-    // TODO: add more unique icons
-    'oxc',
-    'tailwind',
     'unjs',
+    'vueform',
+    'formkit',
+    // TODO: add more unique icons
     'h3',
     'nitro',
     'supabase',
