@@ -215,6 +215,11 @@ const speakers = computed(() => [
     github: 'adamberecz',
   },
   {
+    name: 'Anastasiia Zvenigorodskaia',
+    country: 'ESP',
+    github: 'zvenigorodskaia',
+  },
+  {
     name: 'Alvaro Saburido Rodriguez',
     country: 'ESP',
     github: 'alvarosabu',
