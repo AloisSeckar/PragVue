@@ -220,6 +220,11 @@ const speakers = computed(() => [
     github: 'zvenigorodskaia',
   },
   {
+    name: 'Raí Siqueira',
+    country: 'BRA',
+    github: 'raisiqueira',
+  },
+  {
     name: 'Alvaro Saburido Rodriguez',
     country: 'ESP',
     github: 'alvarosabu',
@@ -238,6 +243,11 @@ const speakers = computed(() => [
     name: 'Juan Andrés Núñez',
     country: 'ESP',
     github: 'juanwmedia',
+  },
+  {
+    name: 'Alexander Opalic',
+    country: 'GER',
+    github: 'alexanderop',
   },
   {
     name: 'Alois Sečkár',
