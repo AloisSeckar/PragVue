@@ -1,16 +1,14 @@
 <template>
   <div>
     <div class="mb-4 pgv-speaker-box">
-      <NuxtLink :to="`https://github.com/${github}`">
-        <UiImage
-          class="pgv-speaker-box__img"
-          :src="imgSrc"
-          :title="name"
-          :alt="$t('accessibility.photo_of_speaker_name', { name })"
-          fit="rounded"
-          crossorigin="anonymous"
-        />
-      </NuxtLink>
+      <UiImage
+        class="pgv-speaker-box__img"
+        :src="imgSrc"
+        :title="name"
+        :alt="$t('accessibility.photo_of_speaker_name', { name })"
+        fit="rounded"
+        crossorigin="anonymous"
+      />
       <div class="absolute right-0 bottom-0 w-min">
         <NuxtLink :to="`https://github.com/${github}`">
           <span class="font-default font-bold text-woodsmoke-900 bg-vue px-3 py-1 text-xl pgv-speaker-box__name">
