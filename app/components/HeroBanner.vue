@@ -40,13 +40,10 @@
         {{ $t('2025.when') }}
       </p>
       <p class="mb-4 text-sm sm:text-lg md:text-xl text-center">
-        The venue will be announced soon
-        <!--
         <NuxtLink to="https://www.hotel-grandium.cz/" class=" hover:text-vue-light">
           {{ $t('2025.where') }}
         </NuxtLink>
         &nbsp;<a href="https://maps.app.goo.gl/vWW31EiriqbdCpTW8" :title="$t('2025.map')">🗺️</a>
-        -->
       </p>
 
       <div class="flex flex-col sm:flex-row gap-4 items-center">
