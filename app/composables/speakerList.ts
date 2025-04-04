@@ -1,91 +1,77 @@
 type Speaker = {
   name: string
-  countryCode: string
   country: string
   github: string
 }
 
-type UseSpeakerList = {
-  speakers: Ref<Speaker[]>
-}
+  type UseSpeakerList = {
+    speakers: Ref<Speaker[]>
+  }
 
 const speakerList = [
   {
     name: 'Alex Lichter',
-    countryCode: 'NED',
-    country: 'Netherlands',
+    country: 'NED',
     github: 'TheAlexLichter',
   },
   {
     name: 'Jakub Andrzejewski',
-    countryCode: 'POL',
-    country: 'Poland',
+    country: 'POL',
     github: 'Baroshem',
   },
   {
     name: 'Louëlla Creemers',
-    countryCode: 'NED',
-    country: 'Netherlands',
+    country: 'NED',
     github: 'LouellaCreemers',
   },
   {
     name: 'Julien Huang',
-    countryCode: 'FRA',
-    country: 'France',
+    country: 'FRA',
     github: 'huang-julien',
   },
   {
     name: 'Adam Berecz',
-    countryCode: 'HUN',
-    country: 'Hungary',
+    country: 'HUN',
     github: 'adamberecz',
   },
   {
     name: 'Anastasiia Zvenigorodskaia',
-    countryCode: 'ESP',
-    country: 'Spain',
+    country: 'ESP',
     github: 'zvenigorodskaia',
   },
   {
     name: 'Raí Siqueira',
-    countryCode: 'BRA',
-    country: 'Brazil',
+    country: 'BRA',
     github: 'raisiqueira',
   },
   {
     name: 'Alvaro Saburido Rodriguez',
-    countryCode: 'ESP',
-    country: 'Spain',
+    country: 'ESP',
     github: 'alvarosabu',
   },
   {
     name: 'Thorsten Seyschab',
-    countryCode: 'GER',
-    country: 'Germany',
+    country: 'GER',
     github: 'toddeTV',
   },
   {
     name: 'Konstantin Bifert',
-    countryCode: 'NED',
-    country: 'Netherlands',
+    country: 'NED',
     github: 'kissu',
   },
   {
     name: 'Juan Andrés Núñez',
-    countryCode: 'ESP',
-    country: 'Spain',
+    country: 'ESP',
     github: 'juanwmedia',
   },
   {
     name: 'Alexander Opalic',
-    countryCode: 'GER',
-    country: 'Germany',
+    country: 'GER',
     github: 'alexanderop',
   },
   {
     name: 'Alois Sečkár',
-    countryCode: 'CZE',
-    country: 'Czech Republic',
+    country: 'CZE',
     github: 'AloisSeckar',
   },
 ] satisfies Speaker[]
