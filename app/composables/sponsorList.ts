@@ -3,6 +3,7 @@ type Sponsor = {
   image: string
   title: string
   alt: string
+
 }
 
 type UseSponsorList = {
@@ -31,7 +32,7 @@ const sponsorList = [
 ] satisfies Sponsor[]
 
 export function useSponsorList(): UseSponsorList {
-  const sponsors = computed(() => sponsorList)
+  const sponsors: ComputedRef<Sponsor[]> = computed(() => sponsorList)
 
   return { sponsors }
 }
