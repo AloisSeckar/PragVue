@@ -32,7 +32,7 @@ const sponsorList = [
 ] satisfies Sponsor[]
 
 export function useSponsorList(): UseSponsorList {
-  const sponsors: ComputedRef<Sponsor[]> = computed(() => sponsorList)
+  const sponsors = computed(() => sponsorList)
 
   return { sponsors }
 }
