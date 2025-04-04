@@ -1,4 +1,10 @@
 // https://nuxt.com/docs/guide/directory-structure/tsconfig
 {
-  "extends": "./.nuxt/tsconfig.json",
+    "compilerOptions": {
+        "paths": {
+            "#imports": ["./.nuxt/imports"]
+        }
+    },
+
+    "extends": "./.nuxt/tsconfig.json"
 }
