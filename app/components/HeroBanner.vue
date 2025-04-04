@@ -4,26 +4,12 @@
 
     <div class="flex flex-row gap-4 justify-center items-center">
       <UiSponsorBox
-        to="https://atos.net/cs/ceska-republika"
-        image="atos"
-        title="Atos Czech Republic"
-        alt="Atos logo"
-        no-background
-        size="sm"
-      />
-      <UiSponsorBox
-        to="https://www.evidencz.com/"
-        image="eviden"
-        title="Eviden Czech Republic"
-        alt="Eviden logo"
-        no-background
-        size="sm"
-      />
-      <UiSponsorBox
-        to="https://www.exponet.cz/"
-        image="exponet"
-        title="Exponet - Your Event Manager"
-        alt="Exponet logo"
+        v-for="sponsor in sponsors"
+        :key="sponsor.image"
+        :to="sponsor.to"
+        :image="sponsor.image"
+        :title="sponsor.title"
+        :alt="sponsor.alt"
         no-background
         size="sm"
       />
@@ -55,6 +41,7 @@
 </template>
 
 <script setup lang="ts">
+const { sponsors } = useSponsorList()
 </script>
 
 <style scoped>
