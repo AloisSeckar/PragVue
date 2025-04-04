@@ -161,10 +161,9 @@
       </h3>
 
       <div class="mb-12 pgv-sponsors-wrapper">
-        <LayoutContainerContent v-for="(group, index) in sponsors" :key="index" class="!py-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 pgv-sponsors">
+        <LayoutContainerContent v-for="(sponsor, index) in sponsors" :key="index" class="!py-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 pgv-sponsors">
           <UiSponsorBox
-            v-for="sponsor in group"
-            :key="sponsor.to"
+            :key="index"
             :to="sponsor.to"
             :image="sponsor.image"
             :title="sponsor.title"
@@ -189,6 +188,7 @@
 
 <script setup lang="ts">
 const tickets = 'https://pragvue.konference.cz/'
+const { sponsors } = useSponsorList()
 
 const speakers = computed(() => [
   {
@@ -257,31 +257,6 @@ const speakers = computed(() => [
     github: 'AloisSeckar',
   },
 ])
-
-const sponsors = computed(() => {
-  return [
-    [
-      {
-        to: 'https://www.evidencz.com/',
-        image: 'atos',
-        title: 'Atos Czech Republic',
-        alt: 'Atos logo',
-      },
-      {
-        to: 'https://www.evidencz.com/',
-        image: 'eviden',
-        title: 'Eviden Czech Republic',
-        alt: 'Eviden logo',
-      },
-      {
-        to: 'https://www.exponet.cz/',
-        image: 'exponet',
-        title: 'Exponet - Your Event Manager',
-        alt: 'Exponet logo',
-      },
-    ],
-  ]
-})
 </script>
 
 <style>
