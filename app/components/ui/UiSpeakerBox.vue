@@ -3,7 +3,7 @@
     <div class="mb-4 pgv-speaker-box">
       <UiImage
         class="pgv-speaker-box__img"
-        :src="imgSrc"
+        :src="`https://github.com/${github}.png`"
         :title="name"
         :alt="$t('accessibility.photo_of_speaker_name', { name })"
         fit="rounded"
@@ -19,30 +19,22 @@
     </div>
 
     <NuxtImg
-      :src="countrySrc" :alt="`${country} flag`" :title="country"
+      :src="`/flags/${country}.png`" :alt="`${country} flag`" :title="country"
       :width="40" :height="26" class="mx-auto my-2"
     />
 
-    <i18n-t :keypath="dscrSrc" scope="global" tag="p" class="w-[250px] text-sm text-center text-woodsmoke-400">
+    <i18n-t :keypath="`speakers.${github}`" scope="global" tag="p" class="w-[250px] text-sm text-center text-woodsmoke-400">
       <br>
     </i18n-t>
   </div>
 </template>
 
 <script setup lang="ts">
-const {
-  name,
-  country,
-  github,
-} = defineProps<{
+defineProps<{
   name: string
   country: string
   github: string
 }>()
-
-const imgSrc = `https://github.com/${github}.png`
-const countrySrc = `/flags/${country}.png`
-const dscrSrc = `speakers.${github}`
 </script>
 
 <style scoped>
