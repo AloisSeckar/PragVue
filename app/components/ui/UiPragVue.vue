@@ -7,7 +7,5 @@
 </template>
 
 <script setup lang="ts">
-defineProps<{
-  year: number
-}>()
+const year = useState(() => new Date().getFullYear())
 </script>

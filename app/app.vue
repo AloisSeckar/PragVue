@@ -1,18 +1,7 @@
 <template>
-  <NuxtPage />
-  <LayoutContainer tag="footer">
-    <LayoutContainerContent size-y="small">
-      <div class="font-mono font-semibold text-center text-woodsmoke-300 text-lg before:content-['<!--_'] after:content-['_-->']">
-        © <UiPragVue :year />
-      </div>
-      <div class="text-xs text-center">
-        Powered by
-        <NuxtLink to="https://github.com/AloisSeckar/nuxt-ignis" class="text-vue hover:text-vue-light">
-          nuxt-ignis
-        </NuxtLink>
-      </div>
-    </LayoutContainerContent>
-  </LayoutContainer>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
 
 <script setup lang="ts">
@@ -36,8 +25,6 @@ useSeoMeta({
   ogImage: 'https://pragvue.com/pragvue.jpg',
   twitterCard: 'summary_large_image',
 })
-
-const year = useState(() => new Date().getFullYear())
 </script>
 
 <style>
