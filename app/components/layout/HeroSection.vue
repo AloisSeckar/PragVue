@@ -45,8 +45,8 @@ const { sponsors } = useSponsorList()
 </script>
 
 <style scoped>
-.pgv-hero-banner__bg {
-  transform: translateX(-50%);
-  width: clamp(1200px, 100%, 2000px);
-}
+  .pgv-hero-banner__bg {
+    transform: translateX(-50%);
+    width: clamp(1200px, 100%, 2000px);
+  }
 </style>
