@@ -196,7 +196,50 @@
 
     <LayoutContainer>
       <LayoutContainerContent>
-        <UiHeading class="mb-12 text-vue sm:text-center">
+        <UiHeading class="mb-6 text-vue">
+          {{ $t('headings.prague') }}
+        </UiHeading>
+
+        <i18n-t
+          tag="p"
+          scope="global"
+          keypath="pages.home.prague_info"
+          class="mb-12 text-base max-w-[1150px] text-left text-balance"
+        />
+
+        <div class="flex flex-row gap-2 sm:gap-6">
+          <NuxtLink to="https://prague.eu/en/" class="cursor-pointer">
+            <NuxtImg
+              class="mb-10 mx-auto w-auto max-h-[300px]"
+              src="/prague1.webp"
+              :title="pragueImages"
+              :alt="pragueImages"
+            />
+          </NuxtLink>
+          <NuxtLink to="https://prague.eu/en/" class="cursor-pointer">
+            <NuxtImg
+              class="mb-10 mx-auto w-auto max-h-[300px]"
+              src="/prague2.webp"
+              :title="pragueImages"
+              :alt="pragueImages"
+            />
+          </NuxtLink>
+          <NuxtLink to="https://prague.eu/en/" class="cursor-pointer">
+            <NuxtImg
+              class="mb-10 mx-auto w-auto max-h-[300px]"
+              fit="contain"
+              src="/prague3.webp"
+              :title="pragueImages"
+              :alt="pragueImages"
+            />
+          </NuxtLink>
+        </div>
+      </LayoutContainerContent>
+    </LayoutContainer>
+
+    <LayoutContainer>
+      <LayoutContainerContent>
+        <UiHeading class="mb-12 text-vue-light sm:text-center">
           {{ $t('headings.sponsor') }}
         </UiHeading>
 
@@ -345,6 +388,7 @@ const sponsors = computed(() => {
 })
 
 const venueImages = useT('pages.home.venue_images')
+const pragueImages = useT('pages.home.prague_images')
 </script>
 
 <style>

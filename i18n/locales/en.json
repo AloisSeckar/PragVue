@@ -12,6 +12,7 @@
         "the_speakers": "The speakers",
         "look_back_on_2024": "A look back on 2024",
         "venue": "The venue",
+        "prague": "Discover Prague",
         "sponsor": "Become a sponsor"
     },
     "2025": {
@@ -44,6 +45,8 @@
             "venue_images": "Grandium Hotel Prague conference facilities",
             "venue_offer": "The 5-star {hotel} also offers comfortable overnight accommodation without having to worry about navigating around the city. We’ve arranged a special partnership offer for {offer} for all PragVue guests! Contact us after completing your ticket purchase to receive this benefit.",
             "venue_offer_highlight": "an extra 10% discount",
+            "prague_info": "It is just about frontend development. PragVue also gives you chance to explore Prague's stunning Gothic and Baroque architecture, vibrant history, and modern culture. Discover the world's largest ancient castle at Prague Castle, walk the famous Charles Bridge over the Vltava River, and observe the marvelous Astronomical Clock in the historic Old Town Square. And there is much more to do, both during the day and in the night alike. Prague offers a perfect mix of history, culture, nature, and tech, ensuring a fulfilling visit alongside your professional engagements.",
+            "prague_images": "Views of Prague",
             "sponsors_info": "Gain valuable exposure, connect with a passionate audience of developers, and help us shape the future of Vue.js by sponsoring PragVue. {br}{br} Seize this chance to connect with talented developers, share your vision, and shine a spotlight on your brand.",
             "sponsors_list": "was made possible thanks to:",
             "your_company_can_be_here": "Your company can be here"
