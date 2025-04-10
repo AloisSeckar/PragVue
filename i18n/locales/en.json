@@ -29,6 +29,7 @@
   "hero_section": {
     "add_to_calendar": "Add to calendar",
     "buy_tickets": "Buy tickets",
+        "prague": "Discover Prague",
     "show_on_map": "Show on map",
     "when": "When",
     "where": "Where"
@@ -64,6 +65,8 @@
       "speakers_info": "Get ready to be inspired by an outstanding lineup of Vue.js community members who will share their knowledge, hands-on experience, and fresh perspectives. Expect everything from a closer look at ecosystem tools to big-picture views on modern web practices. Whether you’re a long-time Vue enthusiast or just starting out, you’ll find plenty to spark new ideas. Don’t miss the opportunity to learn from and connect with skilled professionals.",
       "speakers_you": "And you...?",
       "speakers_you_info": "We are still looking for a few more speakers! Whether you're an experienced conference patron or seeking your first opportunity to shine, now's your chance. If you have something to share about Vue, contact us via the button below to discuss the details.",
+            "prague_info": "It is just about frontend development. PragVue also gives you chance to explore Prague's stunning Gothic and Baroque architecture, vibrant history, and modern culture. Discover the world's largest ancient castle at Prague Castle, walk the famous Charles Bridge over the Vltava River, and observe the marvelous Astronomical Clock in the historic Old Town Square. And there is much more to do, both during the day and in the night alike. Prague offers a perfect mix of history, culture, nature, and tech, ensuring a fulfilling visit alongside your professional engagements.",
+            "prague_images": "Views of Prague",
       "sponsors_info": "Gain valuable exposure, connect with a passionate audience of developers, and help us shape the future of Vue.js by sponsoring PragVue. {br}{br} Seize this chance to connect with talented developers, share your vision, and shine a spotlight on your brand.",
       "sponsors_list": "was made possible thanks to:",
       "your_company_can_be_here": "Your company logo"
