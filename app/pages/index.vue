@@ -71,6 +71,10 @@
         </UiSwiper>
 
         <p class="mb-12 text base max-w-[72ch] text-center text-balance mx-auto text-xl italic text-woodsmoke-400 pgv-html-comment">
+          {{ $t('pages.home.info_schedule') }}
+        </p>
+
+        <p class="mb-12 text base max-w-[72ch] text-center text-balance mx-auto text-xl italic text-woodsmoke-400 pgv-html-comment">
           {{ $t('pages.home.info_about_schedule_coming_soon') }}
         </p>
 
