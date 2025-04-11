@@ -16,7 +16,7 @@
         "sponsor": "Become a sponsor"
     },
     "2025": {
-        "when": "23 September 2025",
+        "when": "23 September 2025 - 9:00 - 17:30",
         "where": "Grandium Hotel Prague",
         "map": "Show on map"
     },
@@ -35,6 +35,7 @@
             "conference_info_2": "Vue.js is easy to learn, scalable, highly performant thanks to its coherent reactivity system, and has a rich ecosystem of surrounding libraries. Despite its greatness, Vue.js remains undiscovered by many. That's precisely why we're hosting this conference - to delve deeper into its potential and shed light on its remarkable capabilities.",
             "early_bird_tickets": "Early bird tickets",
             "early_bird_tickets_info": "Early bird ticket price is only available until the end of June",
+            "info_schedule": "The event will start at 9:00 and last until 17:30. In between you can expect 13 interesting talks from our speakers along with a lunch and two coffee breaks.",
             "info_about_schedule_coming_soon": "More information about the schedule coming soon",
             "speakers_info": "Get ready to be inspired by an outstanding lineup of Vue.js community members who will share their knowledge, hands-on experience, and fresh perspectives. Expect everything from a closer look at ecosystem tools to big-picture views on modern web practices. Whether you’re a long-time Vue enthusiast or just starting out, you’ll find plenty to spark new ideas. Don’t miss the opportunity to learn from and connect with skilled professionals.",
             "speakers_you": "And you...?",
