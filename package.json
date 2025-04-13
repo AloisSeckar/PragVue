@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "eslint": "eslint .",
+    "lint": "pnpm prettier --log-level warn --write . && echo 'Format has finished.' && pnpm eslint app --fix && echo 'Linting has finished.' && pnpm vue-tsc --noEmit && echo 'Type checking has finished.'",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
