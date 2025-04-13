@@ -56,19 +56,28 @@
         </div>
       </section>
 
-      <nav class="flex flex-col sm:flex-row gap-4 items-center pt-6" aria-label="Event actions">
+      <nav class="flex flex-col gap-4 items-center pt-6" aria-label="Event actions">
         <UiLink suffix-icon="🎫" href="https://pragvue.konference.cz/">
           {{ $t('buttons.tickets_1') }}
         </UiLink>
-
-        <UiLink
-          suffix-icon="🗺️"
-          href="https://maps.app.goo.gl/vWW31EiriqbdCpTW8"
-          variant="secondary"
-          title="View location on Google Maps"
-        >
-          {{ $t('2025.map') }}
-        </UiLink>
+        <div class="flex flex-row gap-4">
+          <UiLink
+            suffix-icon="🗺️"
+            href="https://maps.app.goo.gl/vWW31EiriqbdCpTW8"
+            variant="secondary"
+            title="View location on Google Maps"
+          >
+            {{ $t('2025.map') }}
+          </UiLink>
+          <UiButton
+            suffix-icon="📅"
+            variant="secondary"
+            title="Add event to calendar"
+            @click="generateICalFile"
+          >
+            {{ 'Add to calendar' }}
+          </UiButton>
+        </div>
       </nav>
     </LayoutContainerContent>
   </LayoutContainer>
@@ -76,6 +85,7 @@
 
 <script setup lang="ts">
 const { sponsors } = useSponsorList()
+const { generateICalFile } = useICalGenerator()
 </script>
 
   <style scoped>
