@@ -23,9 +23,7 @@
 
   <LayoutContainer>
     <LayoutContainerContent>
-      <UiHeading class="mb-6">
-        Get your ticket
-      </UiHeading>
+      <UiHeading class="mb-6"> Get your ticket </UiHeading>
     </LayoutContainerContent>
   </LayoutContainer>
 </template>

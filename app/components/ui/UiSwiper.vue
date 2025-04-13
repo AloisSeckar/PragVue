@@ -18,6 +18,15 @@
               isFirst: index === 0,
             }"
           />
+          <slot
+            name="slide"
+            v-bind="{
+              slide,
+              index,
+              active: index === activeSlideIndex,
+              isFirst: index === 0,
+            }"
+          />
         </div>
       </div>
     </div>
