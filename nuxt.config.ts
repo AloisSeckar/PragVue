@@ -14,11 +14,11 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
 
-  nitro: {
-    prerender: {
-      routes: ['/', '/2024'],
-    },
-  },
+  //   nitro: {
+  //     prerender: {
+  //       routes: ['/', '/2024'],
+  //     },
+  //   },
   /*
   typescript: {
     strict: true,
