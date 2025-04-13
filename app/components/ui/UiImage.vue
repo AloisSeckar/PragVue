@@ -1,12 +1,11 @@
 <template>
-  <div class="relative">
+  <div class="relative overflow-hidden">
     <!-- TODO NuxtImg not work properly on Netlify -->
     <img
-      class="absolute inset-0 w-full h-full"
+      class="w-full h-full"
       :class="{
         'object-cover': fit === 'cover',
         'object-contain': fit === 'contain',
-        'rounded-full': fit === 'rounded',
       }"
       :src="src"
       :title="title"
@@ -17,12 +16,7 @@
 </template>
 
 <script setup lang="ts">
-const {
-  src,
-  title,
-  alt,
-  fit = 'cover',
-} = defineProps<{
+defineProps<{
   src: string
   title: string
   alt: string

@@ -1,26 +1,23 @@
 <template>
-  <a id="speakers" />
   <LayoutContainer>
     <LayoutContainerContent>
-      <UiHeading class="mb-6 text-primary-light">
+      <UiHeading>
         {{ $t('headings.the_speakers') }}
       </UiHeading>
 
-      <UiSwiper class="py-12" :slides="speakers">
+      <UiSwiper :slides="speakers">
         <template #slide="{ slide }">
           <UiSpeakerBox
-            :name="slide.name"
-            :country="slide.country"
-            :github="slide.github"
+            :slide="slide"
           />
         </template>
       </UiSwiper>
 
-      <p class="mb-12 text base max-w-[72ch] text-center text-balance mx-auto text-xl italic text-woodsmoke-400 pgv-html-comment">
+      <p class="pb-12 text-center text-balance mx-auto text-xl italic text-text-muted">
         {{ $t('pages.home.info_about_schedule_coming_soon') }}
       </p>
 
-      <p class="mb-6 mx-auto text-base max-w-[72ch] text-center text-balance">
+      <p class="text-balance">
         {{ $t('pages.home.speakers_info') }}
       </p>
 
@@ -40,26 +37,19 @@
 
   <LayoutContainer>
     <LayoutContainerContent>
-      <UiHeading class="mb-12 text-primary">
+      <UiHeading>
         {{ $t('headings.look_back_on_2024') }}
       </UiHeading>
+      <p class="text-balance">
+        {{ $t('pages.home.look_back_on_2024') }}
+      </p>
 
-      <i18n-t
-        tag="p"
-        scope="global"
-        keypath="pages.home.look_back_on_2024"
-        class="mb-12 text-base max-w-[128ch] text-center text-balance"
+      <UiImage
+        class="rounded-lg shadow-xl"
+        src="/pragvue2024.webp"
+        :title="$t('pages.home.link_2024')"
+        :alt="$t('accessibility.photo_of_the_speakers_from_2024')"
       />
-
-      <NuxtLink to="/2024">
-        <UiImage
-          class="w-auto aspect-[1200/971] max-h-[330px] mx-auto"
-          fit="contain"
-          src="/pragvue2024.webp"
-          :title="$t('pages.home.link_2024')"
-          :alt="$t('accessibility.photo_of_the_speakers_from_2024')"
-        />
-      </NuxtLink>
     </LayoutContainerContent>
   </LayoutContainer>
 </template>

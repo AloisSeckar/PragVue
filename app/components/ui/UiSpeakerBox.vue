@@ -1,62 +1,56 @@
 <template>
-  <div>
-    <div class="mb-4 pgv-speaker-box">
-      <UiImage
-        class="pgv-speaker-box__img"
-        :src="`https://github.com/${github}.png`"
-        :title="name"
-        :alt="$t('accessibility.photo_of_speaker_name', { name })"
-        fit="rounded"
-        crossorigin="anonymous"
-      />
-      <div class="absolute right-0 bottom-0 w-min">
-        <NuxtLink :to="`https://github.com/${github}`">
-          <span class="font-default font-bold text-woodsmoke-900 bg-primary px-3 py-1 text-xl pgv-speaker-box__name">
-            {{ name }}
-          </span>
-        </NuxtLink>
+  <article
+    class="flex flex-col gap-2 group"
+    aria-labelledby="speaker-presentation"
+  >
+    <NuxtLink
+      :to="`https://github.com/${github}`"
+      :aria-label="$t('accessibility.visit_github_profile', { name })"
+      class="focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-2 "
+    >
+      <div class="relative shrink-0 p-4">
+        <UiImage
+          class="w-44 h-44 rounded-full"
+          :src="`https://github.com/${github}.png`"
+          :title="name"
+          :alt="$t('accessibility.photo_of_speaker_name', { name })"
+          crossorigin="anonymous"
+        />
       </div>
-    </div>
+      <div class="mx-auto  max-w-52">
+        <div
+          class="font-bold text-text-main bg-primary-dark px-3 py-1 text-center rounded-lg flex items-center justify-center gap-2"
+        >
+          <span id="speaker-presentation" class="text-base break-words">{{ name }}</span>
+          <NuxtImg
+            :src="`/flags/${countryCode}.png`"
+            :alt="$t('accessibility.flag_of_country', { country })"
+            :title="country"
+            :width="24"
+            :height="16"
+            role="img"
+          />
+        </div>
+      </div>
+    </NuxtLink>
 
-    <NuxtImg
-      :src="`/flags/${country}.png`" :alt="`${country} flag`" :title="country"
-      :width="40" :height="26" class="mx-auto my-2"
-    />
-
-    <i18n-t :keypath="`speakers.${github}`" scope="global" tag="p" class="w-[250px] text-sm text-center text-woodsmoke-400">
-      <br>
-    </i18n-t>
-  </div>
+    <p class="max-w-[200px] text-sm text-center text-text-muted mx-auto" aria-labelledby="speaker-presentation">
+      {{ $t(`speakers.${github}`) }}
+    </p>
+  </article>
 </template>
 
 <script setup lang="ts">
-defineProps<{
-  name: string
-  country: string
-  github: string
-}>()
+type Props = {
+  slide: {
+    name: string
+    github: string
+    country: string
+    countryCode: string
+  }
+}
+
+const props = defineProps<Props>()
+
+const { country, countryCode, github, name } = props.slide
 </script>
-
-<style scoped>
-.pgv-speaker-box {
-  position: relative;
-  flex-shrink: 0;
-  padding: 1rem;
-}
-
-.pgv-speaker-box__img {
-  width: 11.5rem;
-  height: 11.5rem;
-
-  transition: transform 400ms cubic-bezier(.45,0,.3,1);
-}
-
-.pgv-speaker-box:hover .pgv-speaker-box__img {
-  transform: scale(1.05);
-  transition-duration: 250ms;
-}
-
-.pgv-speaker-box__name {
-  box-decoration-break: clone;
-}
-</style>
