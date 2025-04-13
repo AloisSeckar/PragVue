@@ -1,3 +1,3 @@
 [build]
-  command = "nuxi generate"
+  command = "nuxt generate"
   publish = ".output/public"
