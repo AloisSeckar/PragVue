@@ -32,8 +32,15 @@ export default <Partial<Config>>{
   },
   plugins: [
     plugin(({
-      addComponents,
+      addComponents, addBase,
     }) => {
+      addBase({
+        ':root': {
+          '--layout-horizontal-padding': '1rem',
+          '--layout-vertical-padding': '1rem',
+        },
+      })
+
       addComponents({
         '.absolute-center': {
           position: 'absolute',

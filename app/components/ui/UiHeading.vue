@@ -1,28 +1,24 @@
 <template>
-  <component :is="tag" class="pgv-heading">
+  <component
+    :is="tag"
+    class="font-bold flex gap-2 pb-4 w-full"
+    :class="{
+      'text-4xl': tag === 'h1',
+      'text-2xl': tag === 'h2',
+      'text-xl': tag === 'h3',
+    }"
+  >
+    <span class="text-neutral-600" aria-hidden="true">//</span>
     <slot />
   </component>
 </template>
 
 <script lang="ts" setup>
-const {
-  tag = 'h2',
-} = defineProps<{
+type Props = {
   tag?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
-}>()
-</script>
-
-<style scoped>
-.pgv-heading {
-  font-family: 'Inter', sans-serif;
-  letter-spacing: 0.01em;
-  line-height: 1.2;
-  font-size: 2.5rem;
-  font-weight: 700;
-
-  &::before {
-    content: '// ';
-    @apply text-woodsmoke-600;
-  }
 }
-</style>
+
+withDefaults(defineProps<Props>(), {
+  tag: 'h2',
+})
+</script>

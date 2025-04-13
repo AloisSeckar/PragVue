@@ -1,6 +1,6 @@
 <template>
   <div
-    :class="cn('flex flex-col gap-4 items-center justify-center', className)"
+    :class="cn('flex flex-col gap-4 items-center justify-center py-6', className)"
   >
     <slot />
   </div>
