@@ -5,11 +5,11 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     // other modules you might have
   ],
+  ssr: false,
 
   devtools: {
     enabled: false,
   },
-
   future: {
     compatibilityVersion: 4,
   },
