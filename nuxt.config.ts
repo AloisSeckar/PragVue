@@ -1,6 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   extends: ['nuxt-ignis'],
+  modules: [
+    '@nuxtjs/i18n',
+    // other modules you might have
+  ],
 
   devtools: {
     enabled: false,
@@ -15,7 +19,6 @@ export default defineNuxtConfig({
       routes: ['/', '/2024'],
     },
   },
-
   /*
   typescript: {
     strict: true,
