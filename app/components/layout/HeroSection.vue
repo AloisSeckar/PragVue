@@ -9,17 +9,24 @@
       class="flex flex-row gap-4 justify-center items-center absolute top-0 left-1/2 -translate-x-1/2 p-2 w-full"
       aria-label="Sponsors"
     >
-      <UiSponsorBox
-        v-for="sponsor in sponsors"
-        :key="sponsor.image"
-        :to="sponsor.to"
-        :image="sponsor.image"
-        :title="sponsor.title"
-        :alt="sponsor.alt"
-        no-background
-        size="sm"
-        :aria-label="`Sponsor: ${sponsor.title}`"
-      />
+      <div
+        v-for="(sponsor, index) in sponsors"
+        :key="index"
+        class="flex items-center justify-center h-16"
+        :aria-label="sponsor.title"
+      >
+        <NuxtLink :to="sponsor.to" class="w-full h-full flex flex-col justify-center items-center py-4">
+
+          <img
+            v-if="sponsor.image"
+            :src="`/${sponsor.image}.webp`"
+            :alt="sponsor.alt"
+            :width="80"
+            :height="20"
+            loading="lazy"
+          >
+        </NuxtLink>
+      </div>
     </section>
 
     <LayoutContainerContent class="h-[calc(100%-var(--layout-vertical-padding)*2)]">

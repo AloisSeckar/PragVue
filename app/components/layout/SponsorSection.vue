@@ -1,86 +1,56 @@
 <template>
   <LayoutContainer>
     <LayoutContainerContent>
-      <UiHeading class="mb-12 text-primary-light sm:text-center">
+      <UiHeading>
         {{ $t('headings.sponsor') }}
       </UiHeading>
 
-      <i18n-t
-        scope="global"
-        tag="p"
-        keypath="pages.home.sponsors_info"
-        class="mb-12 text-base text-center mx-auto max-w-[64ch] text-balance"
-      >
-        <template #br>
-          <br>
-        </template>
-      </i18n-t>
+      <p class="text-balance">
+        {{ $t('pages.home.sponsors_info') }}
+      </p>
 
-      <div class="flex flex-col gap-4 items-center justify-center">
-        <!-- <UiButtonIcon icon="💶" href="mailto:alois.seckar@eviden.com" :label="$t('buttons.sponsor')" /> -->
-      </div>
+      <UiLink href="mailto:alois.seckar@eviden.com" class="mt-6">
+        {{ $t('buttons.sponsor') }}
+      </UiLink>
     </LayoutContainerContent>
 
-    <h3 class="mb-4 text-2xl text-center font-bold ">
-      <!-- <UiPragVue :year="2025" /> -->
-      {{ $t('pages.home.sponsors_list') }}
-    </h3>
-
-    <div class="mb-12 pgv-sponsors-wrapper">
-      <LayoutContainerContent v-for="(sponsor, index) in sponsors" :key="index" class="!py-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 pgv-sponsors">
-        <UiSponsorBox
+    <LayoutContainerContent>
+      <div class="w-full">
+        <p class="text-base">
+          Conference
+          <TheLogo tag="div" :year="2024" />
+          {{ $t('pages.home.sponsors_list') }}
+        </p>
+      </div>
+      <div class="grid grid-cols-2 w-full gap-2">
+        <div
+          v-for="(sponsor, index) in sponsors"
           :key="index"
-          :to="sponsor.to"
-          :image="sponsor.image"
-          :title="sponsor.title"
-          :alt="sponsor.alt"
-          size="lg"
-        />
-      </LayoutContainerContent>
-
-      <LayoutContainerContent class="!py-0 pgv-sponsors text-base min-[430px]:text-lg min-[500px]:text-xl min-[600px]:text-2xl">
-        <UiSponsorBox
-          size="lg"
+          class="flex items-center justify-center bg-secondary-soft h-16"
+          :aria-label="sponsor.title"
         >
-          <span class="pgv-sponsors__prompt">
-            {{ $t('pages.home.your_company_can_be_here') }}
-          </span>
-        </UiSponsorBox>
-      </LayoutContainerContent>
-    </div>
+          <NuxtLink :to="sponsor.to" class="w-full h-full flex flex-col justify-center items-center py-4">
+
+            <img
+              v-if="sponsor.image"
+              :src="`/${sponsor.image}.webp`"
+              :alt="sponsor.alt"
+              :width="80"
+              :height="33"
+              loading="lazy"
+            >
+          </NuxtLink>
+        </div>
+        <div class="text-sm text-text-muted h-16 bg-secondary-soft flex justify-center items-center">
+          <span>&#123;&#123;&nbsp;</span>
+          {{ $t('pages.home.your_company_can_be_here') }}
+          <span>&nbsp;&#125;&#125;</span>
+        </div>
+      </div>
+    </LayoutContainerContent>
   </LayoutContainer>
 </template>
 
 <script setup lang="ts">
 const { sponsors } = useSponsorList()
 </script>
-
-<style scoped>
-.pgv-sponsors-wrapper {
-  --gap: 1.5rem;
-
-  display: flex;
-  flex-direction: column;
-  gap: var(--gap);
-}
-
-.pgv-sponsors {
-  gap: var(--gap);
-  width: 100%;
-}
-
-.pgv-sponsors__prompt {
-  font-weight: 500;
-  color: theme('colors.woodsmoke.400');
-}
-
-.pgv-sponsors__prompt::before {
-  content: '{{ ';
-  color: theme('colors.woodsmoke.600');
-}
-
-.pgv-sponsors__prompt::after {
-  content: ' }}';
-  color: theme('colors.woodsmoke.600');
-}
-</style>
