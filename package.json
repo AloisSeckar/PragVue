@@ -23,6 +23,7 @@
     "@vueuse/core": "^13.1.0",
     "clsx": "2.1.1",
     "ical-generator": "8.1.1",
+    "nuxi": "^3.24.1",
     "prettier": "3.5.3",
     "tailwind-merge": "3.2.0"
   }
