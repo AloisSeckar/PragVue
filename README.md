@@ -117,6 +117,7 @@ pnpm lint
 ```
 
 This script performs the following steps:
+
 1. **Prettier**: Formats the codebase to ensure consistent styling.
    - Command: `pnpm prettier --log-level warn --write .`
 2. **ESLint**: Lints the codebase and automatically fixes issues where possible.
@@ -125,6 +126,7 @@ This script performs the following steps:
    - Command: `pnpm vue-tsc --noEmit`
 
 Each step outputs a message upon completion:
+
 - "Format has finished."
 - "Linting has finished."
 - "Type checking has finished."

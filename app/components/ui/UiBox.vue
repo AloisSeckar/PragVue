@@ -10,7 +10,8 @@
       'p-8': size === 'lg',
       'py-6': size === 'lg' && inline,
       'bg-woodsmoke-800': background === 'normal',
-      'after:content-[\'\'] after:absolute after:inset-0 after:bg-woodsmoke-800': background === 'pseudo',
+      'after:content-[\'\'] after:absolute after:inset-0 after:bg-woodsmoke-800':
+        background === 'pseudo',
     }"
     :role="to ? 'link' : 'presentation'"
     :aria-label="to ? 'Link to ' + to : undefined"

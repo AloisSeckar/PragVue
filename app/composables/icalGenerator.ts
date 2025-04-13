@@ -26,7 +26,9 @@ export function useICalGenerator() {
 
     const downloadCalendar = (): void => {
       const icalString = calendar.toString()
-      const blob = new Blob([icalString], { type: 'text/calendar;charset=utf-8' })
+      const blob = new Blob([icalString], {
+        type: 'text/calendar;charset=utf-8',
+      })
       const url = URL.createObjectURL(blob)
       const link = document.createElement('a')
 

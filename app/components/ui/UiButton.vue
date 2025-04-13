@@ -23,11 +23,7 @@ type Props = {
   prefixIcon?: string
   suffixIcon?: string
   variant?: 'primary' | 'secondary'
-
 }
 
-withDefaults(defineProps<Props>(), {
-  type: 'button',
-  variant: 'primary',
-})
+const { variant = 'primary' } = defineProps<Props>()
 </script>

@@ -8,7 +8,7 @@ export default <Partial<Config>>{
         default: ['Inter', 'sans-serif'],
       },
       colors: {
-        'woodsmoke': {
+        woodsmoke: {
           100: '#cccccc',
           200: '#b3b3b3',
           300: '#999999',
@@ -19,10 +19,10 @@ export default <Partial<Config>>{
           800: '#242424',
           900: '#0f0f0f',
         },
-        'primary': '#42B883',
+        primary: '#42B883',
         'primary-dark': '#3aa173',
         'primary-light': '#fef08a',
-        'secondary': '#1a1a1a',
+        secondary: '#1a1a1a',
         'secondary-soft': '#242424',
         'secondary-muted': '#2f2f2f',
         'text-main': 'hsl(0deg 0% 100% / 87%)',
@@ -31,9 +31,7 @@ export default <Partial<Config>>{
     },
   },
   plugins: [
-    plugin(({
-      addComponents, addBase,
-    }) => {
+    plugin(({ addComponents, addBase }) => {
       addBase({
         ':root': {
           '--layout-horizontal-padding': '1rem',

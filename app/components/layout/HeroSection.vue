@@ -15,8 +15,10 @@
         class="flex items-center justify-center h-16"
         :aria-label="sponsor.title"
       >
-        <NuxtLink :to="sponsor.to" class="w-full h-full flex flex-col justify-center items-center py-4">
-
+        <NuxtLink
+          :to="sponsor.to"
+          class="w-full h-full flex flex-col justify-center items-center py-4"
+        >
           <img
             v-if="sponsor.image"
             :src="`/${sponsor.image}.webp`"
@@ -24,12 +26,14 @@
             :width="80"
             :height="20"
             loading="lazy"
-          >
+          />
         </NuxtLink>
       </div>
     </section>
 
-    <LayoutContainerContent class="h-[calc(100%-var(--layout-vertical-padding)*2)]">
+    <LayoutContainerContent
+      class="h-[calc(100%-var(--layout-vertical-padding)*2)]"
+    >
       <section class="flex flex-col gap-3" aria-label="Event title">
         <TheLogo tag="h1" />
         <p class="text-sm sm:text-lg md:text-2xl text-center">
@@ -37,21 +41,22 @@
         </p>
       </section>
 
-      <section class="flex flex-col items-center gap-4" aria-label="Event details">
+      <section
+        class="flex flex-col items-center gap-4"
+        aria-label="Event details"
+      >
         <div class="flex flex-col items-center">
-          <p class="text-xs uppercase text-text-muted">
-            When
-          </p>
+          <p class="text-xs uppercase text-text-muted">When</p>
           <p class="text-sm sm:text-lg md:text-3xl text-center font-bold">
             {{ $t('2025.when') }}
           </p>
         </div>
 
         <div class="flex flex-col items-center">
-          <p class="text-xs uppercase text-text-muted">
-            Where
-          </p>
-          <p class="text-sm sm:text-lg md:text-xl text-center text-primary underline">
+          <p class="text-xs uppercase text-text-muted">Where</p>
+          <p
+            class="text-sm sm:text-lg md:text-xl text-center text-primary underline"
+          >
             <UiLink
               to="https://www.hotel-grandium.cz/"
               class="hover:text-primary-light"
@@ -65,8 +70,15 @@
         </div>
       </section>
 
-      <nav class="flex flex-col gap-4 items-center pt-6" aria-label="Event actions">
-        <UiLink suffix-icon="🎫" href="https://pragvue.konference.cz/" aria-label="Buy tickets for PragVue conference">
+      <nav
+        class="flex flex-col gap-4 items-center pt-6"
+        aria-label="Event actions"
+      >
+        <UiLink
+          suffix-icon="🎫"
+          href="https://pragvue.konference.cz/"
+          aria-label="Buy tickets for PragVue conference"
+        >
           {{ $t('buttons.tickets_1') }}
         </UiLink>
 
@@ -100,9 +112,9 @@ const { sponsors } = useSponsorList()
 const { generateICalFile } = useICalGenerator()
 </script>
 
-  <style scoped>
-  .pgv-hero-banner__bg {
-    transform: translateX(-50%);
-    width: clamp(1200px, 100%, 2000px);
-  }
-  </style>
+<style scoped>
+.pgv-hero-banner__bg {
+  transform: translateX(-50%);
+  width: clamp(1200px, 100%, 2000px);
+}
+</style>

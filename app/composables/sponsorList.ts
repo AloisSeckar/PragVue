@@ -3,7 +3,6 @@ type Sponsor = {
   image: string
   title: string
   alt: string
-
 }
 
 type UseSponsorList = {

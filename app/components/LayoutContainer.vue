@@ -5,9 +5,7 @@
 </template>
 
 <script lang="ts" setup>
-const {
-  tag = 'div',
-} = defineProps<{
+const { tag = 'div' } = defineProps<{
   tag?: 'div' | 'footer'
 }>()
 </script>

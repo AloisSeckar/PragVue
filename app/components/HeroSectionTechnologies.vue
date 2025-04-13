@@ -116,7 +116,10 @@ onMounted(() => {
   interval = setInterval(() => {
     // if window is smaller than 640px, only take into account the middle 3x3 grid
     if (window.innerWidth < 640) {
-      activeIndex.value = MOBILE_VISIBLE_INDEXES[Math.floor(Math.random() * MOBILE_VISIBLE_INDEXES.length)]!
+      activeIndex.value =
+        MOBILE_VISIBLE_INDEXES[
+          Math.floor(Math.random() * MOBILE_VISIBLE_INDEXES.length)
+        ]!
       return
     }
 
@@ -139,7 +142,11 @@ onUnmounted(() => {
 
   transform: rotate3d(4, -2.5, 3, 65deg);
 
-  mask-image: radial-gradient(white 10%, rgba(255, 255, 255, 0.20) 45%, transparent 80%);
+  mask-image: radial-gradient(
+    white 10%,
+    rgba(255, 255, 255, 0.2) 45%,
+    transparent 80%
+  );
 
   @media screen and (width < 640px) {
     grid-template-columns: repeat(3, 1fr);

@@ -12,15 +12,12 @@
       :src="`/logos/${icon}.${extension}`"
       alt=""
       loading="lazy"
-    >
+    />
   </UiBox>
 </template>
 
 <script setup lang="ts">
-const {
-  icon,
-  active,
-} = defineProps<{
+const { icon, active } = defineProps<{
   icon: VueIcon
   active?: boolean
 }>()
@@ -36,7 +33,7 @@ const extension = computed(() => {
 <style scoped>
 .pgv-icon-box {
   position: relative;
-  transition: transform 400ms cubic-bezier(.45,0,.3,1);
+  transition: transform 400ms cubic-bezier(0.45, 0, 0.3, 1);
   isolation: isolate;
 }
 
@@ -48,7 +45,9 @@ const extension = computed(() => {
   background: #0e0e0e;
   transform: translate(1rem, 1rem);
   filter: blur(40px);
-  transition: transform 400ms cubic-bezier(.45,0,.3,1), opacity 450ms ease-out;
+  transition:
+    transform 400ms cubic-bezier(0.45, 0, 0.3, 1),
+    opacity 450ms ease-out;
   opacity: 0;
 }
 

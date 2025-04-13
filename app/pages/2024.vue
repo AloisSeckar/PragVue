@@ -24,13 +24,20 @@
 
         <ul class="mb-12 mx-auto p-2 max-w-[620px]">
           <UiSpeakerBoxPast
-            v-for="{ name, img, dscr } in speakers" :key="name"
-            :name :img :dscr
+            v-for="{ name, img, dscr } in speakers"
+            :key="name"
+            :name
+            :img
+            :dscr
           />
         </ul>
 
         <div class="flex flex-col gap-4 items-center justify-center">
-          <UiButtonIcon icon="💻" href="/" :label="$t('pages.2024.back_to_2025')" />
+          <UiButtonIcon
+            icon="💻"
+            href="/"
+            :label="$t('pages.2024.back_to_2025')"
+          />
         </div>
       </LayoutContainerContent>
     </LayoutContainer>

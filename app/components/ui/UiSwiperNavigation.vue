@@ -1,13 +1,15 @@
 <template>
   <button
-    class="bg-primary-dark w-10 h-10 flex-shrink-0 flex items-center justify-center text-text-main hover:bg-primary-dark transition-colors" type="button"
+    class="bg-primary-dark w-10 h-10 flex-shrink-0 flex items-center justify-center text-text-main hover:bg-primary-dark transition-colors"
+    type="button"
     :class="{
       'rounded-tr-lg rounded-br-lg ': direction === 'left',
       'rounded-tl-lg rounded-bl-lg': direction === 'right',
     }"
   >
     <svg
-      width="13" height="16"
+      width="13"
+      height="16"
       xmlns="http://www.w3.org/2000/svg"
       :class="{
         'transform rotate-180 mr-1': direction === 'left',

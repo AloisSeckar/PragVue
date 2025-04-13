@@ -11,7 +11,7 @@
       :title="title"
       :alt="alt"
       loading="lazy"
-    >
+    />
   </div>
 </template>
 

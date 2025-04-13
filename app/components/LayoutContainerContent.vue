@@ -1,9 +1,11 @@
 <template>
   <div
-    :class="cn(
-      { 'flex flex-col gap-4 items-center justify-center py-6': true },
-      className,
-    )"
+    :class="
+      cn(
+        { 'flex flex-col gap-4 items-center justify-center py-6': true },
+        className,
+      )
+    "
   >
     <slot />
   </div>
@@ -13,9 +15,9 @@
 import type { ClassValue } from 'clsx'
 import { cn } from '~/lib/utils'
 
-  type Props = {
-    class?: ClassValue
-  }
+type Props = {
+  class?: ClassValue
+}
 
 const { class: className } = defineProps<Props>()
 </script>

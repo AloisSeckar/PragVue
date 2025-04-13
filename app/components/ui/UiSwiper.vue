@@ -9,7 +9,15 @@
     <div ref="swiperEl" class="swiper">
       <div class="swiper-wrapper">
         <div v-for="(slide, index) in slides" :key="index" class="swiper-slide">
-          <slot name="slide" v-bind="{ slide, index, active: index === activeSlideIndex, isFirst: index === 0 }" />
+          <slot
+            name="slide"
+            v-bind="{
+              slide,
+              index,
+              active: index === activeSlideIndex,
+              isFirst: index === 0,
+            }"
+          />
         </div>
       </div>
     </div>
@@ -22,7 +30,7 @@
     />
 
     <UiSwiperNavigation
-      v-if="!isLastSlide "
+      v-if="!isLastSlide"
       class="pgv-swiper__navigation"
       direction="right"
       @click="slideNext"
@@ -35,9 +43,7 @@ import Swiper from 'swiper'
 import type { SwiperOptions } from 'swiper/types'
 import { A11y, Autoplay, Keyboard, Mousewheel } from 'swiper/modules'
 
-const {
-  slides,
-} = defineProps<{
+const { slides } = defineProps<{
   slides: T[]
 }>()
 
@@ -59,8 +65,9 @@ function slidePrev() {
 }
 
 const handleCurrentlyVisibleIndexes = (swiper: Swiper) => {
-  currentlyVisibleIndexes.value = Array.from({ length: swiper.slidesPerViewDynamic() })
-    .map((_, i) => swiper.realIndex + i)
+  currentlyVisibleIndexes.value = Array.from({
+    length: swiper.slidesPerViewDynamic(),
+  }).map((_, i) => swiper.realIndex + i)
 }
 
 onMounted(() => {
@@ -105,82 +112,90 @@ onUnmounted(() => {
 })
 </script>
 
-  <style scoped>
-  @import "swiper/swiper-bundle.css";
+<style scoped>
+@import 'swiper/swiper-bundle.css';
 
-  .pgv-swiper {
-    position: relative;
-    display: flex;
-    gap: 3rem;
-    max-width: 100%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+.pgv-swiper {
+  position: relative;
+  display: flex;
+  gap: 3rem;
+  max-width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.pgv-swiper .swiper:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+
+  width: 100px;
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0),
+    theme('colors.secondary')
+  );
+  z-index: 2;
+  pointer-events: none;
+
+  opacity: 0;
+  transition: opacity 200ms ease-out;
+
+  @media screen and (width >= 768px) {
+    width: 200px;
   }
+}
 
-  .pgv-swiper .swiper:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
+.pgv-swiper:not(.pgv-swiper--first) .swiper:before {
+  opacity: 1;
+}
 
-    width: 100px;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), theme('colors.secondary'));
-    z-index: 2;
-    pointer-events: none;
+.pgv-swiper .swiper:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
 
-    opacity: 0;
-    transition: opacity 200ms ease-out;
+  width: 100px;
+  background: linear-gradient(
+    to right,
+    rgba(15, 15, 15, 0),
+    theme('colors.secondary')
+  );
+  z-index: 1;
+  pointer-events: none;
 
-    @media screen and (width >= 768px) {
-      width: 200px;
-    }
+  opacity: 0;
+  transition: opacity 200ms ease-out;
+
+  @media screen and (width >= 768px) {
+    width: 200px;
   }
+}
 
-  .pgv-swiper:not(.pgv-swiper--first) .swiper:before {
-    opacity: 1;
-  }
+.pgv-swiper:not(.pgv-swiper--last) .swiper:after {
+  opacity: 1;
+}
 
-  .pgv-swiper .swiper:after {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
+.pgv-swiper .swiper-slide {
+  width: fit-content;
+  user-select: none;
+}
 
-    width: 100px;
-    background: linear-gradient(to right, rgba(15, 15, 15, 0), theme('colors.secondary'));
-    z-index: 1;
-    pointer-events: none;
+.pgv-swiper__navigation {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%) translateX(50%);
+  z-index: 1;
+}
 
-    opacity: 0;
-    transition: opacity 200ms ease-out;
-
-    @media screen and (width >= 768px) {
-      width: 200px;
-    }
-  }
-
-  .pgv-swiper:not(.pgv-swiper--last) .swiper:after {
-    opacity: 1;
-  }
-
-  .pgv-swiper .swiper-slide {
-    width: fit-content;
-    user-select: none;
-  }
-
-  .pgv-swiper__navigation {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%) translateX(50%);
-    z-index: 1;
-  }
-
-  .pgv-swiper__navigation--left {
-    right: auto;
-    left: 0;
-    transform: translateY(-50%) translateX(-50%);
-  }
-  </style>
+.pgv-swiper__navigation--left {
+  right: auto;
+  left: 0;
+  transform: translateY(-50%) translateX(-50%);
+}
+</style>

@@ -1,80 +1,81 @@
-
-
 {
-    "accessibility": {
-        "photo_of_speaker_name": "A photo of the speaker \"{name}\"",
-        "photo_of_the_speakers_from_2024": "A picture of the speakers from the 2024 conference"
+  "2025": {
+    "map": "Show on map",
+    "when": "23 September 2025",
+    "where": "Grandium Hotel Prague"
+  },
+  "accessibility": {
+    "flag_of_country": "Flag of {country}",
+    "photo_of_speaker_name": "A photo of the speaker \"{name}\"",
+    "photo_of_the_speakers_from_2024": "A picture of the speakers from the 2024 conference",
+    "speaker_profile": "Speaker profile for {name}",
+    "visit_github_profile": "Visit {name}'s GitHub profile"
+  },
+  "buttons": {
+    "more": "More info",
+    "speaker": "I want to talk at PragVue",
+    "sponsor": "Contact us for sponsorship options",
+    "tickets_1": "Buy tickets",
+    "tickets_2": "Buy for the best price",
+    "tickets_3": "I want to attend PragVue"
+  },
+  "headings": {
+    "about_the_conference": "About the conference",
+    "look_back_on_2024": "A look back on 2024",
+    "sponsor": "Become a sponsor",
+    "the_czech_vuejs_conference": "The Czech Vue.js conference",
+    "the_speakers": "The speakers",
+    "tickets": "Get your seat"
+  },
+  "intro": {
+    "2024": "Meanwhile, remind yourself of PragVue 2024",
+    "2025pt1": "2nd annual Vue.js conference in Prague",
+    "2025pt2": "See you again on 23rd September 2025!",
+    "2025pt3": "Details coming soon",
+    "about": "Vue.js conference in Prague",
+    "date": "17th September 2024 09:00",
+    "more": "More info",
+    "place": "Polygon House - Doudlebská 1699/5, Praha 4",
+    "present": "present",
+    "register": "Registration"
+  },
+  "pages": {
+    "2024": {
+      "about": "The first PragVue was held on 17 September 2024. It was a rather small meetup, but we saw eight Vue/Nuxt developers giving their interesting talks, and new friendships were formed.",
+      "back_to_2025": "Back to 2025",
+      "image": "PragVue 2024 - Speakers",
+      "speakers": "Speakers",
+      "title": "PragVue 2024"
     },
-    "headings": {
-        "the_czech_vuejs_conference": "The Czech Vue.js conference",
-        "about_the_conference": "About the conference",
-        "tickets": "Get your seat",
-        "the_speakers": "The speakers",
-        "look_back_on_2024": "A look back on 2024",
-        "sponsor": "Become a sponsor"
-    },
-    "2025": {
-        "when": "23 September 2025",
-        "where": "Grandium Hotel Prague",
-        "map": "Show on map"
-    },
-    "buttons": {
-        "tickets_1": "Buy tickets",
-        "tickets_2": "Buy for the best price",
-        "tickets_3": "I want to attend PragVue",
-        "more": "More info",
-        "speaker": "I want to talk at PragVue",
-        "sponsor": "Contact us for sponsorship options"
-    },
-    "pages": {
-        "home": {
-            "conference_info_1": "PragVue is back for its second edition, celebrating the power and potential of Vue.js in the heart of Europe. We’re bringing famous names from the Vue.js community to the City of a Hundred Spires for an event packed with inspiring talks. It’s the perfect opportunity to grow your skills, network with like-minded professionals, and stay ahead in the rapidly evolving world of Vue.js.",
-            "conference_info_2": "Vue.js is easy to learn, scalable, highly performant thanks to its coherent reactivity system, and has a rich ecosystem of surrounding libraries. Despite its greatness, Vue.js remains undiscovered by many. That's precisely why we're hosting this conference - to delve deeper into its potential and shed light on its remarkable capabilities.",
-            "early_bird_tickets": "Early bird tickets",
-            "early_bird_tickets_info": "Early bird ticket price is only available until the end of June",
-            "info_about_schedule_coming_soon": "More information about the schedule coming soon",
-            "speakers_info": "Get ready to be inspired by an outstanding lineup of Vue.js community members who will share their knowledge, hands-on experience, and fresh perspectives. Expect everything from a closer look at ecosystem tools to big-picture views on modern web practices. Whether you’re a long-time Vue enthusiast or just starting out, you’ll find plenty to spark new ideas. Don’t miss the opportunity to learn from and connect with skilled professionals.",
-            "speakers_you": "And you...?",
-            "speakers_you_info": "We are still looking for a few more speakers! Whether you're an experienced conference patron or seeking your first opportunity to shine, now's your chance. If you have something to share about Vue, contact us via the button below to discuss the details.",
-            "look_back_on_2024": "PragVue 2024 was a blast! Last year, we hosted the first Czech Vue.js conference. Thank you to all the attendees and all the speakers. We’re hoping to make the next one even better!",
-            "link_2024": "Speakers from the 2024 conference - click to check details",
-            "sponsors_info": "Gain valuable exposure, connect with a passionate audience of developers, and help us shape the future of Vue.js by sponsoring PragVue. {br}{br} Seize this chance to connect with talented developers, share your vision, and shine a spotlight on your brand.",
-            "sponsors_list": "was made possible thanks to:",
-            "your_company_can_be_here": "Your company can be here"
-        },
-        "2024": {
-            "title": "PragVue 2024",
-            "about": "The first PragVue was held on 17 September 2024. It was a rather small meetup, but we saw eight Vue/Nuxt developers giving their interesting talks, and new friendships were formed.",
-            "image": "PragVue 2024 - Speakers",
-            "speakers": "Speakers",
-            "back_to_2025": "Back to 2025"
-        }
-    },
-    "speakers": {
-        "TheAlexLichter": "Web engineering consultant based in Amsterdam",
-        "Baroshem": "Software Developer, Technical Diver, Traveller, and Cat Lover",
-        "LouellaCreemers": ".NET and TypeScript developer from Rotterdam",
-        "huang-julien": "Frontend developer at Leetchi in France{0}Member of the Nuxt Core Team",
-        "adamberecz": "An open-source developer with an entrepreneurial spirit{0}Creator of Vueform",
-        "zvenigorodskaia": "COO at Epicmax{0}In love with Vue.js and Vuestic UI",
-        "raisiqueira": "Senior Software Engineer at Vinta Software from Recife",
-        "alvarosabu": "DX Engineer [at] Storyblok{0}OSS author{0}Content creator",
-        "toddeTV": "Computer Scientist and Web Engineer",
-        "kissu": "Frontend developer{0}VueJS ecosystem lover",
-        "juanwmedia": "Software engineer{0}Vue.js specialist",
-        "alexanderop": "Developer from Germany passionate about technology and knowledge sharing",
-        "AloisSeckar": "Nuxt enthusiast{0}cs.vuejs.org translator"
-    },
-    "intro": {
-        "present": "present",
-        "about": "Vue.js conference in Prague",
-        "date": "17th September 2024 09:00",
-        "place": "Polygon House - Doudlebská 1699/5, Praha 4",
-        "2025pt1": "2nd annual Vue.js conference in Prague",
-        "2025pt2": "See you again on 23rd September 2025!",
-        "2025pt3": "Details coming soon",
-        "2024": "Meanwhile, remind yourself of PragVue 2024",
-        "more": "More info",
-        "register": "Registration"
+    "home": {
+      "conference_info_1": "PragVue is back for its second edition, celebrating the power and potential of Vue.js in the heart of Europe. We’re bringing famous names from the Vue.js community to the City of a Hundred Spires for an event packed with inspiring talks. It’s the perfect opportunity to grow your skills, network with like-minded professionals, and stay ahead in the rapidly evolving world of Vue.js.",
+      "conference_info_2": "Vue.js is easy to learn, scalable, highly performant thanks to its coherent reactivity system, and has a rich ecosystem of surrounding libraries. Despite its greatness, Vue.js remains undiscovered by many. That's precisely why we're hosting this conference - to delve deeper into its potential and shed light on its remarkable capabilities.",
+      "early_bird_tickets": "Early bird tickets",
+      "early_bird_tickets_info": "Early bird ticket price is only available until the end of June",
+      "info_about_schedule_coming_soon": "More information about the schedule coming soon",
+      "link_2024": "Speakers from the 2024 conference - click to check details",
+      "look_back_on_2024": "PragVue 2024 was a blast! Last year, we hosted the first Czech Vue.js conference. Thank you to all the attendees and all the speakers. We’re hoping to make the next one even better!",
+      "speakers_info": "Get ready to be inspired by an outstanding lineup of Vue.js community members who will share their knowledge, hands-on experience, and fresh perspectives. Expect everything from a closer look at ecosystem tools to big-picture views on modern web practices. Whether you’re a long-time Vue enthusiast or just starting out, you’ll find plenty to spark new ideas. Don’t miss the opportunity to learn from and connect with skilled professionals.",
+      "speakers_you": "And you...?",
+      "speakers_you_info": "We are still looking for a few more speakers! Whether you're an experienced conference patron or seeking your first opportunity to shine, now's your chance. If you have something to share about Vue, contact us via the button below to discuss the details.",
+      "sponsors_info": "Gain valuable exposure, connect with a passionate audience of developers, and help us shape the future of Vue.js by sponsoring PragVue. {br}{br} Seize this chance to connect with talented developers, share your vision, and shine a spotlight on your brand.",
+      "sponsors_list": "was made possible thanks to:",
+      "your_company_can_be_here": "Your company logo"
     }
+  },
+  "speakers": {
+    "AloisSeckar": "Nuxt enthusiast{0}cs.vuejs.org translator",
+    "Baroshem": "Software Developer, Technical Diver, Traveller, and Cat Lover",
+    "LouellaCreemers": ".NET and TypeScript developer from Rotterdam",
+    "TheAlexLichter": "Web engineering consultant based in Amsterdam",
+    "adamberecz": "An open-source developer with an entrepreneurial spirit{0}Creator of Vueform",
+    "alexanderop": "Developer from Germany passionate about technology and knowledge sharing",
+    "alvarosabu": "DX Engineer [at] Storyblok{0}OSS author{0}Content creator",
+    "huang-julien": "Frontend developer at Leetchi in France{0}Member of the Nuxt Core Team",
+    "juanwmedia": "Software engineer{0}Vue.js specialist",
+    "kissu": "Frontend developer{0}VueJS ecosystem lover",
+    "raisiqueira": "Senior Software Engineer at Vinta Software from Recife",
+    "toddeTV": "Computer Scientist and Web Engineer",
+    "zvenigorodskaia": "COO at Epicmax{0}In love with Vue.js and Vuestic UI"
+  }
 }

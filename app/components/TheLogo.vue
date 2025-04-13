@@ -1,16 +1,20 @@
 <template>
   <component
     :is="tag"
-    :class="cn(
-      'font-bold whitespace-nowrap text-woodsmoke-600',
-      {
-        'flex items-center justify-center': tag === 'p' || tag === 'h1',
-        'inline-block': tag === 'div',
-        'text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl': tag === 'h1',
-        'text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl': tag === 'p',
-      },
-      className,
-    )"
+    :class="
+      cn(
+        'font-bold whitespace-nowrap text-woodsmoke-600',
+        {
+          'flex items-center justify-center': tag === 'p' || tag === 'h1',
+          'inline-block': tag === 'div',
+          'text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl':
+            tag === 'h1',
+          'text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl':
+            tag === 'p',
+        },
+        className,
+      )
+    "
   >
     <span aria-hidden="true">&lt;&nbsp;</span>
     <span class="text-white">Prag</span>
@@ -30,9 +34,7 @@ type Props = {
   year?: number
 }
 
-const { class: className, year } = withDefaults(defineProps<Props>(), {
-  year: undefined,
-})
+const { class: className, year = undefined } = defineProps<Props>()
 
 const yearState = useState('currentYear', () => new Date().getFullYear())
 const currentYear = computed(() => year ?? yearState.value)

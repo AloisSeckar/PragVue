@@ -5,9 +5,9 @@ type Speaker = {
   github: string
 }
 
-  type UseSpeakerList = {
-    speakers: Ref<Speaker[]>
-  }
+type UseSpeakerList = {
+  speakers: Ref<Speaker[]>
+}
 
 const speakerList = [
   {

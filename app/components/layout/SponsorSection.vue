@@ -16,11 +16,10 @@
 
     <LayoutContainerContent>
       <div class="w-full">
-        <p class="text-base">
-          Conference
-          <TheLogo tag="div" :year="2024" />
-          {{ $t('pages.home.sponsors_list') }}
-        </p>
+        <NuxtLink to="/2024">
+          <TheLogo tag="p" :year="2024" />
+        </NuxtLink>
+        <span class="pl-2">{{ $t('pages.home.sponsors_list') }}</span>
       </div>
       <div class="grid grid-cols-2 w-full gap-2">
         <div
@@ -29,8 +28,10 @@
           class="flex items-center justify-center bg-secondary-soft h-16"
           :aria-label="sponsor.title"
         >
-          <NuxtLink :to="sponsor.to" class="w-full h-full flex flex-col justify-center items-center py-4">
-
+          <NuxtLink
+            :to="sponsor.to"
+            class="w-full h-full flex flex-col justify-center items-center py-4"
+          >
             <img
               v-if="sponsor.image"
               :src="`/${sponsor.image}.webp`"
@@ -38,10 +39,12 @@
               :width="80"
               :height="33"
               loading="lazy"
-            >
+            />
           </NuxtLink>
         </div>
-        <div class="text-sm text-text-muted h-16 bg-secondary-soft flex justify-center items-center">
+        <div
+          class="text-sm text-text-muted h-16 bg-secondary-soft flex justify-center items-center"
+        >
           <span>&#123;&#123;&nbsp;</span>
           {{ $t('pages.home.your_company_can_be_here') }}
           <span>&nbsp;&#125;&#125;</span>
