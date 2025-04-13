@@ -13,14 +13,7 @@
 </template>
 
 <script setup lang="ts">
-const {
-  to,
-  title,
-  alt,
-  image,
-  noBackground,
-  size,
-} = defineProps<{
+defineProps<{
   to?: string
   title?: string
   alt?: string

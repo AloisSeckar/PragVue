@@ -1,22 +1,26 @@
 <template>
-  <!--  eslint-disable-next-line  -->
-  <component :is="tag" class="font-default font-bold pt-12 px-4 sm:pt-0 whitespace-nowrap text-woodsmoke-600 before:content-['<_'] after:content-['_/>'] pgv-logo">
-    <UiPragVue :year="2025" />
+  <component
+    :is="tag"
+    :class="{
+      'flex items-center justify-center font-default font-bold whitespace-nowrap text-woodsmoke-600': true,
+      'text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl': tag === 'h1',
+      'text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl': tag === 'div',
+    }"
+  >
+    <span>&lt;&nbsp;</span>
+    <span class="text-white">Prag</span>
+    <span class="text-vue">Vue</span>
+    <span class="text-vue-light">{{ year }}</span>
+    <span>&nbsp;/&gt;</span>
   </component>
 </template>
 
 <script lang="ts" setup>
-import UiPragVue from './ui/UiPragVue.vue'
+  type Props = {
+    tag: 'div' | 'h1'
+  }
 
-const {
-  tag,
-} = defineProps<{
-  tag?: 'div' | 'h1'
-}>()
+const year = useState(() => new Date().getFullYear())
+
+defineProps<Props>()
 </script>
-
-<style scoped>
-.pgv-logo {
-    font-size: clamp(2rem, 10vw, 6rem);
-}
-</style>
