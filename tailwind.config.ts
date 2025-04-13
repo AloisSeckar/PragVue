@@ -25,6 +25,8 @@ export default <Partial<Config>>{
         'secondary': '#1a1a1a',
         'secondary-soft': '#242424',
         'secondary-muted': '#2f2f2f',
+        'text-main': 'hsl(0deg 0% 100% / 87%)',
+        'text-muted': 'hsl(0deg 0% 92.16% / 60%)',
       },
     },
   },

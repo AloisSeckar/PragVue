@@ -3,6 +3,7 @@
     :class="{
       'border-primary hover:border-primary-light bg-primary-dark': variant === 'primary',
       'border-neutral-700 hover:border-neutral-600 bg-secondary-muted': variant === 'secondary',
+      'bg-none': variant === 'ghost',
       'text-sm rounded-lg w-full font-semibold hover:bg-neutral-800 px-4 py-2 flex justify-between gap-2 transition-colors': true,
     }"
   >
@@ -22,7 +23,7 @@
 type Props = {
   prefixIcon?: string
   suffixIcon?: string
-  variant?: 'primary' | 'secondary'
+  variant?: 'primary' | 'secondary' | 'ghost'
 }
 
 withDefaults(defineProps<Props>(), {

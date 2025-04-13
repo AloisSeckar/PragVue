@@ -1,6 +1,6 @@
 <template>
   <div
-    class="min-w-screen max-w-screen flex min-h-dvh flex-col overflow-hidden"
+    class="min-w-screen max-w-screen flex min-h-dvh flex-col overflow-hidden text-text-main"
   >
     <main class="px-2 py-4">
       <slot />

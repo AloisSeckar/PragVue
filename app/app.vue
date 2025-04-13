@@ -10,7 +10,7 @@ useHead({
     lang: 'en',
   },
   bodyAttrs: {
-    class: 'bg-woodsmoke-900',
+    class: 'bg-secondary',
   },
   script: [
     {
@@ -35,7 +35,5 @@ useSeoMeta({
 <style>
 html {
   scroll-behavior: smooth;
-  color: #dddddd;
-  font-family: "Montserrat", sans-serif;
 }
 </style>

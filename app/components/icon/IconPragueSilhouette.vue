@@ -7,8 +7,9 @@
         x2="172.08" y2="1000" gradientTransform="matrix(1 0 0 -1 539 1028.28)"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0" stop-color="#0f0f0f" />
-        <stop offset="1" stop-color="#1b1b1b" />
+        <stop offset="0" stop-color="#1a1a1a" />
+        <stop offset="0.5" stop-color="#242424" />
+        <stop offset="1" stop-color="#2f2f2f" />
       </linearGradient>
     </defs>
     <path
