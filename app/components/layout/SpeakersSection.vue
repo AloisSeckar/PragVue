@@ -2,7 +2,7 @@
   <a id="speakers" />
   <LayoutContainer>
     <LayoutContainerContent>
-      <UiHeading class="mb-6 text-vue-light">
+      <UiHeading class="mb-6 text-primary-light">
         {{ $t('headings.the_speakers') }}
       </UiHeading>
 
@@ -40,7 +40,7 @@
 
   <LayoutContainer>
     <LayoutContainerContent>
-      <UiHeading class="mb-12 text-vue">
+      <UiHeading class="mb-12 text-primary">
         {{ $t('headings.look_back_on_2024') }}
       </UiHeading>
 

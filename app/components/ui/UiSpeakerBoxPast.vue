@@ -7,7 +7,7 @@
       class="w-12 h-12 rounded-full"
     />
     <div>
-      <strong class="text-vue">{{ name }}</strong> {{ dscr }}
+      <strong class="text-primary">{{ name }}</strong> {{ dscr }}
     </div>
   </li>
 </template>

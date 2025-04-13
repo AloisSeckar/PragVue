@@ -1,8 +1,8 @@
 <template>
-  <LayoutContainer class="overflow-hidden">
+  <LayoutContainer>
     <LayoutContainerContent class="grid lg:grid-cols-2">
       <div>
-        <UiHeading class="mb-6 text-vue-light">
+        <UiHeading class="mb-6 text-primary-light">
           {{ $t('headings.about_the_conference') }}
         </UiHeading>
 
@@ -22,7 +22,7 @@
 
     <LayoutContainerContent>
       <div class="mb-6 flex flex-col items-center">
-        <UiHeading class="mb-6 text-vue">
+        <UiHeading class="mb-6 text-primary">
           {{ $t('headings.tickets') }}
         </UiHeading>
 
@@ -40,7 +40,7 @@
       </div>
 
       <div class="flex flex-col gap-4 items-center justify-center">
-        <UiButtonIcon icon="🎫" href="https://pragvue.konference.cz/" :label="$t('buttons.tickets_2')" />
+        <!-- <UiButtonIcon icon="🎫" href="https://pragvue.konference.cz/" :label="$t('buttons.tickets_2')" /> -->
 
         <p class="mb-8 max-w-[24ch] text-center text-balance text-woodsmoke-300 text-sm">
           {{ $t('pages.home.early_bird_tickets_info') }}
@@ -54,7 +54,7 @@
 .pgv-price {
   font-size: 3.5rem;
   font-weight: 800;
-  color: theme('colors.vue-light');
+  color: theme('colors.primary-light');
 }
 
 .pgv-price--full {

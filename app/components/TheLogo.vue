@@ -9,8 +9,8 @@
   >
     <span>&lt;&nbsp;</span>
     <span class="text-white">Prag</span>
-    <span class="text-vue">Vue</span>
-    <span class="text-vue-light">{{ year }}</span>
+    <span class="text-primary">Vue</span>
+    <span class="text-primary-light">{{ year }}</span>
     <span>&nbsp;/&gt;</span>
   </component>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <LayoutContainer>
     <LayoutContainerContent>
-      <UiHeading class="mb-12 text-vue-light sm:text-center">
+      <UiHeading class="mb-12 text-primary-light sm:text-center">
         {{ $t('headings.sponsor') }}
       </UiHeading>
 
@@ -17,12 +17,12 @@
       </i18n-t>
 
       <div class="flex flex-col gap-4 items-center justify-center">
-        <UiButtonIcon icon="💶" href="mailto:alois.seckar@eviden.com" :label="$t('buttons.sponsor')" />
+        <!-- <UiButtonIcon icon="💶" href="mailto:alois.seckar@eviden.com" :label="$t('buttons.sponsor')" /> -->
       </div>
     </LayoutContainerContent>
 
     <h3 class="mb-4 text-2xl text-center font-bold ">
-      <UiPragVue :year="2025" />
+      <!-- <UiPragVue :year="2025" /> -->
       {{ $t('pages.home.sponsors_list') }}
     </h3>
 

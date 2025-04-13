@@ -1,5 +1,5 @@
 <template>
-  <button class="bg-vue w-10 h-10 flex-shrink-0 flex items-center justify-center text-white hover:bg-vue-dark transition-colors" type="button">
+  <button class="bg-primary w-10 h-10 flex-shrink-0 flex items-center justify-center text-white hover:bg-primary-dark transition-colors" type="button">
     <svg
       width="13" height="16"
       xmlns="http://www.w3.org/2000/svg"
