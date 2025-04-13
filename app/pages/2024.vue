@@ -6,12 +6,9 @@
           {{ $t('pages.2024.title') }}
         </UiHeading>
 
-        <i18n-t
-          tag="p"
-          scope="global"
-          keypath="pages.2024.about"
-          class="mb-8 text-base max-w-[128ch] text-center text-balance"
-        />
+        <p class="mb-8 text-base max-w-[128ch] text-center text-balance">
+          {{ $t('pages.2024.about') }}
+        </p>
 
         <UiImage
           class="mb-10 mx-auto w-auto aspect-[1200/971] max-h-[330px]"
