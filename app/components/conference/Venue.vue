@@ -22,7 +22,7 @@
         <NuxtLink to="https://www.hotel-grandium.cz/en/events-and-conferences/" class="cursor-pointer">
           <NuxtImg
             class="mb-10 mx-auto w-auto max-h-[200px]"
-            src="https://www.hotel-grandium.cz/files-sbbasic/ba_grandiumprague_cz/mars-jupiter-saturn-_banquet.jpg"
+            src="/grandium1.webp"
             :title="venueImages"
             :alt="venueImages"
           />
@@ -30,7 +30,7 @@
         <NuxtLink to="https://www.hotel-grandium.cz/en/events-and-conferences/" class="cursor-pointer">
           <NuxtImg
             class="mb-10 mx-auto w-auto max-h-[200px]"
-            src="https://www.hotel-grandium.cz/files-sbbasic/ba_grandiumprague_cz/jupiter_banquet.jpg"
+            src="/grandium2.webp"
             :title="venueImages"
             :alt="venueImages"
           />
@@ -39,7 +39,7 @@
           <NuxtImg
             class="mb-10 mx-auto w-auto max-h-[200px]"
             fit="contain"
-            src="https://www.hotel-grandium.cz/files-sbbasic/ba_grandiumprague_cz/gum_mercury_i._u-shape__2_.jpg"
+            src="/grandium3.webp"
             :title="venueImages"
             :alt="venueImages"
           />
