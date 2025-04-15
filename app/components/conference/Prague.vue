@@ -16,23 +16,26 @@
         <NuxtLink to="https://prague.eu/en/" class="cursor-pointer">
           <NuxtImg
             class="mb-10 mx-auto w-auto max-h-[300px]"
-            src="/prague1.webp" loading="lazy"
-            :title="pragueImages" :alt="pragueImages"
+            src="/prague1.webp"
+            :title="pragueImages"
+            :alt="pragueImages"
           />
         </NuxtLink>
         <NuxtLink to="https://prague.eu/en/" class="cursor-pointer">
           <NuxtImg
             class="mb-10 mx-auto w-auto max-h-[300px]"
-            src="/prague2.webp" loading="lazy"
-            :title="pragueImages" :alt="pragueImages"
+            src="/prague2.webp"
+            :title="pragueImages"
+            :alt="pragueImages"
           />
         </NuxtLink>
         <NuxtLink to="https://prague.eu/en/" class="cursor-pointer">
           <NuxtImg
             class="mb-10 mx-auto w-auto max-h-[300px]"
             fit="contain"
-            src="/prague3.webp" loading="lazy"
-            :title="pragueImages" :alt="pragueImages"
+            src="/prague3.webp"
+            :title="pragueImages"
+            :alt="pragueImages"
           />
         </NuxtLink>
       </div>
