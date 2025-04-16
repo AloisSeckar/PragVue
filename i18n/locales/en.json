@@ -61,19 +61,19 @@
         }
     },
     "speakers": {
-        "TheAlexLichter": "Web engineering consultant based in Amsterdam - DevRel [at] VoidZero{0}Member of the Nuxt Core Team",
+        "TheAlexLichter": "Web engineering consultant based in Amsterdam - DevRel [at] VoidZero - Member of the Nuxt Core Team",
         "Baroshem": "{'Fullstack Developer & Advocate [at] Monterail - @GoogleDevExpert in Web Perferformance - Nuxt Ecosystem Team'}",
         "LouellaCreemers": ".NET and TypeScript developer from Rotterdam - Microsoft MVP",
-        "huang-julien": "Frontend developer at Leetchi in France{0}Member of the Nuxt Core Team",
-        "adamberecz": "An open-source developer with an entrepreneurial spirit{0}Creator of Vueform",
-        "zvenigorodskaia": "COO at Epicmax{0}In love with Vue.js and Vuestic UI",
+        "huang-julien": "Frontend developer at Leetchi in France - Member of the Nuxt Core Team",
+        "adamberecz": "An open-source developer with an entrepreneurial spirit - Creator of Vueform",
+        "zvenigorodskaia": "COO at Epicmax - In love with Vue.js and Vuestic UI",
         "raisiqueira": "Senior Software Engineer at Vinta Software from Recife",
-        "alvarosabu": "DX Engineer [at] Storyblok{0}OSS author{0}Content creator",
+        "alvarosabu": "DX Engineer [at] Storyblok - OSS author - Content creator",
         "toddeTV": "Computer Scientist and Web Engineer",
-        "kissu": "Frontend developer{0}VueJS ecosystem lover",
-        "juanwmedia": "Software engineer{0}Vue.js specialist",
+        "kissu": "Frontend developer - VueJS ecosystem lover",
+        "juanwmedia": "Software engineer - Vue.js specialist",
         "alexanderop": "Developer from Germany passionate about technology and knowledge sharing",
-        "AloisSeckar": "Nuxt enthusiast{0}cs.vuejs.org translator"
+        "AloisSeckar": "Nuxt enthusiast - cs.vuejs.org translator"
     },
     "intro": {
         "present": "present",
