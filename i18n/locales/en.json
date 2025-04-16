@@ -61,9 +61,9 @@
         }
     },
     "speakers": {
-        "TheAlexLichter": "Web engineering consultant based in Amsterdam",
-        "Baroshem": "Software Developer, Technical Diver, Traveller, and Cat Lover",
-        "LouellaCreemers": ".NET and TypeScript developer from Rotterdam",
+        "TheAlexLichter": "Web engineering consultant based in Amsterdam - DevRel [at] VoidZero{0}Member of the Nuxt Core Team",
+        "Baroshem": "{'Fullstack Developer & Advocate [at] Monterail - @GoogleDevExpert in Web Perferformance - Nuxt Ecosystem Team'}",
+        "LouellaCreemers": ".NET and TypeScript developer from Rotterdam - Microsoft MVP",
         "huang-julien": "Frontend developer at Leetchi in France{0}Member of the Nuxt Core Team",
         "adamberecz": "An open-source developer with an entrepreneurial spirit{0}Creator of Vueform",
         "zvenigorodskaia": "COO at Epicmax{0}In love with Vue.js and Vuestic UI",
