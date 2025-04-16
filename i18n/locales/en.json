@@ -67,16 +67,11 @@
         }
     },
     "speakers": {
-        "AloisSeckar": "Nuxt enthusiast - cs.vuejs.org translator",
         "Baroshem": "{'Fullstack Developer & Advocate [at] Monterail - @GoogleDevExpert in Web Perferformance - Nuxt Ecosystem Team'}",
         "LouellaCreemers": ".NET and TypeScript developer from Rotterdam - Microsoft MVP",
-        "TheAlexLichter": "Web engineering consultant based in Amsterdam - DevRel [at] VoidZero - Member of the Nuxt Core Team",
-        "adamberecz": "Creator of Vueform",
-        "alexanderop": "Developer from Germany passionate about technology and knowledge sharing",
-        "alvarosabu": "DX Engineer [at] Storyblok - OSS author - Content creator",
-        "huang-julien": "Nuxt Core Team - Frontend developer at Leetchi",
-        "juanwmedia": "Software engineer - Vue.js specialist",
-        "kissu": "Frontend developer - VueJS ecosystem lover",
+        "TheAlexLichter": "Web engineering consultant based in Amsterdam - DevRel [at] VoidZero{0}Member of the Nuxt Core Team",
+        "adamberecz": "An open-source developer with an entrepreneurial spirit{0}Creator of Vueform",
+        "huang-julien": "Frontend developer at Leetchi in France{0}Member of the Nuxt Core Team",
         "raisiqueira": "Senior Software Engineer at Vinta Software from Recife",
         "toddeTV": "Computer Scientist and Web Engineer",
         "zvenigorodskaia": "COO at Epicmax - In love with Vue.js and Vuestic UI"
