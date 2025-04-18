@@ -22,26 +22,23 @@
         <NuxtLink to="https://www.hotel-grandium.cz/en/events-and-conferences/" class="cursor-pointer">
           <NuxtImg
             class="mb-10 mx-auto w-auto max-h-[200px]"
-            src="/grandium1.webp"
-            :title="venueImages"
-            :alt="venueImages"
+            src="/grandium1.webp" loading="lazy"
+            :title="venueImages" :alt="venueImages"
           />
         </NuxtLink>
         <NuxtLink to="https://www.hotel-grandium.cz/en/events-and-conferences/" class="cursor-pointer">
           <NuxtImg
             class="mb-10 mx-auto w-auto max-h-[200px]"
-            src="/grandium2.webp"
-            :title="venueImages"
-            :alt="venueImages"
+            src="/grandium2.webp" loading="lazy"
+            :title="venueImages" :alt="venueImages"
           />
         </NuxtLink>
         <NuxtLink to="https://www.hotel-grandium.cz/en/events-and-conferences/" class="cursor-pointer">
           <NuxtImg
             class="mb-10 mx-auto w-auto max-h-[200px]"
             fit="contain"
-            src="/grandium3.webp"
-            :title="venueImages"
-            :alt="venueImages"
+            src="/grandium3.webp" loading="lazy"
+            :title="venueImages" :alt="venueImages"
           />
         </NuxtLink>
       </div>

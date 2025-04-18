@@ -3,19 +3,19 @@
     <HeroBanner />
 
     <a id="info" />
-    <ConferenceInfo />
+    <LazyConferenceInfo hydrate-on-visible />
 
     <a id="speakers" />
-    <ConferenceSpeakers />
+    <LazyConferenceSpeakers hydrate-on-visible />
 
     <!-- TODO schedule -->
 
-    <ConferencePast />
+    <LazyConferencePast hydrate-on-visible />
 
-    <ConferenceVenue />
+    <LazyConferenceVenue hydrate-on-visible />
 
-    <ConferencePrague />
+    <LazyConferencePrague hydrate-on-visible />
 
-    <ConferenceSponsors />
+    <LazyConferenceSponsors hydrate-on-visible />
   </div>
 </template>
