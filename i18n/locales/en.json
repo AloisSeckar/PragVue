@@ -65,24 +65,43 @@
             "venue_offer_highlight": "an extra 10% discount",
             "prague_info": "It is just about frontend development. PragVue also gives you chance to explore Prague's stunning Gothic and Baroque architecture, vibrant history, and modern culture. Discover the world's largest ancient castle at Prague Castle, walk the famous Charles Bridge over the Vltava River, and observe the marvelous Astronomical Clock in the historic Old Town Square. And there is much more to do, both during the day and in the night alike. Prague offers a perfect mix of history, culture, nature, and tech, ensuring a fulfilling visit alongside your professional engagements.",
             "prague_images": "Views of Prague",
-      "sponsors_info": "Gain valuable exposure, connect with a passionate audience of developers, and help us shape the future of Vue.js by sponsoring PragVue. {br}{br} Seize this chance to connect with talented developers, share your vision, and shine a spotlight on your brand.",
-      "sponsors_list": "was made possible thanks to:",
-      "your_company_can_be_here": "Your company logo"
+            "sponsors_info": "Gain valuable exposure, connect with a passionate audience of developers, and help us shape the future of Vue.js by sponsoring PragVue. {br}{br} Seize this chance to connect with talented developers, share your vision, and shine a spotlight on your brand.",
+            "sponsors_list": "was made possible thanks to:",
+            "your_company_can_be_here": "Your company can be here"
+        },
+        "2024": {
+            "title": "PragVue 2024",
+            "about": "The first PragVue was held on 17 September 2024. It was a rather small meetup, but we saw eight Vue/Nuxt developers giving their interesting talks, and new friendships were formed.",
+            "image": "PragVue 2024 - Speakers",
+            "speakers": "Speakers",
+            "back_to_2025": "Back to 2025"
+        }
+    },
+    "speakers": {
+        "TheAlexLichter": "Web engineering consultant based in Amsterdam - DevRel [at] VoidZero - Member of the Nuxt Core Team",
+        "Baroshem": "{'Fullstack Developer & Advocate [at] Monterail - @GoogleDevExpert in Web Perferformance - Nuxt Ecosystem Team'}",
+        "LouellaCreemers": ".NET and TypeScript developer from Rotterdam - Microsoft MVP",
+        "huang-julien": "Nuxt Core Team - Frontend developer at Leetchi",
+        "adamberecz": "Creator of Vueform",
+        "zvenigorodskaia": "COO at Epicmax - In love with Vue.js and Vuestic UI",
+        "raisiqueira": "Senior Software Engineer at Vinta Software from Recife",
+        "alvarosabu": "DX Engineer [at] Storyblok - OSS author - Content creator",
+        "toddeTV": "Computer Scientist and Web Engineer",
+        "kissu": "Frontend developer - VueJS ecosystem lover",
+        "juanwmedia": "Software engineer - Vue.js specialist",
+        "alexanderop": "Developer from Germany passionate about technology and knowledge sharing",
+        "AloisSeckar": "Nuxt enthusiast - cs.vuejs.org translator"
+    },
+    "intro": {
+        "present": "present",
+        "about": "Vue.js conference in Prague",
+        "date": "17th September 2024 09:00",
+        "place": "Polygon House - Doudlebská 1699/5, Praha 4",
+        "2025pt1": "2nd annual Vue.js conference in Prague",
+        "2025pt2": "See you again on 23rd September 2025!",
+        "2025pt3": "Details coming soon",
+        "2024": "Meanwhile, remind yourself of PragVue 2024",
+        "more": "More info",
+        "register": "Registration"
     }
-  },
-  "speakers": {
-    "AloisSeckar": "Nuxt enthusiast{0}cs.vuejs.org translator - DevRel [at] VoidZero{0}Member of the Nuxt Core Team",
-    "Baroshem": "{'Fullstack Developer & Advocate [at] Monterail - @GoogleDevExpert in Web Perferformance - Nuxt Ecosystem Team'}",
-    "LouellaCreemers": ".NET and TypeScript developer from Rotterdam - Microsoft MVP",
-    "TheAlexLichter": "Web engineering consultant based in Amsterdam",
-    "adamberecz": "An open-source developer with an entrepreneurial spirit{0}Creator of Vueform",
-    "alexanderop": "Developer from Germany passionate about technology and knowledge sharing",
-    "alvarosabu": "DX Engineer [at] Storyblok{0}OSS author{0}Content creator",
-    "huang-julien": "Frontend developer at Leetchi in France{0}Member of the Nuxt Core Team",
-    "juanwmedia": "Software engineer{0}Vue.js specialist",
-    "kissu": "Frontend developer{0}VueJS ecosystem lover",
-    "raisiqueira": "Senior Software Engineer at Vinta Software from Recife",
-    "toddeTV": "Computer Scientist and Web Engineer",
-    "zvenigorodskaia": "COO at Epicmax{0}In love with Vue.js and Vuestic UI"
-  }
 }
