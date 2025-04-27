@@ -11,6 +11,7 @@
     "start": "nuxt preview"
   },
   "devDependencies": {
+    "@nuxt/icon": "1.12.0",
     "eslint": "9.24.0",
     "eslint-config-prettier": "10.1.2",
     "eslint-plugin-vue": "10.0.0",
@@ -20,8 +21,8 @@
     "vue-tsc": "2.2.8"
   },
   "dependencies": {
-    "@nuxtjs/i18n": "^9.5.3",
-    "@vueuse/core": "^13.1.0",
+    "@nuxtjs/i18n": "9.5.3",
+    "@vueuse/core": "13.1.0",
     "clsx": "2.1.1",
     "ical-generator": "8.1.1",
     "prettier": "3.5.3",

@@ -1,10 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   extends: ['nuxt-ignis'],
-  modules: [
-    '@nuxtjs/i18n',
-    // other modules you might have
-  ],
+  modules: ['@nuxtjs/i18n', '@nuxt/icon'],
 
   devtools: {
     enabled: false,
@@ -12,12 +9,12 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
-
-  //   nitro: {
-  //     prerender: {
-  //       routes: ['/', '/2024'],
-  //     },
-  //   },
+  nitro: {
+    prerender: {
+      routes: ['/', '/2024'],
+      ignore: ['/second'],
+    },
+  },
   /*
   typescript: {
     strict: true,
@@ -67,7 +64,20 @@ export default defineNuxtConfig({
       strictMessage: false,
     },
   },
-
+  icon: {
+    mode: 'svg',
+    customCollections: [
+      {
+        prefix: 'custom',
+        dir: './app/assets/icons',
+      },
+    ],
+    clientBundle: {
+      scan: true,
+      includeCustomCollections: true,
+      sizeLimitKb: 256,
+    },
+  },
   scripts: {
     registry: {
       googleAnalytics: {
