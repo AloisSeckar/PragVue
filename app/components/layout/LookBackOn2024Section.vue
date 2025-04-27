@@ -14,6 +14,9 @@
         :title="$t('pages.home.link_2024')"
         :alt="$t('accessibility.photo_of_the_speakers_from_2024')"
       />
+      <UiLink to="/2024" class="mt-6">
+        {{ $t('buttons.see_2024') }}
+      </UiLink>
     </LayoutContainerContent>
   </LayoutContainer>
 </template>
