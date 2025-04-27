@@ -16,22 +16,27 @@
           :alt="$t('accessibility.photo_of_speaker_name', { name })"
           crossorigin="anonymous"
         />
+        <NuxtImg
+          class="absolute bottom-4 right-4"
+          :src="`/flags/${countryCode}.png`"
+          :alt="$t('accessibility.flag_of_country', { country })"
+          :title="country"
+          :width="60"
+          :height="40"
+          role="img"
+        />
       </div>
       <div class="mx-auto max-w-52">
         <div
           class="font-bold text-text-main bg-primary-dark px-3 py-1 text-center rounded-lg flex items-center justify-center gap-2"
         >
-          <span id="speaker-presentation" class="text-base break-words">{{
-            name
-          }}</span>
-          <NuxtImg
-            :src="`/flags/${countryCode}.png`"
-            :alt="$t('accessibility.flag_of_country', { country })"
-            :title="country"
-            :width="24"
-            :height="16"
-            role="img"
-          />
+          <div
+            id="speaker-presentation"
+            class="text-base break-words flex flex-col flex-1"
+          >
+            <span>{{ splitName.firstLine }}</span>
+            <span>{{ splitName.secondLine }}</span>
+          </div>
         </div>
       </div>
     </NuxtLink>
@@ -58,4 +63,29 @@ type Props = {
 const props = defineProps<Props>()
 
 const { country, countryCode, github, name } = props.slide
+
+const splitName = computed(() => {
+  const name = props.slide.name
+
+  const totalChars = name.length
+  const halfwayPoint = Math.floor(totalChars / 2)
+
+  let bestSplitPos = 0
+  let bestDifference = Infinity
+
+  for (let i = 0; i < totalChars; i++) {
+    if (name[i] === ' ') {
+      const difference = Math.abs(i - halfwayPoint)
+      if (difference < bestDifference) {
+        bestDifference = difference
+        bestSplitPos = i
+      }
+    }
+  }
+
+  return {
+    firstLine: name.substring(0, bestSplitPos).trim(),
+    secondLine: name.substring(bestSplitPos + 1).trim(),
+  }
+})
 </script>
