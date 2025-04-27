@@ -6,27 +6,27 @@
       'border-neutral-700 hover:border-neutral-600 bg-secondary-muted':
         variant === 'secondary',
       'bg-none': variant === 'ghost',
-      'text-sm rounded-lg font-semibold hover:bg-neutral-800 px-4 py-2 flex justify-between gap-2 transition-colors': true,
+      'text-sm rounded-lg font-semibold hover:bg-neutral-800 px-4 py-2 flex justify-between items-center gap-2 transition-colors': true,
     }"
     :to="to"
   >
-    <IconNuxtIcon
-      v-if="icon?.type === 'prefix'"
-      :name="icon.name"
-      :size="icon.size || 'sm'"
-      aria-hidden="true"
-    />
+    <client-only>
+      <IconNuxtIcon
+        v-if="icon?.type === 'prefix'"
+        :name="icon.name"
+        :size="icon.size || 'sm'"
+      />
+    </client-only>
 
-    <p class="grid place-content-center">
-      <slot />
-    </p>
+    <slot />
 
-    <IconNuxtIcon
-      v-if="icon?.type === 'suffix'"
-      :name="icon.name"
-      :size="icon.size || 'sm'"
-      aria-hidden="true"
-    />
+    <client-only>
+      <IconNuxtIcon
+        v-if="icon?.type === 'suffix'"
+        :name="icon.name"
+        :size="icon.size || 'sm'"
+      />
+    </client-only>
   </NuxtLink>
 </template>
 

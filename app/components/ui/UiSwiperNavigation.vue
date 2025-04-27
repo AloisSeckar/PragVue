@@ -7,17 +7,13 @@
       'rounded-tl-lg rounded-bl-lg': direction === 'right',
     }"
   >
-    <svg
-      width="13"
-      height="16"
-      xmlns="http://www.w3.org/2000/svg"
+    <IconNuxtIcon
+      :name="direction === 'left' ? 'arrow-left' : 'arrow-left'"
+      size="md"
       :class="{
-        'transform rotate-180 mr-1': direction === 'left',
-        '-mr-1': direction === 'right',
+        'rotate-180': direction === 'right',
       }"
-    >
-      <path d="M0 16V0l12 8-12 8Z" fill="currentColor" />
-    </svg>
+    />
   </button>
 </template>
 

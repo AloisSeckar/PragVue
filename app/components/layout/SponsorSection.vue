@@ -9,17 +9,25 @@
         {{ $t('pages.home.sponsors_info') }}
       </p>
 
-      <UiLink href="mailto:alois.seckar@eviden.com" class="mt-6">
+      <UiLink
+        :icon="{
+          type: 'suffix',
+          name: 'mail',
+          size: 'sm',
+        }"
+        to="mailto:alois.seckar@eviden.com"
+        class="mt-6"
+      >
         {{ $t('buttons.sponsor') }}
       </UiLink>
     </LayoutContainerContent>
 
     <LayoutContainerContent>
-      <div class="w-full">
+      <div class="w-full text-center flex flex-col gap-2">
         <NuxtLink to="/2024">
           <TheLogo tag="p" :year="2024" />
         </NuxtLink>
-        <span class="pl-2">{{ $t('pages.home.sponsors_list') }}</span>
+        <span>{{ $t('pages.home.sponsors_list') }}</span>
       </div>
       <div class="grid grid-cols-2 w-full gap-2">
         <div

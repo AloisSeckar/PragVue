@@ -72,10 +72,13 @@ export default defineNuxtConfig({
         dir: './app/assets/icons',
       },
     ],
+    serverBundle: {
+      collections: ['custom'],
+    },
     clientBundle: {
+      icons: ['custom:map', 'custom:ticket', 'custom:calendar-plus'],
       scan: true,
       includeCustomCollections: true,
-      sizeLimitKb: 256,
     },
   },
   scripts: {

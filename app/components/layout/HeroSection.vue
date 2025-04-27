@@ -75,7 +75,11 @@
         aria-label="Event actions"
       >
         <UiLink
-          suffix-icon="🎫"
+          :icon="{
+            type: 'suffix',
+            name: 'ticket',
+            size: 'sm',
+          }"
           to="https://pragvue.konference.cz/"
           aria-label="Buy tickets for PragVue conference"
         >
@@ -97,12 +101,17 @@
             {{ $t('2025.map') }}
           </UiLink>
           <UiButton
+            :icon="{
+              type: 'suffix',
+              name: 'calendar-plus',
+              size: 'sm',
+            }"
             variant="secondary"
             title="Add event to calendar"
             aria-label="Add event to calendar"
             @click="generateICalFile"
           >
-            {{ 'Add to calendar' }}
+            {{ $t('buttons.add_to_calendar') }}
           </UiButton>
         </div>
       </nav>

@@ -34,8 +34,8 @@
 
           <div class="flex flex-col gap-4 items-center justify-center">
             <UiLink
-              suffix-icon="🎫"
-              href="https://pragvue.konference.cz/"
+              :icon="{ name: 'ticket', type: 'suffix' }"
+              to="https://pragvue.konference.cz/"
               aria-label="Buy early bird tickets for PragVue conference"
             >
               {{ $t('buttons.tickets_2') }}

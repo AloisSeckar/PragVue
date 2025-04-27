@@ -1,9 +1,10 @@
 <template>
   <div
+    aria-hidden="true"
     :class="{
       'w-6 h-6': size === 'sm',
-      'w-10 h-10': size === 'md',
-      'w-12 h-12': size === 'lg',
+      'w-8 h-8': size === 'md',
+      'w-10 h-10': size === 'lg',
     }"
   >
     <component
@@ -19,8 +20,15 @@
 /*
  * To be consistent the collection is lucide icons
  * https://icones.js.org/collection/lucide
+ * After adding new icon remember to remove width and height from the svg.
+ * And remember to add the icon to the list of icons below.
  */
-export type IconName = 'map'
+export type IconName =
+  | 'map'
+  | 'ticket'
+  | 'calendar-plus'
+  | 'arrow-left'
+  | 'mail'
 export type IconSize = 'sm' | 'md' | 'lg'
 
 type Props = {

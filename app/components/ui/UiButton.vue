@@ -10,7 +10,6 @@
       v-if="icon?.type === 'prefix'"
       :name="icon.name"
       :size="icon.size"
-      aria-hidden="true"
     />
 
     <p class="grid place-content-center">
@@ -21,7 +20,6 @@
       v-if="icon?.type === 'suffix'"
       :name="icon.name"
       :size="icon.size"
-      aria-hidden="true"
     />
   </button>
 </template>
