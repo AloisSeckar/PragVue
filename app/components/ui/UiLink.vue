@@ -8,25 +8,50 @@
       'bg-none': variant === 'ghost',
       'text-sm rounded-lg font-semibold hover:bg-neutral-800 px-4 py-2 flex justify-between gap-2 transition-colors': true,
     }"
+    :to="to"
   >
-    <span v-if="prefixIcon" aria-hidden="true">
-      {{ prefixIcon }}
-    </span>
+    <IconNuxtIcon
+      v-if="icon?.type === 'prefix'"
+      :name="icon.name"
+      :size="icon.size || 'sm'"
+      aria-hidden="true"
+    />
 
-    <slot />
+    <p class="grid place-content-center">
+      <slot />
+    </p>
 
-    <span v-if="suffixIcon" aria-hidden="true">
-      {{ suffixIcon }}
-    </span>
+    <IconNuxtIcon
+      v-if="icon?.type === 'suffix'"
+      :name="icon.name"
+      :size="icon.size || 'sm'"
+      aria-hidden="true"
+    />
   </NuxtLink>
 </template>
 
 <script setup lang="ts">
+import type { IconName, IconSize } from '../icon/NuxtIcon.vue'
+
+type PrefixIcon = {
+  type: 'prefix'
+  name: IconName
+  size?: IconSize
+}
+
+type SuffixIcon = {
+  type: 'suffix'
+  name: IconName
+  size?: IconSize
+}
+
+type IconConfig = PrefixIcon | SuffixIcon
+
 type Props = {
-  prefixIcon?: string
-  suffixIcon?: string
+  to: string
+  icon?: IconConfig
   variant?: 'primary' | 'secondary' | 'ghost'
 }
 
-const { variant = 'primary' } = defineProps<Props>()
+const { icon, variant = 'primary', to } = defineProps<Props>()
 </script>

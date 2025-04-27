@@ -76,7 +76,7 @@
       >
         <UiLink
           suffix-icon="🎫"
-          href="https://pragvue.konference.cz/"
+          to="https://pragvue.konference.cz/"
           aria-label="Buy tickets for PragVue conference"
         >
           {{ $t('buttons.tickets_1') }}
@@ -84,8 +84,12 @@
 
         <div class="flex flex-row gap-4">
           <UiLink
-            suffix-icon="🗺️"
-            href="https://maps.app.goo.gl/vWW31EiriqbdCpTW8"
+            :icon="{
+              type: 'suffix',
+              name: 'map',
+              size: 'sm',
+            }"
+            to="https://maps.app.goo.gl/vWW31EiriqbdCpTW8"
             variant="secondary"
             title="View location on Google Maps"
             aria-label="View location of the event on Google Maps"
@@ -93,7 +97,6 @@
             {{ $t('2025.map') }}
           </UiLink>
           <UiButton
-            suffix-icon="📅"
             variant="secondary"
             title="Add event to calendar"
             aria-label="Add event to calendar"
