@@ -2,7 +2,7 @@
   <LayoutContainer class="pt-4 h-lvh relative isolation overflow-hidden">
     <IconPragueSilhouette class="absolute bottom-0 inset-x-1/2 -z-10 pgv-hero-banner__bg" />
 
-    <div class="flex flex-row gap-4 justify-center items-center">
+    <div class="flex flex-row gap-4 justify-center items-center mb-4">
       <UiSponsorBox
         v-for="sponsor in topSponsors"
         :key="sponsor.to"
@@ -15,7 +15,6 @@
       />
     </div>
 
-    <!--
     <div class="flex flex-row gap-4 justify-center items-center">
       <UiSponsorBox
         v-for="sponsor in otherSponsors"
@@ -28,7 +27,6 @@
         size="sm"
       />
     </div>
-    -->
 
     <LayoutContainerContent class="flex flex-col items-center justify-start sm:justify-center gap-4 sm:gap-6 h-full">
       <TheLogo tag="h1" />
@@ -59,7 +57,7 @@
 import { sponsors } from '@/utils/sponsors-2025'
 
 const topSponsors = sponsors.filter(s => s.tier === 1)
-// const otherSponsors = sponsors.filter(s => s.tier > 1)
+const otherSponsors = sponsors.filter(s => s.tier > 1)
 </script>
 
 <style scoped>
