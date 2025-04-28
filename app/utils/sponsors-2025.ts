@@ -22,6 +22,13 @@ export const sponsors = [
   },
   {
     tier: 2,
+    to: 'https://slideslive.com/',
+    image: 'slideslive',
+    title: 'SlidesLive - Professional Conference Recording',
+    alt: 'SlidesLive logo',
+  },
+  {
+    tier: 2,
     to: 'https://www.vintasoftware.com/',
     image: 'vinta',
     title: 'Vinta Software',
