@@ -6,7 +6,7 @@
   >
     <slot>
       <img
-        class="inline-block object-contain w-auto h-8" :src="`/${image}.webp`" :alt
+        class="inline-block object-contain w-auto h-10" :src="`/${image}.webp`" :alt
       >
     </slot>
   </UiBox>

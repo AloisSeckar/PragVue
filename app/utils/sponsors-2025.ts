@@ -18,5 +18,11 @@ export const sponsors = [
       title: 'Exponet - Your Event Manager',
       alt: 'Exponet logo',
     },
+    {
+      to: 'https://www.vintasoftware.com/',
+      image: 'vinta',
+      title: 'Vinta Software',
+      alt: 'Vinta Software logo',
+    },
   ],
 ]
