@@ -35,7 +35,7 @@
     >
       <section class="flex flex-col gap-3" aria-label="Event title">
         <TheLogo tag="h1" />
-        <p class="text-sm text-center">
+        <p class="text-sm sm:text-base text-center">
           {{ $t('headings.the_czech_vuejs_conference') }}
         </p>
       </section>
@@ -44,23 +44,23 @@
         class="flex flex-col items-center gap-4 sm:flex-row"
         aria-label="Event details"
       >
-        <div class="flex flex-col items-center">
-          <p class="text-xs sm:text-xl uppercase text-text-muted">
+        <div class="flex flex-col items-center sm:flex-grow">
+          <p class="text-xs sm:text-base uppercase text-text-muted">
             {{ $t('hero_section.when') }}
           </p>
-          <p class="px-8 py-2 text-sm sm:text-xl text-center font-bold">
+          <p class="px-8 py-2 text-sm sm:text-lg text-center font-bold">
             {{ $t('2025.conference_date') }}
           </p>
         </div>
 
-        <div class="flex flex-col items-center">
-          <p class="text-xs sm:text-xl uppercase text-text-muted">
+        <div class="flex flex-col items-center sm:flex-grow">
+          <p class="text-xs sm:text-base uppercase text-text-muted">
             {{ $t('hero_section.where') }}
           </p>
 
           <UiLink
             to="https://www.hotel-grandium.cz/"
-            class="sm:text-xl text-center text-primary underline"
+            class="sm:text-base text-center text-primary underline"
             variant="ghost"
             title="Visit Hotel Grandium Prague website"
             aria-label="Visit Hotel Grandium Prague website"
@@ -71,13 +71,12 @@
       </section>
 
       <nav
-        class="flex flex-col gap-4 items-center pt-6 sm:flex-row"
+        class="flex flex-col gap-4 items-center pt-6 w-full"
         aria-label="Event actions"
       >
         <UiLink
           to="https://pragvue.konference.cz/"
           aria-label="Buy tickets for PragVue conference"
-          class="w-full"
         >
           {{ $t('hero_section.buy_tickets') }}
           <template #suffix>
@@ -85,7 +84,7 @@
           </template>
         </UiLink>
 
-        <div class="flex flex-col gap-4 sm:flex-row">
+        <div class="contents sm:flex sm:gap-4 sm:flex-row">
           <UiLink
             to="https://maps.app.goo.gl/vWW31EiriqbdCpTW8"
             variant="secondary"

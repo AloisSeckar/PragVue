@@ -4,7 +4,7 @@
       <UiHeading>
         {{ $t('headings.look_back_on_2024') }}
       </UiHeading>
-      <p class="text-balance">
+      <p class="text-balance sm:text-lg">
         {{ $t('pages.home.look_back_on_2024') }}
       </p>
 

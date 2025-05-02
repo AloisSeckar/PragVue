@@ -5,7 +5,7 @@
         {{ $t('headings.sponsor') }}
       </UiHeading>
 
-      <p class="text-balance">
+      <p class="text-balance sm:text-lg">
         {{ $t('pages.home.sponsors_info') }}
       </p>
 
@@ -22,7 +22,7 @@
         <NuxtLink to="/2024">
           <TheLogo tag="p" :year="2024" />
         </NuxtLink>
-        <span>{{ $t('pages.home.sponsors_list') }}</span>
+        <span class="sm:text-lg">{{ $t('pages.home.sponsors_list') }}</span>
       </div>
       <div class="grid grid-cols-2 w-full gap-2">
         <div
@@ -46,7 +46,7 @@
           </NuxtLink>
         </div>
         <div
-          class="text-sm text-text-muted h-16 bg-secondary-soft flex justify-center items-center"
+          class="text-sm sm:text-lg text-text-muted h-16 bg-secondary-soft flex justify-center items-center"
         >
           <span>&#123;&#123;&nbsp;</span>
           {{ $t('pages.home.your_company_can_be_here') }}

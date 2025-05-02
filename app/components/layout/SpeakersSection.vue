@@ -12,12 +12,12 @@
       </UiSwiper>
 
       <p
-        class="pb-12 text-center text-balance mx-auto text-xl italic text-text-muted"
+        class="pb-12 text-center text-balance mx-auto text-xl italic text-text-muted sm:text-lg"
       >
         {{ $t('pages.home.info_about_schedule_coming_soon') }}
       </p>
 
-      <p class="text-balance">
+      <p class="text-balance sm:text-lg">
         {{ $t('pages.home.speakers_info') }}
       </p>
 

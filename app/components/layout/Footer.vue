@@ -4,7 +4,7 @@
   >
     <TheLogo tag="p" />
 
-    <p class="text-sm text-center">
+    <p class="text-sm text-center sm:text-lg">
       Powered by
       <NuxtLink
         to="https://github.com/AloisSeckar/nuxt-ignis"

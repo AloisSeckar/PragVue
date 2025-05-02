@@ -7,7 +7,7 @@
         variant === 'secondary',
       'bg-none': variant === 'ghost',
       'justify-between': $slots.prefix || $slots.suffix,
-      'max-w-[180px] w-full text-sm rounded-lg font-semibold hover:bg-neutral-800 px-4 py-2 flex justify-center items-center gap-2 transition-colors': true,
+      'min-w-[170px] max-w-[250px] text-sm sm:text-base rounded-lg font-semibold hover:bg-neutral-800 px-4 py-2 flex justify-center items-center gap-2 transition-colors': true,
     }"
     :to="to"
   >

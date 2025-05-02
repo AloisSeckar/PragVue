@@ -4,7 +4,7 @@
     class="font-bold flex gap-2 pb-6 w-full"
     :class="{
       'text-4xl': tag === 'h1',
-      'text-2xl': tag === 'h2',
+      'text-2xl sm:text-3xl': tag === 'h2',
       'text-xl': tag === 'h3',
     }"
   >

@@ -10,11 +10,11 @@
           {{ $t('headings.about_the_conference') }}
         </UiHeading>
 
-        <p class="text-base text-left">
+        <p class="text-base sm:text-lg text-left">
           {{ $t('pages.home.conference_info_1') }}
         </p>
 
-        <p class="text-base text-left">
+        <p class="text-base sm:text-lg text-left">
           {{ $t('pages.home.conference_info_2') }}
         </p>
       </article>
@@ -52,7 +52,8 @@ onMounted(async () => {
       useResizeObserver(heroSectionTechnologies, (entries) => {
         if (!entries[0]) return
         const { width, height } = entries[0].contentRect
-        elementDimension.value = { width, height }
+
+        elementDimension.value = { width, height: height > 600 ? 600 : height }
       })
     },
     { immediate: true },
