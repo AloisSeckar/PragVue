@@ -6,7 +6,7 @@
     />
 
     <section
-      class="flex flex-row gap-4 justify-center items-center absolute top-0 left-1/2 -translate-x-1/2 p-2 w-full"
+      class="flex flex-row gap-4 sm:gap-10 justify-center items-center absolute top-0 left-1/2 -translate-x-1/2 p-2 w-full"
       aria-label="Sponsors"
     >
       <div
@@ -23,95 +23,96 @@
             v-if="sponsor.image"
             :src="`/${sponsor.image}.webp`"
             :alt="sponsor.alt"
-            :width="80"
-            :height="20"
             loading="lazy"
+            class="w-20 h-5"
           />
         </NuxtLink>
       </div>
     </section>
 
     <LayoutContainerContent
-      class="h-[calc(100%-var(--layout-vertical-padding)*2)]"
+      class="h-[calc(100%-var(--layout-vertical-padding)*2)] sm:gap-10"
     >
       <section class="flex flex-col gap-3" aria-label="Event title">
         <TheLogo tag="h1" />
-        <p class="text-sm sm:text-lg md:text-2xl text-center">
+        <p class="text-sm text-center">
           {{ $t('headings.the_czech_vuejs_conference') }}
         </p>
       </section>
 
       <section
-        class="flex flex-col items-center gap-4"
+        class="flex flex-col items-center gap-4 sm:flex-row"
         aria-label="Event details"
       >
         <div class="flex flex-col items-center">
-          <p class="text-xs uppercase text-text-muted">When</p>
-          <p class="text-sm sm:text-lg md:text-3xl text-center font-bold">
-            {{ $t('2025.when') }}
+          <p class="text-xs sm:text-xl uppercase text-text-muted">
+            {{ $t('hero_section.when') }}
+          </p>
+          <p class="px-8 py-2 text-sm sm:text-xl text-center font-bold">
+            {{ $t('2025.conference_date') }}
           </p>
         </div>
 
         <div class="flex flex-col items-center">
-          <p class="text-xs uppercase text-text-muted">Where</p>
-          <p
-            class="text-sm sm:text-lg md:text-xl text-center text-primary underline"
-          >
-            <UiLink
-              to="https://www.hotel-grandium.cz/"
-              class="hover:text-primary-light"
-              variant="ghost"
-              title="Visit Hotel Grandium Prague website"
-              aria-label="Visit Hotel Grandium Prague website"
-            >
-              {{ $t('2025.where') }}
-            </UiLink>
+          <p class="text-xs sm:text-xl uppercase text-text-muted">
+            {{ $t('hero_section.where') }}
           </p>
+
+          <UiLink
+            to="https://www.hotel-grandium.cz/"
+            class="sm:text-xl text-center text-primary underline"
+            variant="ghost"
+            title="Visit Hotel Grandium Prague website"
+            aria-label="Visit Hotel Grandium Prague website"
+          >
+            {{ $t('2025.conference_place') }}
+          </UiLink>
         </div>
       </section>
 
       <nav
-        class="flex flex-col gap-4 items-center pt-6"
+        class="flex flex-col gap-4 items-center pt-6 sm:flex-row"
         aria-label="Event actions"
       >
         <UiLink
-          :icon="{
-            type: 'suffix',
-            name: 'ticket',
-            size: 'sm',
-          }"
           to="https://pragvue.konference.cz/"
           aria-label="Buy tickets for PragVue conference"
+          class="w-full"
         >
-          {{ $t('buttons.tickets_1') }}
+          {{ $t('hero_section.buy_tickets') }}
+          <template #suffix>
+            <IconNuxtIcon name="ticket" :size="{ base: 'sm' }" />
+          </template>
         </UiLink>
 
-        <div class="flex flex-row gap-4">
+        <div class="flex flex-col gap-4 sm:flex-row">
           <UiLink
-            :icon="{
-              type: 'suffix',
-              name: 'map',
-              size: 'sm',
-            }"
             to="https://maps.app.goo.gl/vWW31EiriqbdCpTW8"
             variant="secondary"
             title="View location on Google Maps"
             aria-label="View location of the event on Google Maps"
           >
-            {{ $t('2025.map') }}
+            {{ $t('hero_section.show_on_map') }}
+
+            <template #suffix>
+              <IconNuxtIcon
+                name="map"
+                :size="{
+                  base: 'sm',
+                }"
+              />
+            </template>
           </UiLink>
           <UiButton
-            :icon="{
-              type: 'suffix',
-              name: 'calendar-plus',
-              size: 'sm',
-            }"
             variant="secondary"
             title="Add event to calendar"
             aria-label="Add event to calendar"
             @click="generateICalFile"
           >
-            {{ $t('buttons.add_to_calendar') }}
+            {{ $t('hero_section.add_to_calendar') }}
+            <template #suffix>
+              <IconNuxtIcon name="calendar-plus" :size="{ base: 'sm' }" />
+            </template>
           </UiButton>
         </div>
       </nav>

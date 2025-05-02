@@ -78,11 +78,11 @@ onMounted(() => {
 
   const options: SwiperOptions = {
     modules: [A11y, Autoplay, Keyboard, Mousewheel],
-    // autoplay: {
-    //   delay: 2000,
-    //   pauseOnMouseEnter: true,
-    //   disableOnInteraction: false,
-    // },
+    autoplay: {
+      delay: 2000,
+      pauseOnMouseEnter: true,
+      disableOnInteraction: false,
+    },
     loop: false,
     direction: 'horizontal',
     keyboard: {
@@ -114,7 +114,9 @@ onUnmounted(() => {
 
 <style scoped>
 @import 'swiper/swiper-bundle.css';
-
+.swiper {
+  position: initial; /*  Fixes the gradient on the right side on mobile >= 400px */
+}
 .pgv-swiper {
   position: relative;
   display: flex;
@@ -127,7 +129,7 @@ onUnmounted(() => {
 .pgv-swiper .swiper:before {
   content: '';
   position: absolute;
-  left: 0;
+  left: -1px; /*  Fixes the gradient on the right side on mobile >= 400px */
   top: 0;
   bottom: 0;
 
@@ -155,7 +157,7 @@ onUnmounted(() => {
 .pgv-swiper .swiper:after {
   content: '';
   position: absolute;
-  right: 0;
+  right: -1px; /*  Fixes the gradient on the right side on mobile >= 400px */
   top: 0;
   bottom: 0;
 

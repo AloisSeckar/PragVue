@@ -1,8 +1,7 @@
 {
   "2025": {
-    "map": "Show on map",
-    "when": "23 September 2025",
-    "where": "Grandium Hotel Prague"
+    "conference_date": "23 September 2025",
+    "conference_place": "Grandium Hotel Prague"
   },
   "accessibility": {
     "flag_of_country": "Flag of {country}",
@@ -12,12 +11,12 @@
     "visit_github_profile": "Visit {name}'s GitHub profile"
   },
   "buttons": {
+    "add_to_calendar": "Add to calendar",
     "more": "More info",
+    "see_2024": "See previous edition",
     "speaker": "I want to talk at PragVue",
-    "sponsor": "Contact us for sponsorship options",
-    "tickets_1": "Buy tickets",
-    "tickets_2": "Buy for the best price",
-    "tickets_3": "I want to attend PragVue"
+    "sponsor": "Contact us",
+    "tickets_2": "Buy for the best price"
   },
   "headings": {
     "about_the_conference": "About the conference",
@@ -26,6 +25,13 @@
     "the_czech_vuejs_conference": "The Czech Vue.js conference",
     "the_speakers": "The speakers",
     "tickets": "Get your seat"
+  },
+  "hero_section": {
+    "add_to_calendar": "Add to calendar",
+    "buy_tickets": "Buy tickets",
+    "show_on_map": "Show on map",
+    "when": "When",
+    "where": "Where"
   },
   "intro": {
     "2024": "Meanwhile, remind yourself of PragVue 2024",

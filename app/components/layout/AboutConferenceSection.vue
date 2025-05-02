@@ -42,7 +42,6 @@ import { useTemplateRef } from '#imports'
 const heroSectionTechnologies = useTemplateRef('heroSectionTechnologies')
 
 const elementDimension = ref({ width: 0, height: 275 })
-
 onMounted(async () => {
   await nextTick()
 

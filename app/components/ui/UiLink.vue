@@ -6,52 +6,22 @@
       'border-neutral-700 hover:border-neutral-600 bg-secondary-muted':
         variant === 'secondary',
       'bg-none': variant === 'ghost',
-      'text-sm rounded-lg font-semibold hover:bg-neutral-800 px-4 py-2 flex justify-between items-center gap-2 transition-colors': true,
+      'justify-between': $slots.prefix || $slots.suffix,
+      'max-w-[180px] w-full text-sm rounded-lg font-semibold hover:bg-neutral-800 px-4 py-2 flex justify-center items-center gap-2 transition-colors': true,
     }"
     :to="to"
   >
-    <client-only>
-      <IconNuxtIcon
-        v-if="icon?.type === 'prefix'"
-        :name="icon.name"
-        :size="icon.size || 'sm'"
-      />
-    </client-only>
-
+    <slot v-if="$slots.prefix" name="prefix"></slot>
     <slot />
-
-    <client-only>
-      <IconNuxtIcon
-        v-if="icon?.type === 'suffix'"
-        :name="icon.name"
-        :size="icon.size || 'sm'"
-      />
-    </client-only>
+    <slot v-if="$slots.suffix" name="suffix"></slot>
   </NuxtLink>
 </template>
 
 <script setup lang="ts">
-import type { IconName, IconSize } from '../icon/NuxtIcon.vue'
-
-type PrefixIcon = {
-  type: 'prefix'
-  name: IconName
-  size?: IconSize
-}
-
-type SuffixIcon = {
-  type: 'suffix'
-  name: IconName
-  size?: IconSize
-}
-
-type IconConfig = PrefixIcon | SuffixIcon
-
 type Props = {
   to: string
-  icon?: IconConfig
   variant?: 'primary' | 'secondary' | 'ghost'
 }
 
-const { icon, variant = 'primary', to } = defineProps<Props>()
+const { variant = 'primary', to } = defineProps<Props>()
 </script>

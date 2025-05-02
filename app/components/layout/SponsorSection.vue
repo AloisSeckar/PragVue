@@ -9,16 +9,11 @@
         {{ $t('pages.home.sponsors_info') }}
       </p>
 
-      <UiLink
-        :icon="{
-          type: 'suffix',
-          name: 'mail',
-          size: 'sm',
-        }"
-        to="mailto:alois.seckar@eviden.com"
-        class="mt-6"
-      >
+      <UiLink to="mailto:alois.seckar@eviden.com" class="mt-6">
         {{ $t('buttons.sponsor') }}
+        <template #suffix>
+          <IconNuxtIcon name="mail" :size="{ base: 'sm' }" />
+        </template>
       </UiLink>
     </LayoutContainerContent>
 
