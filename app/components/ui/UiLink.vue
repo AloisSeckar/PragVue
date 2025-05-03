@@ -1,13 +1,13 @@
 <template>
   <NuxtLink
     :class="{
-      'border-primary hover:border-primary-light bg-primary-dark':
+      'border-primary hover:border-primary-light bg-primary-dark hover:bg-primary':
         variant === 'primary',
-      'border-neutral-700 hover:border-neutral-600 bg-secondary-muted':
+      'border-neutral-700 hover:border-neutral-600 bg-secondary-muted hover:bg-secondary-light ':
         variant === 'secondary',
       'bg-none': variant === 'ghost',
       'justify-between': $slots.prefix || $slots.suffix,
-      'min-w-[170px] max-w-[250px] text-sm sm:text-base rounded-lg font-semibold hover:bg-neutral-800 px-4 py-2 flex justify-center items-center gap-2 transition-colors': true,
+      'min-w-[170px] max-w-[250px] h-10 md:h-11 text-sm sm:text-base rounded-lg font-semibold hover:bg-neutral-800 px-4 py-2 flex justify-center items-center gap-2 transition-colors': true,
     }"
     :to="to"
   >

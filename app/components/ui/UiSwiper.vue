@@ -43,6 +43,8 @@ import Swiper from 'swiper'
 import type { SwiperOptions } from 'swiper/types'
 import { A11y, Autoplay, Keyboard, Mousewheel } from 'swiper/modules'
 
+const spaceBetween = ref(10)
+
 const { slides } = defineProps<{
   slides: T[]
 }>()
@@ -79,7 +81,7 @@ onMounted(() => {
   const options: SwiperOptions = {
     modules: [A11y, Autoplay, Keyboard, Mousewheel],
     autoplay: {
-      delay: 2000,
+      delay: 3000,
       pauseOnMouseEnter: true,
       disableOnInteraction: false,
     },
@@ -93,7 +95,7 @@ onMounted(() => {
       forceToAxis: true,
     },
     slidesPerView: 'auto',
-    spaceBetween: 10,
+    spaceBetween: spaceBetween.value,
     centeredSlides: true,
     on: {
       realIndexChange: () => {

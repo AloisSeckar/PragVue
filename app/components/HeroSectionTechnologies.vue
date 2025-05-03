@@ -139,7 +139,8 @@ onUnmounted(() => {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 1.5rem;
-
+  position: absolute;
+  top: -2rem;
   transform: rotate3d(4, -2.5, 3, 65deg);
 
   mask-image: radial-gradient(
@@ -148,9 +149,19 @@ onUnmounted(() => {
     transparent 80%
   );
 
-  @media screen and (width < 640px) {
-    grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
+    height: 400px;
+  }
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(5, 1fr);
+
+    height: 600px;
+    transform: rotate3d(4, -2.5, 3, 0deg);
   }
 }
 </style>

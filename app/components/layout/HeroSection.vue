@@ -24,7 +24,7 @@
             :src="`/${sponsor.image}.webp`"
             :alt="sponsor.alt"
             loading="lazy"
-            class="w-20 h-5"
+            class="w-20 h-5 lg:h-full lg:w-32"
           />
         </NuxtLink>
       </div>
@@ -35,7 +35,7 @@
     >
       <section class="flex flex-col gap-3" aria-label="Event title">
         <TheLogo tag="h1" />
-        <p class="text-sm sm:text-base text-center">
+        <p class="text-sm sm:text-base md:text-lg text-center">
           {{ $t('headings.the_czech_vuejs_conference') }}
         </p>
       </section>
@@ -48,7 +48,9 @@
           <p class="text-xs sm:text-base uppercase text-text-muted">
             {{ $t('hero_section.when') }}
           </p>
-          <p class="px-8 py-2 text-sm sm:text-lg text-center font-bold">
+          <p
+            class="px-8 py-2 text-sm sm:text-base sm:text-lg text-center font-bold"
+          >
             {{ $t('2025.conference_date') }}
           </p>
         </div>
@@ -60,7 +62,7 @@
 
           <UiLink
             to="https://www.hotel-grandium.cz/"
-            class="sm:text-base text-center text-primary underline"
+            class="text-sm sm:text-base md:text-lg text-center text-primary underline"
             variant="ghost"
             title="Visit Hotel Grandium Prague website"
             aria-label="Visit Hotel Grandium Prague website"
@@ -71,7 +73,7 @@
       </section>
 
       <nav
-        class="flex flex-col gap-4 items-center pt-6 w-full"
+        class="flex flex-col lg:flex-row lg:justify-center gap-4 items-center pt-6 w-full"
         aria-label="Event actions"
       >
         <UiLink
