@@ -2,28 +2,27 @@
   <LayoutContainer class="pt-4 h-lvh relative isolation overflow-hidden">
     <IconPragueSilhouette class="absolute bottom-0 inset-x-1/2 -z-10 pgv-hero-banner__bg" />
 
+    <div class="flex flex-row gap-4 justify-center items-center mb-4">
+      <UiSponsorBox
+        v-for="sponsor in topSponsors"
+        :key="sponsor.to"
+        :to="sponsor.to"
+        :image="sponsor.image"
+        :title="sponsor.title"
+        :alt="sponsor.alt"
+        no-background
+        size="sm"
+      />
+    </div>
+
     <div class="flex flex-row gap-4 justify-center items-center">
       <UiSponsorBox
-        to="https://atos.net/cs/ceska-republika"
-        image="atos"
-        title="Atos Czech Republic"
-        alt="Atos logo"
-        no-background
-        size="sm"
-      />
-      <UiSponsorBox
-        to="https://www.evidencz.com/"
-        image="eviden"
-        title="Eviden Czech Republic"
-        alt="Eviden logo"
-        no-background
-        size="sm"
-      />
-      <UiSponsorBox
-        to="https://www.exponet.cz/"
-        image="exponet"
-        title="Exponet - Your Event Manager"
-        alt="Exponet logo"
+        v-for="sponsor in otherSponsors"
+        :key="sponsor.to"
+        :to="sponsor.to"
+        :image="sponsor.image"
+        :title="sponsor.title"
+        :alt="sponsor.alt"
         no-background
         size="sm"
       />
@@ -55,6 +54,10 @@
 </template>
 
 <script setup lang="ts">
+import { sponsors } from '@/utils/sponsors-2025'
+
+const topSponsors = sponsors.filter(s => s.tier === 1)
+const otherSponsors = sponsors.filter(s => s.tier > 1)
 </script>
 
 <style scoped>

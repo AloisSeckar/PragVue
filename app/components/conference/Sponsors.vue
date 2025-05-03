@@ -27,9 +27,9 @@
     </h3>
 
     <div class="mb-12 pgv-sponsors-wrapper">
-      <LayoutContainerContent v-for="(group, index) in sponsors" :key="index" class="!py-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 pgv-sponsors">
+      <LayoutContainerContent class="!py-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 pgv-sponsors">
         <UiSponsorBox
-          v-for="sponsor in group"
+          v-for="sponsor in sponsors"
           :key="sponsor.to"
           :to="sponsor.to"
           :image="sponsor.image"
