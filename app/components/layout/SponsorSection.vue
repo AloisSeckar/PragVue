@@ -5,14 +5,14 @@
         <UiHeading>
           {{ $t('headings.sponsor') }}
         </UiHeading>
-        <div class="lg:flex lg:flex-col lg:gap-10">
+        <div class="flex flex-col items-center lg:gap-10">
           <p class="text-balance sm:text-lg">
             {{ $t('pages.home.sponsors_info') }}
           </p>
 
           <UiLink
             to="mailto:alois.seckar@eviden.com"
-            class="mt-6 lg:mt-0 lg:self-center"
+            class="mt-6 lg:mt-0 self-center lg:self-center"
           >
             {{ $t('buttons.sponsor') }}
             <template #suffix>
@@ -55,6 +55,7 @@
         </div>
       </LayoutContainerContent>
     </div>
+
     <LayoutContainerContent class="lg:w-full">
       <div class="w-full text-center flex flex-col gap-2">
         <NuxtLink to="/2024">
