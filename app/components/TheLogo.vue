@@ -9,8 +9,7 @@
           'inline-block': tag === 'div',
           'text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl':
             tag === 'h1',
-          'text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl':
-            tag === 'p',
+          'text-base sm:text-xl md:text-2xl lg:text-3xl ': tag === 'p',
         },
         className,
       )
