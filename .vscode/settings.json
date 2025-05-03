@@ -17,5 +17,6 @@
     "typescriptreact",
     "vue"
   ],
-  "cSpell.words": ["Grandium", "ical", "Prag", "pragvue"]
+  "cSpell.words": ["Grandium", "ical", "Prag", "pragvue"],
+  "i18n-ally.localesPaths": ["i18n", "i18n/locales"]
 }
