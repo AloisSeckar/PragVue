@@ -11,9 +11,6 @@ importers:
       '@nuxtjs/i18n':
         specifier: 9.5.3
         version: 9.5.3(@vue/compiler-dom@3.5.13)(eslint@9.24.0(jiti@2.4.2))(magicast@0.3.5)(rollup@4.38.0)(vue@3.5.13(typescript@5.7.3))
-      '@vueuse/core':
-        specifier: 13.1.0
-        version: 13.1.0(vue@3.5.13(typescript@5.7.3))
       clsx:
         specifier: 2.1.1
         version: 2.1.1
