@@ -5,6 +5,9 @@
       <div class="font-mono font-semibold text-center text-woodsmoke-300 text-lg before:content-['<!--_'] after:content-['_-->']">
         © <UiPragVue :year />
       </div>
+      <div class="mb-2 font-mono text-sm text-center text-woodsmoke-300">
+        Contact us: <NuxtLink to="mailto:info@pragvue.com" class=" hover:text-vue-light">info [at] pragvue.com</NuxtLink>
+      </div>
       <div class="text-xs text-center">
         Powered by
         <NuxtLink to="https://github.com/AloisSeckar/nuxt-ignis" class="text-vue hover:text-vue-light">

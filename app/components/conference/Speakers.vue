@@ -35,7 +35,7 @@
           {{ $t('pages.home.speakers_you_info') }}
         </p>
         <div class="flex flex-col gap-4 items-center justify-center">
-          <UiButtonIcon icon="🎤" href="mailto:alois.seckar@eviden.com" :label="$t('buttons.speaker')" />
+          <UiButtonIcon icon="🎤" href="mailto:info@pragvue.com" :label="$t('buttons.speaker')" />
         </div>
         -->
     </LayoutContainerContent>

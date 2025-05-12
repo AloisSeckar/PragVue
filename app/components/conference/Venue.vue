@@ -60,7 +60,7 @@
       </i18n-t>
 
       <div class="flex flex-col gap-4 items-center justify-center">
-        <UiButtonIcon icon="🏨" href="mailto:alois.seckar@eviden.com" :label="$t('buttons.hotel')" />
+        <UiButtonIcon icon="🏨" href="mailto:info@pragvue.com" :label="$t('buttons.hotel')" />
       </div>
     </LayoutContainerContent>
   </LayoutContainer>

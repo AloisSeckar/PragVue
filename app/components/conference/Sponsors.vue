@@ -17,7 +17,7 @@
       </i18n-t>
 
       <div class="flex flex-col gap-4 items-center justify-center">
-        <UiButtonIcon icon="💶" href="mailto:alois.seckar@eviden.com" :label="$t('buttons.sponsor')" />
+        <UiButtonIcon icon="💶" href="mailto:info@pragvue.com" :label="$t('buttons.sponsor')" />
       </div>
     </LayoutContainerContent>
 
