@@ -1,8 +1,8 @@
 <template>
-  <LayoutContainer class="pt-4 h-lvh relative isolation overflow-hidden">
+  <LayoutContainer class="pt-2 h-lvh relative isolation overflow-hidden">
     <IconPragueSilhouette class="absolute bottom-0 inset-x-1/2 -z-10 pgv-hero-banner__bg" />
 
-    <div class="flex flex-row gap-4 justify-center items-center mb-4">
+    <div class="flex flex-row gap-4 justify-center items-center mb-2">
       <UiSponsorBox
         v-for="sponsor in topSponsors"
         :key="sponsor.to"
@@ -28,7 +28,7 @@
       />
     </div>
 
-    <LayoutContainerContent class="flex flex-col items-center justify-start gap-4 sm:gap-6 h-full">
+    <LayoutContainerContent class="flex flex-col items-center justify-start sm:justify-center gap-4 sm:gap-6">
       <TheLogo tag="h1" />
 
       <p class="mb-6 text-sm sm:text-lg md:text-2xl text-center">
