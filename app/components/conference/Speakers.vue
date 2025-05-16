@@ -15,15 +15,9 @@
         </template>
       </UiSwiper>
 
-      <p class="mb-12 text base max-w-[72ch] text-center text-balance mx-auto text-xl italic text-woodsmoke-400 pgv-html-comment">
-        {{ $t('pages.home.info_schedule') }}
-      </p>
+      <LazyConferenceSchedule hydrate-on-visible />
 
-      <p class="mb-12 text base max-w-[72ch] text-center text-balance mx-auto text-xl italic text-woodsmoke-400 pgv-html-comment">
-        {{ $t('pages.home.info_about_schedule_coming_soon') }}
-      </p>
-
-      <p class="mb-6 mx-auto text-base max-w-[72ch] text-center text-balance">
+      <p class="mt-2 mb-6 mx-auto text-base max-w-[72ch] text-left sm:text-justify text-balance">
         {{ $t('pages.home.speakers_info') }}
       </p>
 
