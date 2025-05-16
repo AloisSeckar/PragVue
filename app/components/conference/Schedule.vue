@@ -1,15 +1,15 @@
 <template>
   <section class="schedule" aria-label="Conference Schedule">
-    <UiHeading class="mb-6 text-[#dddddd] font-xl">
+    <UiHeading class="mb-6 text-[#ccc] font-xl">
       {{ $t('headings.the_schedule') }}
     </UiHeading>
 
-    <div v-for="item in schedule" :key="item.time" class="schedule-row  odd:text-vue-light even:text-vue">
-      <div class="pr-8 whitespace-nowrap time">
+    <div v-for="item in schedule" :key="item.time" class="schedule-row border-b border-[#ccc] odd:text-vue even:text-vue-light">
+      <div class="pl-2 pr-8 whitespace-nowrap time">
         {{ item.time }}
       </div>
       <div class="talk">
-        <span class="text-[#dddddd] font-bold">
+        <span class="text-[#ccc] font-bold">
           {{ item.title }}
         </span>
         <span v-if="item.speaker">
@@ -29,6 +29,10 @@ type ScheduleItem = {
 
 const schedule: ScheduleItem[] = [
   {
+    time: '08:30',
+    title: 'Doors open',
+  },
+  {
     time: '09:00',
     title: 'Keynote & VoidZero',
     speaker: 'Alex Lichter',
@@ -40,7 +44,7 @@ const schedule: ScheduleItem[] = [
   },
   {
     time: '10:00',
-    title: '2025 Is Here: What the new European Accessibility Act Means for Web Developers',
+    title: 'What the new European Accessibility Act Means for Web Developers',
     speaker: 'Louëlla Creemers',
   },
   {
@@ -111,30 +115,22 @@ const schedule: ScheduleItem[] = [
 <style scoped>
  /* Container for the whole schedule */
 .schedule {
-    max-width: 800px;
+    max-width: 830px;
     margin: 0 auto;
     padding: 1rem;
     font-family: sans-serif;
 }
 
 /* Header row (if needed) */
-.schedule-header,
 .schedule-row {
     display: grid;
     grid-template-columns: 120px 1fr;
     align-items: center;
     padding: 0.5rem 0;
-    border-bottom: 1px solid #ddd;
-}
-
-.schedule-header {
-    font-weight: bold;
-    border-bottom: 2px solid #999;
 }
 
 /* Mobile: stack into single column */
 @media (max-width: 600px) {
-    .schedule-header,
     .schedule-row {
         grid-template-columns: 1fr;
     }
