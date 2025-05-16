@@ -39,13 +39,13 @@ const schedule: ScheduleItem[] = [
   },
   {
     time: '09:30',
-    title: 'Dungeons & Developers - patterns for great DX',
+    title: 'Dungeons & Developers - Patterns for Great DX',
     speaker: 'Jakub Andrzejewski',
   },
   {
     time: '10:00',
-    title: 'What the new European Accessibility Act Means for Web Developers',
-    speaker: 'Louëlla Creemers',
+    title: 'From Object to Interface—Serialized Forms with Vueform',
+    speaker: 'Adam Berecz',
   },
   {
     time: '10:30',
@@ -53,18 +53,18 @@ const schedule: ScheduleItem[] = [
   },
   {
     time: '11:00',
-    title: 'Overcoming third-party script headaches in Vue with a single library',
+    title: 'Overcoming Third-party Script Headaches in Vue with a Single Library',
     speaker: 'Julien Huang',
   },
   {
     time: '11:30',
-    title: 'From Object to Interface—Serialized Forms with Vueform',
-    speaker: 'Adam Berecz',
+    title: 'How to Nuxt Modules',
+    speaker: 'Thorsten Seyschab',
   },
   {
     time: '12:00',
-    title: 'Revamping Your Vue.js Stack: Lessons from a Real Migration',
-    speaker: 'Raí Siqueira',
+    title: 'Ignite your Nuxt development with Layers',
+    speaker: 'Alois Sečkár',
   },
   {
     time: '12:30',
@@ -72,18 +72,18 @@ const schedule: ScheduleItem[] = [
   },
   {
     time: '13:30',
-    title: 'How to Make Open Source Profitable',
-    speaker: 'Anastasiia Zvenigorodskaia',
+    title: 'What the new European Accessibility Act Means for Web Developers',
+    speaker: 'Louëlla Creemers',
   },
   {
     time: '14:00',
-    title: 'What to expect in the v5 of TresJS',
-    speaker: 'Alvaro Saburido Rodriguez',
+    title: 'Revamping Your Vue.js Stack: Lessons from a Real Migration',
+    speaker: 'Raí Siqueira',
   },
   {
     time: '14:30',
-    title: 'How to Nuxt Modules',
-    speaker: 'Thorsten Seyschab',
+    title: 'Scaling Vue in Enterprise SaaS: Lessons from the Trenches',
+    speaker: 'Juan Andrés Núñez',
   },
   {
     time: '15:00',
@@ -91,23 +91,23 @@ const schedule: ScheduleItem[] = [
   },
   {
     time: '15:30',
-    title: 'The land of the VueJS.land',
-    speaker: 'Konstantin Bifert',
-  },
-  {
-    time: '16:00',
-    title: 'Scaling Vue in Enterprise SaaS: Lessons from the Trenches',
-    speaker: 'Juan Andrés Núñez',
-  },
-  {
-    time: '16:30',
     title: 'How to Structure Vue Projects',
     speaker: 'Alexander Opalic',
   },
   {
+    time: '16:00',
+    title: 'How to Make Open Source Profitable',
+    speaker: 'Anastasiia Zvenigorodskaia',
+  },
+  {
+    time: '16:30',
+    title: 'The Land of the VueJS.land',
+    speaker: 'Konstantin Bifert',
+  },
+  {
     time: '17:00',
-    title: 'Ignite your Nuxt development with Layers',
-    speaker: 'Alois Sečkár',
+    title: 'What to Expect in the v5 of TresJS',
+    speaker: 'Alvaro Saburido Rodriguez',
   },
 ]
 </script>
