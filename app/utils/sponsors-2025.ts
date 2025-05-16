@@ -34,4 +34,11 @@ export const sponsors = [
     title: 'Vinta Software',
     alt: 'Vinta Software logo',
   },
+  {
+    tier: 2,
+    to: 'https://madvue.es/',
+    image: 'madvue',
+    title: 'MadVue - The Vue.js Event in Madrid',
+    alt: 'MadVue logo',
+  },
 ]
