@@ -4,7 +4,7 @@
       {{ $t('headings.the_schedule') }}
     </UiHeading>
 
-    <div v-for="item in schedule" :key="item.time" class="schedule-row border-b border-[#ccc] odd:text-vue even:text-vue-light">
+    <div v-for="item in schedule" :key="item.time" class="schedule-row border-b border-[#ccc] odd:text-vue even:text-vue-light hover:bg-[#222]">
       <div class="pl-2 pr-8 whitespace-nowrap time">
         {{ item.time }}
       </div>
