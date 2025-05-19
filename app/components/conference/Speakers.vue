@@ -15,6 +15,7 @@
         </template>
       </UiSwiper>
 
+      <a id="schedule" />
       <LazyConferenceSchedule hydrate-on-visible />
 
       <p class="mt-2 mb-6 mx-auto text-base max-w-[72ch] text-left sm:text-justify text-balance">
