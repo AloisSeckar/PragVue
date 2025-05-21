@@ -16,6 +16,9 @@
         <NuxtLink to="https://x.com/PragVue_conf">
           <img src="/twitter.png" title="Follow us on Twitter/X" alt="PragVue Twitter/X" class="p-1 h-6 rounded-md ring-2 ring-vue hover:ring-vue-light">
         </NuxtLink>
+        <NuxtLink to="https://www.linkedin.com/company/pragvue/">
+          <img src="/linkedin.png" title="Follow us on LinkedIn" alt="PragVue LinkedIn" class="p-1 h-6 rounded-md ring-2 ring-vue hover:ring-vue-light">
+        </NuxtLink>
       </div>
       <div class="text-xs text-center">
         Powered by
