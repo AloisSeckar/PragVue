@@ -29,10 +29,10 @@ export const sponsors = [
   },
   {
     tier: 2,
-    to: 'https://www.vintasoftware.com/',
-    image: 'vinta',
-    title: 'Vinta Software',
-    alt: 'Vinta Software logo',
+    to: 'https://go.frontendnation.com/prg',
+    image: 'fn',
+    title: 'Frontend Nation',
+    alt: 'Frontend Nation logo',
   },
   {
     tier: 2,
@@ -40,5 +40,12 @@ export const sponsors = [
     image: 'madvue',
     title: 'MadVue - The Vue.js Event in Madrid',
     alt: 'MadVue logo',
+  },
+  {
+    tier: 2,
+    to: 'https://www.vintasoftware.com/',
+    image: 'vinta',
+    title: 'Vinta Software',
+    alt: 'Vinta Software logo',
   },
 ]
