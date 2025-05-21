@@ -9,7 +9,7 @@
         scope="global"
         tag="p"
         keypath="pages.home.sponsors_info"
-        class="mb-12 text-base text-center mx-auto max-w-[64ch] text-balance"
+        class="mb-12 tracking-[0.01em] text-center mx-auto max-w-[64ch] text-balance"
       >
         <template #br>
           <br>
@@ -39,11 +39,11 @@
         />
       </LayoutContainerContent>
 
-      <LayoutContainerContent class="!py-0 pgv-sponsors text-base min-[430px]:text-lg min-[500px]:text-xl min-[600px]:text-2xl">
+      <LayoutContainerContent class="!py-0 pgv-sponsors tracking-[0.01em] min-[430px]:text-lg min-[500px]:text-xl min-[600px]:text-2xl">
         <UiSponsorBox
           size="lg"
         >
-          <span class="pgv-sponsors__prompt">
+          <span class="pgv-sponsors__prompt text-woodsmoke-400">
             {{ $t('pages.home.your_company_can_be_here') }}
           </span>
         </UiSponsorBox>
@@ -72,16 +72,15 @@ import { sponsors } from '@/utils/sponsors-2025'
 
 .pgv-sponsors__prompt {
   font-weight: 500;
-  color: theme('colors.woodsmoke.400');
 }
 
 .pgv-sponsors__prompt::before {
   content: '{{ ';
-  color: theme('colors.woodsmoke.600');
+  color: #4d4d4d;
 }
 
 .pgv-sponsors__prompt::after {
   content: ' }}';
-  color: theme('colors.woodsmoke.600');
+  color: #4d4d4d;
 }
 </style>

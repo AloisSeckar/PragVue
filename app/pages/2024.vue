@@ -10,7 +10,7 @@
           tag="p"
           scope="global"
           keypath="pages.2024.about"
-          class="mb-8 text-base max-w-[128ch] text-center text-balance"
+          class="mb-8 tracking-[0.01em] max-w-[128ch] text-center text-balance"
         />
 
         <UiImage

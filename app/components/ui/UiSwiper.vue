@@ -121,7 +121,7 @@ onUnmounted(() => {
   bottom: 0;
 
   width: 100px;
-  background: linear-gradient(to left, rgba(15, 15, 15, 0), theme('colors.woodsmoke.900'));
+  background: linear-gradient(to left, rgba(15, 15, 15, 0), #0f0f0f);
   z-index: 2;
   pointer-events: none;
 
@@ -145,7 +145,7 @@ onUnmounted(() => {
   bottom: 0;
 
   width: 100px;
-  background: linear-gradient(to right, rgba(15, 15, 15, 0), theme('colors.woodsmoke.900'));
+  background: linear-gradient(to right, rgba(15, 15, 15, 0), #0f0f0f);
   z-index: 1;
   pointer-events: none;
 

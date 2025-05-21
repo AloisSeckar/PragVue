@@ -9,7 +9,7 @@
         tag="p"
         scope="global"
         keypath="pages.home.prague_info"
-        class="mb-12 text-base max-w-[1150px] text-left text-balance"
+        class="mb-12 tracking-[0.01em] max-w-[1150px] text-left text-balance"
       />
 
       <div class="flex flex-row gap-2 sm:gap-6">

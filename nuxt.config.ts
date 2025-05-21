@@ -9,6 +9,8 @@ export default defineNuxtConfig({
     enabled: false,
   },
 
+  css: ['~/assets/ignis.css'],
+
   future: {
     compatibilityVersion: 4,
   },
