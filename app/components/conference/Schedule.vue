@@ -34,8 +34,8 @@ const schedule: ScheduleItem[] = [
   },
   {
     time: '09:00',
-    title: 'Keynote & VoidZero',
-    speaker: 'Alex Lichter',
+    title: 'Keynote: Modern JavaScript Tooling',
+    speaker: 'Alexander Lichter',
   },
   {
     time: '09:30',
