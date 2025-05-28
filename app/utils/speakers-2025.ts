@@ -25,7 +25,7 @@ export const speakers = [
     github: 'huang-julien',
   },
   {
-    name: 'Alex Lichter',
+    name: 'Alexander Lichter',
     country: 'NED',
     github: 'TheAlexLichter',
   },
