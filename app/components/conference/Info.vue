@@ -6,11 +6,11 @@
           {{ $t('headings.about_the_conference') }}
         </UiHeading>
 
-        <p class="text-base max-w-[64ch] mb-4 text-center min-[450px]:text-left">
+        <p class="tracking-[0.01em] max-w-[64ch] mb-4 text-center min-[450px]:text-left">
           {{ $t('pages.home.conference_info_1') }}
         </p>
 
-        <p class="text-base max-w-[64ch] text-center min-[450px]:text-left">
+        <p class="tracking-[0.01em] max-w-[64ch] text-center min-[450px]:text-left">
           {{ $t('pages.home.conference_info_2') }}
         </p>
       </div>
@@ -30,11 +30,11 @@
           {{ $t('pages.home.early_bird_tickets') }}
         </div>
 
-        <span class="pgv-price pgv-price--full">
+        <span class="pgv-price pgv-price--full text-woodsmoke-400">
           €249
         </span>
 
-        <span class="pgv-price relative -top-2">
+        <span class="pgv-price relative -top-2 text-vue-light">
           €199
         </span>
       </div>
@@ -54,13 +54,11 @@
 .pgv-price {
   font-size: 3.5rem;
   font-weight: 800;
-  color: theme('colors.vue-light');
 }
 
 .pgv-price--full {
   font-size: 2.5rem;
   text-decoration: line-through;
-  color: theme('colors.woodsmoke.400');
   font-weight: 500;
 }
 </style>

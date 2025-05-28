@@ -20,7 +20,7 @@ const {
 <style scoped>
 .pgv-cc {
     max-width: 1440px;
-    padding: 5rem 2rem;
+    padding: 4rem 2rem;
     margin: 0 auto;
 
   @media screen and (width >= 1536px) {

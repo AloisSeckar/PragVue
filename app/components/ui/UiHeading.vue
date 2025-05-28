@@ -22,7 +22,7 @@ const {
 
   &::before {
     content: '// ';
-    @apply text-woodsmoke-600;
+    color: #4d4d4d;
   }
 }
 </style>

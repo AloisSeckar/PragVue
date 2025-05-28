@@ -9,7 +9,7 @@
         tag="p"
         scope="global"
         keypath="pages.home.venue_info"
-        class="mb-12 text-base max-w-[1150px] text-left text-balance"
+        class="mb-12 tracking-[0.01em] max-w-[1150px] text-left text-balance"
       >
         <template #hotel>
           <NuxtLink to="https://www.hotel-grandium.cz/en/" class="text-vue hover:text-vue-light hover:cursor-pointer">
@@ -47,7 +47,7 @@
         tag="p"
         scope="global"
         keypath="pages.home.venue_offer"
-        class="mb-12 text-base max-w-[1150px] text-left text-ballance"
+        class="mb-12 tracking-[0.01em] max-w-[1150px] text-left text-ballance"
       >
         <template #offer>
           <strong class="text-vue-light"> {{ $t('pages.home.venue_offer_highlight') }} </strong>
@@ -60,7 +60,7 @@
       </i18n-t>
 
       <div class="flex flex-col gap-4 items-center justify-center">
-        <UiButtonIcon icon="🏨" href="mailto:alois.seckar@eviden.com" :label="$t('buttons.hotel')" />
+        <UiButtonIcon icon="🏨" href="mailto:info@pragvue.com" :label="$t('buttons.hotel')" />
       </div>
     </LayoutContainerContent>
   </LayoutContainer>

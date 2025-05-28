@@ -1,8 +1,8 @@
 <template>
-  <LayoutContainer class="pt-4 h-lvh relative isolation overflow-hidden">
+  <LayoutContainer class="pt-2 h-lvh relative isolation overflow-hidden">
     <IconPragueSilhouette class="absolute bottom-0 inset-x-1/2 -z-10 pgv-hero-banner__bg" />
 
-    <div class="flex flex-row gap-4 justify-center items-center mb-4">
+    <div class="flex flex-row gap-4 justify-center items-center mb-2">
       <UiSponsorBox
         v-for="sponsor in topSponsors"
         :key="sponsor.to"
@@ -28,7 +28,7 @@
       />
     </div>
 
-    <LayoutContainerContent class="flex flex-col items-center justify-start sm:justify-center gap-4 sm:gap-6 h-full">
+    <LayoutContainerContent class="flex flex-col items-center justify-start sm:justify-center gap-4 sm:gap-6">
       <TheLogo tag="h1" />
 
       <p class="mb-6 text-sm sm:text-lg md:text-2xl text-center">
@@ -48,6 +48,17 @@
       <div class="flex flex-col sm:flex-row gap-4 items-center">
         <UiButtonIcon icon="🎫" href="https://pragvue.konference.cz/" :label="$t('buttons.tickets_1')" />
         <UiButtonIcon icon="🔍" href="#info" :label="$t('buttons.more')" variant="secondary" />
+        <div class="flex flex-row gap-4">
+          <NuxtLink to="https://bsky.app/profile/pragvue.com">
+            <img src="/bluesky.png" title="Follow us on Bluesky" alt="PragVue Bluesky" class="p-2 h-10 rounded-md ring-2 ring-vue hover:ring-vue-light">
+          </NuxtLink>
+          <NuxtLink to="https://x.com/PragVue_conf">
+            <img src="/twitter.png" title="Follow us on Twitter/X" alt="PragVue Twitter/X" class="p-2 h-10 rounded-md ring-2 ring-vue hover:ring-vue-light">
+          </NuxtLink>
+          <NuxtLink to="https://www.linkedin.com/company/pragvue/">
+            <img src="/linkedin.png" title="Follow us on LinkedIn" alt="PragVue LinkedIn" class="p-2 h-10 rounded-md ring-2 ring-vue hover:ring-vue-light">
+          </NuxtLink>
+        </div>
       </div>
     </LayoutContainerContent>
   </LayoutContainer>

@@ -1,13 +1,18 @@
 export const speakers = [
   {
-    name: 'Alex Lichter',
-    country: 'NED',
-    github: 'TheAlexLichter',
-  },
-  {
     name: 'Jakub Andrzejewski',
     country: 'POL',
     github: 'Baroshem',
+  },
+  {
+    name: 'Adam Berecz',
+    country: 'HUN',
+    github: 'adamberecz',
+  },
+  {
+    name: 'Konstantin Bifert',
+    country: 'NED',
+    github: 'kissu',
   },
   {
     name: 'Louëlla Creemers',
@@ -20,34 +25,9 @@ export const speakers = [
     github: 'huang-julien',
   },
   {
-    name: 'Adam Berecz',
-    country: 'HUN',
-    github: 'adamberecz',
-  },
-  {
-    name: 'Anastasiia Zvenigorodskaia',
-    country: 'ESP',
-    github: 'zvenigorodskaia',
-  },
-  {
-    name: 'Raí Siqueira',
-    country: 'BRA',
-    github: 'raisiqueira',
-  },
-  {
-    name: 'Alvaro Saburido Rodriguez',
-    country: 'ESP',
-    github: 'alvarosabu',
-  },
-  {
-    name: 'Thorsten Seyschab',
-    country: 'GER',
-    github: 'toddeTV',
-  },
-  {
-    name: 'Konstantin Bifert',
+    name: 'Alex Lichter',
     country: 'NED',
-    github: 'kissu',
+    github: 'TheAlexLichter',
   },
   {
     name: 'Juan Andrés Núñez',
@@ -60,8 +40,28 @@ export const speakers = [
     github: 'alexanderop',
   },
   {
+    name: 'Alvaro Saburido Rodriguez',
+    country: 'ESP',
+    github: 'alvarosabu',
+  },
+  {
     name: 'Alois Sečkár',
     country: 'CZE',
     github: 'AloisSeckar',
+  },
+  {
+    name: 'Thorsten Seyschab',
+    country: 'GER',
+    github: 'toddeTV',
+  },
+  {
+    name: 'Raí Siqueira',
+    country: 'BRA',
+    github: 'raisiqueira',
+  },
+  {
+    name: 'Anastasiia Zvenigorodskaia',
+    country: 'ESP',
+    github: 'zvenigorodskaia',
   },
 ]

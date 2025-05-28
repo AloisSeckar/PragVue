@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-woodsmoke-100: #cccccc;
+  --color-woodsmoke-200: #b3b3b3;
+  --color-woodsmoke-300: #999999;
+  --color-woodsmoke-400: #808080;
+  --color-woodsmoke-500: #666666;
+  --color-woodsmoke-600: #4d4d4d;
+  --color-woodsmoke-700: #353535;
+  --color-woodsmoke-800: #242424;
+  --color-woodsmoke-900: #0f0f0f;
+  --color-vue: #42B883;
+  --color-vue-dark: #3aa173;
+  --color-vue-light: #fef08a;
+  --font-default: "Inter", "Inter Fallback: Arial", "sans-serif";
+}
+

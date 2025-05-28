@@ -8,8 +8,6 @@
     <a id="speakers" />
     <LazyConferenceSpeakers hydrate-on-visible />
 
-    <!-- TODO schedule -->
-
     <LazyConferencePast hydrate-on-visible />
 
     <LazyConferenceVenue hydrate-on-visible />
