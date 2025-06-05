@@ -20,45 +20,6 @@
       </div>
     </LayoutContainerContent>
 
-    <LayoutContainerContent>
-      <div class="mb-6 flex flex-col items-center">
-        <UiHeading class="mb-6 text-vue">
-          {{ $t('headings.tickets') }}
-        </UiHeading>
-
-        <div class="text-2xl font-bold text-center mb-4 inline">
-          {{ $t('pages.home.early_bird_tickets') }}
-        </div>
-
-        <span class="pgv-price pgv-price--full text-woodsmoke-400">
-          €249
-        </span>
-
-        <span class="pgv-price relative -top-2 text-vue-light">
-          €199
-        </span>
-      </div>
-
-      <div class="flex flex-col gap-4 items-center justify-center">
-        <UiButtonIcon icon="🎫" href="https://pragvue.konference.cz/" :label="$t('buttons.tickets_2')" />
-
-        <p class="mb-8 max-w-[24ch] text-center text-balance text-woodsmoke-300 text-sm">
-          {{ $t('pages.home.early_bird_tickets_info') }}
-        </p>
-      </div>
-    </LayoutContainerContent>
+    <ConferenceTickets />
   </LayoutContainer>
 </template>
-
-<style scoped>
-.pgv-price {
-  font-size: 3.5rem;
-  font-weight: 800;
-}
-
-.pgv-price--full {
-  font-size: 2.5rem;
-  text-decoration: line-through;
-  font-weight: 500;
-}
-</style>
