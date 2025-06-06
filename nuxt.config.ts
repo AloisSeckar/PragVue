@@ -17,7 +17,7 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      routes: ['/', '/2024'],
+      routes: ['/2024'],
     },
   },
 

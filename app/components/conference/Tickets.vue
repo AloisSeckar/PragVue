@@ -30,15 +30,16 @@
 
 <script setup lang="ts">
 const countdown = ref('')
-const timeZero = Math.floor(new Date('2025-07-01T00:00:00') / 1000)
+const timeZero = Math.floor(new Date('2025-07-01T00:00:00').valueOf() / 1000)
 const { resume } = useIntervalFn(() => {
   const timeNow = Math.floor(Date.now() / 1000)
   const diff = timeZero - timeNow
   countdown.value = formatTime(diff > 0 ? diff : 0)
+  console.log(countdown.value)
 }, 1000)
 resume()
 
-function formatTime(seconds) {
+function formatTime(seconds: number) {
   const days = Math.floor(seconds / 86400)
   const hrs = Math.floor((seconds % 86400) / 3600)
   const mins = Math.floor((seconds % 3600) / 60)
