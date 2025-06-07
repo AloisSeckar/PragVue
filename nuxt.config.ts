@@ -42,36 +42,7 @@ export default defineNuxtConfig({
         },
       },
     ],
-
-    // TEMPORARY BUILD FIX https://github.com/nuxt/nuxt/issues/32175#issuecomment-2898200099
-    // (looks introduced via Nuxt 3.17.4)
-    $server: {
-      build: {
-        rollupOptions: {
-          output: {
-            preserveModules: true,
-          },
-        },
-      },
-    },
   },
-
-  /*
-  typescript: {
-    strict: true,
-    typeCheck: true,
-    tsConfig: {
-      compilerOptions: {
-        noImplicitOverride: true,
-        noImplicitAny: true,
-        noImplicitThis: true,
-        strictFunctionTypes: true,
-        strictNullChecks: true,
-        noUncheckedIndexedAccess: true,
-      },
-    },
-  },
-  */
 
   eslint: {
     config: {
@@ -90,13 +61,6 @@ export default defineNuxtConfig({
         language: 'en-US',
         file: 'en.json',
       },
-      /*
-      {
-        code: 'cs',
-        language: 'cs-CZ',
-        file: 'cs.json',
-      },
-      */
     ],
     experimental: {
       typedOptionsAndMessages: 'default',
