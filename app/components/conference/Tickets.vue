@@ -6,8 +6,10 @@
       </UiHeading>
 
       <div :key="countdown" class="text-2xl font-bold text-center mb-4 inline">
-        {{ $t('pages.home.early_bird_tickets') }} 
-        <div :class="countdownColor">{{ countdown }}</div>
+        {{ $t('pages.home.early_bird_tickets') }}
+        <div :class="countdownColor">
+          {{ countdown }}
+        </div>
       </div>
 
       <span class="pgv-price pgv-price--full text-woodsmoke-400">
@@ -31,8 +33,8 @@
 
 <script setup lang="ts">
 const timeZero = Math.floor(new Date('2025-07-01T00:00:00').valueOf() / 1000)
-const countdown = ref(getCountdownValue())
 const countdownColor = ref('text-vue-dark hover:text-vue')
+const countdown = ref(getCountdownValue())
 const { resume } = useIntervalFn(() => {
   countdown.value = getCountdownValue()
 }, 1000)
@@ -50,10 +52,11 @@ function formatTime(seconds: number) {
   const mins = Math.floor((seconds % 3600) / 60)
   const secs = seconds % 60
 
-  if (days < 14) {
-    countdownColor.value = 'text-amber-400 hover:text-amber-300'
-  } else if (days < 3) {
+  if (days < 3) {
     countdownColor.value = 'text-red-400 hover:text-red-300'
+  }
+  else if (days < 14) {
+    countdownColor.value = 'text-amber-400 hover:text-amber-300'
   }
 
   const dd = String(days)
