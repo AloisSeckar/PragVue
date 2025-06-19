@@ -9,7 +9,7 @@
         tag="p"
         scope="global"
         keypath="pages.home.venue_info"
-        class="mb-12 tracking-[0.01em] max-w-[1150px] text-left text-balance"
+        class="mb-8 tracking-[0.01em] max-w-[1150px] text-left text-balance"
       >
         <template #hotel>
           <NuxtLink to="https://www.hotel-grandium.cz/en/" class="text-vue hover:text-vue-light hover:cursor-pointer">
@@ -18,24 +18,24 @@
         </template>
       </i18n-t>
 
-      <div class="flex flex-row gap-2 sm:gap-6">
+      <div class="flex flex-col lg:flex-row gap-4 mb-10 px-2">
         <NuxtLink to="https://www.hotel-grandium.cz/en/events-and-conferences/" class="cursor-pointer">
           <NuxtImg
-            class="mb-10 mx-auto w-auto max-h-[200px]"
+            class="mx-auto w-auto max-h-[320px]"
             src="/grandium1.webp" loading="lazy"
             :title="venueImages" :alt="venueImages"
           />
         </NuxtLink>
         <NuxtLink to="https://www.hotel-grandium.cz/en/events-and-conferences/" class="cursor-pointer">
           <NuxtImg
-            class="mb-10 mx-auto w-auto max-h-[200px]"
+            class="mx-auto w-auto max-h-[320px]"
             src="/grandium2.webp" loading="lazy"
             :title="venueImages" :alt="venueImages"
           />
         </NuxtLink>
         <NuxtLink to="https://www.hotel-grandium.cz/en/events-and-conferences/" class="cursor-pointer">
           <NuxtImg
-            class="mb-10 mx-auto w-auto max-h-[200px]"
+            class="mx-auto w-auto max-h-[320px]"
             fit="contain"
             src="/grandium3.webp" loading="lazy"
             :title="venueImages" :alt="venueImages"

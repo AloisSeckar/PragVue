@@ -14,7 +14,7 @@
 
       <NuxtLink to="/2024">
         <UiImage
-          class="w-auto aspect-[1200/971] max-h-[330px]"
+          class="w-auto aspect-[1200/971] max-h-[330px] px-2"
           fit="contain"
           src="/pragvue2024.webp"
           :title="$t('pages.home.link_2024')"
