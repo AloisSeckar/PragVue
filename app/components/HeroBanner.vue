@@ -1,5 +1,5 @@
 <template>
-  <LayoutContainer class="pt-2 h-lvh relative isolation overflow-hidden">
+  <LayoutContainer class="pt-2 h-lvh relative isolation overflow-hidden flex flex-col items-center justify-center">
     <IconPragueSilhouette class="absolute bottom-0 inset-x-1/2 -z-10 pgv-hero-banner__bg" />
 
     <div class="flex flex-row gap-4 justify-center items-center mb-2">
