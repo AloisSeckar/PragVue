@@ -9,12 +9,20 @@
         {{ item.time }}
       </div>
       <div class="talk">
-        <span class="text-[#ccc] font-bold">
-          {{ item.title }}
-        </span>
-        <span v-if="item.speaker">
-          ({{ item.speaker }})
-        </span>
+        <div>
+          <span class="text-[#ccc] font-bold">
+            {{ item.title }}
+          </span>
+          <span v-if="item.speaker">
+            ({{ item.speaker }})
+          </span>
+        </div>
+        <details v-if="item.speaker">
+          <summary>Talk details ℹ️</summary>
+          <p class="text-[#ccc] text-sm pr-2 lg:text-justify">
+            {{ item.details }}
+          </p>
+        </details>
       </div>
     </div>
   </section>
@@ -28,6 +36,7 @@ type ScheduleItem = {
   time: string
   title: string
   speaker?: string
+  details?: string
 }
 
 const scheduleItems: ScheduleItem[] = schedule as ScheduleItem[]
