@@ -11,6 +11,7 @@
             :name="slide.name"
             :country="slide.country"
             :github="slide.github"
+            :bg="slide.bg"
           />
         </template>
       </UiSwiper>

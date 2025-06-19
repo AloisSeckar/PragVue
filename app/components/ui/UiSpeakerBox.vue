@@ -11,7 +11,7 @@
       />
       <div class="absolute right-0 bottom-0 w-min">
         <NuxtLink :to="`https://github.com/${github}`">
-          <span class="font-default font-bold text-woodsmoke-900 bg-vue px-3 py-1 text-xl pgv-speaker-box__name">
+          <span class="font-default font-bold text-woodsmoke-900 px-3 py-1 text-xl pgv-speaker-box__name" :class="bg">
             {{ name }}
           </span>
         </NuxtLink>
@@ -34,10 +34,12 @@ const {
   name,
   country,
   github,
+  bg,
 } = defineProps<{
   name: string
   country: string
   github: string
+  bg: string
 }>()
 
 const imgSrc = `https://github.com/${github}.png`
