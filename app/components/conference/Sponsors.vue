@@ -9,7 +9,7 @@
         scope="global"
         tag="p"
         keypath="pages.home.sponsors_info"
-        class="mb-12 tracking-[0.01em] text-center mx-auto max-w-[64ch] text-balance"
+        class="mb-12 tracking-[0.01em] text-left sm:text-center mx-auto max-w-[64ch] text-balance"
       >
         <template #br>
           <br>

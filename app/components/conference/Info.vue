@@ -6,11 +6,11 @@
           {{ $t('headings.about_the_conference') }}
         </UiHeading>
 
-        <p class="tracking-[0.01em] max-w-[64ch] mb-4 text-center min-[450px]:text-left">
+        <p class="tracking-[0.01em] max-w-[64ch] mb-4 text-left">
           {{ $t('pages.home.conference_info_1') }}
         </p>
 
-        <p class="tracking-[0.01em] max-w-[64ch] text-center min-[450px]:text-left">
+        <p class="tracking-[0.01em] max-w-[64ch] text-left">
           {{ $t('pages.home.conference_info_2') }}
         </p>
       </div>
