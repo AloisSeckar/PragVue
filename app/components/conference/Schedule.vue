@@ -4,7 +4,7 @@
       {{ $t('headings.the_schedule') }}
     </UiHeading>
 
-    <div v-for="item in scheduleItems" :key="item.time" class="schedule-row border-b border-[#ccc] odd:text-vue even:text-vue-light hover:bg-[#222]">
+    <div v-for="item in scheduleItems" :key="item.time" class="schedule-row border-b border-[#ccc] odd:text-vue odd:hover:text-emerald-300 even:text-vue-light even:hover:text-yellow-300 hover:bg-[#222]">
       <div class="pl-2 pr-8 whitespace-nowrap time">
         {{ item.time }}
       </div>
@@ -14,11 +14,15 @@
             {{ item.title }}
           </span>
           <span v-if="item.speaker">
-            ({{ item.speaker }})
+            (<NuxtLink :to="`https://github.com/${item.github}`" class="hover:underline">
+              {{ item.speaker }}
+            </NuxtLink>)
           </span>
         </div>
         <details v-if="item.speaker">
-          <summary>Talk details ℹ️</summary>
+          <summary title="Click for more info">
+            Talk details ℹ️
+          </summary>
           <p class="text-[#ccc] text-sm pr-2 lg:text-justify">
             {{ item.details }}
           </p>
@@ -36,6 +40,7 @@ type ScheduleItem = {
   time: string
   title: string
   speaker?: string
+  github?: string
   details?: string
 }
 
