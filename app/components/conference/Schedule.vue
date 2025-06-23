@@ -20,8 +20,8 @@
           </span>
         </div>
         <details v-if="item.info">
-          <summary title="Click for more info">
-            Talk details ℹ️
+          <summary title="Click for more info" class="cursor-pointer">
+            <span class="hover:underline">Talk details</span> ℹ️
           </summary>
           <p class="text-[#ccc] text-sm pr-2 lg:text-justify">
             {{ item.info.details }}
