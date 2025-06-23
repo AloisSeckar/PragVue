@@ -1,4 +1,4 @@
-export const sponsors = [
+export const sponsors: SponsorInfo[] = [
   {
     tier: 1,
     to: 'https://www.evidencz.com/',

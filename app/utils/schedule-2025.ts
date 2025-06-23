@@ -1,4 +1,4 @@
-export const schedule = [
+export const schedule: ScheduleInfo[] = [
   {
     time: '08:30',
     event: 'Doors open 🥳',

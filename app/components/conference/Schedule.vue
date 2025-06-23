@@ -4,7 +4,7 @@
       {{ $t('headings.the_schedule') }}
     </UiHeading>
 
-    <div v-for="item in scheduleItems" :key="item.time" class="schedule-row border-b border-[#ccc] odd:text-vue odd:hover:text-emerald-300 even:text-vue-light even:hover:text-yellow-300 hover:bg-[#222]">
+    <div v-for="item in schedule" :key="item.time" class="schedule-row border-b border-[#ccc] odd:text-vue odd:hover:text-emerald-300 even:text-vue-light even:hover:text-yellow-300 hover:bg-[#222]">
       <div class="pl-2 pr-8 whitespace-nowrap time">
         {{ item.time }}
       </div>
@@ -37,26 +37,10 @@
 import { schedule } from '@/utils/schedule-2025'
 import { speakers } from '@/utils/speakers-2025'
 
-type ScheduleItem = {
-  time: string
-  event?: string
-  speaker?: string
-  info?: SpeakerInfo
-}
-
-type SpeakerInfo = {
-  github: string
-  name: string
-  title: string
-  details: string
-}
-
 // merge speaker info into schedule items based on "speaker" (= github name) field
-const speakerInfo: SpeakerInfo[] = speakers as SpeakerInfo[]
-const scheduleItems: ScheduleItem[] = schedule as ScheduleItem[]
-scheduleItems.forEach((item) => {
+schedule.forEach((item) => {
   if (item.speaker) {
-    item.info = speakerInfo.find(speaker => speaker.github === item.speaker)
+    item.info = speakers.find(speaker => speaker.github === item.speaker)
   }
 })
 </script>
