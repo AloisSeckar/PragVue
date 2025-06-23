@@ -11,20 +11,20 @@
       <div class="talk">
         <div>
           <span class="text-[#ccc] font-bold">
-            {{ item.title }}
+            {{ item.info?.title || item.event }}
           </span>
-          <span v-if="item.speaker">
-            (<NuxtLink :to="`https://github.com/${item.github}`" class="hover:underline">
-              {{ item.speaker }}
+          <span v-if="item.info">
+            (<NuxtLink :to="`https://github.com/${item.info.github}`" class="hover:underline">
+              {{ item.info.name }}
             </NuxtLink>)
           </span>
         </div>
-        <details v-if="item.speaker">
+        <details v-if="item.info">
           <summary title="Click for more info">
             Talk details ℹ️
           </summary>
           <p class="text-[#ccc] text-sm pr-2 lg:text-justify">
-            {{ item.details }}
+            {{ item.info.details }}
           </p>
         </details>
       </div>
@@ -35,16 +35,30 @@
 <script setup lang="ts">
 // technically not necessary (auto-import), but for better clarity
 import { schedule } from '@/utils/schedule-2025'
+import { speakers } from '@/utils/speakers-2025'
 
 type ScheduleItem = {
   time: string
-  title: string
+  event?: string
   speaker?: string
-  github?: string
-  details?: string
+  info?: SpeakerInfo
 }
 
+type SpeakerInfo = {
+  github: string
+  name: string
+  title: string
+  details: string
+}
+
+// merge speaker info into schedule items based on "speaker" (= github name) field
+const speakerInfo: SpeakerInfo[] = speakers as SpeakerInfo[]
 const scheduleItems: ScheduleItem[] = schedule as ScheduleItem[]
+scheduleItems.forEach((item) => {
+  if (item.speaker) {
+    item.info = speakerInfo.find(speaker => speaker.github === item.speaker)
+  }
+})
 </script>
 
 <style scoped>
