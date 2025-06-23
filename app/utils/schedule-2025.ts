@@ -91,6 +91,6 @@ export const schedule = [
     time: '17:00',
     title: 'What to Expect in the v5 of TresJS',
     speaker: 'Alvaro Saburido Rodriguez',
-    details: 'TBA',
+    details: 'Get a first look at what’s coming in TresJS v5 — from performance boosts and improved ecosystem support to a more powerful developer experience. We’ll walk through the biggest changes, highlight the new/refactored composables and architecture improvements and the new pointer events module.',
   },
 ]
