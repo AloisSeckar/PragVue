@@ -1,4 +1,4 @@
-export const speakers = [
+export const speakers: SpeakerInfo[] = [
   {
     github: 'Baroshem',
     name: 'Jakub Andrzejewski',
