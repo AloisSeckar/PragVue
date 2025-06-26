@@ -65,7 +65,7 @@
 </template>
 
 <script setup lang="ts">
-import { sponsors } from '@/utils/sponsors-2025'
+import { sponsors } from '~/data/sponsors-2025'
 
 const topSponsors = sponsors.filter(s => s.tier === 1)
 const otherSponsors = sponsors.filter(s => s.tier > 1)

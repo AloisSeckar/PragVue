@@ -33,9 +33,8 @@
 </template>
 
 <script setup lang="ts">
-// technically not necessary (auto-import), but for better clarity
-import { schedule } from '@/utils/schedule-2025'
-import { speakers } from '@/utils/speakers-2025'
+import { schedule } from '~/data/schedule-2025'
+import { speakers } from '~/data/speakers-2025'
 
 // merge speaker info into schedule items based on "speaker" (= github name) field
 schedule.forEach((item) => {

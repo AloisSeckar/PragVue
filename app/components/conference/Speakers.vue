@@ -40,6 +40,5 @@
 </template>
 
 <script setup lang="ts">
-// technically not necessary (auto-import), but for better clarity
-import { speakers } from '@/utils/speakers-2025'
+import { speakers } from '~/data/speakers-2025'
 </script>
