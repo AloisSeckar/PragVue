@@ -23,9 +23,9 @@
       :width="40" :height="26" class="mx-auto my-2"
     />
 
-    <i18n-t :keypath="dscrSrc" scope="global" tag="p" class="w-[250px] text-sm text-center text-woodsmoke-400">
-      <br>
-    </i18n-t>
+    <p class="w-[250px] text-sm text-center text-woodsmoke-400">
+      {{ bio }}
+    </p>
   </div>
 </template>
 
@@ -39,12 +39,12 @@ const {
   name: string
   country: string
   github: string
+  bio: string
   bg: string
 }>()
 
 const imgSrc = `https://github.com/${github}.png`
 const countrySrc = `/flags/${country}.png`
-const dscrSrc = `speakers.${github}`
 </script>
 
 <style scoped>

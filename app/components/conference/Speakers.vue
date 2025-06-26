@@ -11,6 +11,7 @@
             :name="slide.name"
             :country="slide.country"
             :github="slide.github"
+            :bio="slide.bio"
             :bg="slide.bg"
           />
         </template>
