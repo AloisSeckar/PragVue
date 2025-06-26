@@ -11,6 +11,7 @@ export type SpeakerInfo = {
   github: string
   name: string
   country: string
+  bio: string
   bg: string
   title: string
   details: string

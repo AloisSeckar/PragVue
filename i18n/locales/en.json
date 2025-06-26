@@ -59,21 +59,6 @@
             "back_to_2025": "Back to 2025"
         }
     },
-    "speakers": {
-        "TheAlexLichter": "Web engineering consultant based in Amsterdam - DevRel [at] VoidZero - Member of the Nuxt Core Team",
-        "Baroshem": "{'Fullstack Developer & Advocate [at] Monterail - @GoogleDevExpert in Web Perferformance - Nuxt Ecosystem Team'}",
-        "LouellaCreemers": ".NET and TypeScript developer from Rotterdam - Microsoft MVP",
-        "huang-julien": "Nuxt Core Team - Frontend developer at Leetchi",
-        "adamberecz": "Creator of Vueform",
-        "zvenigorodskaia": "COO at Epicmax - In love with Vue.js and Vuestic UI",
-        "raisiqueira": "Senior Software Engineer at Vinta Software from Recife",
-        "alvarosabu": "DX Engineer [at] Storyblok - OSS author - Content creator",
-        "toddeTV": "Computer Scientist and Web Engineer",
-        "kissu": "Frontend developer - VueJS ecosystem lover",
-        "juanwmedia": "Software engineer - Vue.js specialist",
-        "alexanderop": "Developer from Germany passionate about technology and knowledge sharing",
-        "AloisSeckar": "Nuxt enthusiast - cs.vuejs.org translator"
-    },
     "intro": {
         "present": "present",
         "about": "Vue.js conference in Prague",
