@@ -5,13 +5,24 @@
         {{ $t('headings.tickets') }}
       </UiHeading>
 
+      <p class="mb-4 max-w-[24ch] text-center text-2xl">
+        {{ $t('pages.home.tickets_info') }}
+      </p>
+
+      <!-- early bird
       <div :key="countdown" class="text-2xl font-bold text-center mb-4 inline">
         {{ $t('pages.home.early_bird_tickets') }}
         <div :class="countdownColor">
           {{ countdown }}
         </div>
       </div>
+       -->
 
+      <span class="pgv-price text-vue-light hover:text-yellow-300 hover:animate-bounce">
+        € 249
+      </span>
+
+      <!-- early bird
       <span class="pgv-price pgv-price--full text-woodsmoke-400">
         €249
       </span>
@@ -19,14 +30,17 @@
       <span class="pgv-price relative -top-2 text-vue-light">
         €199
       </span>
+       -->
     </div>
 
     <div class="flex flex-col gap-4 items-center justify-center">
-      <UiButtonIcon icon="🎫" href="https://pragvue.konference.cz/" :label="$t('buttons.tickets_2')" />
+      <UiButtonIcon icon="🎫" href="https://pragvue.konference.cz/" :label="$t('buttons.tickets_2a')" />
 
+      <!-- early bird
       <p class="mb-8 max-w-[24ch] text-center text-balance text-red-400 text-md">
         {{ $t('pages.home.early_bird_tickets_info') }}
       </p>
+       -->
     </div>
   </LayoutContainerContent>
 </template>
@@ -76,7 +90,7 @@ function formatTime(seconds: number) {
 
 .pgv-price--full {
   font-size: 2.5rem;
-  text-decoration: line-through;
+  /* text-decoration: line-through; */
   font-weight: 500;
 }
 </style>

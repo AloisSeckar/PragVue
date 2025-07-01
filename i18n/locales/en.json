@@ -24,6 +24,7 @@
     "buttons": {
         "tickets_1": "Buy tickets",
         "tickets_2": "Buy for the best price",
+        "tickets_2a": "Buy tickets here",
         "tickets_3": "I want to attend PragVue",
         "more": "More info",
         "speaker": "I want to talk at PragVue",
@@ -36,7 +37,8 @@
             "conference_info_2": "Vue.js is easy to learn, scalable, highly performant thanks to its coherent reactivity system, and has a rich ecosystem of surrounding libraries. Despite its greatness, Vue.js remains undiscovered by many. That's precisely why we're hosting this conference - to delve deeper into its potential and shed light on its remarkable capabilities.",
             "early_bird_tickets": "Early bird tickets countdown",
             "early_bird_tickets_info": "Early bird ticket price is only available until the end of June",
-            "speakers_info": "Get ready to be inspired by an outstanding lineup of Vue.js community members who will share their knowledge, hands-on experience, and fresh perspectives. Expect everything from a closer look at ecosystem tools to big-picture views on modern web practices. Whether you’re a long-time Vue enthusiast or just starting out, you’ll find plenty to spark new ideas. Don’t miss the opportunity to learn from and connect with skilled professionals.",
+            "tickets_info": "PragVue 2025 are available for",
+           "speakers_info": "Get ready to be inspired by an outstanding lineup of Vue.js community members who will share their knowledge, hands-on experience, and fresh perspectives. Expect everything from a closer look at ecosystem tools to big-picture views on modern web practices. Whether you’re a long-time Vue enthusiast or just starting out, you’ll find plenty to spark new ideas. Don’t miss the opportunity to learn from and connect with skilled professionals.",
             "speakers_you": "And you...?",
             "speakers_you_info": "We are still looking for a few more speakers! Whether you're an experienced conference patron or seeking your first opportunity to shine, now's your chance. If you have something to share about Vue, contact us via the button below to discuss the details.",
             "look_back_on_2024": "PragVue 2024 was a blast! Last year, we hosted the first Czech Vue.js conference. Thank you to all the attendees and all the speakers. We’re hoping to make the next one even better!",
