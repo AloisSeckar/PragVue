@@ -2,7 +2,7 @@
   <div>
     <LayoutContainer>
       <LayoutContainerContent>
-        <UiHeading class="mb-12 text-vue">
+        <UiHeading class="mb-12 text-center text-vue">
           {{ $t('pages.2024.title') }}
         </UiHeading>
 
