@@ -14,3 +14,6 @@ public/.DS_Store
 
 # Qodo extension auto-generated folder
 .qodo
+
+# Nuxt Ignis
+_ignis-config.json
