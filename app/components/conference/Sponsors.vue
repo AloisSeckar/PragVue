@@ -43,7 +43,7 @@
         <UiSponsorBox
           size="lg"
         >
-          <span class="pgv-sponsors__prompt text-woodsmoke-400">
+          <span class="pgv-sponsors__prompt text-woodsmoke-100">
             {{ $t('pages.home.your_company_can_be_here') }}
           </span>
         </UiSponsorBox>
