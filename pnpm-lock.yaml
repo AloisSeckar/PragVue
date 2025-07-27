@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       nuxt-ignis:
-        specifier: 0.4.0-rc.1
-        version: 0.4.0-rc.1(779928bc48e0b18bbbfc124a91b5d433)
+        specifier: 0.4.0
+        version: 0.4.0(779928bc48e0b18bbbfc124a91b5d433)
       swiper:
         specifier: 11.2.10
         version: 11.2.10
@@ -5695,8 +5695,8 @@ packages:
   nuxt-csurf@1.6.5:
     resolution: {integrity: sha512-/DMNTON8LIVhntamKbBmAuM879B0QnuSJa7ZAkmkZe+21m+1QGcjVUxtSkizaM48NUvkuAGYOG0ncn+kqEgrzw==}
 
-  nuxt-ignis@0.4.0-rc.1:
-    resolution: {integrity: sha512-nktm4Ybm8BYdMRsAPoXHTRqNJsAazfL96pVg6WdKKLFKTDiqJRBVoJqUPgWVW7KpUisrfpnFWs3CxRJ1zN30nw==}
+  nuxt-ignis@0.4.0:
+    resolution: {integrity: sha512-bHaB10fSTZE2BJAvA9nP2sPcd1GDE2KcjqEjLSgV72mIsKgEz8+TAwvmSL91BfevLUjAPC2XLsvfYCrjVz4Bjg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
@@ -10605,7 +10605,7 @@ snapshots:
 
   '@types/pg@8.15.4':
     dependencies:
-      '@types/node': 22.16.5
+      '@types/node': 24.0.15
       pg-protocol: 1.10.3
       pg-types: 2.2.0
 
@@ -14713,7 +14713,7 @@ snapshots:
     transitivePeerDependencies:
       - magicast
 
-  nuxt-ignis@0.4.0-rc.1(779928bc48e0b18bbbfc124a91b5d433):
+  nuxt-ignis@0.4.0(779928bc48e0b18bbbfc124a91b5d433):
     dependencies:
       '@formkit/nuxt': 1.6.9(esbuild@0.25.8)(magicast@0.3.5)(rollup@4.45.1)(tailwindcss@3.4.17)(vite@6.3.5(@types/node@24.0.15)(jiti@2.4.2)(lightningcss@1.30.1)(sass@1.89.2)(terser@5.43.1)(yaml@2.8.0))(vue@3.5.17(typescript@5.8.3))
       '@maas/vue-equipment': 1.0.0-beta.32(438d2b0531d80d78719f16b5f847b975)
