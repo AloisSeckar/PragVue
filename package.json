@@ -11,7 +11,7 @@
     "start": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt-ignis": "0.4.0-rc.1",
+    "nuxt-ignis": "0.4.0",
     "swiper": "11.2.10",
     "vue-tsc": "2.2.12"
   },
