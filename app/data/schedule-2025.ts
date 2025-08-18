@@ -45,7 +45,7 @@ export const schedule: ScheduleInfo[] = [
   },
   {
     time: '14:30',
-    speaker: 'juanwmedia',
+    speaker: 'maoberlehner',
   },
   {
     time: '15:00',
