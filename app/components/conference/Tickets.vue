@@ -22,6 +22,13 @@
         € 249
       </span>
 
+      <span class="text-red-600 hover:text-red-500 text-2xl font-bold mt-4">
+        🧑‍🎓 50% discount for students 👩‍🎓
+      </span>
+      <span class="text-lg mb-4">
+        Contact us for details
+      </span>
+
       <!-- early bird
       <span class="pgv-price pgv-price--full text-woodsmoke-400">
         €249
