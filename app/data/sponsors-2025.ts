@@ -29,6 +29,13 @@ export const sponsors: SponsorInfo[] = [
   },
   {
     tier: 2,
+    to: 'https://www.javadays.cz/',
+    image: 'jd',
+    title: 'JavaDays - největší česko-slovenská konference pro Java vývojáře',
+    alt: 'JavaDays logo',
+  },
+  {
+    tier: 2,
     to: 'https://go.frontendnation.com/prg',
     image: 'fn',
     title: 'Frontend Nation',
