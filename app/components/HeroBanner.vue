@@ -11,11 +11,11 @@
         :title="sponsor.title"
         :alt="sponsor.alt"
         no-background
-        size="sm"
+        size="md"
       />
     </div>
 
-    <div class="flex flex-row gap-4 justify-center items-center">
+    <div class="grid grid-cols-3 md:grid-cols-5 gap-2 md:gape-4 max-w-[500px] md:max-w-[700px] justify-center items-center">
       <UiSponsorBox
         v-for="sponsor in otherSponsors"
         :key="sponsor.to"
