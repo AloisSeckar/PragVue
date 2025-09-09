@@ -23,7 +23,7 @@
       </span>
 
       <span class="text-red-600 hover:text-red-500 text-2xl font-bold mt-4">
-        🧑‍🎓 50% discount for students 👩‍🎓
+        <span class="hidden sm:inline-block mr-2">🧑‍🎓</span>50% discount for students<span class="hidden sm:inline-block ml-2"> 👩‍🎓</span>
       </span>
       <span class="text-lg mb-4">
         Contact us for details
