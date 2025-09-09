@@ -15,14 +15,14 @@
     </div>
 
     <UiSwiperNavigation
-      v-if="!isFirstSlide || loop"
+      v-if="(!isFirstSlide || loop) && navigation"
       class="pgv-swiper__navigation pgv-swiper__navigation--left"
       direction="left"
       @click="slidePrev"
     />
 
     <UiSwiperNavigation
-      v-if="!isLastSlide || loop"
+      v-if="(!isLastSlide || loop) && navigation"
       class="pgv-swiper__navigation"
       direction="right"
       @click="slideNext"
@@ -38,9 +38,11 @@ import { A11y, Autoplay, Keyboard, Mousewheel } from 'swiper/modules'
 const {
   slides,
   loop,
+  navigation = true,
 } = defineProps<{
   slides: T[]
   loop?: boolean
+  navigation?: boolean
 }>()
 
 let swiper: Swiper | null = null

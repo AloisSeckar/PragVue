@@ -2,7 +2,7 @@
   <LayoutContainer class="pt-2 h-lvh relative isolation overflow-hidden flex flex-col items-center justify-center">
     <IconPragueSilhouette class="absolute bottom-0 inset-x-1/2 -z-10 pgv-hero-banner__bg" />
 
-    <div class="flex flex-row gap-4 justify-center items-center mb-2">
+    <div class="hidden md:flex flex-row gap-4 justify-center items-center mb-2">
       <UiSponsorBox
         v-for="sponsor in topSponsors"
         :key="sponsor.to"
@@ -14,8 +14,21 @@
         size="md"
       />
     </div>
+    <UiSwiper class="md:hidden!" :slides="topSponsors" :navigation="false">
+      <template #slide="{ slide }">
+        <UiSponsorBox
+          :key="slide.to"
+          :to="slide.to"
+          :image="slide.image"
+          :title="slide.title"
+          :alt="slide.alt"
+          no-background
+          size="md"
+        />
+      </template>
+    </UiSwiper>
 
-    <div class="grid grid-cols-3 md:grid-cols-5 gap-2 md:gape-4 max-w-[500px] md:max-w-[700px] justify-center items-center">
+    <div class="hidden md:flex flex-row gap-4 justify-center items-center">
       <UiSponsorBox
         v-for="sponsor in otherSponsors"
         :key="sponsor.to"
@@ -27,6 +40,19 @@
         size="sm"
       />
     </div>
+    <UiSwiper class="md:hidden!" :slides="otherSponsors" :navigation="false">
+      <template #slide="{ slide }">
+        <UiSponsorBox
+          :key="slide.to"
+          :to="slide.to"
+          :image="slide.image"
+          :title="slide.title"
+          :alt="slide.alt"
+          no-background
+          size="sm"
+        />
+      </template>
+    </UiSwiper>
 
     <LayoutContainerContent class="flex flex-col items-center justify-start sm:justify-center gap-4 sm:gap-6">
       <TheLogo tag="h1" />
