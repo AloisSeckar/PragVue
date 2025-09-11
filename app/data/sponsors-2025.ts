@@ -55,4 +55,11 @@ export const sponsors: SponsorInfo[] = [
     title: 'Vinta Software',
     alt: 'Vinta Software logo',
   },
+  {
+    tier: 2,
+    to: 'https://www.packtpub.com/',
+    image: 'packt',
+    title: 'Packt',
+    alt: 'Packt logo',
+  },
 ]
