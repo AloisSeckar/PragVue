@@ -41,8 +41,8 @@ export const speakers: SpeakerInfo[] = [
     country: 'FRA',
     bio: 'Nuxt Core Team - Frontend developer at Leetchi',
     bg: 'bg-vue',
-    title: 'Overcoming Third-party Script Headaches in Vue with a Single Library',
-    details: 'When developing a web application, you’ll inevitably encounter challenges—especially when it comes to managing head elements and integrating third-party tools. Many of us have experienced the headaches of integrating third-party scripts within a single-page application (SPA). Fortunately, those struggles can become a thing of the past, as we explore how unhead solves many of the issues caused by third-party scripts!',
+    title: 'Bringing server components to Vue',
+    details: 'React 19 introduced Server Components, a new way of building apps that’s used in frameworks like Next.js and Remix. But what exactly are they, and how do they work? In this talk, we’ll break it down and explore whether the same idea can be brought to Vue.',
   },
   {
     github: 'TheAlexLichter',
