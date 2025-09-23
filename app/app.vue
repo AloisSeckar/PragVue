@@ -12,6 +12,18 @@ useHead({
 })
 
 useSeoMeta({
+  title: 'PragVue',
+  description: 'The Czech Vue.js conference',
+  ogType: 'website',
+  ogUrl: 'https://pragvue.com/',
+  ogTitle: 'PragVue',
+  ogDescription: 'The Czech Vue.js conference',
+  ogImage: 'https://pragvue.com/pragvue.jpg',
+  twitterCard: 'summary_large_image',
+})
+
+/* 2025 - TODO move to page 2025
+useSeoMeta({
   title: 'PragVue 2025',
   description: '2nd annual Vue.js conference in Prague, Czechia (23rd September 2025)',
   ogType: 'website',
@@ -21,6 +33,7 @@ useSeoMeta({
   ogImage: 'https://pragvue.com/pragvue.jpg',
   twitterCard: 'summary_large_image',
 })
+*/
 </script>
 
 <style>

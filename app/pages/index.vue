@@ -1,37 +1,11 @@
 <template>
-  <div>
-    <HeroBanner />
-
-    <a id="info" />
-    <LazyConferenceInfo hydrate-on-visible />
-
-    <div class="flex flex-col gap-1 items-center">
-      <div class="font-xs">
-        Sponsor link
-      </div>
-      <div>
-        <NuxtLink to="https://www.javadays.cz/" class="cursor-pointer">
-          <NuxtImg
-            class="mx-auto w-[165px] h-[110px]"
-            src="/java-days-banner.jpg" loading="lazy"
-            title="JavaDays - největší česko-slovenská konference pro Java vývojáře" alt="Sponsor - Java Days conference"
-          />
-        </NuxtLink>
-      </div>
-      <div class="font-xs">
-        -----
-      </div>
+  <div class="pt-2 h-lvh relative isolation overflow-hidden flex flex-col items-center justify-center">
+    <div class="text-3xl">
+      <UiPragVue /> <span class="text-gray-500">will return</span>
     </div>
-
-    <a id="speakers" />
-    <LazyConferenceSpeakers hydrate-on-visible />
-
-    <LazyConferencePast hydrate-on-visible />
-
-    <LazyConferenceVenue hydrate-on-visible />
-
-    <LazyConferencePrague hydrate-on-visible />
-
-    <LazyConferenceSponsors hydrate-on-visible />
+    <div class="flex flex-row gap-5 items-center justify-center mt-6">
+      <NuxtLink to="/2025" class="text-xl hover:underline hover:text-vue-light" title="2025 edition">2025</NuxtLink>
+      <NuxtLink to="/2024" class="text-xl hover:underline hover:text-vue-light" title="2024 edition">2024</NuxtLink>
+    </div>
   </div>
 </template>
