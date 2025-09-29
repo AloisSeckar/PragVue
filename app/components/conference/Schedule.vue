@@ -1,6 +1,6 @@
 <template>
   <section class="schedule" aria-label="Conference Schedule">
-    <UiHeading class="mb-6 text-[#ccc] font-xl">
+    <UiHeading class="mb-6 text-vue font-xl">
       {{ $t('headings.the_schedule') }}
     </UiHeading>
 
@@ -19,7 +19,7 @@
             </NuxtLink>)
           </span>
         </div>
-        <details v-if="item.info">
+        <details v-if="item.info?.details">
           <summary title="Click for more info" class="cursor-pointer">
             <span class="hover:underline">Talk details</span> ℹ️
           </summary>
@@ -27,6 +27,11 @@
             {{ item.info.details }}
           </p>
         </details>
+        <div v-if="item.info?.slides" class="mt-1">
+          <NuxtLink :to="item.info.slides" title="Speaker's slides used during the talk" class="text-[#ccc] hover:underline">
+            Slides 📑
+          </NuxtLink>
+        </div>
       </div>
     </div>
   </section>

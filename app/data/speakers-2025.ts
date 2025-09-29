@@ -7,6 +7,7 @@ export const speakers: SpeakerInfo[] = [
     bg: 'bg-vue',
     title: 'Dungeons & Developers - Patterns for Great DX',
     details: 'One of the key aspects of great Developer Experience is the ease of trying the solution - the easier and faster we allow the user to get benefits from using it, the better their experience will be. It’s almost like running a Dungeons & Dragons session with your new friends. In this talk, I will share with you DX indicators and tools, proven patterns for improving the DX, and examples of great DX with a Dungeons & Dragons twist :)',
+    slides: 'https://docs.google.com/presentation/d/1m-FcR-7mS7puwOKIg9DiiWQcBmWUbcqbI1ksK3ayhwY/edit?usp=sharing',
   },
   {
     github: 'adamberecz',
@@ -52,6 +53,7 @@ export const speakers: SpeakerInfo[] = [
     bg: 'bg-vue-light',
     title: 'Keynote: Modern JavaScript Tooling',
     details: 'Latest Vue.js news and insights into the future of web development. We expect to hear some news about Oxc and whatever Alex will surprise us with.',
+    slides: 'https://github.com/TheAlexLichter/talk-voidzero-modern-tooling-pragvue-25',
   },
   {
     github: 'maoberlehner',
@@ -61,6 +63,7 @@ export const speakers: SpeakerInfo[] = [
     bg: 'bg-vue',
     title: 'Adaptive UIs with Vue and AI: What If Your UI Could Build Itself?',
     details: 'We carefully craft the design of current-day apps and websites tailored to a specific use case. Yet the needs of our users often don’t fit neatly into the boxes we put them in when we imagine how they use our applications. What if we could take it a step further and build interfaces that adapt on demand to the specific needs of our users? With the power of modern, state-of-the-art LLMs, we can dynamically generate and adapt the UI of our application to meet the exact needs of our users in real-time. In this talk, we explore how to build a single AI-powered component that automatically responds to all UI requirements in a fast and reliable way.',
+    slides: 'https://talk-adaptive-uis-pragvue-2025.netlify.app/1',
   },
   {
     github: 'alexanderop',
@@ -70,6 +73,7 @@ export const speakers: SpeakerInfo[] = [
     bg: 'bg-vue-light',
     title: 'How to Structure Vue Projects',
     details: 'One of the first questions to ask yourself when starting a new project is: How should I structure it? In this talk, I’ll share clear guidelines based on project size to help you make the right decisions. As a bonus, I’ll also give you my personal recommendation especially relevant in the age of LLMs.',
+    slides: 'https://github.com/alexanderop/talk-structure-vue-prag-25',
   },
   {
     github: 'alvarosabu',
@@ -88,6 +92,7 @@ export const speakers: SpeakerInfo[] = [
     bg: 'bg-vue-light',
     title: 'Ignite your Nuxt development with Layers',
     details: 'The concept of Nuxt Layers allows sharing common logic across more applications. Typically you would re-use things like components, pages or composables. But there is more. Did you know that you can even leverage the power of layers to centralize your dependency management?',
+    slides: 'https://alois-seckar.cz/pragvue-2025-nuxt-with-layers.pdf',
   },
   {
     github: 'toddeTV',

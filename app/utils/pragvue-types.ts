@@ -15,6 +15,8 @@ export type SpeakerInfo = {
   bg: string
   title: string
   details: string
+  slides?: string
+  video?: string
 }
 
 export type SponsorInfo = {

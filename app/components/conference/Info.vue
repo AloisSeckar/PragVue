@@ -2,7 +2,7 @@
   <LayoutContainer class="overflow-hidden">
     <LayoutContainerContent class="grid lg:grid-cols-2">
       <div>
-        <UiHeading class="mb-6 text-vue-light">
+        <UiHeading class="mb-6 text-vue">
           {{ $t('headings.about_the_conference') }}
         </UiHeading>
 
@@ -20,6 +20,6 @@
       </div>
     </LayoutContainerContent>
 
-    <ConferenceTickets />
+    <!-- <ConferenceTickets /> -->
   </LayoutContainer>
 </template>

@@ -5,6 +5,7 @@
     <a id="info" />
     <LazyConferenceInfo hydrate-on-visible />
 
+    <!--
     <div class="flex flex-col gap-1 items-center">
       <div class="font-xs">
         Sponsor link
@@ -22,11 +23,12 @@
         -----
       </div>
     </div>
+    -->
 
     <a id="speakers" />
     <LazyConferenceSpeakers hydrate-on-visible />
 
-    <LazyConferencePast hydrate-on-visible />
+    <!-- <LazyConferencePast hydrate-on-visible /> -->
 
     <LazyConferenceVenue hydrate-on-visible />
 

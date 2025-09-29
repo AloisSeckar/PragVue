@@ -1,5 +1,6 @@
 <template>
   <LayoutContainer>
+    <!--
     <LayoutContainerContent>
       <UiHeading class="mb-12 text-vue-light sm:text-center">
         {{ $t('headings.sponsor') }}
@@ -20,6 +21,7 @@
         <UiButtonIcon icon="💶" href="mailto:info@pragvue.com" :label="$t('buttons.sponsor')" />
       </div>
     </LayoutContainerContent>
+    -->
 
     <h3 class="mb-4 text-2xl text-center font-bold ">
       <UiPragVue :year="2025" />
@@ -39,6 +41,7 @@
         />
       </LayoutContainerContent>
 
+      <!--
       <LayoutContainerContent class="!py-0 pgv-sponsors tracking-[0.01em] min-[430px]:text-lg min-[500px]:text-xl min-[600px]:text-2xl">
         <UiSponsorBox
           size="lg"
@@ -48,6 +51,7 @@
           </span>
         </UiSponsorBox>
       </LayoutContainerContent>
+      -->
     </div>
   </LayoutContainer>
 </template>
