@@ -44,6 +44,7 @@ export const speakers: SpeakerInfo[] = [
     bg: 'bg-vue',
     title: 'Bringing server components to Vue',
     details: 'React 19 introduced Server Components, a new way of building apps that’s used in frameworks like Next.js and Remix. But what exactly are they, and how do they work? In this talk, we’ll break it down and explore whether the same idea can be brought to Vue.',
+    slides: 'https://huang-julien.github.io/bringing-server-components-to-vue/1',
   },
   {
     github: 'TheAlexLichter',
@@ -102,6 +103,7 @@ export const speakers: SpeakerInfo[] = [
     bg: 'bg-vue',
     title: 'How to Nuxt Modules',
     details: 'An introduction to the Nuxt Modules ecosystem, including a complex example and a walkthrough of developing your own modules.',
+    slides: 'https://c1p.eu/txrc',
   },
   {
     github: 'raisiqueira',
