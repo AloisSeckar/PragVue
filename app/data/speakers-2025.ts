@@ -17,6 +17,7 @@ export const speakers: SpeakerInfo[] = [
     bg: 'bg-vue-light',
     title: 'From Object to Interface—Serialized Forms with Vueform',
     details: 'Not all forms are created equal. Explore the key differences that set them apart and discover how to drastically reduce development effort when traditional coding methods fall short.',
+    slides: 'https://alois-seckar.cz/pragvue-2025-vueform.pdf',
   },
   {
     github: 'kissu',
