@@ -9,9 +9,9 @@
         v-slot="{ item }"
         :items="items"
         arrows loop auto-height
-        :prev="{ icon: '←', size: 'xl', variant: 'outline', class: 'hover:cursor-pointer' }"
-        :next="{ icon: '→', size: 'xl', variant: 'outline', class: 'hover:cursor-pointer' }"
-        class="w-full mx-auto max-w-[600px]"
+        :prev="{ size: 'xl', variant: 'outline', class: 'custom-prev-btn' }"
+        :next="{ size: 'xl', variant: 'outline', class: 'custom-next-btn' }"
+        class="w-full mx-auto max-w-[600px] custom-carousel"
       >
         <a :href="item" target="_blank" rel="noopener">
           <img
@@ -41,5 +41,70 @@ const items = Array.from({ length: 44 }, (_, i) => {
     max-width: 1000px;
     margin: 0 auto;
     padding: 1rem;
+}
+
+/* Custom carousel arrow buttons */
+.custom-carousel :deep(.custom-prev-btn),
+.custom-carousel :deep(.custom-next-btn) {
+  position: absolute !important;
+  top: 55% !important;
+  transform: translateY(-50%) !important;
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  border: 2px solid #333 !important;
+  border-radius: 50% !important;
+  width: 48px !important;
+  height: 48px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 0 !important; /* Hide any text */
+  z-index: 10 !important;
+}
+
+.custom-carousel :deep(.custom-prev-btn) {
+  left: -60px !important;
+}
+
+.custom-carousel :deep(.custom-next-btn) {
+  right: -60px !important;
+}
+
+.custom-carousel :deep(.custom-prev-btn):hover {
+  background-color: rgba(255, 255, 255, 1) !important;
+  transform: translateY(-50%) scale(1.1) !important;
+}
+
+.custom-carousel :deep(.custom-next-btn):hover {
+  background-color: rgba(255, 255, 255, 1) !important;
+  transform: translateY(-50%) scale(1.1) !important;
+}
+
+/* Create arrow using CSS pseudo-elements */
+.custom-carousel :deep(.custom-prev-btn::before) {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 12px solid #333;
+  left: 14px;
+}
+
+.custom-carousel :deep(.custom-next-btn::before) {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 12px solid #333;
+  right: 14px;
+}
+
+/* Hide any existing icons/content */
+.custom-carousel :deep(.custom-prev-btn) > *:not(::before),
+.custom-carousel :deep(.custom-next-btn) > *:not(::before) {
+  display: none !important;
 }
 </style>
