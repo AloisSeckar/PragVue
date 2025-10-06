@@ -28,6 +28,7 @@
     <a id="speakers" />
     <LazyConferenceSpeakers hydrate-on-visible />
 
+    <a id="gallery" />
     <LazyConferenceGallery hydrate-on-visible />
 
     <!-- <LazyConferencePast hydrate-on-visible /> -->
