@@ -123,5 +123,6 @@ export const speakers: SpeakerInfo[] = [
     bg: 'bg-vue',
     title: 'How to Make Open Source Profitable',
     details: 'Open source is powerful - it drives innovation, builds communities, and gives developers a chance to make a real impact. But how do you turn an open-source project into a sustainable business without losing its spirit? In this talk, Anastasiia shares simple, practical strategies for making open source profitable. She will cover: 1) Mistakes we made during 8 years of open-source development - and how much they can cost you. 2) What makes open-source projects successful. 3) How to choose the right monetization model for your project. 4) How to get your first users and turn them into customers. You will leave this session with a clear understanding of what it really takes to make your open-source project both valuable and financially sustainable.',
+    slides: 'https://www.canva.com/design/DAGykKxbQOM/r04lzxBTj2DqpC_s6s3hdw/view?utm_content=DAGykKxbQOM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h235c194844',
   },
 ]
