@@ -1,7 +1,7 @@
 <template>
   <LayoutContainer>
     <LayoutContainerContent>
-      <UiHeading class="mb-6 text-vue-light">
+      <UiHeading class="mb-6 text-vue">
         {{ $t('headings.venue') }}
       </UiHeading>
 
