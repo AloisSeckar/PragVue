@@ -6,10 +6,14 @@
       </UiHeading>
 
       <UCarousel
-        v-slot="{ item }" arrows loop auto-height
-        :items="items" class="w-full mx-auto max-w-[600px]"
+        v-slot="{ item }"
+        :items="items"
+        arrows loop auto-height
+        :prev="{ size: 'xl', class: 'hover:cursor-pointer' }"
+        :next="{ size: 'xl', class: 'hover:cursor-pointer' }"
+        class="w-full mx-auto max-w-[600px]"
       >
-        <a :href="item">
+        <a :href="item" target="_blank" rel="noopener">
           <img
             :src="item" width="640" height="320"
             alt="Photo from PragVue 2025"
