@@ -1,4 +1,13 @@
 @import "tailwindcss";
+@import "@nuxt/ui";
+
+:root {
+  --ui-text: #dddddd;
+}
+
+.dark {
+  --ui-text: #dddddd;
+}
 
 @theme {
   --color-woodsmoke-100: #cccccc;

@@ -39,7 +39,6 @@ useSeoMeta({
 <style>
 html {
   scroll-behavior: smooth;
-  color: #dddddd;
   font-family: "Montserrat", sans-serif;
 }
 </style>
