@@ -9,8 +9,8 @@
         v-slot="{ item }"
         :items="items"
         arrows loop auto-height
-        :prev="{ size: 'xl', class: 'hover:cursor-pointer' }"
-        :next="{ size: 'xl', class: 'hover:cursor-pointer' }"
+        :prev="{ icon: '←', size: 'xl', variant: 'outline', class: 'hover:cursor-pointer' }"
+        :next="{ icon: '→', size: 'xl', variant: 'outline', class: 'hover:cursor-pointer' }"
         class="w-full mx-auto max-w-[600px]"
       >
         <a :href="item" target="_blank" rel="noopener">
