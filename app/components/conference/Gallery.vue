@@ -6,8 +6,8 @@
       </UiHeading>
 
       <UCarousel
-        v-slot="{ item }" arrows loop :autoplay="{ delay: 2000 }"
-        auto-height :items="items" class="w-full max-w-xs mx-auto"
+        v-slot="{ item }" arrows loop auto-height
+        :items="items" class="w-full mx-auto max-w-[600px]"
       >
         <a :href="item">
           <img
