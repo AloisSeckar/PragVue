@@ -9,8 +9,8 @@
         v-slot="{ item }"
         :items="items"
         arrows loop auto-height
-        :prev="{ size: 'xl', variant: 'outline', class: 'custom-prev-btn' }"
-        :next="{ size: 'xl', variant: 'outline', class: 'custom-next-btn' }"
+        :prev="{ size: 'xl', variant: 'outline', class: 'custom-prev-btn hover:cursor-pointer' }"
+        :next="{ size: 'xl', variant: 'outline', class: 'custom-next-btn hover:cursor-pointer' }"
         class="w-full mx-auto max-w-[600px] custom-carousel"
       >
         <a :href="item" target="_blank" rel="noopener">
