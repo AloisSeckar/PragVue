@@ -69,6 +69,24 @@ const items = Array.from({ length: 44 }, (_, i) => {
   right: -60px !important;
 }
 
+/* Responsive positioning for mobile - move buttons over the image */
+@media (max-width: 767px) {
+  .custom-carousel :deep(.custom-prev-btn) {
+    left: 10px !important;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+  }
+
+  .custom-carousel :deep(.custom-next-btn) {
+    right: 10px !important;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+  }
+
+  .custom-carousel :deep(.custom-prev-btn):hover,
+  .custom-carousel :deep(.custom-next-btn):hover {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+  }
+}
+
 .custom-carousel :deep(.custom-prev-btn):hover {
   background-color: rgba(255, 255, 255, 1) !important;
   transform: translateY(-50%) scale(1.1) !important;
