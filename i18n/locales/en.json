@@ -23,10 +23,7 @@
         "map": "Show on map"
     },
     "buttons": {
-        "tickets_1": "Buy tickets",
-        "tickets_2": "Buy for the best price",
-        "tickets_2a": "Buy tickets here",
-        "tickets_3": "I want to attend PragVue",
+        "tickets_1": "Buy tickets here",
         "more": "More info",
         "speaker": "I want to talk at PragVue",
         "hotel": "Contact us for the hotel discount",
@@ -61,17 +58,5 @@
             "speakers": "Speakers",
             "back_to_index": "Back to present"
         }
-    },
-    "intro": {
-        "present": "present",
-        "about": "Vue.js conference in Prague",
-        "date": "17th September 2024 09:00",
-        "place": "Polygon House - Doudlebská 1699/5, Praha 4",
-        "2025pt1": "2nd annual Vue.js conference in Prague",
-        "2025pt2": "See you again on 23rd September 2025!",
-        "2025pt3": "Details coming soon",
-        "2024": "Meanwhile, remind yourself of PragVue 2024",
-        "more": "More info",
-        "register": "Registration"
     }
 }

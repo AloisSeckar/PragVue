@@ -41,7 +41,7 @@
     </div>
 
     <div class="flex flex-col gap-4 items-center justify-center">
-      <UiButtonIcon icon="🎫" href="https://pragvue.konference.cz/" :label="$t('buttons.tickets_2a')" />
+      <UiButtonIcon icon="🎫" href="https://pragvue.konference.cz/" :label="$t('buttons.tickets_1')" />
 
       <!-- early bird
       <p class="mb-8 max-w-[24ch] text-center text-balance text-red-400 text-md">
