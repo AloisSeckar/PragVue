@@ -1,7 +1,7 @@
 <template>
   <LayoutContainer>
     <LayoutContainerContent>
-      <UiHeading class="mb-6 text-vue-light font-xl">
+      <UiHeading class="mb-6 text-vue-light font-xl mx-auto max-w-[830px]">
         {{ $t('headings.the_gallery') }}
       </UiHeading>
 
@@ -38,7 +38,7 @@ const items = Array.from({ length: 44 }, (_, i) => {
 
 <style scoped>
 .gallery {
-    max-width: 1000px;
+    max-width: 830px;
     margin: 0 auto;
     padding: 1rem;
 }
