@@ -19,14 +19,14 @@
        -->
 
       <span class="pgv-price text-vue-light hover:text-yellow-300 hover:animate-bounce">
-        € 249
+        {{ $t('tickets.price') }}
       </span>
 
       <span class="text-red-600 hover:text-red-500 text-2xl font-bold mt-4">
-        <span class="hidden sm:inline-block mr-2">🧑‍🎓</span>50% discount for students<span class="hidden sm:inline-block ml-2"> 👩‍🎓</span>
+        <span class="hidden sm:inline-block mr-2">🧑‍🎓</span>{{ $t('tickets.student_discount') }}<span class="hidden sm:inline-block ml-2"> 👩‍🎓</span>
       </span>
       <span class="text-lg mb-4">
-        Contact us for details
+        {{ $t('tickets.contact') }}
       </span>
 
       <!-- early bird

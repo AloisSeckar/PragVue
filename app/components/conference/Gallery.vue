@@ -23,7 +23,7 @@
       </UCarousel>
 
       <div class="mt-4 text-center">
-        Photos by <a href="https://www.linkedin.com/in/cerny-matej/" class="text-vue-light hover:text-vue hover:underline">Matej Černý</a>
+        {{ $t('gallery.photos_by') }} <a href="https://www.linkedin.com/in/cerny-matej/" class="text-vue-light hover:text-vue hover:underline">Matej Černý</a>
       </div>
     </LayoutContainerContent>
   </LayoutContainer>

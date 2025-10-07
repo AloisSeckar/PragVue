@@ -36,7 +36,7 @@
             "early_bird_tickets": "Early bird tickets countdown",
             "early_bird_tickets_info": "Early bird ticket price is only available until the end of June",
             "tickets_info": "PragVue 2025 are available for",
-           "speakers_info": "Get ready to be inspired by an outstanding lineup of Vue.js community members who will share their knowledge, hands-on experience, and fresh perspectives. Expect everything from a closer look at ecosystem tools to big-picture views on modern web practices. Whether you’re a long-time Vue enthusiast or just starting out, you’ll find plenty to spark new ideas. Don’t miss the opportunity to learn from and connect with skilled professionals.",
+            "speakers_info": "Get ready to be inspired by an outstanding lineup of Vue.js community members who will share their knowledge, hands-on experience, and fresh perspectives. Expect everything from a closer look at ecosystem tools to big-picture views on modern web practices. Whether you’re a long-time Vue enthusiast or just starting out, you’ll find plenty to spark new ideas. Don’t miss the opportunity to learn from and connect with skilled professionals.",
             "speakers_you": "And you...?",
             "speakers_you_info": "We are still looking for a few more speakers! Whether you're an experienced conference patron or seeking your first opportunity to shine, now's your chance. If you have something to share about Vue, contact us via the button below to discuss the details.",
             "look_back_on_2024": "PragVue 2024 was a blast! Last year, we hosted the first Czech Vue.js conference. Thank you to all the attendees and all the speakers. We’re hoping to make the next one even better!",
@@ -58,5 +58,34 @@
             "speakers": "Speakers",
             "back_to_index": "Back to present"
         }
+    },
+    "schedule": {
+        "more_info": "Click for more info",
+        "talk_details": "Talk details",
+        "video_title": "Video recording of the talk by SlidesLive",
+        "video_view": "Video 🎞️",
+        "slides_title": "Speaker's slides used during the talk",
+        "slides_view": "Slides 📑"
+    },
+    "gallery": {
+        "photos_by": "Photos by"
+    },
+    "tickets": {
+        "price": "€ 249",
+        "student_discount": "50% discount for students",
+        "contact": "Contact us for details"
+    },
+    "future": "will return",
+    "past": {
+        "2025": "2025 edition",
+        "2024": "2024 edition"
+    },
+    "footer": {
+        "contact_us": "Contact us:",
+        "follow_us": "Follow us:",
+        "bluesky": "Follow us on Bluesky",
+        "twitter": "Follow us on Twitter/X",
+        "linkedin": "Follow us on LinkedIn",
+        "powered_by": "Powered by"
     }
 }

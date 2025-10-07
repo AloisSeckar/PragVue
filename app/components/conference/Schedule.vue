@@ -1,5 +1,5 @@
 <template>
-  <section class="schedule" aria-label="Conference Schedule">
+  <section class="schedule" :aria-label="$t('ui.conference_schedule')">
     <UiHeading class="mb-6 text-vue font-xl">
       {{ $t('headings.the_schedule') }}
     </UiHeading>
@@ -20,8 +20,8 @@
           </span>
         </div>
         <details v-if="item.info?.details">
-          <summary title="Click for more info" class="cursor-pointer">
-            <span class="hover:underline">Talk details</span> ℹ️
+          <summary :title="$t('schedule.more_info')" class="cursor-pointer">
+            <span class="hover:underline">{{ $t('schedule.talk_details') }}</span> ℹ️
           </summary>
           <p class="text-[#ccc] text-sm pr-2 lg:text-justify">
             {{ item.info.details }}
@@ -29,13 +29,13 @@
         </details>
         <div class="flex flex-row gap-2 mt-1">
           <div v-if="item.info?.video">
-            <NuxtLink :to="item.info.video" title="Video recoring of the talk by SlidesLive" class="text-[#ccc] hover:underline">
-              Video 🎞️
+            <NuxtLink :to="item.info.video" :title="$t('schedule.video_title')" class="text-[#ccc] hover:underline">
+              {{ $t('schedule.video_view') }}
             </NuxtLink>
           </div>
           <div v-if="item.info?.slides">
-            <NuxtLink :to="item.info.slides" title="Speaker's slides used during the talk" class="text-[#ccc] hover:underline">
-              Slides 📑
+            <NuxtLink :to="item.info.slides" :title="$t('schedule.slides_title')" class="text-[#ccc] hover:underline">
+              {{ $t('schedule.slides_view') }}
             </NuxtLink>
           </div>
         </div>
