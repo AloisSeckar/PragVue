@@ -33,7 +33,7 @@
         </ul>
 
         <div class="flex flex-col gap-4 items-center justify-center">
-          <UiButtonIcon icon="💻" href="/" :label="$t('pages.2024.back_to_2025')" />
+          <UiButtonIcon icon="💻" href="/" :label="$t('pages.2024.back_to_index')" />
         </div>
       </LayoutContainerContent>
     </LayoutContainer>
