@@ -27,10 +27,17 @@
             {{ item.info.details }}
           </p>
         </details>
-        <div v-if="item.info?.slides" class="mt-1">
-          <NuxtLink :to="item.info.slides" title="Speaker's slides used during the talk" class="text-[#ccc] hover:underline">
-            Slides 📑
-          </NuxtLink>
+        <div class="flex flex-row gap-2 mt-1">
+          <div v-if="item.info?.video">
+            <NuxtLink :to="item.info.video" title="Video recoring of the talk by SlidesLive" class="text-[#ccc] hover:underline">
+              Video 🎞️
+            </NuxtLink>
+          </div>
+          <div v-if="item.info?.slides">
+            <NuxtLink :to="item.info.slides" title="Speaker's slides used during the talk" class="text-[#ccc] hover:underline">
+              Slides 📑
+            </NuxtLink>
+          </div>
         </div>
       </div>
     </div>

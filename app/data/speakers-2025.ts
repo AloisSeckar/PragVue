@@ -8,6 +8,7 @@ export const speakers: SpeakerInfo[] = [
     title: 'Dungeons & Developers - Patterns for Great DX',
     details: 'One of the key aspects of great Developer Experience is the ease of trying the solution - the easier and faster we allow the user to get benefits from using it, the better their experience will be. It’s almost like running a Dungeons & Dragons session with your new friends. In this talk, I will share with you DX indicators and tools, proven patterns for improving the DX, and examples of great DX with a Dungeons & Dragons twist :)',
     slides: 'https://docs.google.com/presentation/d/1m-FcR-7mS7puwOKIg9DiiWQcBmWUbcqbI1ksK3ayhwY/edit?usp=sharing',
+    video: 'https://slideslive.com/39045694/dungeons-developers-patterns-for-great-dx?ref=folder-185349',
   },
   {
     github: 'adamberecz',
@@ -18,6 +19,7 @@ export const speakers: SpeakerInfo[] = [
     title: 'From Object to Interface—Serialized Forms with Vueform',
     details: 'Not all forms are created equal. Explore the key differences that set them apart and discover how to drastically reduce development effort when traditional coding methods fall short.',
     slides: 'https://alois-seckar.cz/pragvue-2025-vueform.pdf',
+    video: 'https://slideslive.com/39045693/from-object-to-interfaceserialized-forms-with-vueform?ref=folder-185349',
   },
   {
     github: 'kissu',
@@ -27,6 +29,7 @@ export const speakers: SpeakerInfo[] = [
     bg: 'bg-vue',
     title: 'The Land of the VueJS.land',
     details: 'TBA',
+    video: 'https://slideslive.com/39045703/the-land-of-the-vuejsland?ref=folder-185349',
   },
   {
     github: 'LouellaCreemers',
@@ -36,6 +39,7 @@ export const speakers: SpeakerInfo[] = [
     bg: 'bg-vue-light',
     title: 'What the new European Accessibility Act Means for Web Developers',
     details: '2025 is here, and the European Accessibility Act (EAA) is now in full force, requiring digital products and services to be accessible to all users. But what does this mean for web developers? In this session, we’ll break down the key requirements of the EAA and explain how it impacts your work. You’ll learn practical steps to ensure your web applications meet WCAG 2.1 accessibility standards, explore essential tools and libraries for testing your apps, and see live demonstrations of accessibility best practices. Prepare your apps for compliance and discover how accessible design improves the user experience for everyone.',
+    video: 'https://slideslive.com/39045698/what-the-new-european-accessibility-act-means-for-web-developers?ref=folder-185349',
   },
   {
     github: 'huang-julien',
@@ -46,6 +50,7 @@ export const speakers: SpeakerInfo[] = [
     title: 'Bringing server components to Vue',
     details: 'React 19 introduced Server Components, a new way of building apps that’s used in frameworks like Next.js and Remix. But what exactly are they, and how do they work? In this talk, we’ll break it down and explore whether the same idea can be brought to Vue.',
     slides: 'https://huang-julien.github.io/bringing-server-components-to-vue/1',
+    video: 'https://slideslive.com/39045695/bringing-server-components-to-vue?ref=folder-185349',
   },
   {
     github: 'TheAlexLichter',
@@ -56,6 +61,7 @@ export const speakers: SpeakerInfo[] = [
     title: 'Keynote: Modern JavaScript Tooling',
     details: 'Latest Vue.js news and insights into the future of web development. We expect to hear some news about Oxc and whatever Alex will surprise us with.',
     slides: 'https://github.com/TheAlexLichter/talk-voidzero-modern-tooling-pragvue-25',
+    video: 'https://slideslive.com/39045692/keynote-modern-javascript-tooling?ref=folder-185349',
   },
   {
     github: 'maoberlehner',
@@ -66,6 +72,7 @@ export const speakers: SpeakerInfo[] = [
     title: 'Adaptive UIs with Vue and AI: What If Your UI Could Build Itself?',
     details: 'We carefully craft the design of current-day apps and websites tailored to a specific use case. Yet the needs of our users often don’t fit neatly into the boxes we put them in when we imagine how they use our applications. What if we could take it a step further and build interfaces that adapt on demand to the specific needs of our users? With the power of modern, state-of-the-art LLMs, we can dynamically generate and adapt the UI of our application to meet the exact needs of our users in real-time. In this talk, we explore how to build a single AI-powered component that automatically responds to all UI requirements in a fast and reliable way.',
     slides: 'https://talk-adaptive-uis-pragvue-2025.netlify.app/1',
+    video: 'https://slideslive.com/39045700/adaptive-user-interfaces-with-ai-what-if-your-ui-could-build-itself?ref=folder-185349',
   },
   {
     github: 'alexanderop',
@@ -76,6 +83,7 @@ export const speakers: SpeakerInfo[] = [
     title: 'How to Structure Vue Projects',
     details: 'One of the first questions to ask yourself when starting a new project is: How should I structure it? In this talk, I’ll share clear guidelines based on project size to help you make the right decisions. As a bonus, I’ll also give you my personal recommendation especially relevant in the age of LLMs.',
     slides: 'https://github.com/alexanderop/talk-structure-vue-prag-25',
+    video: 'https://slideslive.com/39045701/how-to-structure-vue-projects?ref=folder-185349',
   },
   {
     github: 'alvarosabu',
@@ -85,6 +93,7 @@ export const speakers: SpeakerInfo[] = [
     bg: 'bg-vue',
     title: 'What to Expect in the v5 of TresJS',
     details: 'Get a first look at what’s coming in TresJS v5 — from performance boosts and improved ecosystem support to a more powerful developer experience. We’ll walk through the biggest changes, highlight the new/refactored composables and architecture improvements and the new pointer events module.',
+    video: 'https://slideslive.com/39045704/what-to-expect-in-the-v5-of-tresjs?ref=folder-185349',
   },
   {
     github: 'AloisSeckar',
@@ -95,6 +104,7 @@ export const speakers: SpeakerInfo[] = [
     title: 'Ignite your Nuxt development with Layers',
     details: 'The concept of Nuxt Layers allows sharing common logic across more applications. Typically you would re-use things like components, pages or composables. But there is more. Did you know that you can even leverage the power of layers to centralize your dependency management?',
     slides: 'https://alois-seckar.cz/pragvue-2025-nuxt-with-layers.pdf',
+    video: 'https://slideslive.com/39045697/ignite-your-nuxt-development-with-layers?ref=folder-185349',
   },
   {
     github: 'toddeTV',
@@ -105,6 +115,7 @@ export const speakers: SpeakerInfo[] = [
     title: 'How to Nuxt Modules',
     details: 'An introduction to the Nuxt Modules ecosystem, including a complex example and a walkthrough of developing your own modules.',
     slides: 'https://c1p.eu/txrc',
+    video: 'https://slideslive.com/39045696/how-to-nuxt-modules?ref=folder-185349',
   },
   {
     github: 'raisiqueira',
@@ -114,6 +125,7 @@ export const speakers: SpeakerInfo[] = [
     bg: 'bg-vue-light',
     title: 'Revamping Your Vue.js Stack: Lessons from a Real Migration',
     details: 'When Vue 2 reached its end of life, we took on the challenge of migrating our apps to Vue 3 - without slowing down feature development. In this talk, I’ll share the behind-the-scenes of this migration journey, including unexpected hurdles, lessons learned, and how the shift to Vue 3 unlocked a smoother developer experience and made it easier to ship new features faster.',
+    video: 'https://slideslive.com/39045699/revamping-your-vuejs-stack-lessons-from-a-real-migration?ref=folder-185349',
   },
   {
     github: 'zvenigorodskaia',
@@ -124,5 +136,6 @@ export const speakers: SpeakerInfo[] = [
     title: 'How to Make Open Source Profitable',
     details: 'Open source is powerful - it drives innovation, builds communities, and gives developers a chance to make a real impact. But how do you turn an open-source project into a sustainable business without losing its spirit? In this talk, Anastasiia shares simple, practical strategies for making open source profitable. She will cover: 1) Mistakes we made during 8 years of open-source development - and how much they can cost you. 2) What makes open-source projects successful. 3) How to choose the right monetization model for your project. 4) How to get your first users and turn them into customers. You will leave this session with a clear understanding of what it really takes to make your open-source project both valuable and financially sustainable.',
     slides: 'https://www.canva.com/design/DAGykKxbQOM/r04lzxBTj2DqpC_s6s3hdw/view?utm_content=DAGykKxbQOM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h235c194844',
+    video: 'https://slideslive.com/39045702/how-to-make-open-source-profitable?ref=folder-185349',
   },
 ]
