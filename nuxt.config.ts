@@ -11,13 +11,9 @@ export default defineNuxtConfig({
 
   css: ['~/assets/ignis.css'],
 
-  future: {
-    compatibilityVersion: 4,
-  },
-
   nitro: {
     prerender: {
-      routes: ['/2024'],
+      routes: ['/2024', '/2025'],
     },
   },
 
@@ -51,7 +47,7 @@ export default defineNuxtConfig({
   },
 
   i18n: {
-    lazy: true,
+    // lazy: true,
     defaultLocale: 'en',
     types: 'composition',
     detectBrowserLanguage: false,
