@@ -25,6 +25,5 @@
       "unrs-resolver",
       "vue-demi"
     ]
-  },
-  "packageManager": "pnpm@10.18.3"
+  }
 }
