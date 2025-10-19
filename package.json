@@ -15,9 +15,6 @@
     "swiper": "12.0.2"
   },
   "pnpm": {
-    "overrides": {
-      "nuxt": "4.1.2"
-    },
     "onlyBuiltDependencies": [
       "@parcel/watcher",
       "@tailwindcss/oxide",
@@ -28,5 +25,6 @@
       "unrs-resolver",
       "vue-demi"
     ]
-  }
+  },
+  "packageManager": "pnpm@10.18.3"
 }
