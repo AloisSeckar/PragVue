@@ -1,5 +1,5 @@
 <template>
-  <section class="schedule" :aria-label="$t('ui.conference_schedule')">
+  <section class="schedule" :aria-label="$t('schedule.aria')">
     <UiHeading class="mb-6 text-vue font-xl">
       {{ $t('headings.the_schedule') }}
     </UiHeading>

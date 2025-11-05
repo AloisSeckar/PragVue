@@ -60,6 +60,7 @@
         }
     },
     "schedule": {
+        "aria": "Schedule of PragVue conference",
         "more_info": "Click for more info",
         "talk_details": "Talk details",
         "video_title": "Video recording of the talk by SlidesLive",
