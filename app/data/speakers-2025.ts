@@ -125,6 +125,7 @@ export const speakers: SpeakerInfo[] = [
     bg: 'bg-vue-light',
     title: 'Revamping Your Vue.js Stack: Lessons from a Real Migration',
     details: 'When Vue 2 reached its end of life, we took on the challenge of migrating our apps to Vue 3 - without slowing down feature development. In this talk, I’ll share the behind-the-scenes of this migration journey, including unexpected hurdles, lessons learned, and how the shift to Vue 3 unlocked a smoother developer experience and made it easier to ship new features faster.',
+    slides: 'https://docs.google.com/presentation/d/1ubh8y-yjBDxcVf1dCDmwL2j5suboPcUpVu8VAQSTCJY',
     video: 'https://slideslive.com/39045699/revamping-your-vuejs-stack-lessons-from-a-real-migration?ref=folder-185349',
   },
   {
