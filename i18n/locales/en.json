@@ -77,7 +77,10 @@
         "contact": "Contact us for details"
     },
     "future": "will return",
+    "future2026": "is coming back",
+    "info2026": "More info will be announced soon",
     "past": {
+        "title": "Past editions",
         "2025": "2025 edition",
         "2024": "2024 edition"
     },
