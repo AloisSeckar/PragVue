@@ -6,9 +6,12 @@
       </UiShimmer>
     </div>
     <main class="text-center">
-      <div class="text-3xl mb-2">
+      <div class="text-2xl mb-2">
         <span class="text-gray-400">{{ $t('future2026') }}</span>
         <span class="ml-1 cursor-wait inline-block transition-transform duration-300 hover:scale-125 hover:animate-bounce">👀</span>
+      </div>
+      <div class="text-3xl mb-6">
+        <span class="text-yellow-400">{{ $t('date2026') }}</span>
       </div>
       <div class="text-xl mb-6">
         <span class="text-gray-400">{{ $t('info2026') }}</span>
