@@ -16,6 +16,17 @@
       <div class="text-xl mb-6">
         <span class="text-gray-400">{{ $t('info2026') }}</span>
       </div>
+      <div class="flex flex-row gap-3 items-center justify-center mb-6 font-mono text-sm text-center text-woodsmoke-300">
+        <NuxtLink to="https://bsky.app/profile/pragvue.com">
+          <img src="/bluesky.png" :title="$t('footer.bluesky')" alt="PragVue Bluesky" class="p-2 h-10 rounded-md ring-2 ring-vue hover:ring-vue-light">
+        </NuxtLink>
+        <NuxtLink to="https://x.com/PragVue_conf">
+          <img src="/twitter.png" :title="$t('footer.twitter')" alt="PragVue Twitter/X" class="p-2 h-10 rounded-md ring-2 ring-vue hover:ring-vue-light">
+        </NuxtLink>
+        <NuxtLink to="https://www.linkedin.com/company/pragvue/">
+          <img src="/linkedin.png" :title="$t('footer.linkedin')" alt="PragVue LinkedIn" class="p-2 h-10 rounded-md ring-2 ring-vue hover:ring-vue-light">
+        </NuxtLink>
+      </div>
     </main>
     <nav>
       <div class="text-xl mb-2">
