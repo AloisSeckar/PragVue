@@ -66,6 +66,25 @@ export default defineNuxtConfig({
     },
   },
 
+  ignis: {
+    config: {
+      html: {
+        lang: 'en',
+      },
+    },
+    default: {
+      css: false,
+    },
+    preset: {
+      ui: 'nuxt-ui',
+    },
+    content: {
+      i18n: {
+        enabled: true,
+      },
+    },
+  },
+
   scripts: {
     registry: {
       googleAnalytics: {
