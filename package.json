@@ -11,8 +11,8 @@
     "start": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt-ignis": "0.6.0-rc.2",
+    "nuxt-ignis": "0.6.0",
     "swiper": "12.2.0"
   },
-  "packageManager": "pnpm@11.4.0"
+  "packageManager": "pnpm@11.5.2"
 }

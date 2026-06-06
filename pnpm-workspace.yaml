@@ -9,3 +9,15 @@ allowBuilds:
   vue-demi: true
   # post-install scripts that can be ignored
   maplibre-gl: false
+
+minimumReleaseAgeExclude:
+  # nuxt-ignis and its submodules must be excluded to allow 
+  # installing latest version without the cooldown
+  - 'nuxt-ignis'
+  - '@nuxt-ignis/content'
+  - '@nuxt-ignis/db'
+  - '@nuxt-ignis/default'
+  - '@nuxt-ignis/forms'
+  - '@nuxt-ignis/ui'
+  - '@nuxt-ignis/utils'
+  - '@nuxt-ignis/validation'
