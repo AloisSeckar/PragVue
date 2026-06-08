@@ -12,12 +12,12 @@ useHead({
 })
 
 useSeoMeta({
-  title: 'PragVue',
-  description: 'The Czech Vue.js conference',
+  title: 'PragVue 2026',
+  description: '3rd annual Vue.js conference in Prague, Czechia (29 September 2026)',
   ogType: 'website',
   ogUrl: 'https://pragvue.com/',
-  ogTitle: 'PragVue',
-  ogDescription: 'The Czech Vue.js conference',
+  ogTitle: 'PragVue 2026',
+  ogDescription: '3rd annual Vue.js conference in Prague, Czechia (29 September 2026)',
   ogImage: 'https://pragvue.com/pragvue.jpg',
   twitterCard: 'summary_large_image',
 })
