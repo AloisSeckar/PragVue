@@ -93,7 +93,16 @@
         "description": "Get the latest news about PragVue conference straight to your inbox.",
         "email": "Email:",
         "email_placeholder": "Enter your email",
-        "terms": "By subscribing to this newsletter, you agree to receive updates about and only about the PragVue conference. We will never use it for different purposes nor will we share your email address with third parties. Shall you ever change your mind, you can unsubscribe at any time.",
+        "consent": {
+            "foreword": "I consent to the processing of my personal data (specifically my email address) by Atos Czech Republic s.r.o., as the data controller, for the purpose of registration to receive information about the PragVue 2026 conference to be held on 29.09.2026, about future editions of the PragVue conference in subsequent years, and about related events, including:",
+            "point1": "information about the program, speakers, and accompanying events",
+            "point2": "organizational and practical information related to the conference",
+            "point3": "Providing this consent is voluntary and it is not a condition for registration for the conference or using other services",
+            "point4": "personal data will be processed to the extent of: email address",
+            "point5": "I may withdraw my consent at any time by clicking the unsubscribe link in any email sent or by contacting the controller",
+            "point6": "withdrawal of consent does not affect the lawfulness of processing prior to its withdrawal",
+            "afterword": "By submitting the form / checking the box, I expressly confirm that I have read the information above and grant this consent."
+        },
         "submit": "Subscribe",
         "validation": {
             "email_required": "Email is required",

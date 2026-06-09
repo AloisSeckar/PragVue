@@ -11,7 +11,7 @@
         </div>
 
         <UForm
-          v-else :state="state" :validate="validate" class="w-full max-w-sm space-y-4"
+          v-else :state="state" :validate="validate" class="w-full max-w-143 space-y-4"
           @submit="onSubmit"
         >
           <UFormField :label="$t('subscribe.email')" name="email">
@@ -19,7 +19,32 @@
           </UFormField>
 
           <UFormField name="terms">
-            <UCheckbox v-model="state.terms" :label="$t('subscribe.terms')" :ui="{ label: 'text-justify' }" />
+            <UCheckbox v-model="state.terms" :ui="{ label: 'text-justify' }">
+              <template #label>
+                <p>{{ $t('subscribe.consent.foreword') }}</p>
+                <ul class="list-disc list-outside pl-5 my-2">
+                  <li class="mb-1">
+                    {{ $t('subscribe.consent.point1') }}
+                  </li>
+                  <li class="mb-1">
+                    {{ $t('subscribe.consent.point2') }}
+                  </li>
+                  <li class="mb-1">
+                    {{ $t('subscribe.consent.point3') }}
+                  </li>
+                  <li class="mb-1">
+                    {{ $t('subscribe.consent.point4') }}
+                  </li>
+                  <li class="mb-1">
+                    {{ $t('subscribe.consent.point5') }}
+                  </li>
+                  <li class="mb-1">
+                    {{ $t('subscribe.consent.point6') }}
+                  </li>
+                </ul>
+                <p>{{ $t('subscribe.consent.afterword') }}</p>
+              </template>
+            </UCheckbox>
           </UFormField>
 
           <div v-if="error" class="text-red-400 text-sm">
