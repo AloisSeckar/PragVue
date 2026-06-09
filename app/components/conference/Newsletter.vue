@@ -51,10 +51,10 @@ const error = ref('')
 function validate(s: FormState) {
   const errors = []
   if (!s.email) {
-    errors.push({ name: 'email', message: $t('subscribe.valiation.email_required') })
+    errors.push({ name: 'email', message: $t('subscribe.validation.email_required') })
   }
   if (!s.terms) {
-    errors.push({ name: 'terms', message: $t('subscribe.valiation.terms_required') })
+    errors.push({ name: 'terms', message: $t('subscribe.validation.terms_required') })
   }
   return errors
 }

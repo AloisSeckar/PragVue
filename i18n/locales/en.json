@@ -29,7 +29,7 @@
         "where": "We will meet at {venue} in Karlín district",
         "map": "Show on map",
         "tickets": "Tickets will be available for {price}",
-        "what": "You will learn about new technologies and tooling that will help you create awesome webapps in no time. This year, you won't only listen, you will also have chance to turn ideas into reality with rapid AI-infused development. Our team of skilled speakers and mentors will be there to guide you and together we will create amazing things in just a fraction of a day. How does that sound?",
+        "what": "You will learn about new technologies and tooling that will help you create awesome webapps in no time. This year, you won't only listen, you will also have a chance to turn ideas into reality with rapid AI-infused development. Our team of skilled speakers and mentors will be there to guide you and together we will create amazing things in just a fraction of a day. How does that sound?",
         "more": "{soon} Meanwhile, you can subscribe to our newsletter to get the most recent updates straight to your inbox.",
         "soon": "More details will be announced soon."
     },
@@ -46,7 +46,7 @@
             "conference_info_2": "Vue.js is easy to learn, scalable, highly performant thanks to its coherent reactivity system, and has a rich ecosystem of surrounding libraries. Despite its greatness, Vue.js remains undiscovered by many. That's precisely why we're hosting this conference - to delve deeper into its potential and shed light on its remarkable capabilities.",
             "early_bird_tickets": "Early bird tickets countdown",
             "early_bird_tickets_info": "Early bird ticket price is only available until the end of June",
-            "tickets_info": "PragVue 2025 are available for",
+            "tickets_info": "PragVue 2025 tickets are available for",
             "speakers_info": "Get ready to be inspired by an outstanding lineup of Vue.js community members who will share their knowledge, hands-on experience, and fresh perspectives. Expect everything from a closer look at ecosystem tools to big-picture views on modern web practices. Whether you’re a long-time Vue enthusiast or just starting out, you’ll find plenty to spark new ideas. Don’t miss the opportunity to learn from and connect with skilled professionals.",
             "speakers_you": "And you...?",
             "speakers_you_info": "We are still looking for a few more speakers! Whether you're an experienced conference patron or seeking your first opportunity to shine, now's your chance. If you have something to share about Vue, contact us via the button below to discuss the details.",
@@ -56,7 +56,7 @@
             "venue_images": "Grandium Hotel Prague conference facilities",
             "venue_offer": "The 5-star {hotel} also offers comfortable overnight accommodation without having to worry about navigating around the city. We’ve arranged a special partnership offer for {offer} for all PragVue guests! Contact us after completing your ticket purchase to receive this benefit.",
             "venue_offer_highlight": "an extra 10% discount",
-            "prague_info": "It is just about frontend development. PragVue also gives you chance to explore Prague's stunning Gothic and Baroque architecture, vibrant history, and modern culture. Discover the world's largest ancient castle at Prague Castle, walk the famous Charles Bridge over the Vltava River, and observe the marvelous Astronomical Clock in the historic Old Town Square. And there is much more to do, both during the day and in the night alike. Prague offers a perfect mix of history, culture, nature, and tech, ensuring a fulfilling visit alongside your professional engagements.",
+            "prague_info": "It isn't just about frontend development. PragVue also gives you a chance to explore Prague's stunning Gothic and Baroque architecture, vibrant history, and modern culture. Discover the world's largest ancient castle at Prague Castle, walk the famous Charles Bridge over the Vltava River, and observe the marvelous Astronomical Clock in the historic Old Town Square. And there is much more to do, both during the day and in the night alike. Prague offers a perfect mix of history, culture, nature, and tech, ensuring a fulfilling visit alongside your professional engagements.",
             "prague_images": "Views of Prague",
             "sponsors_info": "Gain valuable exposure, connect with a passionate audience of developers, and help us shape the future of Vue.js by sponsoring PragVue. {br}{br} Seize this chance to connect with talented developers, share your vision, and shine a spotlight on your brand.",
             "sponsors_list": "was made possible thanks to:",
@@ -95,7 +95,7 @@
         "email_placeholder": "Enter your email",
         "terms": "By subscribing to this newsletter, you agree to receive updates about and only about the PragVue conference. We will never use it for different purposes nor will we share your email address with third parties. Shall you ever change your mind, you can unsubscribe at any time.",
         "submit": "Subscribe",
-        "valiation": {
+        "validation": {
             "email_required": "Email is required",
             "email_invalid": "Please enter a valid email address",
             "terms_required": "You must agree to the text above"
