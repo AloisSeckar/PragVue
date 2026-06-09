@@ -21,5 +21,6 @@ const {
 }>()
 
 const swiperBtn = 'bg-vue w-10 h-10 flex-shrink-0 flex items-center justify-center text-white hover:bg-vue-dark transition-colors'
-const aria = `Swipe ${direction}`
+const translatedDirection = $t(`swiper.direction_${direction}`)
+const aria = $t('swiper.swipe', { direction: translatedDirection })
 </script>

@@ -14,7 +14,7 @@
           v-else :state="state" :validate="validate" class="w-full max-w-sm space-y-4"
           @submit="onSubmit"
         >
-          <UFormField label="Email" name="email">
+          <UFormField :label="$t('subscribe.email')" name="email">
             <UInput v-model="state.email" type="email" :placeholder="$t('subscribe.email_placeholder')" class="w-full" />
           </UFormField>
 

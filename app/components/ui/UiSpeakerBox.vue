@@ -19,7 +19,7 @@
     </div>
 
     <NuxtImg
-      :src="countrySrc" :alt="`${country} flag`" :title="country"
+      :src="countrySrc" :alt="$t('swiper.flag', { country })" :title="country"
       :width="40" :height="26" class="mx-auto my-2"
     />
 

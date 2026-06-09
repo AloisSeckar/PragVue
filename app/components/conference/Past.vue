@@ -6,7 +6,7 @@
           {{ $t('past.title') }}
         </UiHeading2026>
         <div class="text-center mb-2">
-          This was PragVue in year:
+          {{ $t('past.subtitle') }}
         </div>
         <div class="flex flex-row gap-5 items-center justify-center">
           <NuxtLink to="/2025" class="text-3xl transition-all duration-300 hover:underline hover:text-vue-light hover:scale-110 hover:drop-shadow-[0_0_8px_rgba(66,184,131,0.5)] inline-block" :title="$t('past.2025')">2025</NuxtLink>

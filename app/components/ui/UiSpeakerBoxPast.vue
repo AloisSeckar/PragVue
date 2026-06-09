@@ -2,7 +2,7 @@
   <li class="odd:ml-20 even:mr-20 mb-4 flex flex-row gap-4 items-center">
     <NuxtImg
       :src="`/speakers/${img}.jpg`"
-      :alt="`${name} profile pic`"
+      :alt="$t('swiper.profile', { name })"
       :title="name"
       class="w-12 h-12 rounded-full"
     />

@@ -91,6 +91,7 @@
     "subscribe": {
         "title": "Newsletter",
         "description": "Get the latest news about PragVue conference straight to your inbox.",
+        "email": "Email:",
         "email_placeholder": "Enter your email",
         "terms": "By subscribing to this newsletter, you agree to receive updates about and only about the PragVue conference. We will never use it for different purposes nor will we share your email address with third parties. Shall you ever change your mind, you can unsubscribe at any time.",
         "submit": "Subscribe",
@@ -106,6 +107,7 @@
     "soon": "More info will be announced soon",
     "past": {
         "title": "Past editions",
+        "subtitle": "This was PragVue in year:",
         "2025": "2025 edition",
         "2024": "2024 edition"
     },
@@ -116,5 +118,12 @@
         "twitter": "Follow us on Twitter/X",
         "linkedin": "Follow us on LinkedIn",
         "powered_by": "Powered by"
+    },
+    "swiper": {
+        "swipe": "Swipe {direction}",
+        "direction_left": "left",
+        "direction_right": "right",
+        "flag": "{country} flag",
+        "profile": "{name} profile pic"
     }
 }
