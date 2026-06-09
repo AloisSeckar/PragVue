@@ -74,9 +74,11 @@ export default defineNuxtConfig({
     },
     default: {
       css: false,
+      auth: false,
     },
     preset: {
       ui: 'nuxt-ui',
+      db: 'neon',
     },
     content: {
       i18n: {

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <HeroBanner />
+    <HeroBanner2025 />
 
     <a id="info" />
     <LazyConferenceInfo hydrate-on-visible />
@@ -30,8 +30,6 @@
 
     <a id="gallery" />
     <LazyConferenceGallery hydrate-on-visible />
-
-    <!-- <LazyConferencePast hydrate-on-visible /> -->
 
     <LazyConferenceVenue hydrate-on-visible />
 

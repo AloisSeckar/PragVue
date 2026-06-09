@@ -19,7 +19,7 @@
        -->
 
       <span class="pgv-price text-vue-light hover:text-yellow-300 hover:animate-bounce">
-        {{ $t('tickets.price') }}
+        {{ $t('tickets.price2025') }}
       </span>
 
       <span class="text-red-600 hover:text-red-500 text-2xl font-bold mt-4">

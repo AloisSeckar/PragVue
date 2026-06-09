@@ -1,7 +1,9 @@
 <template>
-  <component :is="tag">
-    <slot />
-  </component>
+  <section>
+    <component :is="tag">
+      <slot />
+    </component>
+  </section>
 </template>
 
 <script lang="ts" setup>

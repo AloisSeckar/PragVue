@@ -22,6 +22,17 @@
         "where": "Grandium Hotel Prague",
         "map": "Show on map"
     },
+    "2026": {
+        "subtitle": "The Czech Vue.js conference",
+        "date": "29 September 2026",
+        "when": "The event will take place on {date} (9:00 - 16:00)",
+        "where": "We will meet at {venue} in Karlín district",
+        "map": "Show on map",
+        "tickets": "Tickets will be available for {price}",
+        "what": "You will learn about new technologies and tooling that will help you create awesome webapps in no time. This year, you won't only listen, you will also have chance to turn ideas into reality with rapid AI-infused development. Our team of skilled speakers and mentors will be there to guide you and together we will create amazing things in just a fraction of a day. How does that sound?",
+        "more": "{soon} Meanwhile, you can subscribe to our newsletter to get the most recent updates straight to your inbox.",
+        "soon": "More details will be announced soon."
+    },
     "buttons": {
         "tickets_1": "Buy tickets here",
         "more": "More info",
@@ -72,14 +83,27 @@
         "photos_by": "Photos by"
     },
     "tickets": {
-        "price": "€ 249",
+        "price2026": "€ 39",
+        "price2025": "€ 249",
         "student_discount": "50% discount for students",
         "contact": "Contact us for details"
     },
+    "subscribe": {
+        "title": "Newsletter",
+        "description": "Get the latest news about PragVue conference straight to your inbox.",
+        "email_placeholder": "Enter your email",
+        "terms": "By subscribing to this newsletter, you agree to receive updates about and only about the PragVue conference. We will never use it for different purposes nor will we share your email address with third parties. Shall you ever change your mind, you can unsubscribe at any time.",
+        "submit": "Subscribe",
+        "valiation": {
+            "email_required": "Email is required",
+            "email_invalid": "Please enter a valid email address",
+            "terms_required": "You must agree to the text above"
+        },
+        "success": "Thank you for subscribing!",
+        "error": "We cannot process your subscription at the moment. Please try again or contact us directly at alois.seckar{'@'}gmail.com."
+    },
     "future": "will return",
-    "future2026": "Save the date",
-    "date2026": "29 September 2026",
-    "info2026": "More info will be announced soon",
+    "soon": "More info will be announced soon",
     "past": {
         "title": "Past editions",
         "2025": "2025 edition",

@@ -3,10 +3,12 @@
 
 :root {
   --ui-text: #dddddd;
+  --ui-primary: var(--color-vue);
 }
 
 .dark {
   --ui-text: #dddddd;
+  --ui-primary: var(--color-vue);
 }
 
 @theme {
