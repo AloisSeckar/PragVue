@@ -1,7 +1,7 @@
 <template>
   <LayoutContainer>
     <LayoutContainerContent>
-      <UiHeading class="mb-6 text-vue-light font-xl mx-auto max-w-[830px]">
+      <UiHeading class="mb-6 text-vue-light font-xl mx-auto max-w-210">
         {{ $t('headings.the_gallery') }}
       </UiHeading>
 
@@ -11,7 +11,7 @@
         arrows loop auto-height
         :prev="{ size: 'xl', variant: 'outline', class: 'custom-prev-btn hover:cursor-pointer' }"
         :next="{ size: 'xl', variant: 'outline', class: 'custom-next-btn hover:cursor-pointer' }"
-        class="w-full mx-auto max-w-[600px] custom-carousel"
+        class="w-full mx-auto max-w-150 custom-carousel"
       >
         <a :href="item" target="_blank" rel="noopener">
           <img

@@ -15,8 +15,8 @@
         </p>
       </div>
 
-      <div class="mb-8 h-[275px] sm:h-[400px] lg:h-[600px] relative max-lg:flex justify-center">
-        <HeroSectionTechnologies class="absolute sm:top-[-4rem] lg:top-[4rem] lg:left-0 2xl:left-[2rem]" />
+      <div class="mb-8 h-68 sm:h-100 lg:h-150 relative max-lg:flex justify-center">
+        <HeroSectionTechnologies class="absolute sm:-top-16 lg:top-16 lg:left-0 2xl:left-8" />
       </div>
     </LayoutContainerContent>
 

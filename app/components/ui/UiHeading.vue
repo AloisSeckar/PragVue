@@ -21,12 +21,7 @@ const {
   font-weight: 700;
 
   &::before {
-    content: '<!-- ';
-    color: #4d4d4d;
-  }
-
-  &::after {
-    content: ' -->';
+    content: '// ';
     color: #4d4d4d;
   }
 }

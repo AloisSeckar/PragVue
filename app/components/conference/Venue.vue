@@ -9,7 +9,7 @@
         tag="p"
         scope="global"
         keypath="pages.home.venue_info"
-        class="mb-8 tracking-[0.01em] max-w-[1150px] text-left text-balance"
+        class="mb-8 tracking-[0.01em] max-w-285 text-left text-balance"
       >
         <template #hotel>
           <NuxtLink to="https://www.hotel-grandium.cz/en/" class="text-vue hover:text-vue-light hover:cursor-pointer">
@@ -21,21 +21,21 @@
       <div class="flex flex-col lg:flex-row gap-4 mb-10 px-2">
         <NuxtLink to="https://www.hotel-grandium.cz/en/events-and-conferences/" class="cursor-pointer">
           <NuxtImg
-            class="mx-auto w-auto max-h-[320px]"
+            class="mx-auto w-auto max-h-80"
             src="/grandium1.webp" loading="lazy"
             :title="venueImages" :alt="venueImages"
           />
         </NuxtLink>
         <NuxtLink to="https://www.hotel-grandium.cz/en/events-and-conferences/" class="cursor-pointer">
           <NuxtImg
-            class="mx-auto w-auto max-h-[320px]"
+            class="mx-auto w-auto max-h-80"
             src="/grandium2.webp" loading="lazy"
             :title="venueImages" :alt="venueImages"
           />
         </NuxtLink>
         <NuxtLink to="https://www.hotel-grandium.cz/en/events-and-conferences/" class="cursor-pointer">
           <NuxtImg
-            class="mx-auto w-auto max-h-[320px]"
+            class="mx-auto w-auto max-h-80"
             fit="contain"
             src="/grandium3.webp" loading="lazy"
             :title="venueImages" :alt="venueImages"
@@ -47,7 +47,7 @@
         tag="p"
         scope="global"
         keypath="pages.home.venue_offer"
-        class="mb-12 tracking-[0.01em] max-w-[1150px] text-left text-ballance"
+        class="mb-12 tracking-[0.01em] max-w-285 text-left text-ballance"
       >
         <template #offer>
           <strong class="text-vue-light"> {{ $t('pages.home.venue_offer_highlight') }} </strong>

@@ -9,27 +9,27 @@
         tag="p"
         scope="global"
         keypath="pages.home.prague_info"
-        class="mb-8 tracking-[0.01em] max-w-[1150px] text-left text-balance"
+        class="mb-8 tracking-[0.01em] max-w-285 text-left text-balance"
       />
 
       <div class="flex flex-col lg:flex-row gap-4 mb-10 px-2">
         <NuxtLink to="https://prague.eu/en/" class="cursor-pointer">
           <NuxtImg
-            class="mx-auto w-auto max-h-[320px]"
+            class="mx-auto w-auto max-h-80"
             src="/prague1.webp" loading="lazy"
             :title="pragueImages" :alt="pragueImages"
           />
         </NuxtLink>
         <NuxtLink to="https://prague.eu/en/" class="cursor-pointer">
           <NuxtImg
-            class="mx-auto w-auto max-h-[320px]"
+            class="mx-auto w-auto max-h-80"
             src="/prague2.webp" loading="lazy"
             :title="pragueImages" :alt="pragueImages"
           />
         </NuxtLink>
         <NuxtLink to="https://prague.eu/en/" class="cursor-pointer">
           <NuxtImg
-            class="mx-auto w-auto max-h-[320px]"
+            class="mx-auto w-auto max-h-80"
             fit="contain"
             src="/prague3.webp" loading="lazy"
             :title="pragueImages" :alt="pragueImages"

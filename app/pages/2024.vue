@@ -14,7 +14,7 @@
         />
 
         <UiImage
-          class="mb-10 mx-auto w-auto aspect-[1200/971] max-h-[330px]"
+          class="mb-10 mx-auto w-auto aspect-1200/971 max-h-82"
           fit="contain"
           src="/pragvue2024.webp"
           :title="$t('pages.2024.image')"
@@ -25,7 +25,7 @@
           {{ $t('pages.2024.speakers') }}
         </h3>
 
-        <ul class="mb-12 mx-auto p-2 max-w-[620px]">
+        <ul class="mb-12 mx-auto p-2 max-w-155">
           <UiSpeakerBoxPast
             v-for="{ name, img, dscr } in speakers" :key="name"
             :name :img :dscr

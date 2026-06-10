@@ -23,7 +23,7 @@
       :width="40" :height="26" class="mx-auto my-2"
     />
 
-    <p class="w-[250px] text-sm text-center text-woodsmoke-400">
+    <p class="w-62 text-sm text-center text-woodsmoke-400">
       {{ bio }}
     </p>
   </div>

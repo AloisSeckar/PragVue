@@ -1,7 +1,7 @@
 <template>
   <span class="ui-shimmer relative inline-block px-10 pt-2 pb-1">
     <slot />
-    <span class="ui-shimmer-overlay absolute inset-y-0 -inset-x-[100vw] pointer-events-none" aria-hidden="true" />
+    <span class="ui-shimmer-overlay absolute inset-y-0 inset-x-[-100vw] pointer-events-none" aria-hidden="true" />
   </span>
 </template>
 
