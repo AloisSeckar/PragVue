@@ -24,8 +24,9 @@
     },
     "2026": {
         "subtitle": "The Czech Vue.js conference",
+        "info": "Event info",
         "date": "29 September 2026",
-        "when": "The event will take place on {date} (9:00 - 16:00)",
+        "when": "PragVue 2026 will take place on {date} (9:00 - 16:00)",
         "where": "We will meet at {venue} in Karlín district",
         "map": "Show on map",
         "tickets": "Tickets will be available for {price}",

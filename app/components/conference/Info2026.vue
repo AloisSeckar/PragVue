@@ -4,7 +4,7 @@
       <a id="info" />
       <div class="flex flex-col items-center">
         <UiHeading2026 class="mb-6 text-vue-light">
-          PragVue 2026
+          {{ $t('2026.info') }}
         </UiHeading2026>
 
         <div class="text-center">
