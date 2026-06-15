@@ -73,21 +73,7 @@
         &nbsp;<a href="https://maps.app.goo.gl/vWW31EiriqbdCpTW8" :title="$t('year.2025.map')">🗺️</a>
       </p>
 
-      <div class="flex flex-col sm:flex-row gap-4 items-center">
-        <!-- <UiButtonIcon icon="🎫" href="https://pragvue.konference.cz/" :label="$t('buttons.tickets_1')" /> -->
-        <UiButtonIcon icon="🔍" href="#info" :label="$t('buttons.more')" variant="secondary" />
-        <div class="flex flex-row gap-4">
-          <NuxtLink to="https://bsky.app/profile/pragvue.com">
-            <img src="/bluesky.png" title="Follow us on Bluesky" alt="PragVue Bluesky" class="p-2 h-10 rounded-md ring-2 ring-vue hover:ring-vue-light">
-          </NuxtLink>
-          <NuxtLink to="https://x.com/PragVue_conf">
-            <img src="/twitter.png" title="Follow us on Twitter/X" alt="PragVue Twitter/X" class="p-2 h-10 rounded-md ring-2 ring-vue hover:ring-vue-light">
-          </NuxtLink>
-          <NuxtLink to="https://www.linkedin.com/company/pragvue/">
-            <img src="/linkedin.png" title="Follow us on LinkedIn" alt="PragVue LinkedIn" class="p-2 h-10 rounded-md ring-2 ring-vue hover:ring-vue-light">
-          </NuxtLink>
-        </div>
-      </div>
+      <UiMoreInfo />
     </LayoutContainerContent>
   </LayoutContainer>
 </template>

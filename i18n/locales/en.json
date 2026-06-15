@@ -30,7 +30,7 @@
         "soon": "More details will be announced soon."
     },
     "buttons": {
-        "tickets_1": "Buy tickets here",
+        "tickets": "Buy tickets here",
         "more": "More info",
         "speaker": "I want to talk at PragVue",
         "hotel": "Contact us for the hotel discount",
@@ -111,11 +111,13 @@
     },
     "footer": {
         "contact_us": "Contact us:",
+        "powered_by": "Powered by"
+    },
+    "social": {
         "follow_us": "Follow us:",
         "bluesky": "Follow us on Bluesky",
         "twitter": "Follow us on Twitter/X",
-        "linkedin": "Follow us on LinkedIn",
-        "powered_by": "Powered by"
+        "linkedin": "Follow us on LinkedIn"
     },
     "swiper": {
         "swipe": "Swipe {direction}",
