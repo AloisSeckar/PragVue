@@ -5,5 +5,9 @@
         "source.fixAll.eslint": "explicit"
     },
     // enable ESlint flat config
-    "eslint.useFlatConfig": true
+    "eslint.useFlatConfig": true,
+    // markdownlint - do NOT treat LICENSE file as markdown
+    "files.associations": {
+      "LICENSE": "plaintext"
+    }
 }
