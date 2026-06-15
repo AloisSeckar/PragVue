@@ -62,13 +62,6 @@
             "sponsors_info": "Gain valuable exposure, connect with a passionate audience of developers, and help us shape the future of Vue.js by sponsoring PragVue. {br}{br} Seize this chance to connect with talented developers, share your vision, and shine a spotlight on your brand.",
             "sponsors_list": "was made possible thanks to:",
             "your_company_can_be_here": "Your company can be here"
-        },
-        "2024": {
-            "title": "PragVue 2024",
-            "about": "The first PragVue was held on 17 September 2024. It was a rather small meetup, but we saw eight Vue/Nuxt developers giving their interesting talks, and new friendships were formed.",
-            "image": "PragVue 2024 - Speakers",
-            "speakers": "Speakers",
-            "back_to_index": "Back to present"
         }
     },
     "schedule": {
@@ -135,5 +128,14 @@
         "direction_right": "right",
         "flag": "{country} flag",
         "profile": "{name} profile pic"
+    },
+    "year": {
+        "2024": {
+            "title": "PragVue 2024",
+            "about": "The first PragVue was held on 17 September 2024. It was a rather small meetup, but we saw eight Vue/Nuxt developers giving their interesting talks, and new friendships were formed.",
+            "image": "PragVue 2024 - Speakers",
+            "speakers": "Speakers",
+            "back_to_index": "Back to present"
+        }
     }
 }
