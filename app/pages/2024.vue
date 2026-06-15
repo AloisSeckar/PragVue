@@ -42,4 +42,15 @@
 
 <script setup lang="ts">
 import { speakers } from '~/data/speakers-2024'
+
+useSeoMeta({
+  title: 'PragVue 2024',
+  description: 'The first Vue.js conference in Prague, Czechia (24th September 2024)',
+  ogType: 'website',
+  ogUrl: 'https://pragvue.com/',
+  ogTitle: 'PragVue 2024',
+  ogDescription: 'The first Vue.js conference in Prague, Czechia (24th September 2024)',
+  ogImage: 'https://pragvue.com/pragvue2024.jpg',
+  twitterCard: 'summary_large_image',
+})
 </script>
