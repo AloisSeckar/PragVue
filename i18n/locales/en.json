@@ -17,11 +17,6 @@
         "prague": "Discover Prague",
         "sponsor": "Become a sponsor"
     },
-    "2025": {
-        "when": "23 September 2025 - 9:00 - 17:30",
-        "where": "Grandium Hotel Prague",
-        "map": "Show on map"
-    },
     "2026": {
         "subtitle": "The Czech Vue.js conference",
         "info": "Event info",
@@ -136,6 +131,11 @@
             "image": "PragVue 2024 - Speakers",
             "speakers": "Speakers",
             "back_to_index": "Back to present"
+        },
+        "2025": {
+            "when": "23 September 2025 - 9:00 - 17:30",
+            "where": "Grandium Hotel Prague",
+            "map": "Show on map"
         }
     }
 }
