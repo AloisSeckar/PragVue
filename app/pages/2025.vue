@@ -16,6 +16,8 @@
     <LazyConferencePrague hydrate-on-visible />
 
     <LazyConferenceSponsors hydrate-on-visible />
+
+    <UiBacklink />
   </div>
 </template>
 

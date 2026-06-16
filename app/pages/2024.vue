@@ -2,7 +2,9 @@
   <div>
     <LayoutContainer>
       <LayoutContainerContent>
-        <Year2024UiHeading class="mb-12 text-center text-vue">
+        <UiBacklink class="mb-6" />
+
+        <Year2024UiHeading class="mb-12 text-center text-vue-light">
           {{ $t('year.2024.title') }}
         </Year2024UiHeading>
 
@@ -32,9 +34,7 @@
           />
         </ul>
 
-        <div class="flex flex-col gap-4 items-center justify-center">
-          <UiButtonIcon icon="💻" href="/" :label="$t('year.2024.back_to_index')" />
-        </div>
+        <UiBacklink />
       </LayoutContainerContent>
     </LayoutContainer>
   </div>

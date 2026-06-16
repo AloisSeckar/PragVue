@@ -32,6 +32,7 @@
     "buttons": {
         "tickets": "Buy tickets here",
         "more": "More info",
+        "back": "Back to present",
         "speaker": "I want to talk at PragVue",
         "hotel": "Contact us for the hotel discount",
         "sponsor": "Contact us for sponsorship options"
@@ -131,8 +132,7 @@
             "title": "PragVue 2024",
             "about": "The first PragVue was held on 17 September 2024. It was a rather small meetup, but we saw eight Vue/Nuxt developers giving their interesting talks, and new friendships were formed.",
             "image": "PragVue 2024 - Speakers",
-            "speakers": "Speakers",
-            "back_to_index": "Back to present"
+            "speakers": "Speakers"
         },
         "2025": {
             "when": "23 September 2025 - 9:00 - 17:30",
