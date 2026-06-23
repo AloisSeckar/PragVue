@@ -1,6 +1,7 @@
 <template>
   <div>
     <header class="pt-2 h-lvh relative isolation overflow-hidden flex flex-col items-center justify-center">
+      <!-- <ConferenceSponsorsHeader /> -->
       <div class="font-bold mb-3">
         <UiShimmer>
           <h1 style="font-size: 80px">
@@ -20,6 +21,7 @@
     </header>
     <LazyConferenceInfo2026 />
     <LazyConferenceNewsletter />
+    <LazyConferenceSponsors />
     <LazyConferencePast />
   </div>
 </template>

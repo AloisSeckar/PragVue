@@ -1,9 +1,10 @@
 <template>
   <LayoutContainer>
+    <!--
     <LayoutContainerContent>
-      <UiHeading2026 class="mb-12 text-vue-light sm:text-center">
+      <UiHeading class="mb-12 text-vue-light sm:text-center">
         {{ $t('headings.sponsor') }}
-      </UiHeading2026>
+      </UiHeading>
 
       <i18n-t
         scope="global"
@@ -17,12 +18,13 @@
       </i18n-t>
 
       <div class="flex flex-col gap-4 items-center justify-center">
-        <UiButtonIcon icon="💶" href="mailto:alois.seckar@atos.ai" :label="$t('buttons.sponsor')" />
+        <UiButtonIcon icon="💶" href="mailto:info@pragvue.com" :label="$t('buttons.sponsor')" />
       </div>
     </LayoutContainerContent>
+    -->
 
     <h3 class="mb-4 text-2xl text-center font-bold ">
-      <UiPragVue :year="2026" />
+      <UiPragVue :year="2025" />
       {{ $t('pages.home.sponsors_list') }}
     </h3>
 
@@ -39,23 +41,23 @@
         />
       </LayoutContainerContent>
 
-      <LayoutContainerContent class="py-0! pgv-sponsors tracking-[0.01em] min-[430px]:text-lg min-[500px]:text-xl min-[600px]:text-2xl">
+      <!--
+      <LayoutContainerContent class="!py-0 pgv-sponsors tracking-[0.01em] min-[430px]:text-lg min-[500px]:text-xl min-[600px]:text-2xl">
         <UiSponsorBox
           size="lg"
         >
           <span class="pgv-sponsors__prompt text-woodsmoke-100">
-            <a href="mailto:alois.seckar@atos.ai" :title="$t('buttons.sponsor')">
-              {{ $t('pages.home.your_company_can_be_here') }}
-            </a>
+            {{ $t('pages.home.your_company_can_be_here') }}
           </span>
         </UiSponsorBox>
       </LayoutContainerContent>
+      -->
     </div>
   </LayoutContainer>
 </template>
 
 <script setup lang="ts">
-import { sponsors } from '~/data/sponsors-2026'
+import { sponsors } from '~/data/sponsors-2025'
 </script>
 
 <style>
@@ -77,12 +79,12 @@ import { sponsors } from '~/data/sponsors-2026'
 }
 
 .pgv-sponsors__prompt::before {
-  content: '<!-- ';
+  content: '{{ ';
   color: #4d4d4d;
 }
 
 .pgv-sponsors__prompt::after {
-  content: ' -->';
+  content: ' }}';
   color: #4d4d4d;
 }
 </style>

@@ -1,7 +1,7 @@
 export const sponsors: SponsorInfo[] = [
   {
     tier: 1,
-    to: 'https://www.evidencz.com/',
+    to: 'https://atos.net/cs/ceska-republika',
     image: 'atos',
     title: 'Atos Czech Republic',
     alt: 'Atos logo',

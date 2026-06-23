@@ -15,7 +15,7 @@
 
     <LazyConferencePrague hydrate-on-visible />
 
-    <LazyConferenceSponsors hydrate-on-visible />
+    <LazyYear2025Sponsors hydrate-on-visible />
 
     <UiBacklink />
   </div>

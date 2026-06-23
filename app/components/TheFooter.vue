@@ -5,7 +5,7 @@
         © <UiPragVue :year="new Date().getFullYear()" />
       </div>
       <div class="mb-2 font-mono text-sm text-center text-woodsmoke-300">
-        {{ $t('footer.contact_us') }} <NuxtLink to="mailto:info@pragvue.com" class=" hover:text-vue-light">info [at] pragvue.com</NuxtLink>
+        {{ $t('footer.contact_us') }} <NuxtLink to="mailto:alois.seckar@atos.ai" class=" hover:text-vue-light">alois.seckar [at] atos.ai</NuxtLink>
       </div>
       <div class="flex flex-row gap-3 items-center justify-center mb-2 font-mono text-sm text-center text-woodsmoke-300">
         {{ $t('social.follow_us') }}
