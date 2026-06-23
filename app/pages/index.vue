@@ -4,7 +4,7 @@
       <!-- <ConferenceSponsorsHeader /> -->
       <div class="font-bold mb-3">
         <UiShimmer>
-          <h1 style="font-size: 80px">
+          <h1 style="font-size: clamp(40px, 12.5vw, 80px)">
             <UiPragVue2026 :year="2026" />
           </h1>
         </UiShimmer>
