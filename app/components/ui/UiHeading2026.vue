@@ -17,8 +17,9 @@ const {
   font-family: 'Inter', sans-serif;
   letter-spacing: 0.01em;
   line-height: 1.2;
-  font-size: 2.5rem;
+  font-size: clamp(1.25rem, 6.25vw, 2.5rem);
   font-weight: 700;
+  white-space: nowrap;
 
   &::before {
     content: '<!-- ';

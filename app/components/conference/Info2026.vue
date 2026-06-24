@@ -20,12 +20,12 @@
                 <a href="https://arthurspub.cz/" target="_blank" rel="noopener noreferrer" class="underline text-vue hover:text-vue-dark">The Arthurs Pub</a>
               </template>
             </i18n-t>
-            <a href="https://maps.app.goo.gl/fcDwXBv6fFXNoEQQ6" :title="$t('2026.map')">🗺️</a>
+            <a href="https://maps.app.goo.gl/fcDwXBv6fFXNoEQQ6" :title="$t('2026.map')" class="hidden min-[718px]:inline-block">🗺️</a>
           </div>
 
           <i18n-t keypath="2026.tickets" tag="p" class="tracking-[0.01em] max-w-[64ch] text-2xl mb-4">
             <template #price>
-              <strong class="text-vue-light text-2xl">{{ $t('tickets.price2026') }}</strong>
+              <strong class="text-vue-light text-2xl whitespace-nowrap">{{ $t('tickets.price2026') }}</strong>
             </template>
           </i18n-t>
 
