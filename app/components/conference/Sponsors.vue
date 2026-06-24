@@ -1,7 +1,7 @@
 <template>
   <LayoutContainer>
     <LayoutContainerContent>
-      <UiHeading2026 class="mb-12 text-vue-light sm:text-center">
+      <UiHeading2026 class="mb-12 text-vue sm:text-center">
         {{ $t('headings.sponsor') }}
       </UiHeading2026>
 

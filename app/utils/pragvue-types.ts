@@ -8,13 +8,13 @@ export type ScheduleInfo = {
 }
 
 export type SpeakerInfo = {
-  github: string
+  github?: string
   name: string
-  country: string
-  bio: string
+  country?: string
+  bio?: string
   bg: string
-  title: string
-  details: string
+  title?: string
+  details?: string
   slides?: string
   video?: string
 }

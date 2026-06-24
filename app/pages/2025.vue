@@ -6,7 +6,7 @@
     <LazyConferenceInfo hydrate-on-visible />
 
     <a id="speakers" />
-    <LazyConferenceSpeakers hydrate-on-visible />
+    <LazyYear2025Speakers hydrate-on-visible />
 
     <a id="gallery" />
     <LazyConferenceGallery hydrate-on-visible />

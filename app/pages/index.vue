@@ -21,6 +21,7 @@
     </header>
     <LazyConferenceInfo2026 />
     <LazyConferenceNewsletter />
+    <LazyConferenceSpeakers />
     <LazyConferenceSponsors />
     <LazyConferencePast />
   </div>

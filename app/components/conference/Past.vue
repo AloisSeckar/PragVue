@@ -2,7 +2,7 @@
   <LayoutContainer>
     <LayoutContainerContent>
       <div class="flex flex-col items-center">
-        <UiHeading2026 class="mb-6 text-vue">
+        <UiHeading2026 class="mb-6 text-vue-light">
           {{ $t('past.title') }}
         </UiHeading2026>
         <div class="text-center mb-2">
