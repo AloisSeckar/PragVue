@@ -8,14 +8,14 @@
         </UiHeading2026>
 
         <div class="text-center">
-          <i18n-t keypath="2026.when" tag="p" class="tracking-[0.01em] max-w-[64ch] text-xl mb-4">
+          <i18n-t keypath="2026.when" tag="p" scope="global" class="tracking-[0.01em] max-w-[64ch] text-xl mb-4">
             <template #date>
               <strong>{{ $t('2026.date') }}</strong>
             </template>
           </i18n-t>
 
           <div class="flex flex-row gap-2 text-2xl mb-4 justify-center">
-            <i18n-t keypath="2026.where" tag="p" class="tracking-[0.01em] max-w-[64ch]">
+            <i18n-t keypath="2026.where" tag="p" scope="global" class="tracking-[0.01em] max-w-[64ch]">
               <template #venue>
                 <a href="https://arthurspub.cz/" target="_blank" rel="noopener noreferrer" class="underline text-vue hover:text-vue-dark">The Arthurs Pub</a>
               </template>
@@ -23,7 +23,7 @@
             <a href="https://maps.app.goo.gl/fcDwXBv6fFXNoEQQ6" :title="$t('2026.map')" class="hidden min-[718px]:inline-block">🗺️</a>
           </div>
 
-          <i18n-t keypath="2026.tickets" tag="p" class="tracking-[0.01em] max-w-[64ch] text-2xl mb-4">
+          <i18n-t keypath="2026.tickets" tag="p" scope="global" class="tracking-[0.01em] max-w-[64ch] text-2xl mb-4">
             <template #price>
               <strong class="text-vue-light text-2xl whitespace-nowrap">{{ $t('tickets.price2026') }}</strong>
             </template>
@@ -33,7 +33,7 @@
             {{ $t('2026.what') }}
           </p>
 
-          <i18n-t keypath="2026.more" tag="p" class="tracking-[0.01em] max-w-[64ch] text-lg text-justify">
+          <i18n-t keypath="2026.more" tag="p" scope="global" class="tracking-[0.01em] max-w-[64ch] text-lg text-justify">
             <template #soon>
               <strong class="text-yellow-400">{{ $t('2026.soon') }}</strong>
             </template>
