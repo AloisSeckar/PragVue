@@ -6,53 +6,55 @@
           {{ $t('subscribe.title') }}
         </UiHeading2026>
 
-        <div v-if="success" class="text-vue text-center">
-          {{ $t('subscribe.success') }}
-        </div>
-
-        <UForm
-          v-else :state="state" :validate="validate" class="w-full max-w-143 space-y-4"
-          @submit="onSubmit"
-        >
-          <UFormField :label="$t('subscribe.email')" name="email">
-            <UInput v-model="state.email" type="email" :placeholder="$t('subscribe.email_placeholder')" class="w-full" />
-          </UFormField>
-
-          <UFormField name="terms">
-            <UCheckbox v-model="state.terms" :ui="{ label: 'text-justify' }">
-              <template #label>
-                <p>{{ $t('subscribe.consent.foreword') }}</p>
-                <ul class="list-disc list-outside pl-5 my-2">
-                  <li class="mb-1">
-                    {{ $t('subscribe.consent.point1') }}
-                  </li>
-                  <li class="mb-1">
-                    {{ $t('subscribe.consent.point2') }}
-                  </li>
-                  <li class="mb-1">
-                    {{ $t('subscribe.consent.point3') }}
-                  </li>
-                  <li class="mb-1">
-                    {{ $t('subscribe.consent.point4') }}
-                  </li>
-                  <li class="mb-1">
-                    {{ $t('subscribe.consent.point5') }}
-                  </li>
-                  <li class="mb-1">
-                    {{ $t('subscribe.consent.point6') }}
-                  </li>
-                </ul>
-                <p>{{ $t('subscribe.consent.afterword') }}</p>
-              </template>
-            </UCheckbox>
-          </UFormField>
-
-          <div v-if="error" class="text-red-400 text-sm">
-            {{ error }}
+        <ClientOnly>
+          <div v-if="success" class="text-vue text-center">
+            {{ $t('subscribe.success') }}
           </div>
 
-          <UButton type="submit" :label="$t('subscribe.submit')" :loading="loading" block />
-        </UForm>
+          <UForm
+            v-else :state="state" :validate="validate" class="w-full max-w-143 space-y-4"
+            @submit="onSubmit"
+          >
+            <UFormField :label="$t('subscribe.email')" name="email">
+              <UInput v-model="state.email" type="email" :placeholder="$t('subscribe.email_placeholder')" class="w-full" />
+            </UFormField>
+
+            <UFormField name="terms">
+              <UCheckbox v-model="state.terms" :ui="{ label: 'text-justify' }">
+                <template #label>
+                  <p>{{ $t('subscribe.consent.foreword') }}</p>
+                  <ul class="list-disc list-outside pl-5 my-2">
+                    <li class="mb-1">
+                      {{ $t('subscribe.consent.point1') }}
+                    </li>
+                    <li class="mb-1">
+                      {{ $t('subscribe.consent.point2') }}
+                    </li>
+                    <li class="mb-1">
+                      {{ $t('subscribe.consent.point3') }}
+                    </li>
+                    <li class="mb-1">
+                      {{ $t('subscribe.consent.point4') }}
+                    </li>
+                    <li class="mb-1">
+                      {{ $t('subscribe.consent.point5') }}
+                    </li>
+                    <li class="mb-1">
+                      {{ $t('subscribe.consent.point6') }}
+                    </li>
+                  </ul>
+                  <p>{{ $t('subscribe.consent.afterword') }}</p>
+                </template>
+              </UCheckbox>
+            </UFormField>
+
+            <div v-if="error" class="text-red-400 text-sm">
+              {{ error }}
+            </div>
+
+            <UButton type="submit" :label="$t('subscribe.submit')" :loading="loading" block />
+          </UForm>
+        </ClientOnly>
       </div>
     </LayoutContainerContent>
   </LayoutContainer>
