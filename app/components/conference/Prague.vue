@@ -30,7 +30,6 @@
         <NuxtLink to="https://prague.eu/en/" class="cursor-pointer">
           <NuxtImg
             class="mx-auto w-auto max-h-80"
-            fit="contain"
             src="/prague3.webp" loading="lazy"
             :title="pragueImages" :alt="pragueImages"
           />

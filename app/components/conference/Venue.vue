@@ -36,7 +36,6 @@
         <NuxtLink to="https://www.hotel-grandium.cz/en/events-and-conferences/" class="cursor-pointer">
           <NuxtImg
             class="mx-auto w-auto max-h-80"
-            fit="contain"
             src="/grandium3.webp" loading="lazy"
             :title="venueImages" :alt="venueImages"
           />
