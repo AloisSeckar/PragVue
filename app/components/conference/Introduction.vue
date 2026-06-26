@@ -1,7 +1,7 @@
 <template>
   <div class="pt-2 px-2 h-lvh relative isolation overflow-hidden flex flex-col items-center justify-start">
     <UiLetterGlitch
-      :glitch-colors="['#2b4539', '#61dca3', '#61b3dc']"
+      :glitch-colors="['#fef08a', '#3aa173', '#42B883', '#3aa173', '#42B883', '#ffffff']"
       :glitch-speed="50"
       :smooth="true"
       :outer-vignette="true"

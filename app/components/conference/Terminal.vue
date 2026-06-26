@@ -75,7 +75,7 @@ watch(() => props.start, (val) => {
   padding: 1rem 1.5rem;
   font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
   font-size: clamp(0.75rem, 2.5vw, 0.95rem);
-  color: cyan;
+  color: #42B883;
   width: fit-content;
   max-width: 100%;
 }

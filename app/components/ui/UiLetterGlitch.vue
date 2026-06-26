@@ -7,7 +7,7 @@
     />
     <div
       v-if="centerVignette"
-      class="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle,rgba(0,0,0,0.8)_0%,rgba(0,0,0,0)_60%)] pointer-events-none"
+      class="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle,rgba(0,0,0,0.75)_0%,rgba(0,0,0,0.7)_25%,rgba(0,0,0,0)_75%)] pointer-events-none"
     />
   </div>
 </template>
@@ -32,6 +32,10 @@ const props = withDefaults(defineProps<Props>(), {
   smooth: true,
   height: undefined,
 })
+
+const emit = defineEmits<{
+  ready: []
+}>()
 
 const canvasRef = useTemplateRef<HTMLCanvasElement>('canvasRef')
 const animationRef = ref<number | null>(null)
@@ -237,6 +241,8 @@ onMounted(() => {
   animate()
 
   window.addEventListener('resize', handleResize)
+
+  emit('ready')
 })
 
 onUnmounted(() => {
