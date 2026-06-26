@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute inset-0 overflow-hidden">
+  <div class="absolute inset-x-0 top-0 overflow-hidden" :style="{ height: height ?? '100%' }">
     <canvas ref="canvasRef" class="absolute top-0 left-0 w-full h-full" />
     <div
       v-if="outerVignette"
@@ -21,6 +21,7 @@ interface Props {
   centerVignette?: boolean
   outerVignette?: boolean
   smooth?: boolean
+  height?: string
 }
 
 const props = withDefaults(defineProps<Props>(), {
@@ -29,6 +30,7 @@ const props = withDefaults(defineProps<Props>(), {
   centerVignette: false,
   outerVignette: true,
   smooth: true,
+  height: undefined,
 })
 
 const canvasRef = useTemplateRef<HTMLCanvasElement>('canvasRef')

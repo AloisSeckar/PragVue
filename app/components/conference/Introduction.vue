@@ -1,5 +1,13 @@
 <template>
   <div class="pt-2 h-lvh relative isolation overflow-hidden flex flex-col items-center justify-start">
+    <UiLetterGlitch
+      :glitch-colors="['#2b4539', '#61dca3', '#61b3dc']"
+      :glitch-speed="50"
+      :smooth="true"
+      :outer-vignette="true"
+      :center-vignette="false"
+      height="80px"
+    />
     <a id="introduction" />
     <div class="flex-1 flex flex-col items-center justify-center">
       <h2 ref="headingRef" class="pgv-heading">
