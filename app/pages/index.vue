@@ -16,9 +16,10 @@
         <div class="text-3xl mb-6">
           <span class="text-yellow-400">{{ $t('2026.date') }}</span>
         </div>
-        <UiMoreInfo />
+        <UiMoreInfo anchor="introduction" />
       </main>
     </header>
+    <ConferenceIntroduction />
     <LazyConferenceInfo2026 />
     <LazyConferenceNewsletter />
     <LazyConferenceSpeakers />
