@@ -29,11 +29,11 @@
             </template>
           </i18n-t>
 
-          <p class="tracking-[0.01em] max-w-[64ch] text-lg text-justify mb-4">
+          <p class="tracking-[0.01em] max-w-[64ch] text-lg text-left sm:text-justify mb-4">
             {{ $t('2026.what') }}
           </p>
 
-          <i18n-t keypath="2026.more" tag="p" scope="global" class="tracking-[0.01em] max-w-[64ch] text-lg text-justify">
+          <i18n-t keypath="2026.more" tag="p" scope="global" class="tracking-[0.01em] max-w-[64ch] text-lg text-left sm:text-justify">
             <template #soon>
               <strong class="text-yellow-400">{{ $t('2026.soon') }}</strong>
             </template>

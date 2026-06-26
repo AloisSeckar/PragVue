@@ -28,7 +28,7 @@ const {
   }
 
   @media screen and (width < 600px) {
-    padding: 2rem 4px;
+    padding: 2rem 10px;
   }
 }
 

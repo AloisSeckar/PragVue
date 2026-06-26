@@ -82,7 +82,7 @@ watch(() => props.start, (val) => {
 
 .terminal-line {
   position: relative;
-  white-space: nowrap;
+  white-space: normal;
   line-height: 1.8;
 }
 

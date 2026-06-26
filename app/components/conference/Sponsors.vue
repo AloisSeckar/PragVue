@@ -21,7 +21,7 @@
       </div>
     </LayoutContainerContent>
 
-    <h3 class="mb-4 text-2xl text-center font-bold ">
+    <h3 class="mb-4 mx-2 text-2xl text-center font-bold ">
       <UiPragVue :year="2026" />
       {{ $t('pages.home.sponsors_list') }}
     </h3>

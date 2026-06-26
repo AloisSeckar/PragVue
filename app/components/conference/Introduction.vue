@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-2 h-lvh relative isolation overflow-hidden flex flex-col items-center justify-start">
+  <div class="pt-2 px-2 h-lvh relative isolation overflow-hidden flex flex-col items-center justify-start">
     <UiLetterGlitch
       :glitch-colors="['#2b4539', '#61dca3', '#61b3dc']"
       :glitch-speed="50"
@@ -9,7 +9,7 @@
       height="80px"
     />
     <a id="introduction" />
-    <div class="flex-1 flex flex-col items-center justify-center">
+    <div class="flex-1 flex flex-col items-center justify-center w-full min-w-0">
       <h2 ref="headingRef" class="pgv-heading">
         <span class="pgv-heading-word" :class="{ 'is-visible': visibleItems >= 1 }">
           <span class="text-white">{{ $t('introduction.claim1') }}</span>
@@ -34,7 +34,7 @@
         @done="terminalDone = true"
       />
 
-      <p class="tracking-[0.01em] max-w-150 text-lg mx-2 mb-12 text-left sm:text-justify pgv-materialize" :class="{ 'is-visible': terminalDone }">
+      <p class="tracking-[0.01em] max-w-150 text-lg px-2 mb-12 text-left sm:text-justify pgv-materialize" :class="{ 'is-visible': terminalDone }">
         {{ $t('introduction.about') }}
       </p>
 
