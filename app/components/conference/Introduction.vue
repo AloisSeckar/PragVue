@@ -30,7 +30,9 @@
         {{ $t('introduction.about') }}
       </p>
 
-      <UiMoreInfo :button-label="'introduction.more'" :socials-show="false" class="pgv-float-up" :class="{ 'is-visible': aboutDone }" />
+      <div class="pgv-heading-word" :class="{ 'is-visible': aboutDone }">
+        <UiMoreInfo :button-label="'introduction.more'" :socials-show="false" />
+      </div>
     </div>
   </div>
 </template>
@@ -96,13 +98,15 @@ function revealWords() {
   vertical-align: bottom;
 }
 
-.pgv-heading-word > span {
+.pgv-heading-word > span,
+.pgv-heading-word > div {
   display: inline-block;
   transform: translateY(100%);
   opacity: 0;
 }
 
-.pgv-heading-word.is-visible > span {
+.pgv-heading-word.is-visible > span,
+.pgv-heading-word.is-visible > div {
   animation: bounce-in 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
 }
 
@@ -137,17 +141,6 @@ function revealWords() {
 .pgv-materialize.is-visible {
   opacity: 1;
   filter: blur(0);
-  transform: translateY(0);
-}
-
-.pgv-float-up {
-  opacity: 0;
-  transform: translateY(100px);
-  transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-.pgv-float-up.is-visible {
-  opacity: 1;
   transform: translateY(0);
 }
 </style>
