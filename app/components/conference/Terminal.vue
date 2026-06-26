@@ -1,5 +1,5 @@
 <template>
-  <div ref="terminalRef" class="terminal-box">
+  <div class="terminal-box">
     <div v-for="(line, i) in lines" :key="i" class="terminal-line">
       <span class="terminal-placeholder">{{ line }}</span>
       <span class="terminal-visible">
@@ -26,7 +26,6 @@ const emit = defineEmits<{
   done: []
 }>()
 
-const terminalRef = ref<HTMLElement | null>(null)
 const displayedLines = ref<string[]>(props.lines.map(() => ''))
 const currentLine = ref(0)
 const done = ref(false)
@@ -97,6 +96,9 @@ watch(() => props.start, (val) => {
 }
 
 .terminal-cursor {
+  display: inline-block;
+  width: 0;
+  overflow: visible;
   animation: blink 0.7s step-end infinite;
 }
 

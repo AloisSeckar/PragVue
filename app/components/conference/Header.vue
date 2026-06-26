@@ -62,7 +62,7 @@ const onGlitchReady = () => {
     // 3. Then fade the actual content in on top of it, with a slight delay.
     setTimeout(() => {
       showContent.value = true
-    }, 1000)
+    }, 500)
   }, 1000)
 }
 </script>
@@ -80,7 +80,7 @@ const onGlitchReady = () => {
 
 .fade-slow-enter-active,
 .fade-slow-leave-active {
-  transition: opacity 1.0s ease;
+  transition: opacity 1.5s ease;
 }
 
 .fade-slow-enter-from,
