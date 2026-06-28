@@ -11,13 +11,13 @@
     <a id="introduction" />
     <div class="flex-1 flex flex-col items-center justify-center w-full min-w-0">
       <h2 ref="headingRef" class="pgv-heading">
-        <span class="pgv-heading-word" :class="{ 'is-visible': visibleItems >= 1 }">
+        <span class="pgv-heading-word" :class="{ 'is-visible': visibleHeadings >= 1 }">
           <span class="text-white">{{ $t('introduction.claim1') }}</span>
         </span>
-        <span class="pgv-heading-word mx-4" :class="{ 'is-visible': visibleItems >= 2 }">
+        <span class="pgv-heading-word mx-4" :class="{ 'is-visible': visibleHeadings >= 2 }">
           <span class="text-vue">{{ $t('introduction.claim2') }}</span>
         </span>
-        <span class="pgv-heading-word" :class="{ 'is-visible': visibleItems >= 3 }">
+        <span class="pgv-heading-word" :class="{ 'is-visible': visibleHeadings >= 3 }">
           <span class="text-vue-light">{{ $t('introduction.claim3') }}</span>
         </span>
       </h2>
@@ -34,31 +34,35 @@
         @done="terminalDone = true"
       />
 
-      <p class="tracking-[0.01em] max-w-150 text-lg px-2 mb-12 text-left sm:text-justify pgv-materialize" :class="{ 'is-visible': terminalDone }">
-        {{ $t('introduction.about') }}
+      <p
+        class="tracking-[0.01em] max-w-150 text-lg px-2 mb-12 text-left  transition-opacity duration-700"
+        :class="terminalDone ? 'opacity-100' : 'opacity-0'"
+      >
+        <UiDecryptedText
+          :text="$t('introduction.about')"
+          :start="terminalDone"
+          animate-on="start"
+          :speed="40"
+          :sequential="true"
+          :use-original-chars-only="false"
+          parent-class-name="text-white"
+          class-name="text-white"
+          encrypted-class-name="text-vue-light/70"
+        />
       </p>
 
-      <div class="pgv-heading-word" :class="{ 'is-visible': aboutDone }">
+      <UiPixelate :start="headingDone" :cell="10" :reveal="1000" color="#0b0f14">
         <UiMoreInfo :button-label="'introduction.more'" :socials-show="false" />
-      </div>
+      </UiPixelate>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 const headingRef = ref<HTMLElement | null>(null)
-const visibleItems = ref(0)
+const visibleHeadings = ref(0)
 const headingDone = ref(false)
 const terminalDone = ref(false)
-const aboutDone = ref(false)
-
-watch(terminalDone, (val) => {
-  if (val) {
-    setTimeout(() => {
-      aboutDone.value = true
-    }, 1200)
-  }
-})
 
 onMounted(() => {
   const observer = new IntersectionObserver(
@@ -79,7 +83,7 @@ onMounted(() => {
 function revealWords() {
   for (let i = 1; i <= 3; i++) {
     setTimeout(() => {
-      visibleItems.value = i
+      visibleHeadings.value = i
       if (i === 3) {
         setTimeout(() => {
           headingDone.value = true
@@ -137,18 +141,5 @@ function revealWords() {
     transform: translateY(0);
     opacity: 1;
   }
-}
-
-.pgv-materialize {
-  opacity: 0;
-  filter: blur(8px);
-  transform: translateY(8px);
-  transition: opacity 1.2s ease, filter 1.2s ease, transform 1.2s ease;
-}
-
-.pgv-materialize.is-visible {
-  opacity: 1;
-  filter: blur(0);
-  transform: translateY(0);
 }
 </style>
