@@ -1,77 +1,77 @@
 <template>
   <LayoutContainer>
-      <div class="flex flex-col items-center">
-        <UiHeading class="mb-6 text-vue">
-          {{ $t('subscribe.title') }}
-        </UiHeading>
+    <div class="flex flex-col items-center">
+      <UiHeading class="mb-6 text-vue">
+        {{ $t('subscribe.title') }}
+      </UiHeading>
 
-        <ClientOnly>
-          <div v-if="success" class="text-vue text-center">
-            {{ $t('subscribe.success') }}
+      <ClientOnly>
+        <div v-if="success" class="text-vue text-center">
+          {{ $t('subscribe.success') }}
+        </div>
+
+        <UForm
+          v-else :state="state" :validate="validate" class="w-full max-w-143 space-y-4"
+          @submit="onSubmit"
+        >
+          <UFormField :label="$t('subscribe.email')" name="email">
+            <UInput v-model="state.email" type="email" :placeholder="$t('subscribe.email_placeholder')" class="w-full" />
+          </UFormField>
+
+          <UFormField name="terms">
+            <UCheckbox v-model="state.terms" :ui="{ label: 'text-justify' }">
+              <template #label>
+                <p class="mb-2">
+                  {{ $t('subscribe.consent.short') }}
+                </p>
+                <details>
+                  <summary class="cursor-pointer text-vue-light font-semibold">
+                    {{ $t('subscribe.consent.details') }}
+                  </summary>
+                  <p class="mt-2">
+                    {{ $t('subscribe.consent.pt1') }}
+                  </p>
+                  <ul class="list-disc list-outside pl-5 my-2">
+                    <li class="mb-1">
+                      {{ $t('subscribe.consent.pt2') }}
+                    </li>
+                    <li class="mb-1">
+                      {{ $t('subscribe.consent.pt3') }}
+                    </li>
+                  </ul>
+                  <p class="mb-2">
+                    {{ $t('subscribe.consent.pt4') }}
+                  </p>
+                  <p class="mb-2">
+                    {{ $t('subscribe.consent.pt5') }}
+                  </p>
+                  <ul class="list-disc list-outside pl-5 my-2">
+                    <li class="mb-1">
+                      {{ $t('subscribe.consent.pt6') }}
+                    </li>
+                  </ul>
+                  <p class="mb-2">
+                    {{ $t('subscribe.consent.pt7') }}
+                  </p>
+                  <p class="mb-2">
+                    {{ $t('subscribe.consent.pt8') }}
+                  </p>
+                  <p class="mb-2">
+                    {{ $t('subscribe.consent.pt9') }}
+                  </p>
+                </details>
+              </template>
+            </UCheckbox>
+          </UFormField>
+
+          <div v-if="error" class="text-red-400 text-sm">
+            {{ error }}
           </div>
 
-          <UForm
-            v-else :state="state" :validate="validate" class="w-full max-w-143 space-y-4"
-            @submit="onSubmit"
-          >
-            <UFormField :label="$t('subscribe.email')" name="email">
-              <UInput v-model="state.email" type="email" :placeholder="$t('subscribe.email_placeholder')" class="w-full" />
-            </UFormField>
-
-            <UFormField name="terms">
-              <UCheckbox v-model="state.terms" :ui="{ label: 'text-justify' }">
-                <template #label>
-                  <p class="mb-2">
-                    {{ $t('subscribe.consent.short') }}
-                  </p>
-                  <details>
-                    <summary class="cursor-pointer text-vue-light font-semibold">
-                      {{ $t('subscribe.consent.details') }}
-                    </summary>
-                    <p class="mt-2">
-                      {{ $t('subscribe.consent.pt1') }}
-                    </p>
-                    <ul class="list-disc list-outside pl-5 my-2">
-                      <li class="mb-1">
-                        {{ $t('subscribe.consent.pt2') }}
-                      </li>
-                      <li class="mb-1">
-                        {{ $t('subscribe.consent.pt3') }}
-                      </li>
-                    </ul>
-                    <p class="mb-2">
-                      {{ $t('subscribe.consent.pt4') }}
-                    </p>
-                    <p class="mb-2">
-                      {{ $t('subscribe.consent.pt5') }}
-                    </p>
-                    <ul class="list-disc list-outside pl-5 my-2">
-                      <li class="mb-1">
-                        {{ $t('subscribe.consent.pt6') }}
-                      </li>
-                    </ul>
-                    <p class="mb-2">
-                      {{ $t('subscribe.consent.pt7') }}
-                    </p>
-                    <p class="mb-2">
-                      {{ $t('subscribe.consent.pt8') }}
-                    </p>
-                    <p class="mb-2">
-                      {{ $t('subscribe.consent.pt9') }}
-                    </p>
-                  </details>
-                </template>
-              </UCheckbox>
-            </UFormField>
-
-            <div v-if="error" class="text-red-400 text-sm">
-              {{ error }}
-            </div>
-
-            <UButton type="submit" :label="$t('subscribe.submit')" :loading="loading" block />
-          </UForm>
-        </ClientOnly>
-      </div>
+          <UButton type="submit" :label="$t('subscribe.submit')" :loading="loading" block />
+        </UForm>
+      </ClientOnly>
+    </div>
   </LayoutContainer>
 </template>
 

@@ -1,29 +1,29 @@
 <template>
   <LayoutContainer>
-      <Year2024UiHeading class="mb-6 text-vue-light font-xl mx-auto max-w-210">
-        {{ $t('headings.the_gallery') }}
-      </Year2024UiHeading>
+    <Year2024UiHeading class="mb-6 text-vue-light font-xl mx-auto max-w-210">
+      {{ $t('headings.the_gallery') }}
+    </Year2024UiHeading>
 
-      <UCarousel
-        v-slot="{ item }"
-        :items="items"
-        arrows loop auto-height
-        :prev="{ size: 'xl', variant: 'outline', class: 'custom-prev-btn hover:cursor-pointer' }"
-        :next="{ size: 'xl', variant: 'outline', class: 'custom-next-btn hover:cursor-pointer' }"
-        class="w-full mx-auto max-w-150 custom-carousel"
-      >
-        <a :href="item" target="_blank" rel="noopener">
-          <img
-            :src="item" width="640" height="320"
-            alt="Photo from PragVue 2025"
-            class="rounded-lg"
-          >
-        </a>
-      </UCarousel>
+    <UCarousel
+      v-slot="{ item }"
+      :items="items"
+      arrows loop auto-height
+      :prev="{ size: 'xl', variant: 'outline', class: 'custom-prev-btn hover:cursor-pointer' }"
+      :next="{ size: 'xl', variant: 'outline', class: 'custom-next-btn hover:cursor-pointer' }"
+      class="w-full mx-auto max-w-150 custom-carousel"
+    >
+      <a :href="item" target="_blank" rel="noopener">
+        <img
+          :src="item" width="640" height="320"
+          alt="Photo from PragVue 2025"
+          class="rounded-lg"
+        >
+      </a>
+    </UCarousel>
 
-      <div class="mt-4 text-center">
-        {{ $t('gallery.photos_by') }} <a href="https://www.linkedin.com/in/cerny-matej/" class="text-vue-light hover:text-vue hover:underline">Matej Černý</a>
-      </div>
+    <div class="mt-4 text-center">
+      {{ $t('gallery.photos_by') }} <a href="https://www.linkedin.com/in/cerny-matej/" class="text-vue-light hover:text-vue hover:underline">Matej Černý</a>
+    </div>
   </LayoutContainer>
 </template>
 
