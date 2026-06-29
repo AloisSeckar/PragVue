@@ -1,7 +1,7 @@
 <template>
   <section class="schedule" :aria-label="$t('schedule.aria')">
     <Year2024UiHeading class="mb-6 text-vue font-xl">
-      {{ $t('headings.the_schedule') }}
+      {{ $t('year.2025.schedule_title') }}
     </Year2024UiHeading>
 
     <div v-for="item in schedule" :key="item.time" class="schedule-row border-b border-[#ccc] odd:text-vue odd:hover:text-emerald-300 even:text-vue-light even:hover:text-yellow-300 hover:bg-[#222]">

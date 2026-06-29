@@ -5,6 +5,10 @@
         {{ $t('subscribe.title') }}
       </UiHeading>
 
+      <p class="tracking-[0.01em] max-w-[64ch] text-lg text-left sm:text-justify mb-4">
+        {{ $t('subscribe.description') }}
+      </p>
+
       <ClientOnly>
         <div v-if="success" class="text-vue text-center">
           {{ $t('subscribe.success') }}

@@ -3,6 +3,7 @@ export type VueIcon = 'vue' | 'nuxt' | 'pinia' | 'vitest' | 'vite' | 'vueuse' | 
 export type ScheduleInfo = {
   time: string
   event?: string
+  details?: string
   speaker?: string
   info?: SpeakerInfo
 }

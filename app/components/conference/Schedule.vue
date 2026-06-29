@@ -27,6 +27,9 @@
             {{ item.info.details }}
           </p>
         </details>
+        <p v-if="item.details" class="text-[#ccc] text-sm pr-2 lg:text-justify">
+          {{ item.details }}
+        </p>
         <div class="flex flex-row gap-2 mt-1">
           <div v-if="item.info?.video">
             <NuxtLink :to="item.info.video" :title="$t('schedule.video_title')" class="text-[#ccc] hover:underline">
@@ -45,8 +48,8 @@
 </template>
 
 <script setup lang="ts">
-import { schedule } from '~/data/schedule-2025'
-import { speakers } from '~/data/speakers-2025'
+import { schedule } from '~/data/schedule-2026'
+import { speakers } from '~/data/speakers-2026'
 
 // merge speaker info into schedule items based on "speaker" (= github name) field
 schedule.forEach((item) => {

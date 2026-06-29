@@ -1,7 +1,7 @@
 <template>
   <section>
     <LayoutContainer :section="false">
-      <UiHeading class="mb-12 text-vue-light sm:text-center">
+      <UiHeading class="mb-12 text-vue sm:text-center">
         {{ $t('headings.sponsor') }}
       </UiHeading>
 

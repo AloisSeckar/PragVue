@@ -5,6 +5,7 @@
     <LazyConferenceInfo />
     <LazyConferenceNewsletter />
     <LazyConferenceSpeakers />
+    <LazyConferenceSchedule />
     <LazyConferenceVenue />
     <LazyConferencePrague />
     <LazyConferencePast />
