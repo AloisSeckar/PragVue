@@ -1,7 +1,7 @@
 <template>
   <LayoutContainer>
     <div class="flex flex-col items-center">
-      <UiHeading class="mb-6 text-vue-light">
+      <UiHeading class="mb-6 text-vue">
         {{ $t('past.title') }}
       </UiHeading>
       <div class="text-center mb-2">

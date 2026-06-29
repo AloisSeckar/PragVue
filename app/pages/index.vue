@@ -7,7 +7,7 @@
     <LazyConferenceSpeakers />
     <LazyConferenceVenue />
     <LazyConferencePrague />
-    <LazyConferenceSponsors />
     <LazyConferencePast />
+    <LazyConferenceSponsors />
   </div>
 </template>
