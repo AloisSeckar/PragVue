@@ -2,12 +2,12 @@ export const speakers = [
   {
     name: 'Daniel Roe',
     img: 'roe_d',
-    dscr: 'gave us insight about upcomming Nuxt 4',
+    dscr: 'gave us insight about upcoming Nuxt 4',
   },
   {
     name: 'Estéban Soubiran',
     img: 'soubrain_e',
-    dscr: 'demonstrated fullstack application with NuxtHub',
+    dscr: 'demonstrated a fullstack application with NuxtHub',
   },
   {
     name: 'Alexander Lichter',
@@ -27,7 +27,7 @@ export const speakers = [
   {
     name: 'Alois Sečkár',
     img: 'seckar_a',
-    dscr: 'presented his experience about implementing big Nuxt project',
+    dscr: 'presented his experience about implementing a big Nuxt project',
   },
   {
     name: 'Konstantin Bifert',

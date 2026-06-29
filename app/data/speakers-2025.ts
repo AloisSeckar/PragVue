@@ -2,7 +2,7 @@ export const speakers: SpeakerInfo[] = [
   {
     github: 'Baroshem',
     name: 'Jakub Andrzejewski',
-    bio: 'Fullstack Developer & Advocate [at] Monterail - @GoogleDevExpert in Web Perferformance - Nuxt Ecosystem Team',
+    bio: 'Fullstack Developer & Advocate [at] Monterail - @GoogleDevExpert in Web Performance - Nuxt Ecosystem Team',
     country: 'POL',
     bg: 'bg-vue',
     title: 'Dungeons & Developers - Patterns for Great DX',
