@@ -1,6 +1,5 @@
 <template>
   <LayoutContainer>
-    <LayoutContainerContent>
       <div class="flex flex-col items-center">
         <UiHeading class="mb-6 text-vue">
           {{ $t('subscribe.title') }}
@@ -73,7 +72,6 @@
           </UForm>
         </ClientOnly>
       </div>
-    </LayoutContainerContent>
   </LayoutContainer>
 </template>
 

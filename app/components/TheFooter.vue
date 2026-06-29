@@ -1,6 +1,6 @@
 <template>
-  <LayoutContainer tag="footer">
-    <LayoutContainerContent size-y="small">
+  <footer>
+    <LayoutContainer :section="false" size-y="small">
       <div class="mb-2 font-mono font-semibold text-center text-woodsmoke-300 text-lg before:content-['<!--_'] after:content-['_-->']">
         © <UiPragVue :year="new Date().getFullYear()" />
       </div>
@@ -31,6 +31,6 @@
           Vue Bits
         </NuxtLink>
       </div>
-    </LayoutContainerContent>
-  </LayoutContainer>
+    </LayoutContainer>
+  </footer>
 </template>

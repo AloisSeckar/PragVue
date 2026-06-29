@@ -1,6 +1,5 @@
 <template>
   <LayoutContainer>
-    <LayoutContainerContent>
       <a id="info" />
       <div class="flex flex-col items-center mt-12">
         <UiHeading class="mb-6 text-vue-light">
@@ -40,6 +39,5 @@
           </i18n-t>
         </div>
       </div>
-    </LayoutContainerContent>
   </LayoutContainer>
 </template>

@@ -1,7 +1,7 @@
 <template>
-  <LayoutContainer>
+  <section>
     <!--
-    <LayoutContainerContent>
+    <LayoutContainer :section="false">
       <Year2024UiHeading class="mb-12 text-vue-light sm:text-center">
         {{ $t('headings.sponsor') }}
       </Year2024UiHeading>
@@ -20,7 +20,7 @@
       <div class="flex flex-col gap-4 items-center justify-center">
         <UiButtonIcon icon="💶" href="mailto:info@pragvue.com" :label="$t('buttons.sponsor')" />
       </div>
-    </LayoutContainerContent>
+    </LayoutContainer>
     -->
 
     <h3 class="mb-4 text-2xl text-center font-bold ">
@@ -29,7 +29,7 @@
     </h3>
 
     <div class="mb-12 pgv-sponsors-wrapper">
-      <LayoutContainerContent class="py-0! grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 pgv-sponsors">
+      <LayoutContainer :section="false" class="py-0! grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 pgv-sponsors">
         <UiSponsorBox
           v-for="sponsor in sponsors"
           :key="sponsor.to"
@@ -39,10 +39,10 @@
           :alt="sponsor.alt"
           size="lg"
         />
-      </LayoutContainerContent>
+      </LayoutContainer>
 
       <!--
-      <LayoutContainerContent class="!py-0 pgv-sponsors tracking-[0.01em] min-[430px]:text-lg min-[500px]:text-xl min-[600px]:text-2xl">
+      <LayoutContainer :section="false" class="!py-0 pgv-sponsors tracking-[0.01em] min-[430px]:text-lg min-[500px]:text-xl min-[600px]:text-2xl">
         <UiSponsorBox
           size="lg"
         >
@@ -50,10 +50,10 @@
             {{ $t('pages.home.your_company_can_be_here') }}
           </span>
         </UiSponsorBox>
-      </LayoutContainerContent>
+      </LayoutContainer>
       -->
     </div>
-  </LayoutContainer>
+  </section>
 </template>
 
 <script setup lang="ts">

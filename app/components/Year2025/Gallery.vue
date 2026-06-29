@@ -1,6 +1,5 @@
 <template>
   <LayoutContainer>
-    <LayoutContainerContent>
       <Year2024UiHeading class="mb-6 text-vue-light font-xl mx-auto max-w-210">
         {{ $t('headings.the_gallery') }}
       </Year2024UiHeading>
@@ -25,7 +24,6 @@
       <div class="mt-4 text-center">
         {{ $t('gallery.photos_by') }} <a href="https://www.linkedin.com/in/cerny-matej/" class="text-vue-light hover:text-vue hover:underline">Matej Černý</a>
       </div>
-    </LayoutContainerContent>
   </LayoutContainer>
 </template>
 

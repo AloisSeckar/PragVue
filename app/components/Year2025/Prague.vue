@@ -1,6 +1,5 @@
 <template>
   <LayoutContainer>
-    <LayoutContainerContent>
       <Year2024UiHeading class="mb-6 text-vue-light">
         {{ $t('headings.prague') }}
       </Year2024UiHeading>
@@ -35,7 +34,6 @@
           />
         </NuxtLink>
       </div>
-    </LayoutContainerContent>
   </LayoutContainer>
 </template>
 

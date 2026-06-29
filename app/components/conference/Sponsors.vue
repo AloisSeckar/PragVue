@@ -1,6 +1,6 @@
 <template>
-  <LayoutContainer>
-    <LayoutContainerContent>
+  <section>
+    <LayoutContainer :section="false">
       <UiHeading class="mb-12 text-vue sm:text-center">
         {{ $t('headings.sponsor') }}
       </UiHeading>
@@ -19,7 +19,7 @@
       <div class="flex flex-col gap-4 items-center justify-center">
         <UiButtonIcon icon="💶" href="mailto:alois.seckar@atos.ai" :label="$t('buttons.sponsor')" />
       </div>
-    </LayoutContainerContent>
+    </LayoutContainer>
 
     <h3 class="mb-4 mx-2 text-2xl text-center font-bold ">
       <UiPragVue :year="2026" />
@@ -27,7 +27,7 @@
     </h3>
 
     <div class="mb-12 pgv-sponsors-wrapper">
-      <LayoutContainerContent class="py-0! grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 pgv-sponsors">
+      <LayoutContainer :section="false" class="py-0! grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 pgv-sponsors">
         <UiSponsorBox
           v-for="sponsor in sponsors"
           :key="sponsor.to"
@@ -37,9 +37,9 @@
           :alt="sponsor.alt"
           size="lg"
         />
-      </LayoutContainerContent>
+      </LayoutContainer>
 
-      <LayoutContainerContent class="py-0! pgv-sponsors tracking-[0.01em] min-[430px]:text-lg min-[500px]:text-xl min-[600px]:text-2xl">
+      <LayoutContainer :section="false" class="py-0! pgv-sponsors tracking-[0.01em] min-[430px]:text-lg min-[500px]:text-xl min-[600px]:text-2xl">
         <UiSponsorBox
           size="lg"
         >
@@ -49,9 +49,9 @@
             </a>
           </span>
         </UiSponsorBox>
-      </LayoutContainerContent>
+      </LayoutContainer>
     </div>
-  </LayoutContainer>
+  </section>
 </template>
 
 <script setup lang="ts">

@@ -1,5 +1,5 @@
 <template>
-  <LayoutContainer class="pt-2 h-lvh relative isolation overflow-hidden flex flex-col items-center justify-center">
+  <section class="pt-2 h-lvh relative isolation overflow-hidden flex flex-col items-center justify-center">
     <IconPragueSilhouette class="absolute bottom-0 inset-x-1/2 -z-10 pgv-hero-banner__bg" />
 
     <div class="hidden md:flex flex-row gap-4 justify-center items-center mb-2">
@@ -56,7 +56,7 @@
 
     <UiBacklink class="mt-6 -mb-10" />
 
-    <LayoutContainerContent class="flex flex-col items-center justify-start sm:justify-center gap-4 sm:gap-6">
+    <LayoutContainer :section="false" class="flex flex-col items-center justify-start sm:justify-center gap-4 sm:gap-6">
       <h1 class="font-default font-bold pt-12 px-4 sm:pt-0 whitespace-nowrap text-woodsmoke-600 before:content-['<_'] after:content-['_/>'] pgv-logo">
         <UiPragVue :year="2025" />
       </h1>
@@ -76,8 +76,8 @@
       </p>
 
       <UiMoreInfo />
-    </LayoutContainerContent>
-  </LayoutContainer>
+    </LayoutContainer>
+  </section>
 </template>
 
 <script setup lang="ts">

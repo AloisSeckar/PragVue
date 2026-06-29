@@ -1,7 +1,6 @@
 <template>
   <div>
     <LayoutContainer>
-      <LayoutContainerContent>
         <UiBacklink class="mb-6" />
 
         <Year2024UiHeading class="mb-12 text-center text-vue-light">
@@ -35,7 +34,6 @@
         </ul>
 
         <UiBacklink />
-      </LayoutContainerContent>
     </LayoutContainer>
   </div>
 </template>

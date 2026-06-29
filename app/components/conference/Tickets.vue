@@ -1,5 +1,5 @@
 <template>
-  <LayoutContainerContent>
+  <LayoutContainer :section="false">
     <div class="mb-6 flex flex-col items-center">
       <UiHeading class="mb-6 text-vue">
         {{ $t('headings.tickets') }}
@@ -49,7 +49,7 @@
       </p>
        -->
     </div>
-  </LayoutContainerContent>
+  </LayoutContainer>
 </template>
 
 <script setup lang="ts">

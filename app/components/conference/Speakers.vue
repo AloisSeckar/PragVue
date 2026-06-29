@@ -1,6 +1,5 @@
 <template>
   <LayoutContainer>
-    <LayoutContainerContent>
       <div class="flex flex-col items-center">
         <UiHeading class="mb-6 text-vue-light">
           {{ $t('headings.the_speakers') }}
@@ -18,7 +17,6 @@
           />
         </div>
       </div>
-    </LayoutContainerContent>
   </LayoutContainer>
 </template>
 

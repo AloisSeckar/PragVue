@@ -1,6 +1,5 @@
 <template>
   <LayoutContainer>
-    <LayoutContainerContent>
       <UiHeading class="mb-6 text-vue">
         {{ $t('headings.venue') }}
       </UiHeading>
@@ -41,7 +40,6 @@
           />
         </NuxtLink>
       </div>
-    </LayoutContainerContent>
   </LayoutContainer>
 </template>
 

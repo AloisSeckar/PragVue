@@ -1,6 +1,5 @@
 <template>
   <LayoutContainer>
-    <LayoutContainerContent>
       <Year2024UiHeading class="mb-6 text-vue-light">
         {{ $t('headings.the_speakers') }}
       </Year2024UiHeading>
@@ -35,7 +34,6 @@
           <UiButtonIcon icon="🎤" href="mailto:info@pragvue.com" :label="$t('buttons.speaker')" />
         </div>
         -->
-    </LayoutContainerContent>
   </LayoutContainer>
 </template>
 
