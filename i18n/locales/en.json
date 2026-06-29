@@ -123,7 +123,8 @@
     },
     "footer": {
         "contact_us": "Contact us:",
-        "powered_by": "Powered by"
+        "powered_by": "Powered by",
+        "inspired_by": "Animated components inspired by David Haz's"
     },
     "social": {
         "follow_us": "Follow us:",

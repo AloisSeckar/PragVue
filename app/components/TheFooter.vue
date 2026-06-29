@@ -25,6 +25,12 @@
           nuxt-ignis
         </NuxtLink>
       </div>
+      <div class="text-xs text-center italic">
+        {{ $t('footer.inspired_by') }}
+        <NuxtLink to="https://vue-bits.dev/" class="text-vue hover:text-vue-light">
+          Vue Bits
+        </NuxtLink>
+      </div>
     </LayoutContainerContent>
   </LayoutContainer>
 </template>
