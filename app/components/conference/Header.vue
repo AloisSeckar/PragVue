@@ -10,7 +10,7 @@
     </Transition>
 
     <Transition name="fade">
-      <UiLetterGlitch
+      <UiAnimLetterGlitch
         v-show="showGlitch"
         :glitch-colors="['#fef08a', '#3aa173', '#42B883', '#3aa173', '#42B883', '#ffffff']"
         :glitch-speed="50"
@@ -22,7 +22,7 @@
     </Transition>
 
     <!-- <ConferenceSponsorsHeader /> -->
-    <UiPixelate :start="showContent" :cell="8" mode="reveal">
+    <UiAnimPixelate :start="showContent" :cell="8" mode="reveal">
       <div class=" flex flex-col items-center">
         <div class="font-bold mb-3">
           <h1 style="font-size: clamp(40px, 12.5vw, 80px)">
@@ -39,7 +39,7 @@
         </main>
         <UiMoreInfo anchor="introduction" />
       </div>
-    </UiPixelate>
+    </UiAnimPixelate>
   </header>
 </template>
 

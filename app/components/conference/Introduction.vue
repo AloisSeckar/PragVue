@@ -1,6 +1,6 @@
 <template>
   <div class="pt-2 px-2 h-lvh relative isolation overflow-hidden flex flex-col items-center justify-start">
-    <UiLetterGlitch
+    <UiAnimLetterGlitch
       :glitch-colors="['#fef08a', '#3aa173', '#42B883', '#3aa173', '#42B883', '#ffffff']"
       :glitch-speed="50"
       :smooth="true"
@@ -22,7 +22,7 @@
         </span>
       </h2>
 
-      <ConferenceTerminal
+      <UiAnimTerminal
         :lines="[
           'Event: PragVue 2026',
           'Place: Arthur\'s Pub, Karlín district, Prague, Czechia',
@@ -38,7 +38,7 @@
         class="tracking-[0.01em] max-w-150 text-lg px-2 mb-12 text-left  transition-opacity duration-700"
         :class="terminalDone ? 'opacity-100' : 'opacity-0'"
       >
-        <UiDecryptedText
+        <UiAnimDecryptedText
           :text="$t('introduction.about')"
           :start="terminalDone"
           animate-on="start"
@@ -51,9 +51,9 @@
         />
       </p>
 
-      <UiPixelate :start="headingDone" :cell="10" :reveal="1000" color="#0b0f14">
+      <UiAnimPixelate :start="headingDone" :cell="10" :reveal="1000" color="#0b0f14">
         <UiMoreInfo :button-label="'introduction.more'" :socials-show="false" />
-      </UiPixelate>
+      </UiAnimPixelate>
     </div>
   </div>
 </template>
