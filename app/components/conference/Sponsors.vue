@@ -1,9 +1,9 @@
 <template>
   <LayoutContainer>
     <LayoutContainerContent>
-      <UiHeading2026 class="mb-12 text-vue sm:text-center">
+      <UiHeading class="mb-12 text-vue sm:text-center">
         {{ $t('headings.sponsor') }}
-      </UiHeading2026>
+      </UiHeading>
 
       <i18n-t
         scope="global"

@@ -1,9 +1,9 @@
 <template>
   <LayoutContainer>
     <LayoutContainerContent>
-      <UiHeading class="mb-6 text-vue">
+      <Year2024UiHeading class="mb-6 text-vue">
         {{ $t('headings.venue') }}
-      </UiHeading>
+      </Year2024UiHeading>
 
       <i18n-t
         tag="p"

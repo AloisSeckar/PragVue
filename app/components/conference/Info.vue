@@ -3,9 +3,9 @@
     <LayoutContainerContent>
       <a id="info" />
       <div class="flex flex-col items-center mt-12">
-        <UiHeading2026 class="mb-6 text-vue-light">
+        <UiHeading class="mb-6 text-vue-light">
           {{ $t('2026.info') }}
-        </UiHeading2026>
+        </UiHeading>
 
         <div class="text-center">
           <i18n-t keypath="2026.when" tag="p" scope="global" class="tracking-[0.01em] max-w-[64ch] text-xl mb-4">

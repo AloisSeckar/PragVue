@@ -1,9 +1,9 @@
 <template>
   <LayoutContainer>
     <LayoutContainerContent>
-      <UiHeading class="mb-6 text-vue-light">
+      <Year2024UiHeading class="mb-6 text-vue-light">
         {{ $t('headings.the_speakers') }}
-      </UiHeading>
+      </Year2024UiHeading>
 
       <UiSwiper class="py-12" :slides="speakers">
         <template #slide="{ slide }">

@@ -2,9 +2,9 @@
   <LayoutContainer>
     <LayoutContainerContent>
       <div class="flex flex-col items-center">
-        <UiHeading2026 class="mb-6 text-vue-light">
+        <UiHeading class="mb-6 text-vue-light">
           {{ $t('headings.the_speakers') }}
-        </UiHeading2026>
+        </UiHeading>
 
         <div class="text-center tracking-[0.01em] max-w-[64ch] text-xl mb-4">
           Our lineup for 2026 is ready and you'll find it out soon!

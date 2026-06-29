@@ -2,9 +2,9 @@
   <LayoutContainer>
     <LayoutContainerContent>
       <div class="flex flex-col items-center">
-        <UiHeading2026 class="mb-6 text-vue">
+        <UiHeading class="mb-6 text-vue">
           {{ $t('subscribe.title') }}
-        </UiHeading2026>
+        </UiHeading>
 
         <ClientOnly>
           <div v-if="success" class="text-vue text-center">

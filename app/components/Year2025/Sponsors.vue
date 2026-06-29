@@ -2,9 +2,9 @@
   <LayoutContainer>
     <!--
     <LayoutContainerContent>
-      <UiHeading class="mb-12 text-vue-light sm:text-center">
+      <Year2024UiHeading class="mb-12 text-vue-light sm:text-center">
         {{ $t('headings.sponsor') }}
-      </UiHeading>
+      </Year2024UiHeading>
 
       <i18n-t
         scope="global"

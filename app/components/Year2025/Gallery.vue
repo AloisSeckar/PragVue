@@ -1,9 +1,9 @@
 <template>
   <LayoutContainer>
     <LayoutContainerContent>
-      <UiHeading class="mb-6 text-vue-light font-xl mx-auto max-w-210">
+      <Year2024UiHeading class="mb-6 text-vue-light font-xl mx-auto max-w-210">
         {{ $t('headings.the_gallery') }}
-      </UiHeading>
+      </Year2024UiHeading>
 
       <UCarousel
         v-slot="{ item }"

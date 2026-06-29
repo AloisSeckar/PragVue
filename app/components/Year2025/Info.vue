@@ -2,9 +2,9 @@
   <LayoutContainer class="overflow-hidden">
     <LayoutContainerContent class="grid lg:grid-cols-2">
       <div>
-        <UiHeading class="mb-6 text-vue">
+        <Year2024UiHeading class="mb-6 text-vue">
           {{ $t('headings.about_the_conference') }}
-        </UiHeading>
+        </Year2024UiHeading>
 
         <p class="tracking-[0.01em] max-w-[64ch] mb-4 text-left">
           {{ $t('pages.home.conference_info_1') }}
