@@ -5,6 +5,8 @@
     <LazyConferenceInfo />
     <LazyConferenceNewsletter />
     <LazyConferenceSpeakers />
+    <LazyConferenceVenue />
+    <LazyConferencePrague />
     <LazyConferenceSponsors />
     <LazyConferencePast />
   </div>

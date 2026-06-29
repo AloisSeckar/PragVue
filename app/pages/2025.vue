@@ -13,8 +13,6 @@
 
     <LazyYear2025Venue hydrate-on-visible />
 
-    <LazyYear2025Prague hydrate-on-visible />
-
     <LazyYear2025Sponsors hydrate-on-visible />
 
     <UiBacklink />

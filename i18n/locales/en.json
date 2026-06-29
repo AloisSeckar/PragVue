@@ -86,6 +86,10 @@
         "student_discount": "50% discount for students",
         "contact": "Contact us for details"
     },
+    "venue": {
+        "venue_info": "PragVue 2026 will take place at the {venue} located in the Karlín district in the broader center of Prague. The renowned Irish-themed pub offers cozy and informal ambience great catering and driks that will be available throughout the day. The facility is within the walking distance from the metro station Florenc (lines B and C) making it easy to reach for locals and foreign visitors alike.",
+        "venue_images": "Arthur's Pub interior"
+    },
     "subscribe": {
         "title": "Newsletter",
         "description": "Get the latest news about PragVue conference straight to your inbox.",
@@ -149,7 +153,10 @@
         "2025": {
             "when": "23 September 2025 - 9:00 - 17:30",
             "where": "Grandium Hotel Prague",
-            "map": "Show on map"
+            "map": "Show on map",
+            "venue_info": "PragVue took place at {hotel} conveniently located in the center of Prague, just one block away from Wenceslas Square and within walking distance from all 3 metro lines as well as the main railway station. This makes it a perfect place to host a decent international event. It offers modern conference rooms and equipment as well as first class catering.",
+            "venue_images": "Grandium Hotel Prague conference facilities",
+            "venue_offer": "The 5-star {hotel} also offers comfortable overnight accommodation without having to worry about navigating around the city."
         }
     }
 }

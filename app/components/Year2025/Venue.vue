@@ -8,8 +8,8 @@
       <i18n-t
         tag="p"
         scope="global"
-        keypath="pages.home.venue_info"
-        class="mb-8 tracking-[0.01em] max-w-285 text-left text-balance"
+        keypath="year.2025.venue_info"
+        class="mb-8 tracking-[0.01em] max-w-285 text-left"
       >
         <template #hotel>
           <NuxtLink to="https://www.hotel-grandium.cz/en/" class="text-vue hover:text-vue-light hover:cursor-pointer">
@@ -45,28 +45,19 @@
       <i18n-t
         tag="p"
         scope="global"
-        keypath="pages.home.venue_offer"
+        keypath="year.2025.venue_offer"
         class="mb-12 tracking-[0.01em] max-w-285 text-left text-ballance"
       >
-        <template #offer>
-          <strong class="text-vue-light"> {{ $t('pages.home.venue_offer_highlight') }} </strong>
-        </template>
         <template #hotel>
           <NuxtLink to="https://www.hotel-grandium.cz/en/" class="text-vue hover:text-vue-light hover:cursor-pointer">
             Hotel Grandium
           </NuxtLink>
         </template>
       </i18n-t>
-
-      <!--
-      <div class="flex flex-col gap-4 items-center justify-center">
-        <UiButtonIcon icon="🏨" href="mailto:info@pragvue.com" :label="$t('buttons.hotel')" />
-      </div>
-      -->
     </LayoutContainerContent>
   </LayoutContainer>
 </template>
 
 <script setup lang="ts">
-const venueImages = useT('pages.home.venue_images')
+const venueImages = useT('year.2025.venue_images')
 </script>
