@@ -1,19 +1,19 @@
 <template>
   <div>
-    <Year2025HeroBanner />
+    <Year2025Header />
 
     <a id="info" />
-    <LazyConferenceInfo hydrate-on-visible />
+    <LazyYear2025Info hydrate-on-visible />
 
     <a id="speakers" />
     <LazyYear2025Speakers hydrate-on-visible />
 
     <a id="gallery" />
-    <LazyConferenceGallery hydrate-on-visible />
+    <LazyYear2025Gallery hydrate-on-visible />
 
-    <LazyConferenceVenue hydrate-on-visible />
+    <LazyYear2025Venue hydrate-on-visible />
 
-    <LazyConferencePrague hydrate-on-visible />
+    <LazyYear2025Prague hydrate-on-visible />
 
     <LazyYear2025Sponsors hydrate-on-visible />
 
