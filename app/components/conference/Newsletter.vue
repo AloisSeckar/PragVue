@@ -72,9 +72,17 @@
             {{ error }}
           </div>
 
-          <UButton type="submit" :label="$t('subscribe.submit')" :loading="loading" block />
+          <UButton
+            type="submit" :label="$t('subscribe.submit')" :loading="loading" block
+            class="cursor-pointer border border-black hover:border-vue-light hover:text-vue-light!"
+          />
         </UForm>
       </ClientOnly>
+
+      <a href="#speakers">
+        <p class="tracking-[0.01em] max-w-[64ch] text-lg text-left sm:text-justify mt-8 mb-4">
+          ⬇️ {{ $t('subscribe.more') }} ⬇️
+        </p></a>
     </div>
   </LayoutContainer>
 </template>

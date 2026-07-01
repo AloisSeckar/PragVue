@@ -8,9 +8,22 @@
     "introduction": {
         "claim1": "Learn it.",
         "claim2": "Build it.",
-        "claim3": "Ship it.",
+        "claim3": "Share it.",
         "about": "PragVue 2026 won’t be just another frontend conference. We will show you how to turn mere ideas into working prototypes in a single day. Join Vue.js experts and passionate frontend developers in Prague for a unique experience that combines practical talks, hands-on hacking, and real collaboration.",
         "more": "Event details"
+    },
+    "info": {
+        "image_title": "PragVue 2025 conference stage",
+        "image_alt": "A speaker presenting at PragVue 2025",
+        "eyebrow": "Learn it. Build it. Share it.",
+        "date_label": "Date",
+        "time": "9:00 - 16:00",
+        "place_label": "Place",
+        "venue_name": "The Arthurs Pub",
+        "location": "Karlín, Prague",
+        "price_label": "Price",
+        "price_note": "Full conference access available at GoOut.net",
+        "buy_tickets": "Buy tickets"
     },
     "headings": {
         "the_czech_vuejs_conference": "The Czech Vue.js conference",
@@ -33,7 +46,7 @@
         "where": "We will meet at {venue} in Karlín district",
         "map": "Show on map",
         "tickets": "Tickets will be available for {price}",
-        "what": "You will learn about new technologies and tooling that will help you create awesome webapps in no time. This year, you won't only listen, you will also have a chance to turn ideas into reality with rapid AI-infused development. Our team of skilled speakers and mentors will be there to guide you and together we will create amazing things in just a fraction of a day. How does that sound?"
+        "what": "You will learn about new technologies and tooling that will help you create awesome webapps in no time. This year, you won't only listen, you will also have a chance to turn ideas into reality with rapid AI-infused development. Our team of skilled speakers and mentors will be there to guide you and together we will create amazing things in just a fraction of a day. Just bring your own device and start hacking with us!"
     },
     "buttons": {
         "tickets": "Buy tickets here",
@@ -104,6 +117,7 @@
             "pt9": "By checking the box and submitting the form, I expressly confirm that I have read the information above and grant this consent."
         },
         "submit": "Subscribe",
+        "more": "Or continue below to learn more about the conference ",
         "validation": {
             "email_required": "Email is required",
             "email_invalid": "Please enter a valid email address",
