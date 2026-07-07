@@ -52,7 +52,7 @@
       </p>
 
       <UiAnimPixelate :start="headingDone" :cell="10" :reveal="1000" color="#0b0f14">
-        <UiMoreInfo :button-label="'introduction.more'" :socials-show="false" />
+        <UiMoreInfo :button-label="'introduction.more'" :socials-show="false" :tickets-show="true" tickets-link="https://goout.net/en/pragvue-2026/szrdely/" />
       </UiAnimPixelate>
     </div>
   </div>

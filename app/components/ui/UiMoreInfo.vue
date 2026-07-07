@@ -2,12 +2,12 @@
   <div class="flex flex-col sm:flex-row gap-4 items-center">
     <UiButtonIcon
       v-if="ticketsShow"
-      class="bg-black/70 backdrop-blur-sm rounded"
+      class="bg-black/70 backdrop-blur-sm rounded-md"
       icon="🎫" :href="ticketsLink" :label="$t('buttons.tickets')"
     />
     <UiButtonIcon
       variant="primary"
-      class="bg-black/70 backdrop-blur-sm rounded"
+      class="bg-black/70 backdrop-blur-sm rounded-md"
       icon="🔍" :href="`#${anchor}`" :title="$t(buttonLabel)" :label="$t(buttonLabel)"
     />
     <div v-if="socialsShow" class="flex flex-row gap-4">

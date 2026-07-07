@@ -17,7 +17,7 @@
       </i18n-t>
 
       <div class="flex flex-col gap-4 items-center justify-center">
-        <UiButtonIcon icon="💶" href="mailto:alois.seckar@atos.ai" :label="$t('buttons.sponsor')" />
+        <UiButtonIcon icon="💶" href="mailto:alois.seckar@atos.ai" :label="$t('buttons.sponsor')" class="rounded-md" />
       </div>
     </LayoutContainer>
 
