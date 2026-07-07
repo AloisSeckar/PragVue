@@ -46,6 +46,7 @@
         "where": "We will meet at {venue} in Karlín district",
         "map": "Show on map",
         "tickets": "Tickets will be available for {price}",
+        "tickets_vendor": "Tickets available at GoOut.net",
         "what": "You will learn about new technologies and tooling that will help you create awesome webapps in no time. This year, you won't only listen, you will also have a chance to turn ideas into reality with rapid AI-infused development. Our team of skilled speakers and mentors will be there to guide you and together we will create amazing things in just a fraction of a day. Just bring your own device and start hacking with us!"
     },
     "buttons": {
@@ -117,6 +118,7 @@
             "pt9": "By checking the box and submitting the form, I expressly confirm that I have read the information above and grant this consent."
         },
         "submit": "Subscribe",
+        "submit_info": "Receive emails with PragVue info",
         "more": "Or continue below to learn more about the conference ",
         "validation": {
             "email_required": "Email is required",

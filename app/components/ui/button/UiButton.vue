@@ -47,9 +47,9 @@ const link = computed(() => to || href || null)
 
 const MaybeNuxtLink: FunctionalComponent = (props, ctx) => {
   if (link.value) {
-    return h(NuxtLink, { to: link.value }, ctx.slots)
+    return h(NuxtLink, { to: link.value, ...ctx.attrs }, ctx.slots)
   }
 
-  return h('button', {}, ctx.slots)
+  return h('button', ctx.attrs, ctx.slots)
 }
 </script>

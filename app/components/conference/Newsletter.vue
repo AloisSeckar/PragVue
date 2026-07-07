@@ -73,8 +73,8 @@
           </div>
 
           <UButton
-            type="submit" :label="$t('subscribe.submit')" :loading="loading" block
-            class="cursor-pointer border border-black hover:border-vue-light hover:text-vue-light!"
+            type="submit" :title="$t('subscribe.submit_info')" :label="$t('subscribe.submit')" block
+            :loading="loading" class="cursor-pointer border border-black hover:border-vue-light hover:text-vue-light!"
           />
         </UForm>
       </ClientOnly>

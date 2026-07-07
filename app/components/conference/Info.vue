@@ -73,7 +73,7 @@
 
             <div class="mt-8 flex justify-center">
               <UiButton
-                href="https://goout.net/en/pragvue-2026/szrdely/"
+                href="https://goout.net/en/pragvue-2026/szrdely/" :title="$t('2026.tickets_vendor')"
                 class="justify-center rounded-xl border-vue-light bg-vue-light w-full max-w-136 px-8 py-4 text-xl text-black hover:border-vue hover:bg-vue! hover:text-vue-light"
               >
                 {{ $t('info.buy_tickets') }}

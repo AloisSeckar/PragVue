@@ -3,7 +3,7 @@
     <UiButtonIcon
       v-if="ticketsShow"
       class="bg-black/70 backdrop-blur-sm rounded-md"
-      icon="🎫" :href="ticketsLink" :label="$t('buttons.tickets')"
+      icon="🎫" :href="ticketsLink" :title="$t('2026.tickets_vendor')" :label="$t('buttons.tickets')"
     />
     <UiButtonIcon
       variant="primary"
