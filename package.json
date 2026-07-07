@@ -14,5 +14,5 @@
     "nuxt-ignis": "0.6.0",
     "swiper": "12.2.0"
   },
-  "packageManager": "pnpm@11.5.2"
+  "packageManager": "pnpm@11.10.0"
 }
