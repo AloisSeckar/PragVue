@@ -126,7 +126,7 @@ export default defineNuxtConfig({
     headers: {
       crossOriginEmbedderPolicy: false,
       contentSecurityPolicy: {
-        'img-src': ['\'self\'', 'www.facebook.com', 'github.com', 'avatars.githubusercontent.com', 'www.hotel-grandium.cz'],
+        'img-src': ['\'self\'', 'data:', 'www.facebook.com', 'github.com', 'avatars.githubusercontent.com', 'www.hotel-grandium.cz', 'app.termly.io'],
         'script-src': false,
       },
     },
