@@ -3,6 +3,8 @@
     :is="to ? NuxtLink : 'div'"
     :to
     :class="{
+      'p-2': size === 'xs',
+      'py-1': size === 'xs' && inline,
       'p-4': size === 'sm',
       'py-2': size === 'sm' && inline,
       'p-6': size === 'md',
@@ -29,7 +31,7 @@ const {
 } = defineProps<{
   background?: 'normal' | 'pseudo' | 'none'
   to?: NuxtLinkProps['to']
-  size?: 'sm' | 'md' | 'lg'
+  size?: 'xs' | 'sm' | 'md' | 'lg'
   inline?: boolean
 }>()
 </script>

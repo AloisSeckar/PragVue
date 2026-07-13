@@ -26,11 +26,14 @@ const {
   alt?: string
   image?: string
   noBackground?: boolean
-  size?: 'sm' | 'md' | 'lg'
+  size?: 'xs' | 'sm' | 'md' | 'lg'
 }>()
 
 let h: string
 switch (size) {
+  case 'xs':
+    h = 'h-6'
+    break
   case 'sm':
     h = 'h-8'
     break

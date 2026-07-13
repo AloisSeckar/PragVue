@@ -26,8 +26,8 @@
       {{ $t('pages.home.sponsors_list') }}
     </h3>
 
-    <div class="mb-12 pgv-sponsors-wrapper">
-      <LayoutContainer :section="false" class="py-0! grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 pgv-sponsors">
+    <div class="mb-12 mx-auto max-w-300 pgv-sponsors-wrapper">
+      <LayoutContainer :section="false" class="py-0! grid grid-cols-1 sm:grid-cols-2 pgv-sponsors">
         <UiSponsorBox
           v-for="sponsor in sponsors"
           :key="sponsor.to"

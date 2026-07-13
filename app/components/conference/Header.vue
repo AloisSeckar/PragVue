@@ -21,7 +21,8 @@
       />
     </Transition>
 
-    <!-- <ConferenceSponsorsHeader /> -->
+    <ConferenceLogos v-if="showContent" />
+
     <UiAnimPixelate :start="showContent" :cell="8" mode="reveal">
       <div class=" flex flex-col items-center">
         <div class="font-bold mb-3">
