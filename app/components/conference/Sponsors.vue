@@ -17,7 +17,7 @@
       </i18n-t>
 
       <div class="flex flex-col gap-4 items-center justify-center">
-        <UiButtonIcon icon="💶" href="mailto:alois.seckar@atos.ai" :label="$t('buttons.sponsor')" class="rounded-md" />
+        <UiButtonIcon icon="💶" href="mailto:info@pragvue.com?subject=PragVue Sponsorship" :label="$t('buttons.sponsor')" class="rounded-md" />
       </div>
     </LayoutContainer>
 
@@ -43,7 +43,7 @@
           size="lg"
         >
           <span class="pgv-sponsors__prompt text-woodsmoke-100 text-2xl">
-            <a href="mailto:alois.seckar@atos.ai" :title="$t('buttons.sponsor')">
+            <a href="mailto:info@pragvue.com?subject=PragVue Sponsorship" :title="$t('buttons.sponsor')">
               {{ $t('pages.home.your_company_can_be_here') }}
             </a>
           </span>
@@ -59,7 +59,7 @@
           size="lg"
         >
           <span class="pgv-sponsors__prompt text-woodsmoke-100">
-            <a href="mailto:alois.seckar@atos.ai" :title="$t('buttons.sponsor')">
+            <a href="mailto:info@pragvue.com?subject=PragVue Sponsorship" :title="$t('buttons.sponsor')">
               {{ $t('pages.home.your_company_can_be_here') }}
             </a>
           </span>
