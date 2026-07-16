@@ -1,12 +1,12 @@
 <template>
-  <div class="pt-2 px-2 h-lvh relative isolation overflow-hidden flex flex-col items-center justify-start">
+  <div class="pt-2 px-2 h-dvh relative isolation overflow-hidden flex flex-col items-center justify-start">
     <UiAnimLetterGlitch
       :glitch-colors="['#fef08a', '#3aa173', '#42B883', '#3aa173', '#42B883', '#ffffff']"
       :glitch-speed="50"
       :smooth="true"
       :outer-vignette="true"
       :center-vignette="false"
-      height="80px"
+      height="100px"
     />
     <a id="introduction" />
     <div class="flex-1 flex flex-col items-center justify-center w-full min-w-0">
@@ -35,7 +35,7 @@
       />
 
       <p
-        class="tracking-[0.01em] max-w-150 text-lg px-2 mb-12 text-left  transition-opacity duration-700"
+        class="tracking-[0.01em] max-w-150 text-sm min-[480px]:text-base min-[620px]:text-lg px-2 mb-12 text-left transition-opacity duration-700"
         :class="terminalDone ? 'opacity-100' : 'opacity-0'"
       >
         <UiAnimDecryptedText

@@ -1,5 +1,5 @@
 <template>
-  <header class="pt-2 h-lvh relative isolation overflow-hidden flex flex-col items-center justify-center">
+  <header class="pt-2 h-dvh relative isolation overflow-hidden flex flex-col items-center justify-center">
     <Transition name="fade">
       <div
         v-if="showLoader"
