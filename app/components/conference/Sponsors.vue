@@ -37,9 +37,24 @@
           :alt="sponsor.alt"
           size="lg"
         />
+        <!-- displayed if odd number of sponsors -->
+        <UiSponsorBox
+          v-if="sponsors.length % 2 !== 0"
+          size="lg"
+        >
+          <span class="pgv-sponsors__prompt text-woodsmoke-100 text-2xl">
+            <a href="mailto:alois.seckar@atos.ai" :title="$t('buttons.sponsor')">
+              {{ $t('pages.home.your_company_can_be_here') }}
+            </a>
+          </span>
+        </UiSponsorBox>
       </LayoutContainer>
 
-      <LayoutContainer :section="false" class="py-0! pgv-sponsors tracking-[0.01em] min-[430px]:text-lg min-[500px]:text-xl min-[600px]:text-2xl">
+      <!-- displayed if even number of sponsors -->
+      <LayoutContainer
+        v-if="sponsors.length % 2 === 0" :section="false"
+        class="py-0! pgv-sponsors tracking-[0.01em] min-[430px]:text-lg min-[500px]:text-xl min-[600px]:text-2xl"
+      >
         <UiSponsorBox
           size="lg"
         >

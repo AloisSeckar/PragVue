@@ -8,16 +8,23 @@ export const sponsors: SponsorInfo[] = [
   },
   {
     tier: 2,
+    to: 'https://epicmax.com/',
+    image: 'epicmax',
+    title: 'Epicmax - Vue.js Development Company',
+    alt: 'Epicmax logo',
+  },
+  {
+    tier: 2,
     to: 'https://supabase.com/',
     image: 'supabase',
-    title: 'Supabase',
+    title: 'Supabase - The Postgres Development Platform',
     alt: 'Supabase logo',
   },
   {
     tier: 2,
     to: 'https://www.packtpub.com/',
     image: 'packt',
-    title: 'Packt',
+    title: 'Packt - Advance your tech knowledge',
     alt: 'Packt logo',
   },
   {
