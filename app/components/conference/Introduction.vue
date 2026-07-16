@@ -9,7 +9,7 @@
       height="100px"
     />
     <a id="introduction" />
-    <div class="flex-1 flex flex-col items-center justify-center w-full min-w-0">
+    <div class="mt-10 flex-1 flex flex-col items-center justify-center w-full min-w-0">
       <h2 ref="headingRef" class="pgv-heading">
         <span class="pgv-heading-word" :class="{ 'is-visible': visibleHeadings >= 1 }">
           <span class="text-white">{{ $t('introduction.claim1') }}</span>
@@ -29,13 +29,13 @@
           'Date: September 29, 2026, 09:00 GMT+1',
         ]"
         :start="headingDone"
-        class="mx-2 my-8 transition-opacity duration-700"
+        class="mx-2 my-6 md:my-8 transition-opacity duration-700"
         :class="headingDone ? 'opacity-100' : 'opacity-0'"
         @done="terminalDone = true"
       />
 
       <p
-        class="tracking-[0.01em] max-w-150 text-sm min-[480px]:text-base min-[620px]:text-lg px-2 mb-12 text-left transition-opacity duration-700"
+        class="tracking-[0.01em] max-w-150 text-sm min-[480px]:text-base min-[620px]:text-lg px-2 mb-8 md:mb-12 text-left transition-opacity duration-700"
         :class="terminalDone ? 'opacity-100' : 'opacity-0'"
       >
         <UiAnimDecryptedText
