@@ -44,6 +44,10 @@ export const schedule: ScheduleInfo[] = [
   },
   {
     time: '17:00',
-    event: 'Afterparty 🥳',
+    event: 'Networking 🥳',
+  },
+  {
+    time: '18:00',
+    event: 'Official end of the event',
   },
 ]
