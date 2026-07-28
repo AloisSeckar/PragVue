@@ -1,7 +1,7 @@
 <template>
   <section>
     <LayoutContainer :section="false">
-      <UiHeading class="mb-12 text-vue sm:text-center">
+      <UiHeading class="mb-12 text-vue text-center">
         {{ $t('headings.sponsor') }}
       </UiHeading>
 
@@ -17,7 +17,16 @@
       </i18n-t>
 
       <div class="flex flex-col gap-4 items-center justify-center">
-        <UiButtonIcon icon="💶" href="mailto:info@pragvue.com?subject=PragVue Sponsorship" :label="$t('buttons.sponsor')" class="rounded-md" />
+        <UiButtonIcon
+          v-if="width >= 416" icon="💶"
+          href="mailto:info@pragvue.com?subject=PragVue Sponsorship"
+          :label="$t('buttons.sponsor')" class="rounded-md"
+        />
+        <UiButton
+          v-else
+          href="mailto:info@pragvue.com?subject=PragVue Sponsorship"
+          :label="$t('buttons.sponsor')" class="rounded-md"
+        />
       </div>
     </LayoutContainer>
 
@@ -42,9 +51,9 @@
           v-if="sponsors.length % 2 !== 0"
           size="lg"
         >
-          <span class="pgv-sponsors__prompt text-woodsmoke-100 text-2xl">
+          <span class="pgv-sponsors__prompt text-woodsmoke-100 text-lg min-[440px]:text-xl min-[510px]:text-2xl">
             <a href="mailto:info@pragvue.com?subject=PragVue Sponsorship" :title="$t('buttons.sponsor')">
-              {{ $t('pages.home.your_company_can_be_here') }}
+              {{ $t('pages.home.you_can_be_here') }}
             </a>
           </span>
         </UiSponsorBox>
@@ -60,7 +69,7 @@
         >
           <span class="pgv-sponsors__prompt text-woodsmoke-100">
             <a href="mailto:info@pragvue.com?subject=PragVue Sponsorship" :title="$t('buttons.sponsor')">
-              {{ $t('pages.home.your_company_can_be_here') }}
+              {{ $t('pages.home.you_can_be_here') }}
             </a>
           </span>
         </UiSponsorBox>
@@ -71,6 +80,8 @@
 
 <script setup lang="ts">
 import { sponsors } from '~/data/sponsors-2026'
+
+const { width } = useWindowSize()
 </script>
 
 <style>

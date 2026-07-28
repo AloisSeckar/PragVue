@@ -47,7 +47,7 @@
           size="lg"
         >
           <span class="pgv-sponsors__prompt text-woodsmoke-100">
-            {{ $t('pages.home.your_company_can_be_here') }}
+            {{ $t('2025.sponsors') }}
           </span>
         </UiSponsorBox>
       </LayoutContainer>

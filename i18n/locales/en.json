@@ -74,7 +74,7 @@
             "prague_images": "Views of Prague",
             "sponsors_info": "Gain valuable exposure, connect with a passionate audience of developers, and help us shape the future of Vue.js by sponsoring PragVue. {br}{br} Seize this chance to connect with talented developers, share your vision, and shine a spotlight on your brand.",
             "sponsors_list": "was made possible thanks to:",
-            "your_company_can_be_here": "your company can be here"
+            "you_can_be_here": "your logo can be here"
         }
     },
     "schedule": {
@@ -170,7 +170,8 @@
             "schedule_title": "2025 schedule",
             "venue_info": "PragVue took place at {hotel} conveniently located in the center of Prague, just one block away from Wenceslas Square and within walking distance from all 3 metro lines as well as the main railway station. This makes it a perfect place to host a decent international event. It offers modern conference rooms and equipment as well as first class catering.",
             "venue_images": "Grandium Hotel Prague conference facilities",
-            "venue_offer": "The 5-star {hotel} also offers comfortable overnight accommodation without having to worry about navigating around the city."
+            "venue_offer": "The 5-star {hotel} also offers comfortable overnight accommodation without having to worry about navigating around the city.",
+            "sponsors": "your company can be here"
         }
     }
 }
