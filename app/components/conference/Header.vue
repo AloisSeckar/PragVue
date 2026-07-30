@@ -39,6 +39,15 @@
           </div>
         </main>
         <UiMoreInfo anchor="introduction" />
+
+        <div class="mt-8 sm:mt-12 flex flex-col items-center gap-2">
+          Main educational partner:
+          <a href="https://www.gopas.eu/" title="IT training center GOPAS">
+            <img
+              class="inline-block object-contain w-auto h-7" :src="`/gopas.webp`" :alt="'Gopas logo'"
+            >
+          </a>
+        </div>
       </div>
     </UiAnimPixelate>
   </header>

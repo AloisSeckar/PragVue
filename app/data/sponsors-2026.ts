@@ -34,4 +34,18 @@ export const sponsors: SponsorInfo[] = [
     title: 'MadVue - The Vue.js Event in Madrid',
     alt: 'MadVue logo',
   },
+  {
+    tier: 2,
+    to: 'https://www.javadays.cz/',
+    image: 'jd26',
+    title: 'JavaDays - největší česko-slovenská konference pro Java vývojáře',
+    alt: 'JavaDays logo',
+  },
+  {
+    tier: 2,
+    to: 'https://www.gopas.eu/',
+    image: 'gopas-blue',
+    title: 'GOPAS - IT training center',
+    alt: 'GOPAS logo',
+  },
 ]
