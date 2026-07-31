@@ -145,7 +145,8 @@
         "follow_us": "Follow us:",
         "bluesky": "Follow us on Bluesky",
         "twitter": "Follow us on Twitter/X",
-        "linkedin": "Follow us on LinkedIn"
+        "linkedin": "Follow us on LinkedIn",
+        "instagram": "Follow us on Instagram"
     },
     "swiper": {
         "swipe": "Swipe {direction}",

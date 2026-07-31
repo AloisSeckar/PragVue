@@ -20,6 +20,9 @@
       <NuxtLink to="https://www.linkedin.com/company/pragvue/">
         <img src="/linkedin.png" :title="$t('social.linkedin')" alt="PragVue LinkedIn" class="p-2 h-10 rounded-md ring-2 ring-vue hover:ring-vue-light bg-black/70 backdrop-blur-sm">
       </NuxtLink>
+      <NuxtLink to="https://www.instagram.com/pragvue/">
+        <img src="/instagram.png" :title="$t('social.instagram')" alt="PragVue Instagram" class="p-2 h-10 rounded-md ring-2 ring-vue hover:ring-vue-light bg-black/70 backdrop-blur-sm">
+      </NuxtLink>
     </div>
   </div>
 </template>
