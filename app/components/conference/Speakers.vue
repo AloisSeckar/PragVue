@@ -11,11 +11,20 @@
       </div>
 
       <div class="mx-auto mt-4 flex flex-row flex-wrap justify-center gap-4">
-        <NuxtImg
-          v-for="(speaker, index) in speakers" :key="index"
-          :src="speaker.bg" :alt="speaker.name" :title="speaker.name"
-          class="w-40 h-40 rounded-lg shadow-lg"
-        />
+        <div v-for="(speaker, index) in speakers" :key="index">
+          <a v-if="speaker.github !== 'speaker'" :href="`https://www.linkedin.com/in/${speaker.linkedin}`">
+            <NuxtImg
+              :src="speaker.bg" :alt="speaker.name" :title="speaker.name"
+              class="w-40 h-40 rounded-lg shadow-lg"
+            />
+          </a>
+          <div v-else>
+            <NuxtImg
+              :src="speaker.bg" :alt="speaker.name" :title="speaker.name"
+              class="w-40 h-40 rounded-lg shadow-lg"
+            />
+          </div>
+        </div>
       </div>
     </div>
   </LayoutContainer>

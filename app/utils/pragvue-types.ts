@@ -10,6 +10,7 @@ export type ScheduleInfo = {
 
 export type SpeakerInfo = {
   github?: string
+  linkedin?: string
   name: string
   country?: string
   bio?: string

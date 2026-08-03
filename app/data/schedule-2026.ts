@@ -26,7 +26,7 @@ export const schedule: ScheduleInfo[] = [
   },
   {
     time: '10:35',
-    speaker: 'speaker',
+    speaker: 'untael',
   },
   {
     time: '10:55',
