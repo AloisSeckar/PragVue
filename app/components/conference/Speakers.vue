@@ -7,7 +7,7 @@
       </UiHeading>
 
       <div class="text-center tracking-[0.01em] max-w-[64ch] text-xl mb-4">
-        Our lineup for 2026 is ready and you'll find it out soon!
+        {{ $t('spakers.info') }}
       </div>
 
       <div class="mx-auto mt-4 flex flex-row flex-wrap justify-center gap-4">

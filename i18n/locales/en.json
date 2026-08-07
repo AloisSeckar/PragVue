@@ -77,6 +77,9 @@
             "you_can_be_here": "your logo can be here"
         }
     },
+    "spakers": {
+        "info": "Our lineup for 2026 is ready and you'll learn all the names soon!"
+    },
     "schedule": {
         "aria": "Schedule of PragVue conference",
         "more_info": "Click for more info",
