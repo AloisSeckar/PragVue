@@ -14,7 +14,7 @@
             {{ item.info?.title || item.event }}
           </span>
           <span v-if="item.info">
-            (<NuxtLink :to="`https://www.linkedin.com/in/${item.info.linkedin}`" class="hover:underline">
+            (<NuxtLink :to="item.info?.linkedin ? `https://www.linkedin.com/in/${item.info.linkedin}` : 'https://www.linkedin.com/company/pragvue'" class="hover:underline">
               {{ item.info.name }}
             </NuxtLink>)
           </span>
