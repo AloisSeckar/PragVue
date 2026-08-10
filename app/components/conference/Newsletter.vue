@@ -23,7 +23,7 @@
           </UFormField>
 
           <UFormField name="terms">
-            <UCheckbox v-model="state.terms" :ui="{ label: 'text-justify' }">
+            <UCheckbox v-model="state.terms" name="" :ui="{ label: 'text-justify' }">
               <template #label>
                 <p class="mb-2">
                   {{ $t('subscribe.consent.short') }}
