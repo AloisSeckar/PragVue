@@ -11,7 +11,7 @@
       />
     </div>
     <div class="py-2 md:py-0 flex-1 min-w-0">
-      <UiSwiper :slides="sponsors" :navigation="false" loop>
+      <UiSwiper :slides="sponsors" :navigation="false" loop aria-hidden="true">
         <template #slide="{ slide }">
           <UiSponsorBox
             :key="slide.to"
@@ -21,6 +21,7 @@
             :alt="slide.alt"
             no-background
             size="xs"
+            tabindex="-1"
           />
         </template>
       </UiSwiper>
