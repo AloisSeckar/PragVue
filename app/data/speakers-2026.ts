@@ -5,9 +5,10 @@ export const speakers: SpeakerInfo[] = [
     name: 'Mysterious Speaker',
   },
   {
-    github: 'speaker',
-    bg: '/profile-0.png',
-    name: 'Mysterious Speaker',
+    github: 'barbapapazes',
+    linkedin: 'esteban25',
+    bg: '/speakers/2026-soubiran_e.jpg',
+    name: 'Estéban Soubiran',
   },
   {
     github: 'baroshem',
