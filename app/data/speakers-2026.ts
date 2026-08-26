@@ -23,8 +23,9 @@ export const speakers: SpeakerInfo[] = [
     name: 'Pavel Mironov',
   },
   {
-    github: 'speaker',
-    bg: '/profile-0.png',
-    name: 'Mysterious Speaker',
+    github: 'danielroe',
+    linkedin: 'daniel-roe',
+    bg: '/speakers/2026-roe_d.jpg',
+    name: 'Daniel Roe',
   },
 ]
