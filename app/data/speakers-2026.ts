@@ -1,8 +1,9 @@
 export const speakers: SpeakerInfo[] = [
   {
-    github: 'speaker',
-    bg: '/profile-0.png',
-    name: 'Mysterious Speaker',
+    github: 'AloisSeckar',
+    linkedin: 'alois-seckar',
+    bg: '/speakers/2026-seckar_a.jpg',
+    name: 'Alois Seckar',
   },
   {
     github: 'barbapapazes',
