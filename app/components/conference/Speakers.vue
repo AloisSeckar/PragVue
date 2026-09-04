@@ -24,6 +24,15 @@
               class="w-40 h-40 rounded-lg shadow-lg"
             />
           </div>
+          <div class="text-center text-lg mt-2">
+            {{ speaker.name }}
+          </div>
+          <NuxtImg
+            :src="`/flags/${speaker.country}.png`"
+            :alt="$t('swiper.flag', { country: speaker.country })"
+            :title="speaker.country"
+            :width="40" :height="26" class="mx-auto my-2"
+          />
         </div>
       </div>
     </div>
