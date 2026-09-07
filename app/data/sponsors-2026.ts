@@ -36,6 +36,13 @@ export const sponsors: SponsorInfo[] = [
   },
   {
     tier: 2,
+    to: 'https://vuejobs.com/',
+    image: 'vuejobs',
+    title: 'Vue.js jobs - Browse through dozens of Vue.js openings',
+    alt: 'VueJobs logo',
+  },
+  {
+    tier: 2,
     to: 'https://www.javadays.cz/',
     image: 'jd26',
     title: 'JavaDays - největší česko-slovenská konference pro Java vývojáře',
