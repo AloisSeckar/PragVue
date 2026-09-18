@@ -6,6 +6,7 @@
     <LazyConferenceNewsletter />
     <LazyConferenceSpeakers />
     <LazyConferenceSchedule />
+    <LazyConferenceHackathon />
     <LazyConferenceVenue />
     <LazyConferencePrague />
     <LazyConferencePast />

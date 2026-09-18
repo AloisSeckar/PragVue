@@ -1,7 +1,7 @@
 <template>
   <LayoutContainer>
     <div class="flex flex-col items-start">
-      <UiHeading class="mb-6 text-vue">
+      <UiHeading class="mb-6 text-vue-light">
         {{ $t('headings.prague') }}
       </UiHeading>
 

@@ -33,6 +33,7 @@
         "the_schedule": "2026 schedule",
         "the_gallery": "2025 photos",
         "look_back_on_2024": "A look back on 2024",
+        "hackathon": "2026 hackathon",
         "venue": "About the venue",
         "prague": "Discover Prague",
         "sponsor": "Become a sponsor"
@@ -97,6 +98,10 @@
         "price2025": "€ 249",
         "student_discount": "50% discount for students",
         "contact": "Contact us for details"
+    },
+    "hackathon": {
+        "info": "Read more about {rules} on dedicated hackathon website. Participants will receive more information directly in their mailboxes.",
+        "topics": "Preview of the {topics} is also available."
     },
     "venue": {
         "venue_info": "PragVue 2026 will take place at the {venue} located in the Karlín district in the broader center of Prague. The renowned Irish-themed pub offers cozy and informal ambience, great catering, and drinks that will be available throughout the day. The facility is within walking distance from the metro station Florenc (lines B and C) making it easy to reach for locals and foreign visitors alike.",
