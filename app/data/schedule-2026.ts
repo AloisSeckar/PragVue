@@ -34,8 +34,13 @@ export const schedule: ScheduleInfo[] = [
   },
   {
     time: '11:15',
+    event: 'Hackathon - introduction',
+    details: 'Instructions and rules overview, forming the teams, Q/A session.',
+  },
+  {
+    time: '11:30',
     event: 'Hackathon 🧑‍💻👩‍💻',
-    details: 'Form the teams, pick the topic and start working on it. The speakers will be there to guide and support you, along with food and drinks to fuel your brain and body.',
+    details: '5 hours of the focused work. The speakers will be there to guide and support you, along with food and drinks to fuel your brain and body.',
   },
   {
     time: '16:30',
@@ -44,6 +49,11 @@ export const schedule: ScheduleInfo[] = [
   },
   {
     time: '17:00',
+    event: 'Results and raffle 🪎',
+    details: 'Official declaration of the winners + our wheel of fortune.',
+  },
+  {
+    time: '17:15',
     event: 'Networking 🥳',
   },
   {
