@@ -17,7 +17,7 @@
       <UiImage
         class="mb-10 mx-auto w-auto aspect-1200/971 max-h-82"
         fit="contain"
-        src="/pragvue2024.webp"
+        src="/2024/speakers.webp"
         :title="$t('year.2024.image')"
         :alt="$t('year.2024.image')"
       />
