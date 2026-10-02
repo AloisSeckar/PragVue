@@ -3,7 +3,7 @@
     <div class="hidden md:flex shrink-0 px-4">
       <UiSponsorBox
         to="https://pragvue.com/2026"
-        image="pragvue-2026"
+        image="2026/pragvue-2026"
         title="PragVue"
         alt="PragVue logo"
         no-background
