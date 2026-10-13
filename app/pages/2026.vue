@@ -2,8 +2,7 @@
   <div>
     <ConferenceHeader />
     <ConferenceIntroduction />
-    <LazyConferenceInfo />
-    <LazyConferenceNewsletter />
+    <LazyYear2026Gallery />
     <LazyConferenceSpeakers />
     <LazyConferenceSchedule />
     <LazyConferenceHackathon />

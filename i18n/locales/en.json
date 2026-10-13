@@ -32,6 +32,7 @@
         "the_speakers": "2026 speakers",
         "the_schedule": "2026 schedule",
         "the_gallery": "2025 photos",
+        "the_gallery_2026": "2026 photos",
         "look_back_on_2024": "A look back on 2024",
         "hackathon": "2026 hackathon",
         "venue": "About the venue",
@@ -91,6 +92,7 @@
         "slides_view": "Slides 📑"
     },
     "gallery": {
+        "aria": "Gallery of PragVue conference",
         "photos_by": "Photos by"
     },
     "tickets": {
