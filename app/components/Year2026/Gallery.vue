@@ -24,7 +24,7 @@
     </UCarousel>
 
     <div class="mt-4 text-center">
-      {{ $t('gallery.photos_by') }} <span class="text-vue-light hover:text-vue hover:underline">Atos</span>
+      {{ $t('gallery.photos_by') }} <span class="text-vue">René Ritter</span>
     </div>
   </section>
 </template>
